@@ -1,0 +1,555 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#eee"
+        android:orientation="vertical" >
+        
+        <LinearLayout 
+  			android:layout_width="fill_parent"
+  			android:layout_height="45dp"
+  			android:id="@+id/title" 
+  			android:background="@drawable/title_bar"
+  			android:gravity="center_horizontal|center_vertical"  >  
+      		<TextView 
+        		android:layout_width="wrap_content" 
+        		android:layout_height="wrap_content" 
+        		android:text="山岭巨人"
+        		android:textSize="20sp"		
+				android:textColor="#ffffff" />       
+			</LinearLayout>
+<ScrollView 
+
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content"
+ 	android:background="#eee"
+>
+<LinearLayout 
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    >
+
+ 
+     
+ <ImageView
+           android:layout_width="wrap_content" 
+         android:layout_height="wrap_content" 
+           android:gravity="left" 
+           android:layout_gravity="center"
+           android:layout_marginTop="10dp"
+           android:layout_marginBottom="10dp"
+
+            android:src="@drawable/mountaingiant"
+           >
+      </ImageView>
+
+<TextView 
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="介绍"  
+            android:gravity="left"
+             android:textColor="#339966"
+            android:textSize="18sp"   
+            ></TextView>  
+<TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="        这些身材魁梧的巨人，是在数个世纪前由泰坦所创造出来的。它们生性安静但是具有强壮的身体，并安逸的于大自然融为一体。不过战争带来的悲哀将它们从森林深处唤醒，并义无反顾的加入战斗，努力的保护着大自然。现在，山岭巨人依然加入暗夜精灵的部队，利用自己强壮的身体和勇气誓将入侵的燃烧军团赶出这个世界。"  
+            android:gravity="left"  
+           ></TextView>  
+<TextView android:layout_marginTop="10dp" 
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="数据"  
+            android:gravity="left"
+            android:textColor="#339966"
+            android:textSize="18sp"  
+         ></TextView>
+<TableLayout  
+    android:layout_width="match_parent"  
+    android:layout_height="match_parent"  
+    android:shrinkColumns="*"  
+    android:stretchColumns="*"> 
+<TableRow
+        android:layout_height="wrap_content"  
+        android:layout_width="match_parent">        
+      <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="等级: 6 "  
+            android:gravity="left" 
+            android:layout_span="1" 
+           ></TextView>
+      <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="费用：425/100/7"  
+            android:gravity="left"
+            android:layout_span="1"  
+            ></TextView>
+ 
+</TableRow>
+
+<TableRow
+        android:layout_height="wrap_content"  
+        android:layout_width="match_parent">        
+      <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="单位类型: 普通 "  
+            android:gravity="left" 
+            android:layout_span="1" 
+           ></TextView>
+      <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="攻击类型:普通/攻城"  
+            android:gravity="left"
+            android:layout_span="1"  
+            ></TextView>
+ 
+</TableRow>
+<TableRow
+        android:layout_height="wrap_content"  
+        android:layout_width="match_parent">        
+      <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="武器类型:普通"  
+            android:gravity="left" 
+            android:layout_span="1" 
+           ></TextView>
+      <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="护甲类型: 中甲"  
+            android:gravity="left"
+            android:layout_span="1"  
+            ></TextView>
+ 
+</TableRow>
+<TableRow
+        android:layout_height="wrap_content"  
+        android:layout_width="match_parent">        
+
+      <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="对地攻击:28-40 (31-61*)34-48(37-72*) "  
+            android:gravity="left"
+            android:layout_span="2"  
+            ></TextView>
+ 
+</TableRow>
+<TableRow
+        android:layout_height="wrap_content"  
+        android:layout_width="match_parent">        
+      <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="护甲: 4 (10*)"  
+            android:gravity="left" 
+            android:layout_span="1" 
+           ></TextView>
+      <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="攻击间隔:2.5/2.5"  
+            android:gravity="left"
+            android:layout_span="1"  
+            ></TextView>
+ 
+</TableRow>
+<TableRow
+        android:layout_height="wrap_content"  
+        android:layout_width="match_parent">        
+      <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="生命值: 1600 "  
+            android:gravity="left" 
+            android:layout_span="1" 
+           ></TextView>
+      <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="生命恢复: 夜晚"  
+            android:gravity="left"
+            android:layout_span="1"  
+            ></TextView>
+ 
+</TableRow>
+<TableRow
+        android:layout_height="wrap_content"  
+        android:layout_width="match_parent">        
+      <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="魔法:无"  
+            android:gravity="left" 
+            android:layout_span="1" 
+           ></TextView>
+      <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="魔法恢复: - "  
+            android:gravity="left"
+            android:layout_span="1"  
+            ></TextView>
+ 
+</TableRow>
+<TableRow
+        android:layout_height="wrap_content"  
+        android:layout_width="match_parent">        
+      <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="攻击范围:近战(12.8)/(25) "  
+            android:gravity="left" 
+            android:layout_span="1" 
+           ></TextView>
+      <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="白天视野: 120 "  
+            android:gravity="left"
+            android:layout_span="1"  
+            ></TextView>
+ 
+</TableRow>
+<TableRow
+        android:layout_height="wrap_content"  
+        android:layout_width="match_parent">        
+      <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="夜晚视野: 80 (120*) "  
+            android:gravity="left" 
+            android:layout_span="1" 
+           ></TextView>
+      <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="移动速度: 中等 (270)  "  
+            android:gravity="left"
+            android:layout_span="1"  
+            ></TextView>
+ 
+</TableRow>
+<TableRow
+        android:layout_height="wrap_content"  
+        android:layout_width="match_parent">        
+      <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="训练时间: 45  "  
+            android:gravity="left" 
+            android:layout_span="1" 
+           ></TextView>
+       <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="运训练地点: 智慧之树 "  
+            android:gravity="left" 
+            android:layout_span="1" 
+           ></TextView>
+ 
+</TableRow>
+<TableRow
+        android:layout_height="wrap_content"  
+        android:layout_width="match_parent">        
+      <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="需求: 奇迹古树  "  
+            android:gravity="left" 
+            android:layout_span="1" 
+           ></TextView>
+       <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="运输占用空间:2"  
+            android:gravity="left" 
+            android:layout_span="1" 
+           ></TextView>
+ 
+</TableRow>
+<TableRow
+        android:layout_height="wrap_content"  
+        android:layout_width="match_parent">        
+      <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="训练热键: M "  
+            android:gravity="left" 
+            android:layout_span="1" 
+           ></TextView>
+      
+           
+</TableRow>
+
+</TableLayout>
+
+<TextView android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="信息"
+            android:textColor="#339966"
+            android:textSize="18sp"   
+            android:gravity="left"  
+         ></TextView> 
+
+  
+
+                    <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="        移动缓慢的近战单位，可以吸收大量的伤害。山岭巨人非常适合用来攻击敌人的基地。你也许会问，问什么不用驽车呢？因为驽车是远程攻击单位并且只能用来攻击建筑，而山岭巨人是近战单位，在攻城战中除了攻击建筑，还可以用来吸收敌方的火力。"  
+            android:gravity="left"  
+         ></TextView>
+ <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"   
+            android:text="应对策略" 
+                         android:textStyle="bold"
+             
+            android:gravity="left"  
+         >
+</TextView>   
+  <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"   
+            android:text="        当山岭巨人完成了强化皮肤的升级后，你最好使用那些3级地面部队去攻击它们。例如说熊，牛头人，骑士，憎恶。你也可以利用驱逐，飓风和缠绕等法术来对抗他们。不过如果它们升级了抗魔皮肤的话，这些魔法的作用时间将会变短。" 
+
+            android:gravity="left"  
+         >
+</TextView> 
+
+
+      
+<TextView android:layout_marginTop="10dp" 
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="技能"
+                        android:textColor="#339966"
+            android:textSize="18sp"    
+            android:gravity="left"  
+         >
+</TextView>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_marginTop="10dp"
+    android:layout_height="wrap_content" >
+ <ImageView
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:src="@drawable/taunt" >
+</ImageView> 
+ <TextView
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:layout_gravity="center_vertical"
+     android:text="      嘲讽 Taunt"
+     android:textColor="#000" />
+</LinearLayout>
+
+ <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content" 
+            android:layout_span="6"     
+            android:text="        让附近的敌人都去攻击使用这个技能的单位。"  
+            android:gravity="left"  
+         >
+</TextView>
+
+    <TextView android:textColor="#000"  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"    
+            android:text="使用间隔：15s；作用范围：45；使用目标：天空、地面、敌人；效果：让附近的敌人攻击山岭巨人"  
+            android:gravity="left"  
+            ></TextView>  
+ <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"   
+            android:text="提示" 
+                        android:textStyle="bold"
+            
+            android:gravity="left"  
+         >
+</TextView> 
+
+    <TextView android:textColor="#000"  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"    
+            android:text="        这个技能的目的是让敌人去攻击山岭巨人，以吸收打量的伤害。这个技能可以终止敌人的其它一些动作，例如说他们正在围攻你的英雄。"  
+            android:gravity="left"  
+            ></TextView>  
+<TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"   
+            android:text="        嘲讽对于正在施法单位无效，对与正在进行修理的农民无效。嘲讽影响10个周围的单位。不能被放逐。" 
+                        android:textStyle="bold"
+            
+            android:gravity="left"  
+         >
+</TextView>
+ <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"   
+            android:text="应对策略" 
+                         android:textStyle="bold"
+             
+            android:gravity="left"  
+         >
+</TextView>   
+
+    <TextView android:textColor="#000"  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"    
+            android:text="        当你的部队被嘲讽吸引过去时，选中他们并选定一个其它的目标就可以抵消嘲讽效果。"  
+            android:gravity="left"  
+            ></TextView>   
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_marginTop="10dp"
+    android:layout_height="wrap_content" >
+ <ImageView
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:src="@drawable/warclub" >
+</ImageView> 
+ <TextView
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:layout_gravity="center_vertical"
+     android:text="      战棍 War Club"
+     android:textColor="#000" />
+</LinearLayout>
+
+ <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content" 
+            android:layout_span="6"     
+            android:text="        拔起一棵树让山岭巨人可以造成攻城伤害，并少量增加射程。可以攻击15次。"  
+            android:gravity="left"  
+         >
+</TextView>
+
+     <TextView android:textColor="#000"  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"    
+            android:text="持续时间：攻击15次；效果：攻击变为攻城伤害，射程增加到25"  
+            android:gravity="left"  
+            ></TextView>  
+ <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"   
+            android:text="提示" 
+                        android:textStyle="bold"
+            
+            android:gravity="left"  
+         >
+</TextView> 
+    <TextView android:textColor="#000"  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"    
+            android:text="        当你需要摧毁建筑的时候，这个技能相当的有用。不过，最好不要用这个技能去攻击其它单位。注意，如果山岭巨人手上的树不见了的话，那么你就需要再去拔一棵。"  
+            android:gravity="left"  
+            ></TextView>  
+    <TextView android:textColor="#000"  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"    
+            android:text="        山岭巨人的体积很大，所以很多时候你需要对他们多一点控制。比较常见的问题就是，当你选择去拔一棵树的时候，它们却总是被其它单位挡住无法完成命令。"  
+            android:gravity="left"  
+            ></TextView>  
+ <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"   
+            android:text="        选定山岭巨人后，当你用鼠标右键点击树的时候，山岭巨人就是自动去拔树。" 
+                   
+            
+            android:gravity="left"  
+         >
+</TextView> 
+
+    <TextView android:textColor="#000"  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"    
+            android:text="        可以用这种方法清除树木，也可以让山岭巨人去攻击树木。"  
+            android:gravity="left"  
+            ></TextView>              
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_marginTop="10dp"
+    android:layout_height="wrap_content" >
+ <ImageView
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:src="@drawable/hardenedskin" >
+</ImageView> 
+ <TextView
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:layout_gravity="center_vertical"
+     android:text="      硬化皮肤 Hardened Skin (被动技能)"
+     android:textColor="#000" />
+</LinearLayout> 
+
+ <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content" 
+            android:layout_span="6"     
+            android:text="        让山岭巨人在被攻击时所受到伤害减少12点，不过敌人的攻击最少会造成3点伤害。换句话说，最好使用高级部队例如说牛头人，骑士，熊和憎恶来对抗它们。"  
+            android:gravity="left"  
+         >
+</TextView>
+
+     <TextView android:textColor="#000"  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"    
+            android:text="研究费用：100/175；研究地点：智慧之树；需求：永恒之树，奇迹古树；研究时间：40s"  
+            android:gravity="left"  
+            ></TextView>  
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_marginTop="10dp"
+    android:layout_height="wrap_content" >
+ <ImageView
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:src="@drawable/resistantskin2" >
+</ImageView> 
+ <TextView
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:layout_gravity="center_vertical"
+     android:text="      抗性皮肤 Resistant Skin (被动技能)"
+     android:textColor="#000" />
+</LinearLayout> 
+
+ <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content" 
+            android:layout_span="6"     
+            android:text="        增加山岭巨人对魔法的抵抗力。让它具有和英雄一样的魔法抗性。负面魔法对其作用时间变短，并且变形术，吞噬和占据对其无效。 但是它不同于英雄护甲，它不能降低伤害。"  
+            android:gravity="left"  
+         >
+</TextView>
+
+    <TextView android:textColor="#000"  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"    
+            android:text="研究费用：50/100；研究地点：智慧之树；需求：永恒之树，奇迹古树；研究时间：75s"  
+            android:gravity="left"  
+            ></TextView>  
+ 
+    
+</LinearLayout>
+</ScrollView>
+</LinearLayout>

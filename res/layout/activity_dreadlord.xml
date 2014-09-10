@@ -1,0 +1,377 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#eee"
+        android:orientation="vertical" >
+        
+        <LinearLayout 
+  			android:layout_width="fill_parent"
+  			android:layout_height="45dp"
+  			android:id="@+id/title" 
+  			android:background="@drawable/title_bar"
+  			android:gravity="center_horizontal|center_vertical"  >  
+      		<TextView
+        		android:layout_width="wrap_content" 
+        		android:layout_height="wrap_content" 
+        		android:text="恐惧魔王"
+        		android:textSize="20sp"		
+				android:textColor="#ffffff" />       
+			</LinearLayout>
+<ScrollView 
+
+	
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+     >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1" >
+
+        <TextView android:textColor="#000"
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="10dp"
+            android:text="      这些浑身散发着强大的恶魔之力的恐惧魔王是一种令人无法致信的恐怖存在和黑暗与精神的支配者。这些残暴的邪恶生物曾被认为是燃烧军团最得力的干将，燃烧军团的头领基尔加登命令这些忠心耿耿的恐惧魔王去监视巫妖王耐奥祖，以确保他按照燃烧军团的命令让人类世界陷入混乱。恐惧魔王尽忠地执行他们的任务，但一段时间之后却被耐奥祖的不死军团完全控制了。现在，恐惧魔王只为巫妖王服务，而基尔加登和他的燃烧军团并不知情。恐惧魔王经常以壮硕的男性人类形象出现，精于通过心灵力量控制普通生物，他们笼罩在自身产生的黑暗当中，并且喜欢躲开阳光行动。" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1" >
+
+        <ImageView
+            android:id="@+id/imageViewdreadlord"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/dreadlord"
+             />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+
+            <TextView android:textColor="#000"
+                android:id="@+id/textViewbldreadlord"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="0.99"
+                android:gravity="center"
+                android:layout_marginTop="2dp"
+                android:layout_marginBottom="2dp"
+                android:background="@drawable/blood"
+                android:text="600/600" />
+
+            <TextView android:textColor="#000"
+                android:id="@+id/textViewmadreadlord"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:layout_marginTop="2dp"
+                android:layout_marginBottom="2dp"
+                android:background="@drawable/magic"
+                android:text="270/270" />
+        </LinearLayout>
+
+        <TextView android:textColor="#000"
+            android:id="@+id/textViewdjdreadlord"
+            android:layout_width="46dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="right"
+            android:gravity="center"
+            android:text="1" />
+    </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal" >
+        </LinearLayout>
+
+    <TableLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:shrinkColumns="*"
+        android:layout_marginTop="10dp"
+        android:stretchColumns="*" >
+	<TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal" >
+
+		<Button
+		    android:id="@+id/button2"
+		    style="?android:attr/buttonStyleSmall"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:text="想升级就点我吧" 
+		    android:onClick="upleveldreadlord"/>
+
+		<Button
+		    android:id="@+id/button3"
+		    style="?android:attr/buttonStyleSmall"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:text="觉得等级太高了？" 
+		    android:onClick="downleveldreadlord"/>
+
+
+
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal" >
+
+            <TextView android:textColor="#000"
+                android:id="@+id/textViewgjdreadlord"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:text="攻击：22-32" >
+            </TextView>
+
+            <TextView android:textColor="#000"
+                android:id="@+id/textViewlldreadlord"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:text="力量：20(+2.5)" >
+            </TextView>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal" >
+
+            <TextView android:textColor="#000"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:text="攻速：1.8" >
+            </TextView>
+
+            <TextView android:textColor="#000"
+                android:id="@+id/textViewmjdreadlord"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:text="敏捷：16(+1)" >
+            </TextView>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal" >
+
+            <TextView android:textColor="#000"
+                android:id="@+id/textViewhjdreadlord"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:text="护甲：3" >
+            </TextView>
+
+            <TextView android:textColor="#000"
+                android:id="@+id/textViewzldreadlord"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:text="智力：18(+2.5)" >
+            </TextView>
+        </TableRow>
+           <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal" >
+
+            <TextView android:textColor="#000"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:text="移动速度：270" >
+            </TextView>
+
+            <TextView android:textColor="#000"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:text="建造时间:55s" >
+            </TextView>
+        </TableRow>
+    </TableLayout>
+
+
+
+
+<LinearLayout
+     android:layout_width="fill_parent"
+     android:layout_height="wrap_content"
+     android:layout_alignParentBottom="true"
+     android:paddingBottom="2dp"            
+   >
+        	 <LinearLayout
+            	android:layout_width="wrap_content"
+            	android:layout_height="wrap_content"
+              	android:gravity="center_horizontal"
+              	android:layout_marginTop="10dp"
+              	android:orientation="vertical"
+              	android:layout_weight="1">               	
+                <ImageView
+            		android:id="@+id/img_friends"
+        			android:layout_width="wrap_content"
+        			android:layout_height="wrap_content"        	     	
+        			android:scaleType="matrix"
+        			android:clickable="true"
+        			android:onClick="jn1dreadlord"
+        			android:src="@drawable/carrionswarm" />
+                <TextView
+            		android:layout_width="wrap_content"
+            		android:layout_height="wrap_content"
+            		android:text="腐臭蜂群"
+            		android:textColor="#000"
+            		android:textSize="12sp" />                
+        	 </LinearLayout>
+        	 <LinearLayout
+            	android:layout_width="wrap_content"
+            	android:layout_height="wrap_content"
+              	android:gravity="center_horizontal"
+              	android:layout_marginTop="10dp"
+              	android:orientation="vertical"
+              	android:layout_weight="1">               	
+                <ImageView
+            		android:id="@+id/img_friends"
+        			android:layout_width="wrap_content"
+        			android:layout_height="wrap_content"        	     	
+        			android:scaleType="matrix"
+        			android:onClick="jn2dreadlord"
+        			android:clickable="true"
+        			android:src="@drawable/sleep" />
+                <TextView
+            		android:layout_width="wrap_content"
+            		android:layout_height="wrap_content"
+            		android:text="    睡眠    "
+            		android:textColor="#000"
+            		android:textSize="12sp" />                
+        	 </LinearLayout>
+        	 <LinearLayout
+            	android:layout_width="wrap_content"
+            	android:layout_height="wrap_content"
+              	android:gravity="center_horizontal"
+              	android:layout_marginTop="10dp"
+              	android:orientation="vertical"
+              	android:layout_weight="1">               	
+                <ImageView
+            		android:id="@+id/img_friends"
+        			android:layout_width="wrap_content"
+        			android:layout_height="wrap_content"        	     	
+        			android:scaleType="matrix"
+        			android:clickable="true"
+        			android:onClick="jn3dreadlord"
+        			android:src="@drawable/vampiricaura" />
+                <TextView
+            		android:layout_width="wrap_content"
+            		android:layout_height="wrap_content"
+            		android:text="吸血光环"
+            		android:textColor="#000"
+            		android:textSize="12sp" />                
+        	 </LinearLayout>
+        	 <LinearLayout
+            	android:layout_width="wrap_content"
+            	android:layout_height="wrap_content"
+              	android:gravity="center_horizontal"
+              	android:layout_marginTop="10dp"
+              	android:orientation="vertical"
+              	android:layout_weight="1">               	
+                <ImageView
+            		android:id="@+id/img_friends"
+        			android:layout_width="wrap_content"
+        			android:layout_height="wrap_content"        	     	
+        			android:scaleType="matrix"
+        			android:onClick="jn4dreadlord"
+        			android:clickable="true"
+        			android:src="@drawable/infernal" />
+                <TextView
+            		android:layout_width="wrap_content"
+            		android:layout_height="wrap_content"
+            		android:text="  地狱火  "
+            		android:textColor="#000"
+            		android:textSize="12sp" />                
+        	 </LinearLayout>
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical" >
+
+           <TextView android:textColor="#0066ff"
+               android:id="@+id/textViewjn1dreadlord"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:text="      召唤大量的蝙蝠和昆虫攻击敌人并造成伤害，使用间隔10s，魔法消耗110，距离70，作用范围15(快捷键C)。" >
+            </TextView>
+            <TextView android:textColor="#0066ff"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:id="@+id/textViewjn2dreadlord"
+                android:text="      等级1——每个单位受75点伤害,最大伤害总值300" >
+            </TextView>
+            <TextView android:textColor="#0066ff"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:id="@+id/textViewjn3dreadlord"
+                android:text="      等级2——每个单位受125点伤害,最大伤害总值600" >
+            </TextView>
+            <TextView android:textColor="#0066ff"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:id="@+id/textViewjn4dreadlord"
+                android:text="      等级3——每个单位受200点伤害,最大伤害总值1000" >
+            </TextView>
+          <TextView android:textColor="#000"
+              	android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:text="      恐惧魔王是一个强大的，并很受欢迎的英雄。很多时候，可以用他作为首发英雄作战，之后搭配死亡骑士或者巫妖。而他的各种技能都非常的有用。不过很多人都喜欢优先升级他的睡眠技能，因为这可以非常有效对抗初期的骚扰，还可以有效的提高猎杀野外生物的能力。而吸血光环在组队游戏中可以发挥非常强大的作用。腐臭群蜂可以攻击位于一条直线上的敌人。地狱火可以非常有效的攻击敌方的部队，打乱阵型，甚至有扭转局面的强大威力。" >
+            </TextView>
+    
+        <TextView android:textColor="#000"   
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"  
+            android:layout_marginTop="10dp"
+            android:text="        虽然恐惧魔王是一个近战英雄，可实际上他的作战能力并不是非常的好，虽然尽可能的不要让他接触太多的战斗。"  
+		></TextView>      
+
+   
+         
+      </LinearLayout>
+</LinearLayout>
+
+</ScrollView>
+</LinearLayout>

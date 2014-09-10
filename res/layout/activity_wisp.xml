@@ -1,0 +1,503 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#eee"
+        android:orientation="vertical" >
+        
+        <LinearLayout 
+  			android:layout_width="fill_parent"
+  			android:layout_height="45dp"
+  			android:id="@+id/title" 
+  			android:background="@drawable/title_bar"
+  			android:gravity="center_horizontal|center_vertical"  >  
+      		<TextView 
+        		android:layout_width="wrap_content" 
+        		android:layout_height="wrap_content" 
+        		android:text="小精灵"
+        		android:textSize="20sp"		
+				android:textColor="#ffffff" />       
+			</LinearLayout>
+<ScrollView 
+
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content"
+    android:background="#eee"
+>
+<LinearLayout 
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    >
+
+ 
+      
+ <ImageView
+           android:layout_width="wrap_content" 
+         android:layout_height="wrap_content" 
+           android:gravity="left" 
+           android:layout_gravity="center"
+           android:layout_marginTop="10dp"
+           android:layout_marginBottom="10dp"
+
+            android:src="@drawable/wisp"
+           >
+      </ImageView>
+
+<TextView 
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="介绍"  
+            android:gravity="left"
+             android:textColor="#339966"
+            android:textSize="18sp"   
+            ></TextView>  
+<TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="        小精灵是居住在卡利姆多森林中的远古灵魂,传说它们实际上就是死去的暗夜精灵族的灵魂。小精灵和暗夜精灵族和睦相处.并且为古老的树木服务,它们可以变成各种树木并生长成为有生命的建筑物。"  
+            android:gravity="left"  
+           ></TextView>  
+<TextView android:layout_marginTop="10dp" 
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="数据"  
+            android:gravity="left"
+            android:textColor="#339966"
+            android:textSize="18sp"  
+         ></TextView>  
+<TableLayout  
+    android:layout_width="match_parent"  
+    android:layout_height="match_parent"  
+    android:shrinkColumns="*"  
+    android:stretchColumns="*"> 
+<TableRow
+        android:layout_height="wrap_content"  
+        android:layout_width="match_parent">        
+      <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="等级: 1 "  
+            android:gravity="left" 
+            android:layout_span="1" 
+           ></TextView>
+      <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="费用：60/0/1"  
+            android:gravity="left"
+            android:layout_span="1"  
+            ></TextView>
+ 
+</TableRow>
+
+<TableRow
+        android:layout_height="wrap_content"  
+        android:layout_width="match_parent">        
+      <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="单位类型: 普通 "  
+            android:gravity="left" 
+            android:layout_span="1" 
+           ></TextView>
+      <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="攻击类型: - "  
+            android:gravity="left"
+            android:layout_span="1"  
+            ></TextView>
+ 
+</TableRow>
+<TableRow
+        android:layout_height="wrap_content"  
+        android:layout_width="match_parent">        
+      <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="武器类型: - "  
+            android:gravity="left" 
+            android:layout_span="1" 
+           ></TextView>
+      <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="护甲类型: 中甲  "  
+            android:gravity="left"
+            android:layout_span="1"  
+            ></TextView>
+ 
+</TableRow>
+<TableRow
+        android:layout_height="wrap_content"  
+        android:layout_width="match_parent">        
+      <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="护甲: 0 "  
+            android:gravity="left" 
+            android:layout_span="1" 
+           ></TextView>
+      <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="对地攻击: - "  
+            android:gravity="left"
+            android:layout_span="1"  
+            ></TextView>
+ 
+</TableRow>
+<TableRow
+        android:layout_height="wrap_content"  
+        android:layout_width="match_parent">        
+      <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="对空攻击: - "  
+            android:gravity="left" 
+            android:layout_span="1" 
+           ></TextView>
+      <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="攻击间隔:- "  
+            android:gravity="left"
+            android:layout_span="1"  
+            ></TextView>
+ 
+</TableRow>
+<TableRow
+        android:layout_height="wrap_content"  
+        android:layout_width="match_parent">        
+      <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="生命值: 120  "  
+            android:gravity="left" 
+            android:layout_span="1" 
+           ></TextView>
+      <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="生命恢复: 夜晚"  
+            android:gravity="left"
+            android:layout_span="1"  
+            ></TextView>
+ 
+</TableRow>
+<TableRow
+        android:layout_height="wrap_content"  
+        android:layout_width="match_parent">        
+      <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="魔法: - "  
+            android:gravity="left" 
+            android:layout_span="1" 
+           ></TextView>
+      <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="攻击范围: - "  
+            android:gravity="left"
+            android:layout_span="1"  
+            ></TextView>
+ 
+</TableRow>
+<TableRow
+        android:layout_height="wrap_content"  
+        android:layout_width="match_parent">        
+      <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="白天视野: 100  "  
+            android:gravity="left" 
+            android:layout_span="1" 
+           ></TextView>
+      <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="夜晚视野: 75 (100*) "  
+            android:gravity="left"
+            android:layout_span="1"  
+            ></TextView>
+ 
+</TableRow>
+<TableRow
+        android:layout_height="wrap_content"  
+        android:layout_width="match_parent">        
+      <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="移动速度: 中等 (270)"  
+            android:gravity="left" 
+            android:layout_span="1" 
+           ></TextView>
+      <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="训练时间: 14 "  
+            android:gravity="left"
+            android:layout_span="1"  
+            ></TextView>
+ 
+</TableRow>
+<TableRow
+        android:layout_height="wrap_content"  
+        android:layout_width="match_parent">        
+      <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="训练地点:生命之树 "  
+            android:gravity="left" 
+            android:layout_span="1" 
+           ></TextView>
+       <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="运输占用空间: 1 "  
+            android:gravity="left" 
+            android:layout_span="1" 
+           ></TextView>
+ 
+</TableRow>
+<TableRow
+        android:layout_height="wrap_content"  
+        android:layout_width="match_parent">        
+      <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="训练热键: W   "  
+            android:gravity="left" 
+            android:layout_span="1" 
+           ></TextView>
+       <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="魔法恢复: - "  
+            android:gravity="left" 
+            android:layout_span="1" 
+           ></TextView>
+ 
+</TableRow>
+</TableLayout>
+
+<TextView android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="信息"
+            android:textColor="#339966"
+            android:textSize="18sp"   
+            android:gravity="left"  
+         ></TextView> 
+ 
+     
+         <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="        小精灵不能攻击，所以在遭到攻击的时候最好快跑。小精灵无法直接从金矿采集资源，它们只能进入那些被根须缠绕好的金矿。"  
+            android:gravity="left"  
+         ></TextView>  
+           <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="        小精灵虽然无法攻击，但是它们经常出现在战场上，用来修理机械单位或是自爆。"  
+            android:gravity="left"  
+         ></TextView>  
+            <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="        小精灵在采集树木的时候，不会对树木造成任何伤害。也不需要把树木运送会主基地。所以，最好把你采木的小精灵放到隐蔽的地方。如果你的对手初期就来到你的基地的话 ，那么他们很难找到你采木的小精灵。从而不会影响你今后的发展。"  
+            android:gravity="left"  
+         ></TextView>  
+                    <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="        在建造一棵树后，小精灵将会消失。如果小精灵建造的是非树木建筑。例如说月亮井、猎手大厅等，那么在建造完成后它依然会存在。"  
+            android:gravity="left"  
+         ></TextView>  
+                    <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="        使用小精灵去侦察地图。在位于起始点的外围最好放置几个小精灵。因为有的时候，敌人会乘夜色在你的视野范围外建造防御塔，进行快攻。而这个时候，你的小精灵就可以起到预警的作用。小精灵是非常适合用来侦察的单位 。因为他们可以一边放哨一边采集木头。"  
+            android:gravity="left"  
+         ></TextView>  
+                    <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="        如果你的对手也是暗夜精灵，那么可以试着把你的小精灵派到他的基地去侦察。有些时候你的对手并不会注意到这个举动。不过对于那些高水平玩家来说，这么做是没用的。"  
+            android:gravity="left"  
+         ></TextView>  
+<TextView android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="技能"
+                        android:textColor="#339966"
+            android:textSize="18sp"    
+            android:gravity="left"  
+         >
+</TextView>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_marginTop="10dp"
+    android:layout_height="wrap_content" >
+ <ImageView
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:src="@drawable/renew" >
+</ImageView> 
+ <TextView
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:layout_gravity="center_vertical"
+     android:text="      修理 Repair(自动施放)"
+     android:textColor="#000" />
+</LinearLayout>
+
+ <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content" 
+            android:layout_span="6"     
+            android:text="        小精灵可以修理受损的建筑和机械单位，右键点击可以将修理设定为自动。修理需要花费黄金和木材，如果你的黄金或木材不足，那么你将无法进行修理。"  
+            android:gravity="left"  
+         >
+</TextView>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_marginTop="10dp"
+    android:layout_height="wrap_content" >
+ <ImageView
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:src="@drawable/peasantgather" >
+</ImageView> 
+ <TextView
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:layout_gravity="center_vertical"
+     android:text="      采集 Gather"
+     android:textColor="#000" />
+</LinearLayout>
+
+ <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content" 
+            android:layout_span="6"     
+            android:text="        从金矿采集黄金或者砍树来获得木材，右键点击金矿或木材。"  
+            android:gravity="left"  
+         >
+</TextView>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_marginTop="10dp"
+    android:layout_height="wrap_content" >
+ <ImageView
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:src="@drawable/createbuilding" >
+</ImageView> 
+ <TextView
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:layout_gravity="center_vertical"
+     android:text="      修建建筑 Build Structure"
+     android:textColor="#000" />
+</LinearLayout>
+
+ <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content" 
+            android:layout_span="6"     
+            android:text="        点击后出现一个你可以进行建造的建筑列表。 如果你建造的是树木类建筑，那么小精灵将会消失，如果你建造是普通的建筑，那么建筑完成时小精灵依然会存在。"  
+            android:gravity="left"  
+         >
+</TextView>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_marginTop="10dp"
+    android:layout_height="wrap_content" >
+ <ImageView
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:src="@drawable/detonate" >
+</ImageView> 
+ <TextView
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:layout_gravity="center_vertical"
+     android:text="      自爆 Detonate"
+     android:textColor="#000" />
+</LinearLayout> 
+
+ <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content" 
+            android:layout_span="6"     
+            android:text="        小精灵会消失掉。不过会消耗掉范围内魔法单位50点魔法，并可以对召唤生物造成225点伤害。"  
+            android:gravity="left"  
+         >
+</TextView>
+
+    <TextView android:textColor="#000"  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"    
+            android:text="持续时间：立即；距离：10；作用范围：35；效果：消耗范围内魔法单位50点魔法，对召唤生物造成225点伤害"  
+            android:gravity="left"  
+            ></TextView>  
+<TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"   
+            android:text="提示" 
+                        android:textStyle="bold"
+            
+            android:gravity="left"  
+         >
+</TextView>
+    <TextView android:textColor="#000"  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"    
+            android:text="        控制好你自爆的范围，如果你被你的对手察觉到你将要自爆的位置那么他很可能会选择让自己的部队离开那个区域。如果你不能很好的控制小精灵的自爆，那么当你的小精灵自爆的时候，敌人可能已经离开了那里。"  
+            android:gravity="left"  
+            ></TextView>  
+
+        <TextView android:textColor="#000"  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"    
+            android:text="        注意你小精灵的自爆位置是否被敌人或是我方挡住，因为这样的话，你的小精灵会在半路上被挡住而什么都做不了。"  
+            android:gravity="left"  
+            ></TextView>  
+     <TextView android:textColor="#000"  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"    
+            android:text="        一定要记住，自爆是暗夜精灵最有效的驱散手段。当敌人带着召唤生物来快攻时，用自爆来驱散它们。最好的自爆的时候也作用到对方的英雄，这样可以有效的消耗掉他的魔法。随时都要带这几个小精灵上战场，以便使用它们。不过要注意，自爆对我方的英雄和单位也是有效果的。"  
+            android:gravity="left"  
+            ></TextView>  
+
+        <TextView android:textColor="#000"  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"    
+            android:text="        如果敌人攻击你的小精灵试图阻止它们自爆，那么让它们快点撤退。敌人的英雄非常容易就可以杀掉你的小精灵，那么当你的小精灵被攻击的时候，将他们自爆也是个不错的方法，同时也可以阻止敌方英雄获得经验。"  
+            android:gravity="left"  
+            ></TextView>     
+    <TextView android:textColor="#000"  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"    
+            android:text="        对那些聚集在一起的魔法单位进行自爆是最理想的。如果敌人有很多的魔法单位，例如说萨满祭司或女巫，那么让你的小精灵偷偷的接近他们，并用自爆来消耗掉他们的魔法。"  
+            android:gravity="left"  
+            ></TextView>  
+
+        <TextView android:textColor="#000"  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"    
+            android:text="        自爆并不是任何时候都那么物美价廉。一个萨满祭司要被爆8次才会被耗尽魔法。不过，如果是很多的魔法单位聚集在一起，或者你的小精灵快被杀死，那么自爆吧。 "  
+            android:gravity="left"  
+            ></TextView>  
+
+</LinearLayout>
+</ScrollView>
+</LinearLayout>

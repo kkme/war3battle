@@ -1,0 +1,400 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#eee"
+        android:orientation="vertical" >
+        
+        <LinearLayout 
+  			android:layout_width="fill_parent"
+  			android:layout_height="45dp"
+  			android:id="@+id/title" 
+  			android:background="@drawable/title_bar"
+  			android:gravity="center_horizontal|center_vertical"  >  
+      		<TextView
+        		android:layout_width="wrap_content" 
+        		android:layout_height="wrap_content" 
+        		android:text="月之女祭司"
+        		android:textSize="20sp"		
+				android:textColor="#ffffff" />       
+			</LinearLayout>
+<ScrollView 
+
+	
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+     >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1" >
+
+        <TextView android:textColor="#000"
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="10dp"
+            android:text="      作为哨兵部队的领袖，无所畏惧的月之女祭司体现了暗夜精灵族古老的月亮女神艾露尼的力量与优雅。她们穿着闪耀着银光的铠甲，骑着凶猛的白虎参加战斗。为了保护她们的家园，手持魔弓的女祭司不会对任何侵略暗夜精灵族领地的邪恶力量退让。" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1" >
+
+        <ImageView
+            android:id="@+id/imageViewpriestess"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/priestess"
+             />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+
+            <TextView android:textColor="#000"
+                android:id="@+id/textViewblpriestess"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="0.99"
+                android:gravity="center"
+                android:layout_marginTop="2dp"
+                android:layout_marginBottom="2dp"
+                android:background="@drawable/blood"
+                android:text="550/550" />
+
+            <TextView android:textColor="#000"
+                android:id="@+id/textViewmapriestess"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:layout_marginTop="2dp"
+                android:layout_marginBottom="2dp"
+                android:background="@drawable/magic"
+                android:text="225/225" />
+        </LinearLayout>
+
+        <TextView android:textColor="#000"
+            android:id="@+id/textViewdjpriestess"
+            android:layout_width="46dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="right"
+            android:gravity="center"
+            android:text="1" />
+    </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal" >
+        </LinearLayout>
+
+    <TableLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:shrinkColumns="*"
+        android:layout_marginTop="10dp"
+        android:stretchColumns="*" >
+	<TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal" >
+
+		<Button
+		    android:id="@+id/button2"
+		    style="?android:attr/buttonStyleSmall"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:text="想升级就点我吧" 
+		    android:onClick="uplevelpriestess"/>
+
+		<Button
+		    android:id="@+id/button3"
+		    style="?android:attr/buttonStyleSmall"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:text="觉得等级太高了？" 
+		    android:onClick="downlevelpriestess"/>
+
+
+
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal" >
+
+            <TextView android:textColor="#000"
+                android:id="@+id/textViewgjpriestess"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:text="攻击：21-31" >
+            </TextView>
+
+            <TextView android:textColor="#000"
+                android:id="@+id/textViewllpriestess"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:text="力量：18(+1.9)" >
+            </TextView>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal" >
+
+            <TextView android:textColor="#000"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:text="攻速：2.46" >
+            </TextView>
+
+            <TextView android:textColor="#000"
+                android:id="@+id/textViewmjpriestess"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:text="敏捷：19(+1.5)" >
+            </TextView>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal" >
+
+            <TextView android:textColor="#000"
+                android:id="@+id/textViewhjpriestess"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:text="护甲：4" >
+            </TextView>
+
+            <TextView android:textColor="#000"
+                android:id="@+id/textViewzlpriestess"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:text="智力：15(+2.6)" >
+            </TextView>
+        </TableRow>
+           <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal" >
+
+            <TextView android:textColor="#000"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:text="移动速度：320" >
+            </TextView>
+
+            <TextView android:textColor="#000"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:text="建造时间:55s" >
+            </TextView>
+        </TableRow>
+    </TableLayout>
+
+
+
+ 
+<LinearLayout
+     android:layout_width="fill_parent"
+     android:layout_height="wrap_content"
+     android:layout_alignParentBottom="true"
+     android:paddingBottom="2dp"            
+   >
+        	 <LinearLayout
+            	android:layout_width="wrap_content"
+            	android:layout_height="wrap_content"
+              	android:gravity="center_horizontal"
+              	android:layout_marginTop="10dp"
+              	android:orientation="vertical"
+              	android:layout_weight="1">               	
+                <ImageView
+            		android:id="@+id/img_friends"
+        			android:layout_width="wrap_content"
+        			android:layout_height="wrap_content"        	     	
+        			android:scaleType="matrix"
+        			android:clickable="true"
+        			android:onClick="jn1priestess"
+        			android:src="@drawable/scout" />
+                <TextView
+            		android:layout_width="wrap_content"
+            		android:layout_height="wrap_content"
+            		android:text="  猫头鹰  "
+            		android:textColor="#000"
+            		android:textSize="12sp" />                
+        	 </LinearLayout>
+        	 <LinearLayout
+            	android:layout_width="wrap_content"
+            	android:layout_height="wrap_content"
+              	android:gravity="center_horizontal"
+              	android:layout_marginTop="10dp"
+              	android:orientation="vertical"
+              	android:layout_weight="1">               	
+                <ImageView
+            		android:id="@+id/img_friends"
+        			android:layout_width="wrap_content"
+        			android:layout_height="wrap_content"        	     	
+        			android:scaleType="matrix"
+        			android:onClick="jn2priestess"
+        			android:clickable="true"
+        			android:src="@drawable/searingarrows" />
+                <TextView
+            		android:layout_width="wrap_content"
+            		android:layout_height="wrap_content"
+            		android:text="灼热之箭"
+            		android:textColor="#000"
+            		android:textSize="12sp" />                
+        	 </LinearLayout>
+        	 <LinearLayout
+            	android:layout_width="wrap_content"
+            	android:layout_height="wrap_content"
+              	android:gravity="center_horizontal"
+              	android:layout_marginTop="10dp"
+              	android:orientation="vertical"
+              	android:layout_weight="1">               	
+                <ImageView
+            		android:id="@+id/img_friends"
+        			android:layout_width="wrap_content"
+        			android:layout_height="wrap_content"        	     	
+        			android:scaleType="matrix"
+        			android:clickable="true"
+        			android:onClick="jn3priestess"
+        			android:src="@drawable/trueshot" />
+                <TextView
+            		android:layout_width="wrap_content"
+            		android:layout_height="wrap_content"
+            		android:text="强击光环"
+            		android:textColor="#000"
+            		android:textSize="12sp" />                
+        	 </LinearLayout>
+        	 <LinearLayout
+            	android:layout_width="wrap_content"
+            	android:layout_height="wrap_content"
+              	android:gravity="center_horizontal"
+              	android:layout_marginTop="10dp"
+              	android:orientation="vertical"
+              	android:layout_weight="1">               	
+                <ImageView
+            		android:id="@+id/img_friends"
+        			android:layout_width="wrap_content"
+        			android:layout_height="wrap_content"        	     	
+        			android:scaleType="matrix"
+        			android:onClick="jn4priestess"
+        			android:clickable="true"
+        			android:src="@drawable/starfall" />
+                <TextView
+            		android:layout_width="wrap_content"
+            		android:layout_height="wrap_content"
+            		android:text="  流星雨  "
+            		android:textColor="#000"
+            		android:textSize="12sp" />                
+        	 </LinearLayout>
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical" >
+
+           <TextView android:textColor="#0066ff"
+               android:id="@+id/textViewjn1priestess"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:text="      召唤出一只猫头鹰，用来侦察整个地图，并可以看到隐形的单位，使用间隔20s(快捷键C)。" >
+            </TextView>
+            <TextView android:textColor="#0066ff"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:id="@+id/textViewjn2priestess"
+                android:text="      等级1——持续时间60s，魔法消耗100，召唤出一只猫头鹰" >
+            </TextView>
+            <TextView android:textColor="#0066ff"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:id="@+id/textViewjn3priestess"
+                android:text="      等级2——持续时间90s，魔法消耗75，召唤出一只猫头鹰" >
+            </TextView>
+            <TextView android:textColor="#0066ff"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:id="@+id/textViewjn4priestess"
+                android:text="      等级3——持续时间120s，魔法消耗75，召唤出一只猫头鹰" >
+            </TextView>
+          <TextView android:textColor="#000"
+              	android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:text="      月之女祭司是一个后方支援类的英雄。大多数人会因为需要使用缠绕和法力燃烧而选择丛林守护者和恶魔猎手，而月之女祭司则需要一段时间去熟悉才可能有效的使用她。月之女祭司其实是一个具有很高攻击力的单位杀手。丛林守护者，还有恶魔猎手往往需要在近距离才能够给敌人造成较大伤害，而月之女祭司可从很远的地方，在不知不觉中给敌人以非常大的伤害。她的强击光环可以给所有的我方远程攻击部队增加攻击力。如果月之女祭司不小心升到了6级的话，流星雨将会让你的敌人受到毁灭性的打击。有经验的玩家可以在流星雨刚刚发动的时候就打断这个技能的施放。在这段时间内，你依然可以利用流星雨造成的伤害，配合你的友军(如果是组队游戏的话)杀掉很多的敌方单位。最大限度发挥月之女祭司作用的方法就是尽量的使用远程攻击部队以搭配她的强击光环。尽可能的让你的月之女祭司离敌人远一点，如果你发现有近战部队试图包围你的月之女祭司的话，那么快点控制她跑开。很多时候你会发现，月之女祭司在不死英雄恐惧魔王的技能睡眠，和丛林守护者的缠绕技能面前显的相当脆弱，所以你最好有另外一个近战英雄，例如说恶魔猎手来好好的保护她的安全。" >
+            </TextView>
+    
+        <TextView android:textColor="#000"   
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"  
+            android:layout_marginTop="10dp"
+            android:text="        很多暗夜精灵玩家喜欢以强击光环，灼热之箭的顺序交替升级月之女祭司的技能，直到他6级升级流星雨。在一些较大的组队战斗中，升级女祭司的猫头鹰用来侦察也是个不错的选择。你也可以利用女猎手的哨兵技能，其它的单位或者小精灵去进行侦查。要知道这点是非常重要的，因为不断的侦察可以让你的部队优先收到预警，从而保证月之女祭司的安全。"  
+		></TextView>      
+
+   
+
+        <TextView android:textColor="#000"   
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"  
+            android:layout_marginTop="10dp"
+            android:text="     月之女祭司其实是作为第二英雄的最佳人选。因为她的强击光环可以立刻给你的部队提供有效的助力，同时又不会影响第一英雄的等级。不过，如果你有了两个英雄的话，月之女祭司达到6级的速度就会慢很多，如果你想快点让月之女祭司达到6级拥有流星雨的话，那么最好保持单英雄状态。在组队游戏中，这么做的效果尤其明显，特别是在组队游戏中，使用月之女祭司作为第一英雄，那么她的强击光环，可以给你全部的友军部队提供效果。"  
+></TextView>      
+   
+ 
+        <TextView android:textColor="#000"   
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content" 
+            android:layout_marginTop="10dp" 
+            android:text="      最好让月之女祭司携带大量的提升攻击力的道具，例如说加攻击力的爪，急速手套，还有增加敏捷的物品。很多人觉得月之女祭司仅仅是一个远程攻击单位而已。而实际上，在上述物品配合月之女祭司的灼热之箭后攻击力高的惊人。"  
+></TextView>      
+ 
+     
+        <TextView android:textColor="#000"   
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"   
+            android:layout_marginTop="10dp"
+            android:text="      当灼热之箭被设置为自动施放时，月之女祭司会在攻击中持续消耗魔法。所以在很多时候，你要多多留意月之女祭司的魔法值，因为当你想要施放流星雨的时候，你会发现你的魔法总是不够用。为了避免这种情况发生，你最好给你的月之女祭司买一个魔法瓶，或者关掉灼热之箭的自动施放来保证在你想施放流星雨时有足够的魔法。"  
+            ></TextView>  
+      
+      </LinearLayout>
+</LinearLayout>
+
+</ScrollView>
+</LinearLayout>

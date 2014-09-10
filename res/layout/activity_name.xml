@@ -1,0 +1,743 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#eee"
+        android:orientation="vertical" >
+        
+        <LinearLayout 
+  			android:layout_width="fill_parent"
+  			android:layout_height="45dp"
+  			android:id="@+id/title" 
+  			android:background="@drawable/title_bar"
+  			android:gravity="center_horizontal|center_vertical"  >  
+      		<TextView 
+        		android:layout_width="wrap_content" 
+        		android:layout_height="wrap_content" 
+        		android:text="WCG"
+        		android:textSize="20sp"		
+				android:textColor="#ffffff" />       
+			</LinearLayout>
+<ScrollView 
+
+    android:layout_width="fill_parent" 
+    android:layout_height="fill_parent"
+    android:background="#eee"
+>
+<LinearLayout 
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    >
+ 
+
+
+<TextView  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="WCG介绍"  
+            android:layout_marginTop="10dp"
+            android:gravity="left"
+             android:textColor="#0000CC"
+            android:textSize="18sp"   
+            ></TextView>  
+<TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="        WCG（世界电子竞技大赛）即世界电子竞技大赛 "  
+            android:gravity="left"  
+           ></TextView>
+<TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="        世界电子竞技大赛（ [1]World Cyber Games，WCG），创立于2000年结束于2013年，是一个全球性的电子竞技赛事（或“电脑游戏文化节”），被称为“电子竞技奥运会”，该项赛事由韩国国际电子营销公司（Internation Cyber Marketing, ICM）主办，并由三星和微软（自2006年起）提供赞助。大赛一直以 “beyond the game” 为口号，以推动电子竞技的全球发展为目标，旨在促进人们在网络时代的沟通、互动和交流，促进人类生活的和谐与愉快。2014年2月5日，现任WCG首席执行官李秀垠通过官方邮件对外宣布WCG组委会将不再举办任何赛事，包括WCG世界总决赛，延续13年的WCG至此画上了句号。 "  
+            android:gravity="left"  
+           ></TextView>  
+<TextView  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="历届WCG魔兽争霸战况"  
+            android:gravity="left"
+            android:textColor="#0000CC"
+            android:layout_marginTop="10dp"
+            android:textSize="18sp"  
+         ></TextView>  
+       
+      <TextView  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="WCG2003 " 
+            android:textColor="#0000CC" 
+            android:gravity="left" 
+            android:layout_span="1" 
+           ></TextView>
+
+    
+      <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="韩国汉城 "  
+            android:gravity="left" 
+            android:layout_span="1" 
+           ></TextView>
+     
+      <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="魔兽 3ROC1.12 WarCraft III: Reign of Chaos "  
+            android:gravity="left" 
+            android:layout_span="1" 
+           ></TextView>
+
+     
+      <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="冠军： SK_Insomnia （保加利亚）人族  "  
+            android:gravity="left" 
+            android:layout_span="1" 
+           ></TextView>
+
+ 
+      
+      <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="亚军： Chinahuman （中国）人族， Chinahuman 即 CQ2000(8da.2k) 的 WCG 用魔兽 ID  "  
+            android:gravity="left" 
+            android:layout_span="1" 
+           ></TextView>
+
+ 
+     
+      <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="季军： TeGEviscEratoR （罗马尼亚）暗夜精灵族 "  
+            android:gravity="left" 
+            android:layout_span="1" 
+           ></TextView>
+
+		<TextView android:textColor="#000"  
+		            android:layout_width="wrap_content"  
+		            android:layout_height="wrap_content"    
+		            android:text="殿军： Myth_ShaMan （台北）兽族 "  
+		            android:gravity="left" 
+		            android:layout_span="1" 
+		           ></TextView>
+<TextView  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="WCG2004 " 
+            android:textColor="#0000CC" 
+            android:gravity="left" 
+            android:layout_span="1" 
+           ></TextView>
+
+    
+      <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="美国旧金山 "  
+            android:gravity="left" 
+            android:layout_span="1" 
+           ></TextView>
+     
+      <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="魔兽 3TFT WarCraft III: The Frozen Throne "  
+            android:gravity="left" 
+            android:layout_span="1" 
+           ></TextView>
+
+     
+      <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="冠军： [4k]Grubby （荷兰）兽族 "  
+            android:gravity="left" 
+            android:layout_span="1" 
+           ></TextView>
+
+ 
+      
+      <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="亚军： welcomeTo （韩国）兽族 welcomeTo 即韩国著名兽族选手 Zacard 在 WCG 上的 ID "  
+            android:gravity="left" 
+            android:layout_span="1" 
+           ></TextView>
+
+ 
+     
+      <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="季军： yoanm （法国）人族 yoanm 即法国著名人族选手 Tod 在 WCG 上的 ID "  
+            android:gravity="left" 
+            android:layout_span="1" 
+           ></TextView>
+
+		<TextView android:textColor="#000"  
+		            android:layout_width="wrap_content"  
+		            android:layout_height="wrap_content"    
+		            android:text="殿军： shortround （美国）暗夜精灵族 "  
+		            android:gravity="left" 
+		            android:layout_span="1" 
+		           ></TextView>
+		<TextView  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="WCG2005 " 
+            android:textColor="#0000CC" 
+            android:gravity="left" 
+            android:layout_span="1" 
+           ></TextView>
+
+    
+      <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="新加坡  "  
+            android:gravity="left" 
+            android:layout_span="1" 
+           ></TextView>
+     
+      <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="魔兽 3TFT 1.20  "  
+            android:gravity="left" 
+            android:layout_span="1" 
+           ></TextView>
+
+     
+      <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="冠军： SKY （中国）人族 "  
+            android:gravity="left" 
+            android:layout_span="1" 
+           ></TextView>
+
+ 
+      
+      <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="亚军： BenQGeiLShort （美国）暗夜精灵族 "  
+            android:gravity="left" 
+            android:layout_span="1" 
+           ></TextView>
+
+ 
+     
+      <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="季军： 4K_Grubby （荷兰）兽族 "  
+            android:gravity="left" 
+            android:layout_span="1" 
+           ></TextView>
+
+		<TextView android:textColor="#000"  
+		            android:layout_width="wrap_content"  
+		            android:layout_height="wrap_content"    
+		            android:text="殿军： 4K_ToD （法国）人族 "  
+		            android:gravity="left" 
+		            android:layout_span="1" 
+		           ></TextView>
+		<TextView  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="WCG2006 " 
+            android:textColor="#0000CC" 
+            android:gravity="left" 
+            android:layout_span="1" 
+           ></TextView>
+
+    
+      <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="意大利蒙扎 "  
+            android:gravity="left" 
+            android:layout_span="1" 
+           ></TextView>
+     
+      <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="魔兽 3TFT 1.20 "  
+            android:gravity="left" 
+            android:layout_span="1" 
+           ></TextView>
+
+     
+      <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="冠军： SKY （中国）人族 "  
+            android:gravity="left" 
+            android:layout_span="1" 
+           ></TextView>
+
+ 
+      
+      <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="亚军： Tod 4K （法国）人族 "  
+            android:gravity="left" 
+            android:layout_span="1" 
+           ></TextView>
+
+ 
+     
+      <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="季军： SK-Hot （乌克兰）暗夜精灵族 "  
+            android:gravity="left" 
+            android:layout_span="1" 
+           ></TextView>
+
+		<TextView android:textColor="#000"  
+		            android:layout_width="wrap_content"  
+		            android:layout_height="wrap_content"    
+		            android:text="殿军： Xyligan （俄罗斯）暗夜精灵族  "  
+		            android:gravity="left" 
+		            android:layout_span="1" 
+		           ></TextView>
+		<TextView  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="WCG2007" 
+            android:textColor="#0000CC" 
+            android:gravity="left" 
+            android:layout_span="1" 
+           ></TextView>
+
+    
+      <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="美国西雅图 "  
+            android:gravity="left" 
+            android:layout_span="1" 
+           ></TextView>
+     
+      <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="魔兽 3TFT1.21  "  
+            android:gravity="left" 
+            android:layout_span="1" 
+           ></TextView>
+
+     
+      <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="冠军： 4K-Creolophus （挪威）暗夜精灵族 "  
+            android:gravity="left" 
+            android:layout_span="1" 
+           ></TextView>
+
+ 
+      
+      <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="亚军： SKY （中国）人族 "  
+            android:gravity="left" 
+            android:layout_span="1" 
+           ></TextView>
+
+ 
+     
+      <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="季军： MOON （韩国）暗夜精灵族"  
+            android:gravity="left" 
+            android:layout_span="1" 
+           ></TextView>
+
+		<TextView android:textColor="#000"  
+		            android:layout_width="wrap_content"  
+		            android:layout_height="wrap_content"    
+		            android:text="殿军： Fanatic_Xyl （俄罗斯）暗夜精灵族 "  
+		            android:gravity="left" 
+		            android:layout_span="1" 
+		           ></TextView>
+		<TextView  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="WCG2008 " 
+            android:textColor="#0000CC" 
+            android:gravity="left" 
+            android:layout_span="1" 
+           ></TextView>
+
+    
+      <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="德国科隆 "  
+            android:gravity="left" 
+            android:layout_span="1" 
+           ></TextView>
+     
+      <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="魔兽 3TFT1.22  "  
+            android:gravity="left" 
+            android:layout_span="1" 
+           ></TextView>
+
+     
+      <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="冠军： Grubby （荷兰）兽族 "  
+            android:gravity="left" 
+            android:layout_span="1" 
+           ></TextView>
+
+ 
+      
+      <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="亚军： MOON （韩国）暗夜精灵族 "  
+            android:gravity="left" 
+            android:layout_span="1" 
+           ></TextView>
+
+ 
+     
+      <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="季军： HAPPY 俄罗斯）亡灵族"  
+            android:gravity="left" 
+            android:layout_span="1" 
+           ></TextView>
+
+		<TextView android:textColor="#000"  
+		            android:layout_width="wrap_content"  
+		            android:layout_height="wrap_content"    
+		            android:text="殿军： HOT（乌克兰）暗夜精灵族"  
+		            android:gravity="left" 
+		            android:layout_span="1" 
+		           ></TextView>
+		<TextView  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="WCG2009" 
+            android:textColor="#0000CC" 
+            android:gravity="left" 
+            android:layout_span="1" 
+           ></TextView>
+
+    
+      <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="中国成都 "  
+            android:gravity="left" 
+            android:layout_span="1" 
+           ></TextView>
+     
+      <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="魔兽 3TFT1.24 "  
+            android:gravity="left" 
+            android:layout_span="1" 
+           ></TextView>
+
+     
+      <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="冠军： Infi （中国）人族"  
+            android:gravity="left" 
+            android:layout_span="1" 
+           ></TextView>
+
+ 
+      
+      <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="亚军： Fly100% （中国）兽族"  
+            android:gravity="left" 
+            android:layout_span="1" 
+           ></TextView>
+
+ 
+     
+      <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="季军： SK.Lyn （韩国）兽族 "  
+            android:gravity="left" 
+            android:layout_span="1" 
+           ></TextView>
+
+		<TextView android:textColor="#000"  
+		            android:layout_width="wrap_content"  
+		            android:layout_height="wrap_content"    
+		            android:text="殿军： EG.Happy （俄罗斯）亡灵族 "  
+		            android:gravity="left" 
+		            android:layout_span="1" 
+		           ></TextView>
+		<TextView  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="WCG2010 " 
+            android:textColor="#0000CC" 
+            android:gravity="left" 
+            android:layout_span="1" 
+           ></TextView>
+
+    
+      <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="美国洛杉矶 "  
+            android:gravity="left" 
+            android:layout_span="1" 
+           ></TextView>
+     
+      <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="魔兽 3TFT1.24"  
+            android:gravity="left" 
+            android:layout_span="1" 
+           ></TextView>
+
+     
+      <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="冠军： EHome.GIGABYTE.ReMinD （韩国）暗夜精灵族 "  
+            android:gravity="left" 
+            android:layout_span="1" 
+           ></TextView>
+
+ 
+      
+      <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="亚军： EG.Grubby （荷兰）兽族 "  
+            android:gravity="left" 
+            android:layout_span="1" 
+           ></TextView>
+
+ 
+     
+      <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="季军： WeMadeFoX.Lyn （韩国）兽族 "  
+            android:gravity="left" 
+            android:layout_span="1" 
+           ></TextView>
+
+		<TextView android:textColor="#000"  
+		            android:layout_width="wrap_content"  
+		            android:layout_height="wrap_content"    
+		            android:text="殿军： Tyloo.Niker （俄罗斯）暗夜精灵族"  
+		            android:gravity="left" 
+		            android:layout_span="1" 
+		           ></TextView>
+		<TextView  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="WCG2011 " 
+            android:textColor="#0000CC" 
+            android:gravity="left" 
+            android:layout_span="1" 
+           ></TextView>
+
+    
+      <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="韩国釜山 "  
+            android:gravity="left" 
+            android:layout_span="1" 
+           ></TextView>
+     
+      <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="魔兽 3TFT1.26"  
+            android:gravity="left" 
+            android:layout_span="1" 
+           ></TextView>
+
+     
+      <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="冠军： SK.Lyn （韩国）兽族 "  
+            android:gravity="left" 
+            android:layout_span="1" 
+           ></TextView>
+
+ 
+      
+      <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="亚军： SKY （中国）人族"  
+            android:gravity="left" 
+            android:layout_span="1" 
+           ></TextView>
+
+ 
+     
+      <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="季军： Fly100% （中国）兽族 "  
+            android:gravity="left" 
+            android:layout_span="1" 
+           ></TextView>
+
+		<TextView android:textColor="#000"  
+		            android:layout_width="wrap_content"  
+		            android:layout_height="wrap_content"    
+		            android:text="殿军： Empire.Hawk （俄罗斯）人族 "  
+		            android:gravity="left" 
+		            android:layout_span="1" 
+		           ></TextView>
+		<TextView  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="WCG2012" 
+            android:textColor="#0000CC" 
+            android:gravity="left" 
+            android:layout_span="1" 
+           ></TextView>
+
+    
+      <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="中国昆山 "  
+            android:gravity="left" 
+            android:layout_span="1" 
+           ></TextView>
+     
+      <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="魔兽 3TFT1.26"  
+            android:gravity="left" 
+            android:layout_span="1" 
+           ></TextView>
+
+     
+      <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="冠军： WE.Ted （中国）亡灵族"  
+            android:gravity="left" 
+            android:layout_span="1" 
+           ></TextView>
+
+ 
+      
+      <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="亚军： Fly100% （中国）兽族 "  
+            android:gravity="left" 
+            android:layout_span="1" 
+           ></TextView>
+
+ 
+     
+      <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="季军： SKY （中国）人族 "  
+            android:gravity="left" 
+            android:layout_span="1" 
+           ></TextView>
+
+		<TextView android:textColor="#000"  
+		            android:layout_width="wrap_content"  
+		            android:layout_height="wrap_content"    
+		            android:text="殿军： MOON （韩国）暗夜精灵族"  
+		            android:gravity="left" 
+		            android:layout_span="1" 
+		           ></TextView>
+		<TextView  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="WCG2013 " 
+            android:textColor="#0000CC" 
+            android:gravity="left" 
+            android:layout_span="1" 
+           ></TextView>
+
+    
+      <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="中国昆山 "  
+            android:gravity="left" 
+            android:layout_span="1" 
+           ></TextView>
+     
+      <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="魔兽 3TFT1.26 "  
+            android:gravity="left" 
+            android:layout_span="1" 
+           ></TextView>
+
+     
+      <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="冠军： th000 （中国）人族  "  
+            android:gravity="left" 
+            android:layout_span="1" 
+           ></TextView>
+
+ 
+      
+      <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="亚军： Moon（韩国）精灵族  "  
+            android:gravity="left" 
+            android:layout_span="1" 
+           ></TextView>
+      <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="季军： Focus （韩国）兽族 "  
+            android:gravity="left" 
+            android:layout_span="1" 
+           ></TextView>
+</LinearLayout>
+</ScrollView>
+</LinearLayout>

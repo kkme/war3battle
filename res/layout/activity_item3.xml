@@ -1,0 +1,1824 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#eee"
+        android:orientation="vertical" >
+
+<LinearLayout 
+  			android:layout_width="fill_parent"
+  			android:layout_height="45dp"
+  			android:id="@+id/title" 
+  			android:background="@drawable/title_bar"
+  			android:gravity="center_horizontal|center_vertical"  >  
+      		<TextView
+        		android:layout_width="wrap_content" 
+        		android:layout_height="wrap_content" 
+        		android:text="永久型物品"
+        		android:textSize="20sp"		
+				android:textColor="#ffffff" />       
+			</LinearLayout>
+<ScrollView 
+
+    android:id="@+id/ScrollView01" 
+    android:layout_width="fill_parent" 
+    android:layout_height="fill_parent"
+>
+
+<LinearLayout
+            android:paddingBottom="@dimen/activity_vertical_margin"
+
+    android:paddingRight="@dimen/activity_horizontal_margin" 
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center"
+    >
+
+<TableLayout android:layout_marginTop="10dp"   
+    android:layout_width="fill_parent"  
+    android:layout_height="fill_parent"  
+        android:shrinkColumns="*"  
+    android:stretchColumns="*"  
+> 
+<TableRow   
+        android:layout_height="wrap_content"  
+        android:layout_width="wrap_content"  
+        android:gravity="center_horizontal">  
+ <ImageView
+           android:layout_width="wrap_content" 
+         android:layout_height="wrap_content" 
+           android:gravity="left"
+           android:layout_span="1"
+            android:src="@drawable/alleriaflute"
+           >
+      </ImageView>
+      
+      <TextView
+                  android:layout_width="wrap_content" 
+         android:layout_height="wrap_content"   
+            android:gravity="left"
+            android:textColor="#000099"
+            android:layout_span="8"
+            android:text="阿利亚之笛 Alleria's Flute of Accuracy
+远程部队攻击力+10%，无叠加效果，不能与强击光环同时使用。" >
+        </TextView>
+
+        </TableRow>
+        </TableLayout>
+<TableLayout android:layout_marginTop="10dp"   
+    android:layout_width="fill_parent"  
+    android:layout_height="fill_parent"  
+        android:shrinkColumns="*"  
+    android:stretchColumns="*"  
+> 
+<TableRow   
+        android:layout_height="wrap_content"  
+        android:layout_width="wrap_content"  
+        android:gravity="center_horizontal">  
+ <ImageView
+           android:layout_width="wrap_content" 
+         android:layout_height="wrap_content" 
+           android:gravity="left"
+           android:layout_span="1"
+            android:src="@drawable/spellshieldamulet"
+           >
+      </ImageView>
+      
+      <TextView
+                  android:layout_width="wrap_content" 
+         android:layout_height="wrap_content"   
+            android:gravity="left"
+            android:textColor="#000099"
+            android:layout_span="8"
+            android:text="魔法护盾护身符 Amulet of Spell Shield
+每隔40秒为携带者抵挡一次魔法伤害（非魔法攻击），无叠加效果。对于诱捕这样的物理技能无效。" >
+        </TextView>
+
+        </TableRow>
+        </TableLayout>
+<TableLayout android:layout_marginTop="10dp"   
+    android:layout_width="fill_parent"  
+    android:layout_height="fill_parent"  
+        android:shrinkColumns="*"  
+    android:stretchColumns="*"  
+> 
+<TableRow   
+        android:layout_height="wrap_content"  
+        android:layout_width="wrap_content"  
+        android:gravity="center_horizontal">  
+ <ImageView
+           android:layout_width="wrap_content" 
+         android:layout_height="wrap_content" 
+           android:gravity="left"
+           android:layout_span="1"
+            android:src="@drawable/ancientjanggo"
+           >
+      </ImageView>
+      
+      <TextView
+                  android:layout_width="wrap_content" 
+         android:layout_height="wrap_content"   
+            android:gravity="left"
+            android:textColor="#000099"
+            android:layout_span="8"
+            android:text="古之忍耐姜歌 Ancient Janggo of Endurance
+己/友方部队和自己的移动速度+10%，攻击速度+5%，无叠加效果，不能与耐久光环同时使用。" >
+        </TextView>
+
+        </TableRow>
+        </TableLayout>
+        <TableLayout android:layout_marginTop="10dp"   
+    android:layout_width="fill_parent"  
+    android:layout_height="fill_parent"  
+        android:shrinkColumns="*"  
+    android:stretchColumns="*"  
+> 
+<TableRow   
+        android:layout_height="wrap_content"  
+        android:layout_width="wrap_content"  
+        android:gravity="center_horizontal">  
+ <ImageView
+           android:layout_width="match_parent" 
+         android:layout_height="match_parent" 
+           android:gravity="left"
+           android:layout_span="1"
+            android:src="@drawable/belt"
+           >
+      </ImageView>
+      
+      <TextView
+                  android:layout_width="match_parent" 
+         android:layout_height="match_parent"   
+            android:gravity="left"
+            android:textColor="#000099"
+            android:layout_span="8"
+            android:text="力量腰带 Belt of Giant Strength +6
+让携带者力量+6，可叠加。" >
+        </TextView>
+
+        </TableRow>
+        </TableLayout>
+   
+<TableLayout android:layout_marginTop="10dp"   
+    android:layout_width="fill_parent"  
+    android:layout_height="fill_parent"  
+        android:shrinkColumns="*"  
+    android:stretchColumns="*"  
+> 
+<TableRow   
+        android:layout_height="wrap_content"  
+        android:layout_width="wrap_content"  
+        android:gravity="center_horizontal">  
+ <ImageView
+           android:layout_width="wrap_content" 
+         android:layout_height="wrap_content" 
+           android:gravity="left"
+           android:layout_span="1"
+            android:src="@drawable/boots"
+           >
+      </ImageView>
+      
+      <TextView
+                  android:layout_width="wrap_content" 
+         android:layout_height="wrap_content"   
+            android:gravity="left"
+            android:textColor="#000099"
+            android:layout_span="8"
+            android:text="奎尔萨拉斯之靴 Boots of Quel'Thalas +6
+让携带者敏捷+6，可叠加。" >
+        </TextView>
+
+        </TableRow>
+        </TableLayout>
+        <TableLayout android:layout_marginTop="10dp"   
+    android:layout_width="fill_parent"  
+    android:layout_height="fill_parent"  
+        android:shrinkColumns="*"  
+    android:stretchColumns="*"  
+> 
+<TableRow   
+        android:layout_height="wrap_content"  
+        android:layout_width="wrap_content"  
+        android:gravity="center_horizontal">  
+ <ImageView
+           android:layout_width="wrap_content" 
+         android:layout_height="wrap_content" 
+           android:gravity="left"
+           android:layout_span="1"
+            android:src="@drawable/bootsofspeed"
+           >
+      </ImageView>
+      
+      <TextView
+                  android:layout_width="wrap_content" 
+         android:layout_height="wrap_content"   
+            android:gravity="left"
+            android:textColor="#000099"
+            android:layout_span="8"
+            android:text="速度之靴 Boots of Speed
+让携带者速度+60（不能超过400），无叠加效果。" >
+        </TextView>
+
+        </TableRow>
+        </TableLayout>
+        <TableLayout android:layout_marginTop="10dp"   
+    android:layout_width="fill_parent"  
+    android:layout_height="fill_parent"  
+        android:shrinkColumns="*"  
+    android:stretchColumns="*"  
+> 
+<TableRow   
+        android:layout_height="wrap_content"  
+        android:layout_width="wrap_content"  
+        android:gravity="center_horizontal">  
+ <ImageView
+           android:layout_width="wrap_content" 
+         android:layout_height="wrap_content" 
+           android:gravity="left"
+           android:layout_span="1"
+            android:src="@drawable/circlet"
+           >
+      </ImageView>
+      
+      <TextView
+                  android:layout_width="wrap_content" 
+         android:layout_height="wrap_content"   
+            android:gravity="left"
+            android:textColor="#000099"
+            android:layout_span="8"
+            android:text="贵族圆环 Circlet of Nobility
+携带者攻击力，力量，敏捷，智慧全+2，可叠加。" >
+        </TextView>
+
+        </TableRow>
+        </TableLayout>
+        <TableLayout android:layout_marginTop="10dp"   
+    android:layout_width="fill_parent"  
+    android:layout_height="fill_parent"  
+        android:shrinkColumns="*"  
+    android:stretchColumns="*"  
+> 
+<TableRow   
+        android:layout_height="wrap_content"  
+        android:layout_width="wrap_content"  
+        android:gravity="center_horizontal">  
+ <ImageView
+           android:layout_width="wrap_content" 
+         android:layout_height="wrap_content" 
+           android:gravity="left"
+           android:layout_span="1"
+            android:src="@drawable/clawsofattack"
+           >
+      </ImageView>
+      
+      <TextView
+                  android:layout_width="wrap_content" 
+         android:layout_height="wrap_content"   
+            android:gravity="left"
+            android:textColor="#000099"
+            android:layout_span="8"
+            android:text="攻击之爪 Claws of Attack +6
+携带者攻击力+6，可叠加。" >
+        </TextView>
+
+        </TableRow>
+        </TableLayout>
+        <TableLayout android:layout_marginTop="10dp"   
+    android:layout_width="fill_parent"  
+    android:layout_height="fill_parent"  
+        android:shrinkColumns="*"  
+    android:stretchColumns="*"  
+> 
+<TableRow   
+        android:layout_height="wrap_content"  
+        android:layout_width="wrap_content"  
+        android:gravity="center_horizontal">  
+ <ImageView
+           android:layout_width="wrap_content" 
+         android:layout_height="wrap_content" 
+           android:gravity="left"
+           android:layout_span="1"
+            android:src="@drawable/clawsofattack"
+           >
+      </ImageView>
+      
+      <TextView
+                  android:layout_width="wrap_content" 
+         android:layout_height="wrap_content"   
+            android:gravity="left"
+            android:textColor="#000099"
+            android:layout_span="8"
+            android:text="攻击之爪 Claws of Attack +9
+携带者攻击力+9，可叠加。 " >
+        </TextView>
+
+        </TableRow>
+        </TableLayout>
+        <TableLayout android:layout_marginTop="10dp"   
+    android:layout_width="fill_parent"  
+    android:layout_height="fill_parent"  
+        android:shrinkColumns="*"  
+    android:stretchColumns="*"  
+> 
+<TableRow   
+        android:layout_height="wrap_content"  
+        android:layout_width="wrap_content"  
+        android:gravity="center_horizontal">  
+ <ImageView
+           android:layout_width="wrap_content" 
+         android:layout_height="wrap_content" 
+           android:gravity="left"
+           android:layout_span="1"
+            android:src="@drawable/clawsofattack"
+           >
+      </ImageView>
+      
+      <TextView
+                  android:layout_width="wrap_content" 
+         android:layout_height="wrap_content"   
+            android:gravity="left"
+            android:textColor="#000099"
+            android:layout_span="8"
+            android:text="攻击之爪 Claws of Attack +12
+携带者攻击力+12，可叠加。" >
+        </TextView>
+
+        </TableRow>
+        </TableLayout>
+        <TableLayout android:layout_marginTop="10dp"   
+    android:layout_width="fill_parent"  
+    android:layout_height="fill_parent"  
+        android:shrinkColumns="*"  
+    android:stretchColumns="*"  
+> 
+<TableRow   
+        android:layout_height="wrap_content"  
+        android:layout_width="wrap_content"  
+        android:gravity="center_horizontal">  
+ <ImageView
+           android:layout_width="wrap_content" 
+         android:layout_height="wrap_content" 
+           android:gravity="left"
+           android:layout_span="1"
+            android:src="@drawable/clawsofattack"
+           >
+      </ImageView>
+      
+      <TextView
+                  android:layout_width="wrap_content" 
+         android:layout_height="wrap_content"   
+            android:gravity="left"
+            android:textColor="#000099"
+            android:layout_span="8"
+            android:text="攻击之爪 Claws of Attack +15
+携带者攻击力+15，可叠加。 " >
+        </TextView>
+
+        </TableRow>
+        </TableLayout>
+        <TableLayout android:layout_marginTop="10dp"   
+    android:layout_width="fill_parent"  
+    android:layout_height="fill_parent"  
+        android:shrinkColumns="*"  
+    android:stretchColumns="*"  
+> 
+<TableRow   
+        android:layout_height="wrap_content"  
+        android:layout_width="wrap_content"  
+        android:gravity="center_horizontal">  
+ <ImageView
+           android:layout_width="wrap_content" 
+         android:layout_height="wrap_content" 
+           android:gravity="left"
+           android:layout_span="1"
+            android:src="@drawable/cloakofflames"
+           >
+      </ImageView>
+      
+      <TextView
+                  android:layout_width="wrap_content" 
+         android:layout_height="wrap_content"   
+            android:gravity="left"
+            android:textColor="#000099"
+            android:layout_span="8"
+            android:text="火焰披风 Cloak of Flames
+携带者被火焰包围，对自己周围的敌方地面部队造成10生命/秒的伤害，无叠加效果，不能与献祭同时使用。 " >
+        </TextView>
+
+        </TableRow>
+        </TableLayout>
+        <TableLayout android:layout_marginTop="10dp"   
+    android:layout_width="fill_parent"  
+    android:layout_height="fill_parent"  
+        android:shrinkColumns="*"  
+    android:stretchColumns="*"  
+> 
+<TableRow   
+        android:layout_height="wrap_content"  
+        android:layout_width="wrap_content"  
+        android:gravity="center_horizontal">  
+ <ImageView
+           android:layout_width="wrap_content" 
+         android:layout_height="wrap_content" 
+           android:gravity="left"
+           android:layout_span="1"
+            android:src="@drawable/cloak"
+           >
+      </ImageView>
+      
+      <TextView
+                  android:layout_width="wrap_content" 
+         android:layout_height="wrap_content"   
+            android:gravity="left"
+            android:textColor="#000099"
+            android:layout_span="8"
+            android:text="影子风衣 Cloak of Shadows
+让使用者具有晚上影遁的技能，如果移动、攻击、使用技能、使用物品，或到了白天或被有反隐形单位或者能力看到，隐形将失效。" >
+        </TextView>
+
+        </TableRow>
+        </TableLayout>
+        <TableLayout android:layout_marginTop="10dp"   
+    android:layout_width="fill_parent"  
+    android:layout_height="fill_parent"  
+        android:shrinkColumns="*"  
+    android:stretchColumns="*"  
+> 
+<TableRow   
+        android:layout_height="wrap_content"  
+        android:layout_width="wrap_content"  
+        android:gravity="center_horizontal">  
+ <ImageView
+           android:layout_width="wrap_content" 
+         android:layout_height="wrap_content" 
+           android:gravity="left"
+           android:layout_span="1"
+            android:src="@drawable/crownofkings"
+           >
+      </ImageView>
+      
+      <TextView
+                  android:layout_width="wrap_content" 
+         android:layout_height="wrap_content"   
+            android:gravity="left"
+            android:textColor="#000099"
+            android:layout_span="8"
+            android:text="王冠 Crown of Kings +5
+携带者攻击力，力量，敏捷，智慧全部+5，携带多个有叠加效果。" >
+        </TextView>
+
+        </TableRow>
+        </TableLayout>
+        <TableLayout android:layout_marginTop="10dp"   
+    android:layout_width="fill_parent"  
+    android:layout_height="fill_parent"  
+        android:shrinkColumns="*"  
+    android:stretchColumns="*"  
+> 
+<TableRow   
+        android:layout_height="wrap_content"  
+        android:layout_width="wrap_content"  
+        android:gravity="center_horizontal">  
+ <ImageView
+           android:layout_width="wrap_content" 
+         android:layout_height="wrap_content" 
+           android:gravity="left"
+           android:layout_span="1"
+            android:src="@drawable/crystalball"
+           >
+      </ImageView>
+      
+      <TextView
+                  android:layout_width="wrap_content" 
+         android:layout_height="wrap_content"   
+            android:gravity="left"
+            android:textColor="#000099"
+            android:layout_span="8"
+            android:text="水晶球 Crystal Ball
+携带者可每隔60秒察看任意一区域，可显示隐身单位。" >
+        </TextView>
+
+        </TableRow>
+        </TableLayout>
+        <TableLayout android:layout_marginTop="10dp"   
+    android:layout_width="fill_parent"  
+    android:layout_height="fill_parent"  
+        android:shrinkColumns="*"  
+    android:stretchColumns="*"  
+> 
+<TableRow   
+        android:layout_height="wrap_content"  
+        android:layout_width="wrap_content"  
+        android:gravity="center_horizontal">  
+ <ImageView
+           android:layout_width="wrap_content" 
+         android:layout_height="wrap_content" 
+           android:gravity="left"
+           android:layout_span="1"
+            android:src="@drawable/gauntletsofogrestrength"
+           >
+      </ImageView>
+      
+      <TextView
+                  android:layout_width="wrap_content" 
+         android:layout_height="wrap_content"   
+            android:gravity="left"
+            android:textColor="#000099"
+            android:layout_span="8"
+            android:text="食人魔手套 Gauntlets of Ogre Strength +3
+让携带者力量+3。" >
+        </TextView>
+
+        </TableRow>
+        </TableLayout>
+        <TableLayout android:layout_marginTop="10dp"   
+    android:layout_width="fill_parent"  
+    android:layout_height="fill_parent"  
+        android:shrinkColumns="*"  
+    android:stretchColumns="*"  
+> 
+<TableRow   
+        android:layout_height="wrap_content"  
+        android:layout_width="wrap_content"  
+        android:gravity="center_horizontal">  
+ <ImageView
+           android:layout_width="wrap_content" 
+         android:layout_height="wrap_content" 
+           android:gravity="left"
+           android:layout_span="1"
+            android:src="@drawable/glove"
+           >
+      </ImageView>
+      
+      <TextView
+                  android:layout_width="wrap_content" 
+         android:layout_height="wrap_content"   
+            android:gravity="left"
+            android:textColor="#000099"
+            android:layout_span="8"
+            android:text="加速手套 Gloves of Haste
+携带者攻击速度+15%，可叠加。" >
+        </TextView>
+
+        </TableRow>
+        </TableLayout>
+        <TableLayout android:layout_marginTop="10dp"   
+    android:layout_width="fill_parent"  
+    android:layout_height="fill_parent"  
+        android:shrinkColumns="*"  
+    android:stretchColumns="*"  
+> 
+<TableRow   
+        android:layout_height="wrap_content"  
+        android:layout_width="wrap_content"  
+        android:gravity="center_horizontal">  
+ <ImageView
+           android:layout_width="wrap_content" 
+         android:layout_height="wrap_content" 
+           android:gravity="left"
+           android:layout_span="1"
+            android:src="@drawable/helmofvalor"
+           >
+      </ImageView>
+      
+      <TextView
+                  android:layout_width="wrap_content" 
+         android:layout_height="wrap_content"   
+            android:gravity="left"
+            android:textColor="#000099"
+            android:layout_span="8"
+            android:text="英勇头盔 Helm of Valor
+携带者力量+4，敏捷+4，携带多个有叠加效果。 " >
+        </TextView>
+
+        </TableRow>
+        </TableLayout>
+        <TableLayout android:layout_marginTop="10dp"   
+    android:layout_width="fill_parent"  
+    android:layout_height="fill_parent"  
+        android:shrinkColumns="*"  
+    android:stretchColumns="*"  
+> 
+<TableRow   
+        android:layout_height="wrap_content"  
+        android:layout_width="wrap_content"  
+        android:gravity="center_horizontal">  
+ <ImageView
+           android:layout_width="wrap_content" 
+         android:layout_height="wrap_content" 
+           android:gravity="left"
+           android:layout_span="1"
+            android:src="@drawable/hoodofcunning"
+           >
+      </ImageView>
+      
+      <TextView
+                  android:layout_width="wrap_content" 
+         android:layout_height="wrap_content"   
+            android:gravity="left"
+            android:textColor="#000099"
+            android:layout_span="8"
+            android:text="灵巧头巾 Hood of Cunning
+携带者敏捷+4，智慧+4，携带多个有叠加效果。" >
+        </TextView>
+
+        </TableRow>
+        </TableLayout>
+        <TableLayout android:layout_marginTop="10dp"   
+    android:layout_width="fill_parent"  
+    android:layout_height="fill_parent"  
+        android:shrinkColumns="*"  
+    android:stretchColumns="*"  
+> 
+<TableRow   
+        android:layout_height="wrap_content"  
+        android:layout_width="wrap_content"  
+        android:gravity="center_horizontal">  
+ <ImageView
+           android:layout_width="wrap_content" 
+         android:layout_height="wrap_content" 
+           android:gravity="left"
+           android:layout_span="1"
+            android:src="@drawable/daggerofescape"
+           >
+      </ImageView>
+      
+      <TextView
+                  android:layout_width="wrap_content" 
+         android:layout_height="wrap_content"   
+            android:gravity="left"
+            android:textColor="#000099"
+            android:layout_span="8"
+            android:text="科勒恩的逃脱匕首 Kelen's Dagger of Escape
+携带者可每隔30秒使用一次闪烁技能。" >
+        </TextView>
+
+        </TableRow>
+        </TableLayout>
+        <TableLayout android:layout_marginTop="10dp"   
+    android:layout_width="fill_parent"  
+    android:layout_height="fill_parent"  
+        android:shrinkColumns="*"  
+    android:stretchColumns="*"  
+> 
+<TableRow   
+        android:layout_height="wrap_content"  
+        android:layout_width="wrap_content"  
+        android:gravity="center_horizontal">  
+ <ImageView
+           android:layout_width="wrap_content" 
+         android:layout_height="wrap_content" 
+           android:gravity="left"
+           android:layout_span="1"
+            android:src="@drawable/pipeofinsight"
+           >
+      </ImageView>
+      
+      <TextView
+                  android:layout_width="wrap_content" 
+         android:layout_height="wrap_content"   
+            android:gravity="left"
+            android:textColor="#000099"
+            android:layout_span="8"
+            android:text="卡嘉长萧 Khadgar's Pipe of Insight
+携带者周围范围90以内的己/友方部队魔法恢复速度增加1点/秒，无叠加效果，不能与辉煌光环同时使用。" >
+        </TextView>
+
+        </TableRow>
+        </TableLayout>
+        <TableLayout android:layout_marginTop="10dp"   
+    android:layout_width="fill_parent"  
+    android:layout_height="fill_parent"  
+        android:shrinkColumns="*"  
+    android:stretchColumns="*"  
+> 
+<TableRow   
+        android:layout_height="wrap_content"  
+        android:layout_width="wrap_content"  
+        android:gravity="center_horizontal">  
+ <ImageView
+           android:layout_width="wrap_content" 
+         android:layout_height="wrap_content" 
+           android:gravity="left"
+           android:layout_span="1"
+            android:src="@drawable/hornofdoom"
+           >
+      </ImageView>
+      
+      <TextView
+                  android:layout_width="wrap_content" 
+         android:layout_height="wrap_content"   
+            android:gravity="left"
+            android:textColor="#000099"
+            android:layout_span="8"
+            android:text="毁灭之角 Legion Doom-Horn
+携带者周围范围90以内的己/友方部队移动速度+10%，生命恢复速度+0.5生命/秒（包括自己），无叠加效果，不能与邪恶光环同时使用。" >
+        </TextView>
+
+        </TableRow>
+        </TableLayout>
+        <TableLayout android:layout_marginTop="10dp"   
+    android:layout_width="fill_parent"  
+    android:layout_height="fill_parent"  
+        android:shrinkColumns="*"  
+    android:stretchColumns="*"  
+> 
+<TableRow   
+        android:layout_height="wrap_content"  
+        android:layout_width="wrap_content"  
+        android:gravity="center_horizontal">  
+ <ImageView
+           android:layout_width="wrap_content" 
+         android:layout_height="wrap_content" 
+           android:gravity="left"
+           android:layout_span="1"
+            android:src="@drawable/lionhorn"
+           >
+      </ImageView>
+      
+      <TextView
+                  android:layout_width="wrap_content" 
+         android:layout_height="wrap_content"   
+            android:gravity="left"
+            android:textColor="#000099"
+            android:layout_span="8"
+            android:text="风暴狮角 The Lion Horn of Stormwind
+携带者周围范围90以内的己/友方部队护甲+1，无叠加效果，不能与专注光环同时使用。 " >
+        </TextView>
+
+        </TableRow>
+        </TableLayout>
+        <TableLayout android:layout_marginTop="10dp"   
+    android:layout_width="fill_parent"  
+    android:layout_height="fill_parent"  
+        android:shrinkColumns="*"  
+    android:stretchColumns="*"  
+> 
+<TableRow   
+        android:layout_height="wrap_content"  
+        android:layout_width="wrap_content"  
+        android:gravity="center_horizontal">  
+ <ImageView
+           android:layout_width="wrap_content" 
+         android:layout_height="wrap_content" 
+           android:gravity="left"
+           android:layout_span="1"
+            android:src="@drawable/mantleofintelligence"
+           >
+      </ImageView>
+      
+      <TextView
+                  android:layout_width="wrap_content" 
+         android:layout_height="wrap_content"   
+            android:gravity="left"
+            android:textColor="#000099"
+            android:layout_span="8"
+            android:text="智慧披风 Mantle of Intelligence +3
+让携带者智慧+3。" >
+        </TextView>
+
+        </TableRow>
+        </TableLayout>
+        <TableLayout android:layout_marginTop="10dp"   
+    android:layout_width="fill_parent"  
+    android:layout_height="fill_parent"  
+        android:shrinkColumns="*"  
+    android:stretchColumns="*"  
+> 
+<TableRow   
+        android:layout_height="wrap_content"  
+        android:layout_width="wrap_content"  
+        android:gravity="center_horizontal">  
+ <ImageView
+           android:layout_width="wrap_content" 
+         android:layout_height="wrap_content" 
+           android:gravity="left"
+           android:layout_span="1"
+            android:src="@drawable/maskofdeath"
+           >
+      </ImageView>
+      
+      <TextView
+                  android:layout_width="wrap_content" 
+         android:layout_height="wrap_content"   
+            android:gravity="left"
+            android:textColor="#000099"
+            android:layout_span="8"
+            android:text="死亡面罩 Mask of Death
+携带者把给对手造成的伤害的50%转化为自己的生命，没有叠加效果。" >
+        </TextView>
+
+        </TableRow>
+        </TableLayout>
+        <TableLayout android:layout_marginTop="10dp"   
+    android:layout_width="fill_parent"  
+    android:layout_height="fill_parent"  
+        android:shrinkColumns="*"  
+    android:stretchColumns="*"  
+> 
+<TableRow   
+        android:layout_height="wrap_content"  
+        android:layout_width="wrap_content"  
+        android:gravity="center_horizontal">  
+ <ImageView
+           android:layout_width="wrap_content" 
+         android:layout_height="wrap_content" 
+           android:gravity="left"
+           android:layout_span="1"
+            android:src="@drawable/medallionofcourage"
+           >
+      </ImageView>
+      
+      <TextView
+                  android:layout_width="wrap_content" 
+         android:layout_height="wrap_content"   
+            android:gravity="left"
+            android:textColor="#000099"
+            android:layout_span="8"
+            android:text="勇气勋章 Medallion of Courage
+携带者力量+4，智慧+4，携带多个有叠加效果。" >
+        </TextView>
+
+        </TableRow>
+        </TableLayout>
+        <TableLayout android:layout_marginTop="10dp"   
+    android:layout_width="fill_parent"  
+    android:layout_height="fill_parent"  
+        android:shrinkColumns="*"  
+    android:stretchColumns="*"  
+> 
+<TableRow   
+        android:layout_height="wrap_content"  
+        android:layout_width="wrap_content"  
+        android:gravity="center_horizontal">  
+ <ImageView
+           android:layout_width="wrap_content" 
+         android:layout_height="wrap_content" 
+           android:gravity="left"
+           android:layout_span="1"
+            android:src="@drawable/orbofcorruption"
+           >
+      </ImageView>
+      
+      <TextView
+                  android:layout_width="wrap_content" 
+         android:layout_height="wrap_content"   
+            android:gravity="left"
+            android:textColor="#000099"
+            android:layout_span="8"
+            android:text="腐蚀之球 Orb of Corruption
+携带者攻击+5，肉搏英雄对空时变成远程攻击，攻击敌方单位时，会在5秒内削弱敌方护甲5点。" >
+        </TextView>
+
+        </TableRow>
+        </TableLayout>
+        <TableLayout android:layout_marginTop="10dp"   
+    android:layout_width="fill_parent"  
+    android:layout_height="fill_parent"  
+        android:shrinkColumns="*"  
+    android:stretchColumns="*"  
+> 
+<TableRow   
+        android:layout_height="wrap_content"  
+        android:layout_width="wrap_content"  
+        android:gravity="center_horizontal">  
+ <ImageView
+           android:layout_width="wrap_content" 
+         android:layout_height="wrap_content" 
+           android:gravity="left"
+           android:layout_span="1"
+            android:src="@drawable/orbofdarkness"
+           >
+      </ImageView>
+      
+      <TextView
+                  android:layout_width="wrap_content" 
+         android:layout_height="wrap_content"   
+            android:gravity="left"
+            android:textColor="#000099"
+            android:layout_span="8"
+            android:text="黑暗之球 Orb of Darkness
+携带者攻击+6，肉搏英雄对空时变成远程攻击，当用黑暗之球杀死敌方单位时，会从其尸体内召唤出一个黑暗之奴，持续80秒。" >
+        </TextView>
+
+        </TableRow>
+        </TableLayout>
+        <TableLayout android:layout_marginTop="10dp"   
+    android:layout_width="fill_parent"  
+    android:layout_height="fill_parent"  
+        android:shrinkColumns="*"  
+    android:stretchColumns="*"  
+> 
+<TableRow   
+        android:layout_height="wrap_content"  
+        android:layout_width="wrap_content"  
+        android:gravity="center_horizontal">  
+ <ImageView
+           android:layout_width="wrap_content" 
+         android:layout_height="wrap_content" 
+           android:gravity="left"
+           android:layout_span="1"
+            android:src="@drawable/orboffire"
+           >
+      </ImageView>
+      
+      <TextView
+                  android:layout_width="wrap_content" 
+         android:layout_height="wrap_content"   
+            android:gravity="left"
+            android:textColor="#000099"
+            android:layout_span="8"
+            android:text="火焰之球 Orb of Fire
+携带者攻击+5，肉搏英雄对空时变成远程攻击，攻击敌方单位时，在范围14以内的单位将受到溅射伤害。" >
+        </TextView>
+
+        </TableRow>
+        </TableLayout>
+        <TableLayout android:layout_marginTop="10dp"   
+    android:layout_width="fill_parent"  
+    android:layout_height="fill_parent"  
+        android:shrinkColumns="*"  
+    android:stretchColumns="*"  
+> 
+<TableRow   
+        android:layout_height="wrap_content"  
+        android:layout_width="wrap_content"  
+        android:gravity="center_horizontal">  
+ <ImageView
+           android:layout_width="wrap_content" 
+         android:layout_height="wrap_content" 
+           android:gravity="left"
+           android:layout_span="1"
+            android:src="@drawable/orboffrost"
+           >
+      </ImageView>
+      
+      <TextView
+                  android:layout_width="wrap_content" 
+         android:layout_height="wrap_content"   
+            android:gravity="left"
+            android:textColor="#000099"
+            android:layout_span="8"
+            android:text="霜冻之球 Orb of Frost
+携带者攻击+6，肉搏英雄对空时变成远程攻击。用霜冻之球攻击可使被攻击者移动和攻击速度下降3秒钟。 " >
+        </TextView>
+
+        </TableRow>
+        </TableLayout>
+        <TableLayout android:layout_marginTop="10dp"   
+    android:layout_width="fill_parent"  
+    android:layout_height="fill_parent"  
+        android:shrinkColumns="*"  
+    android:stretchColumns="*"  
+> 
+<TableRow   
+        android:layout_height="wrap_content"  
+        android:layout_width="wrap_content"  
+        android:gravity="center_horizontal">  
+ <ImageView
+           android:layout_width="wrap_content" 
+         android:layout_height="wrap_content" 
+           android:gravity="left"
+           android:layout_span="1"
+            android:src="@drawable/orboflightning"
+           >
+      </ImageView>
+      
+      <TextView
+                  android:layout_width="wrap_content" 
+         android:layout_height="wrap_content"   
+            android:gravity="left"
+            android:textColor="#000099"
+            android:layout_span="8"
+            android:text="闪电之球 Orb of Lightning
+携带者攻击+5，肉搏英雄对空时变成远程攻击，攻击敌方单位时，有一定几率驱散魔法效果并使单位减速3秒，可对召唤生物造成150点伤害。" >
+        </TextView>
+
+        </TableRow>
+        </TableLayout>
+        <TableLayout android:layout_marginTop="10dp"   
+    android:layout_width="fill_parent"  
+    android:layout_height="fill_parent"  
+        android:shrinkColumns="*"  
+    android:stretchColumns="*"  
+> 
+<TableRow   
+        android:layout_height="wrap_content"  
+        android:layout_width="wrap_content"  
+        android:gravity="center_horizontal">  
+ <ImageView
+           android:layout_width="wrap_content" 
+         android:layout_height="wrap_content" 
+           android:gravity="left"
+           android:layout_span="1"
+            android:src="@drawable/orbofvenom"
+           >
+      </ImageView>
+      
+      <TextView
+                  android:layout_width="wrap_content" 
+         android:layout_height="wrap_content"   
+            android:gravity="left"
+            android:textColor="#000099"
+            android:layout_span="8"
+            android:text="毒液之球 Orb of Venom
+携带者攻击+5，肉搏英雄对空时变成远程攻击，攻击敌方单位时，会使其在10秒内中毒，产生每秒9点伤害。" >
+        </TextView>
+
+        </TableRow>
+        </TableLayout>
+        <TableLayout android:layout_marginTop="10dp"   
+    android:layout_width="fill_parent"  
+    android:layout_height="fill_parent"  
+        android:shrinkColumns="*"  
+    android:stretchColumns="*"  
+> 
+<TableRow   
+        android:layout_height="wrap_content"  
+        android:layout_width="wrap_content"  
+        android:gravity="center_horizontal">  
+ <ImageView
+           android:layout_width="wrap_content" 
+         android:layout_height="wrap_content" 
+           android:gravity="left"
+           android:layout_span="1"
+            android:src="@drawable/pendantofenergy"
+           >
+      </ImageView>
+      
+      <TextView
+                  android:layout_width="wrap_content" 
+         android:layout_height="wrap_content"   
+            android:gravity="left"
+            android:textColor="#000099"
+            android:layout_span="8"
+            android:text="能量垂饰 Pendant of Energy
+携带者法力+150，可叠加。" >
+        </TextView>
+
+        </TableRow>
+        </TableLayout>
+        <TableLayout android:layout_marginTop="10dp"   
+    android:layout_width="fill_parent"  
+    android:layout_height="fill_parent"  
+        android:shrinkColumns="*"  
+    android:stretchColumns="*"  
+> 
+<TableRow   
+        android:layout_height="wrap_content"  
+        android:layout_width="wrap_content"  
+        android:gravity="center_horizontal">  
+ <ImageView
+           android:layout_width="wrap_content" 
+         android:layout_height="wrap_content" 
+           android:gravity="left"
+           android:layout_span="1"
+            android:src="@drawable/pendantofmana"
+           >
+      </ImageView>
+      
+      <TextView
+                  android:layout_width="wrap_content" 
+         android:layout_height="wrap_content"   
+            android:gravity="left"
+            android:textColor="#000099"
+            android:layout_span="8"
+            android:text="魔法垂饰 Pendant of Mana
+携带者法力+250，携带多个有叠加效果。" >
+        </TextView>
+
+        </TableRow>
+        </TableLayout>
+        <TableLayout android:layout_marginTop="10dp"   
+    android:layout_width="fill_parent"  
+    android:layout_height="fill_parent"  
+        android:shrinkColumns="*"  
+    android:stretchColumns="*"  
+> 
+<TableRow   
+        android:layout_height="wrap_content"  
+        android:layout_width="wrap_content"  
+        android:gravity="center_horizontal">  
+ <ImageView
+           android:layout_width="wrap_content" 
+         android:layout_height="wrap_content" 
+           android:gravity="left"
+           android:layout_span="1"
+            android:src="@drawable/periapt1"
+           >
+      </ImageView>
+      
+      <TextView
+                  android:layout_width="wrap_content" 
+         android:layout_height="wrap_content"   
+            android:gravity="left"
+            android:textColor="#000099"
+            android:layout_span="8"
+            android:text="卡德医疗宝石 Khadgar's Gem of Health
+携带者生命+300，可叠加。 " >
+        </TextView>
+
+        </TableRow>
+        </TableLayout>
+        <TableLayout android:layout_marginTop="10dp"   
+    android:layout_width="fill_parent"  
+    android:layout_height="fill_parent"  
+        android:shrinkColumns="*"  
+    android:stretchColumns="*"  
+> 
+<TableRow   
+        android:layout_height="wrap_content"  
+        android:layout_width="wrap_content"  
+        android:gravity="center_horizontal">  
+ <ImageView
+           android:layout_width="wrap_content" 
+         android:layout_height="wrap_content" 
+           android:gravity="left"
+           android:layout_span="1"
+            android:src="@drawable/periapt"
+           >
+      </ImageView>
+      
+      <TextView
+                  android:layout_width="wrap_content" 
+         android:layout_height="wrap_content"   
+            android:gravity="left"
+            android:textColor="#000099"
+            android:layout_span="8"
+            android:text="生命护身符 Periapt of Vitality
+携带者生命+150，可叠加。" >
+        </TextView>
+
+        </TableRow>
+        </TableLayout>
+        <TableLayout android:layout_marginTop="10dp"   
+    android:layout_width="fill_parent"  
+    android:layout_height="fill_parent"  
+        android:shrinkColumns="*"  
+    android:stretchColumns="*"  
+> 
+<TableRow   
+        android:layout_height="wrap_content"  
+        android:layout_width="wrap_content"  
+        android:gravity="center_horizontal">  
+ <ImageView
+           android:layout_width="wrap_content" 
+         android:layout_height="wrap_content" 
+           android:gravity="left"
+           android:layout_span="1"
+            android:src="@drawable/ringgreen"
+           >
+      </ImageView>
+      
+      <TextView
+                  android:layout_width="wrap_content" 
+         android:layout_height="wrap_content"   
+            android:gravity="left"
+            android:textColor="#000099"
+            android:layout_span="8"
+            android:text="守护指环 Ring of Protection +2
+携带者护甲+2，携带多个有叠加效果。" >
+        </TextView>
+
+        </TableRow>
+        </TableLayout>
+        <TableLayout android:layout_marginTop="10dp"   
+    android:layout_width="fill_parent"  
+    android:layout_height="fill_parent"  
+        android:shrinkColumns="*"  
+    android:stretchColumns="*"  
+> 
+<TableRow   
+        android:layout_height="wrap_content"  
+        android:layout_width="wrap_content"  
+        android:gravity="center_horizontal">  
+ <ImageView
+           android:layout_width="wrap_content" 
+         android:layout_height="wrap_content" 
+           android:gravity="left"
+           android:layout_span="1"
+            android:src="@drawable/ringgreen"
+           >
+      </ImageView>
+      
+      <TextView
+                  android:layout_width="wrap_content" 
+         android:layout_height="wrap_content"   
+            android:gravity="left"
+            android:textColor="#000099"
+            android:layout_span="8"
+            android:text="守护指环 Ring of Protection +3
+携带者护甲+3，携带多个有叠加效果。  " >
+        </TextView>
+
+        </TableRow>
+        </TableLayout>
+        <TableLayout android:layout_marginTop="10dp"   
+    android:layout_width="fill_parent"  
+    android:layout_height="fill_parent"  
+        android:shrinkColumns="*"  
+    android:stretchColumns="*"  
+> 
+<TableRow   
+        android:layout_height="wrap_content"  
+        android:layout_width="wrap_content"  
+        android:gravity="center_horizontal">  
+ <ImageView
+           android:layout_width="wrap_content" 
+         android:layout_height="wrap_content" 
+           android:gravity="left"
+           android:layout_span="1"
+            android:src="@drawable/ringgreen"
+           >
+      </ImageView>
+      
+      <TextView
+                  android:layout_width="wrap_content" 
+         android:layout_height="wrap_content"   
+            android:gravity="left"
+            android:textColor="#000099"
+            android:layout_span="8"
+            android:text="守护指环 Ring of Protection +4
+携带者护甲+4，携带多个有叠加效果。" >
+        </TextView>
+
+        </TableRow>
+        </TableLayout>
+        <TableLayout android:layout_marginTop="10dp"   
+    android:layout_width="fill_parent"  
+    android:layout_height="fill_parent"  
+        android:shrinkColumns="*"  
+    android:stretchColumns="*"  
+> 
+<TableRow   
+        android:layout_height="wrap_content"  
+        android:layout_width="wrap_content"  
+        android:gravity="center_horizontal">  
+ <ImageView
+           android:layout_width="wrap_content" 
+         android:layout_height="wrap_content" 
+           android:gravity="left"
+           android:layout_span="1"
+            android:src="@drawable/ringgreen"
+           >
+      </ImageView>
+      
+      <TextView
+                  android:layout_width="wrap_content" 
+         android:layout_height="wrap_content"   
+            android:gravity="left"
+            android:textColor="#000099"
+            android:layout_span="8"
+            android:text="守护指环 Ring of Protection +5
+携带者护甲+5，携带多个有叠加效果。 " >
+        </TextView>
+
+        </TableRow>
+        </TableLayout>
+        <TableLayout android:layout_marginTop="10dp"   
+    android:layout_width="fill_parent"  
+    android:layout_height="fill_parent"  
+        android:shrinkColumns="*"  
+    android:stretchColumns="*"  
+> 
+<TableRow   
+        android:layout_height="wrap_content"  
+        android:layout_width="wrap_content"  
+        android:gravity="center_horizontal">  
+ <ImageView
+           android:layout_width="wrap_content" 
+         android:layout_height="wrap_content" 
+           android:gravity="left"
+           android:layout_span="1"
+            android:src="@drawable/ringskull"
+           >
+      </ImageView>
+      
+      <TextView
+                  android:layout_width="wrap_content" 
+         android:layout_height="wrap_content"   
+            android:gravity="left"
+            android:textColor="#000099"
+            android:layout_span="8"
+            android:text="恢复指环 Ring of Regeneration
+携带者生命恢复速度加快2生命/秒，可叠加。" >
+        </TextView>
+
+        </TableRow>
+        </TableLayout>
+        <TableLayout android:layout_marginTop="10dp"   
+    android:layout_width="fill_parent"  
+    android:layout_height="fill_parent"  
+        android:shrinkColumns="*"  
+    android:stretchColumns="*"  
+> 
+<TableRow   
+        android:layout_height="wrap_content"  
+        android:layout_width="wrap_content"  
+        android:gravity="center_horizontal">  
+ <ImageView
+           android:layout_width="wrap_content" 
+         android:layout_height="wrap_content" 
+           android:gravity="left"
+           android:layout_span="1"
+            android:src="@drawable/robeofthemagi"
+           >
+      </ImageView>
+      
+      <TextView
+                  android:layout_width="wrap_content" 
+         android:layout_height="wrap_content"   
+            android:gravity="left"
+            android:textColor="#000099"
+            android:layout_span="8"
+            android:text="法师长袍 Robe of the Magi +6
+让携带者智慧+6，可叠加。" >
+        </TextView>
+
+        </TableRow>
+        </TableLayout>
+        <TableLayout android:layout_marginTop="10dp"   
+    android:layout_width="fill_parent"  
+    android:layout_height="fill_parent"  
+        android:shrinkColumns="*"  
+    android:stretchColumns="*"  
+> 
+<TableRow   
+        android:layout_height="wrap_content"  
+        android:layout_width="wrap_content"  
+        android:gravity="center_horizontal">  
+ <ImageView
+           android:layout_width="wrap_content" 
+         android:layout_height="wrap_content" 
+           android:gravity="left"
+           android:layout_span="1"
+            android:src="@drawable/runedbracers"
+           >
+      </ImageView>
+      
+      <TextView
+                  android:layout_width="wrap_content" 
+         android:layout_height="wrap_content"   
+            android:gravity="left"
+            android:textColor="#000099"
+            android:layout_span="8"
+            android:text="神秘腰带 Runed Bracers
+把魔法攻击对携带者带来的伤害减少33%（包括魔法和魔法攻击），无叠加效果。" >
+        </TextView>
+
+        </TableRow>
+        </TableLayout>
+        <TableLayout android:layout_marginTop="10dp"   
+    android:layout_width="fill_parent"  
+    android:layout_height="fill_parent"  
+        android:shrinkColumns="*"  
+    android:stretchColumns="*"  
+> 
+<TableRow   
+        android:layout_height="wrap_content"  
+        android:layout_width="wrap_content"  
+        android:gravity="center_horizontal">  
+ <ImageView
+           android:layout_width="wrap_content" 
+         android:layout_height="wrap_content" 
+           android:gravity="left"
+           android:layout_span="1"
+            android:src="@drawable/bonechimes"
+           >
+      </ImageView>
+      
+      <TextView
+                  android:layout_width="wrap_content" 
+         android:layout_height="wrap_content"   
+            android:gravity="left"
+            android:textColor="#000099"
+            android:layout_span="8"
+            android:text="天灾骨钟 Scourge Bone Chimes
+携带者周围范围90以内的己/友方近战部队在攻击同时把伤害对手的15%转化为自己的生命（如果携带者为近战英雄也有效），无叠加效果，不能与吸血光环同时使用。" >
+        </TextView>
+
+        </TableRow>
+        </TableLayout>
+        <TableLayout android:layout_marginTop="10dp"   
+    android:layout_width="fill_parent"  
+    android:layout_height="fill_parent"  
+        android:shrinkColumns="*"  
+    android:stretchColumns="*"  
+> 
+<TableRow   
+        android:layout_height="wrap_content"  
+        android:layout_width="wrap_content"  
+        android:gravity="center_horizontal">  
+ <ImageView
+           android:layout_width="wrap_content" 
+         android:layout_height="wrap_content" 
+           android:gravity="left"
+           android:layout_span="1"
+            android:src="@drawable/slippersofagility"
+           >
+      </ImageView>
+      
+      <TextView
+                  android:layout_width="wrap_content" 
+         android:layout_height="wrap_content"   
+            android:gravity="left"
+            android:textColor="#000099"
+            android:layout_span="8"
+            android:text="敏捷之靴 Slippers of Agility +3
+让携带者敏捷+3。 " >
+        </TextView>
+
+        </TableRow>
+        </TableLayout>
+        <TableLayout android:layout_marginTop="10dp"   
+    android:layout_width="fill_parent"  
+    android:layout_height="fill_parent"  
+        android:shrinkColumns="*"  
+    android:stretchColumns="*"  
+> 
+<TableRow   
+        android:layout_height="wrap_content"  
+        android:layout_width="wrap_content"  
+        android:gravity="center_horizontal">  
+ <ImageView
+           android:layout_width="wrap_content" 
+         android:layout_height="wrap_content" 
+           android:gravity="left"
+           android:layout_span="1"
+            android:src="@drawable/sobimask"
+           >
+      </ImageView>
+      
+      <TextView
+                  android:layout_width="wrap_content" 
+         android:layout_height="wrap_content"   
+            android:gravity="left"
+            android:textColor="#000099"
+            android:layout_span="8"
+            android:text="艺人面罩 Sobi Mask
+提高携带者魔法值恢复速度50%，可与辉煌光环叠加。 " >
+        </TextView>
+
+        </TableRow>
+        </TableLayout>
+        <TableLayout android:layout_marginTop="10dp"   
+    android:layout_width="fill_parent"  
+    android:layout_height="fill_parent"  
+        android:shrinkColumns="*"  
+    android:stretchColumns="*"  
+> 
+<TableRow   
+        android:layout_height="wrap_content"  
+        android:layout_width="wrap_content"  
+        android:gravity="center_horizontal">  
+ <ImageView
+           android:layout_width="wrap_content" 
+         android:layout_height="wrap_content" 
+           android:gravity="left"
+           android:layout_span="1"
+            android:src="@drawable/staffofnegation"
+           >
+      </ImageView>
+      
+      <TextView
+                  android:layout_width="wrap_content" 
+         android:layout_height="wrap_content"   
+            android:gravity="left"
+            android:textColor="#000099"
+            android:layout_span="8"
+            android:text="否定权杖 Staff of Negation
+驱散范围内所有的魔法效果。对召唤单位造成200点伤害。" >
+        </TextView>
+
+        </TableRow>
+        </TableLayout>
+        <TableLayout android:layout_marginTop="10dp"   
+    android:layout_width="fill_parent"  
+    android:layout_height="fill_parent"  
+        android:shrinkColumns="*"  
+    android:stretchColumns="*"  
+> 
+<TableRow   
+        android:layout_height="wrap_content"  
+        android:layout_width="wrap_content"  
+        android:gravity="center_horizontal">  
+ <ImageView
+           android:layout_width="wrap_content" 
+         android:layout_height="wrap_content" 
+           android:gravity="left"
+           android:layout_span="1"
+            android:src="@drawable/staffofpreservation"
+           >
+      </ImageView>
+      
+      <TextView
+                  android:layout_width="wrap_content" 
+         android:layout_height="wrap_content"   
+            android:gravity="left"
+            android:textColor="#000099"
+            android:layout_span="8"
+            android:text="保存权杖 Staff of Preservation
+把自己方的单位传送到自己最高级主基地旁，不能作用自己，不能作用友军。。" >
+        </TextView>
+
+        </TableRow>
+        </TableLayout>
+        <TableLayout android:layout_marginTop="10dp"   
+    android:layout_width="fill_parent"  
+    android:layout_height="fill_parent"  
+        android:shrinkColumns="*"  
+    android:stretchColumns="*"  
+> 
+<TableRow   
+        android:layout_height="wrap_content"  
+        android:layout_width="wrap_content"  
+        android:gravity="center_horizontal">  
+ <ImageView
+           android:layout_width="wrap_content" 
+         android:layout_height="wrap_content" 
+           android:gravity="left"
+           android:layout_span="1"
+            android:src="@drawable/staffofsanctuary"
+           >
+      </ImageView>
+      
+      <TextView
+                  android:layout_width="wrap_content" 
+         android:layout_height="wrap_content"   
+            android:gravity="left"
+            android:textColor="#000099"
+            android:layout_span="8"
+            android:text="避难权杖 Staff of Sanctuary
+把自己的单位传送到自己最高级主基地旁，击晕单位并以15点/秒的速度恢复生命，一直到满为止。不能作用自己，不能作用友军。" >
+        </TextView>
+
+        </TableRow>
+        </TableLayout>
+        <TableLayout android:layout_marginTop="10dp"   
+    android:layout_width="fill_parent"  
+    android:layout_height="fill_parent"  
+        android:shrinkColumns="*"  
+    android:stretchColumns="*"  
+> 
+<TableRow   
+        android:layout_height="wrap_content"  
+        android:layout_width="wrap_content"  
+        android:gravity="center_horizontal">  
+ <ImageView
+           android:layout_width="wrap_content" 
+         android:layout_height="wrap_content" 
+           android:gravity="left"
+           android:layout_span="1"
+            android:src="@drawable/staffofsilence"
+           >
+      </ImageView>
+      
+      <TextView
+                  android:layout_width="wrap_content" 
+         android:layout_height="wrap_content"   
+            android:gravity="left"
+            android:textColor="#000099"
+            android:layout_span="8"
+            android:text="沉默权杖 Staff of Silence
+禁止范围内敌人施放魔法。" >
+        </TextView>
+
+        </TableRow>
+        </TableLayout>
+        <TableLayout android:layout_marginTop="10dp"   
+    android:layout_width="fill_parent"  
+    android:layout_height="fill_parent"  
+        android:shrinkColumns="*"  
+    android:stretchColumns="*"  
+> 
+<TableRow   
+        android:layout_height="wrap_content"  
+        android:layout_width="wrap_content"  
+        android:gravity="center_horizontal">  
+ <ImageView
+           android:layout_width="wrap_content" 
+         android:layout_height="wrap_content" 
+           android:gravity="left"
+           android:layout_span="1"
+            android:src="@drawable/staffofteleportation"
+           >
+      </ImageView>
+      
+      <TextView
+                  android:layout_width="wrap_content" 
+         android:layout_height="wrap_content"   
+            android:gravity="left"
+            android:textColor="#000099"
+            android:layout_span="8"
+            android:text="传送权杖 Staff of Teleportation
+让携带者能瞬间移动到自己或友方地面单位或建筑处。 " >
+        </TextView>
+
+        </TableRow>
+        </TableLayout>
+        <TableLayout android:layout_marginTop="10dp"   
+    android:layout_width="fill_parent"  
+    android:layout_height="fill_parent"  
+        android:shrinkColumns="*"  
+    android:stretchColumns="*"  
+> 
+<TableRow   
+        android:layout_height="wrap_content"  
+        android:layout_width="wrap_content"  
+        android:gravity="center_horizontal">  
+ <ImageView
+           android:layout_width="wrap_content" 
+         android:layout_height="wrap_content" 
+           android:gravity="left"
+           android:layout_span="1"
+            android:src="@drawable/talisman"
+           >
+      </ImageView>
+      
+      <TextView
+                  android:layout_width="wrap_content" 
+         android:layout_height="wrap_content"   
+            android:gravity="left"
+            android:textColor="#000099"
+            android:layout_span="8"
+            android:text="闪避护符 Talisman of Evasion
+携带者回避15%的攻击，无叠加效果。不能和醉拳、闪避技能共同作用。" >
+        </TextView>
+
+        </TableRow>
+        </TableLayout>
+        <TableLayout android:layout_marginTop="10dp"   
+    android:layout_width="fill_parent"  
+    android:layout_height="fill_parent"  
+        android:shrinkColumns="*"  
+    android:stretchColumns="*"  
+> 
+<TableRow   
+        android:layout_height="wrap_content"  
+        android:layout_width="wrap_content"  
+        android:gravity="center_horizontal">  
+ <ImageView
+           android:layout_width="wrap_content" 
+         android:layout_height="wrap_content" 
+           android:gravity="left"
+           android:layout_span="1"
+            android:src="@drawable/drum"
+           >
+      </ImageView>
+      
+      <TextView
+                  android:layout_width="wrap_content" 
+         android:layout_height="wrap_content"   
+            android:gravity="left"
+            android:textColor="#000099"
+            android:layout_span="8"
+            android:text="战歌之鼓 Warsong Battle Drums
+携带者周围的己/友方部队攻击力+10%，无叠加效果，不能与命令光环同时使用。" >
+        </TextView>
+
+        </TableRow>
+        </TableLayout>
+
+              <TextView
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_gravity="left"
+                  android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                  android:gravity="left"
+                  android:text="光环物品"
+                  android:textColor="#FF3300" >
+
+        </TextView>
+
+                      <TextView
+                          android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:layout_gravity="left"
+                          android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                          android:gravity="left"
+                          android:textColor="#000"
+                          android:text="        光环物品不能和相同效果的英雄光环叠加效果。 " >
+
+        </TextView>
+
+                      <TextView
+                          android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:layout_gravity="left"
+                          android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                          android:gravity="left"
+                          android:text="战歌之鼓"
+                          android:textColor="#FF3300" >
+
+        </TextView>
+
+                      <TextView
+                          android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:layout_gravity="left"
+                          android:textColor="#000"
+                          android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                          android:gravity="left"
+                          android:text="        战歌之鼓可以和科多兽的战鼓光环叠加。" >
+
+        </TextView>
+
+                      <TextView
+                          android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:layout_gravity="left"
+                          android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                          android:gravity="left"
+                          android:text="球"
+                          android:textColor="#FF3300" >
+
+        </TextView>
+
+                      <TextView
+                          android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:textColor="#000"
+                          android:layout_gravity="left"
+                          android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                          android:gravity="left"
+                          android:text="        所有的球都对魔法免疫单位有效。" >
+
+        </TextView>
+
+                      <TextView
+                          android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:textColor="#000"
+                          android:layout_gravity="left"
+                          android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                          android:gravity="left"
+                          android:text="        远程英雄使用相应的球，画面效果会改变。" >
+
+        </TextView>
+
+                      <TextView
+                          android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:layout_gravity="left"
+                          android:textColor="#000"
+                          android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                          android:gravity="left"
+                          android:text="        携带多个球时攻击伤害会叠加，但效果不会叠加，只有第一个球（优先级从高到低依次为2、1、5、4、8、7）起特殊效果。如果手动使用箭类技能（灼热之箭、黑暗之箭、冰冻之箭），箭类效果将代替球的效果；如果箭类技能是自动施放的，球的效果将代替箭类效果。" >
+
+        </TextView>
+
+                      <TextView
+                          android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:layout_gravity="left"
+                          android:textColor="#000"
+                          android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                          android:gravity="left"
+                          android:text="        死亡面具的效果同球类。" >
+
+        </TextView>
+
+                      <TextView
+                          android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:layout_gravity="left"
+                          android:textColor="#000"
+                          android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                          android:gravity="left"
+                          android:text="        近战英雄携带球不受强击光环作用。" >
+
+        </TextView>
+
+                      <TextView
+                          android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:layout_gravity="left"
+                          android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                          android:gravity="left"
+                          android:text="火焰之球"
+                          android:textColor="#FF3300" >
+
+        </TextView>
+
+                      <TextView
+                          android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:layout_gravity="left"
+                          android:textColor="#000"
+                          android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                          android:gravity="left"
+                          android:text="        火焰之球的溅射效果可以叠加。" >
+
+        </TextView>
+
+
+
+
+
+
+
+
+    </LinearLayout>
+</ScrollView>
+    </LinearLayout>

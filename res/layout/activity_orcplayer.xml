@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#eee"
+        android:orientation="vertical" >
+        
+        <LinearLayout 
+  			android:layout_width="fill_parent"
+  			android:layout_height="45dp"
+  			android:id="@+id/title" 
+  			android:background="@drawable/title_bar"
+  			android:gravity="center_horizontal|center_vertical"  >  
+      		<TextView 
+        		android:layout_width="wrap_content" 
+        		android:layout_height="wrap_content" 
+        		android:text="兽族选手"
+        		android:textSize="20sp"		
+				android:textColor="#ffffff" />       
+			</LinearLayout>
+<ScrollView 
+
+    android:layout_width="fill_parent" 
+    android:layout_height="fill_parent"
+    android:background="#eee"
+>
+<LinearLayout 
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    >
+ 
+
+
+<TextView  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="FLY100%"  
+            android:layout_marginTop="10dp"
+            android:gravity="left"
+             android:textColor="#0000CC"
+            android:textSize="18sp"   
+            ></TextView>  
+<TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="        Fly100%是指陆维梁，中国著名的魔兽争霸选手，世界电子竞技大赛选手，其使用的ID：Fly100%，擅长的种族为兽族。其出道之初加盟的是兰州HACKER俱乐部，后以其独特的兽族打法迅速备受魔兽争霸爱好者关注，并取得众多比赛冠军，后取得NWL第一赛季冠军，成为新一代的兽王，是随李晓峰（SKY，人皇）之后，中国人气最高职业游戏选手。在2009年11月15日于成都举行的WCG2009魔兽项目决赛中，fly100%惜败于同样来自中国的infi（王诩文，塔魔）获得亚军。 "  
+            android:gravity="left"  
+           ></TextView>
+<TextView  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="Grubby"  
+            android:layout_marginTop="10dp"
+            android:gravity="left"
+             android:textColor="#0000CC"
+            android:textSize="18sp"   
+            ></TextView>  
+<TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="        Grubby是“魔兽争霸”兽族著名选手，2002年出道，并且在当年就成了电竞圈中鼎鼎有名的“兽王”，在全球拥有大量粉丝。Grubby已荣膺2005、2006和2009年3届世界最佳魔兽争霸选手，被称为拥有“梦幻般的操作和神样意识”的天才选手。曾获得2次WCG世界冠军，并于2008年进入WCG名人堂。"  
+            android:gravity="left"  
+           ></TextView>
+<TextView  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="Lyn"  
+            android:layout_marginTop="10dp"
+            android:gravity="left"
+             android:textColor="#0000CC"
+            android:textSize="18sp"   
+            ></TextView>  
+<TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="        Lyn是当今最强的兽族之一，现在普遍认为，继老兽王grubby之后，lyn跟fly100%是最有资格当选新兽王的人。而两者之间孰强孰弱，还真不好说，lyn粉说是lyn，fly粉说是fly，不一而足。但可以肯定的，lyn被称为无缺点司令，基本是没有缺点的，大局观、操作、意识样样一流，毫无破绽。种族对战方面，普遍被认定为打精灵吹风流，还有不死族最强的兽族，应对人族的TR与49流也非常好；不过，兽族内战相对软肋。而fly，操作强悍是出名的，正面能力超凡，令人闻风丧胆，可惜，“一条筋”的问题成了公开的秘密，不会变通，时时想扛正面，于是常常被人利用。种族对战方面，兽族内战异常勇猛，本来打人族的功力也十分赞，后来发现被infi纯克，th000也开始占优，打人族能力受到质疑，要知道，当今人族主要是中国三大人族，虽然他挺克sky的。fly似乎不太擅长打吹风流，打不死族还不错吧。论状态的话，就目前为止，lyn比较稳定，fly容易起伏，尤其是WCG2009之后，状态大跌，期待再度雄起吧。"  
+            android:gravity="left"  
+           ></TextView>
+<TextView  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="Focus"  
+            android:layout_marginTop="10dp"
+            android:gravity="left"
+             android:textColor="#0000CC"
+            android:textSize="18sp"   
+            ></TextView>  
+<TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="        韩国电子竞技魔兽争霸3职业选手，和Shy组成的2V2组合是世界最好的2V2之一，2008年的WC3L第15赛季获得冠军，在SOLO方面成绩也很突出。APM非常高一直是他的标志，平均可达350以上。 "  
+            android:gravity="left"  
+           ></TextView>
+<TextView  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="Zacard"  
+            android:layout_marginTop="10dp"
+            android:gravity="left"
+             android:textColor="#0000CC"
+            android:textSize="18sp"   
+            ></TextView>  
+<TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="        Zacard，这是一个令很多玩家谈兽色变的ID，勇猛和凶悍的代名词！自从2004下半年加入SK国际纵队后，Zacard每天都在不断取得进步。这位在2004年8月底的欧韩对抗赛中，连斩MadForg、Zeus[19]、FaTC三员大将，一夜之间扬名立万的兽族选手从未停下过前进的铁蹄。"  
+            android:gravity="left"  
+           ></TextView>
+<TextView  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="xiaoT"  
+            android:layout_marginTop="10dp"
+            android:gravity="left"
+             android:textColor="#0000CC"
+            android:textSize="18sp"   
+            ></TextView>  
+<TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="        xiaoT，是中国公认的兽族第一选手之一。APM达到了310以上，其良好的战术意识和出色的分析能力，使他多次称霸国内的强力武器。由于XIAOT在WAR3比赛中对抗外国选手比较乏力，经常在有优势的情况下输掉比赛，得到了一个外号：巨大优势不胜男 "  
+            android:gravity="left"  
+           ></TextView>
+
+
+  
+
+</LinearLayout>
+</ScrollView>
+</LinearLayout>

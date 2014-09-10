@@ -1,0 +1,382 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#eee"
+        android:orientation="vertical" >
+        
+        <LinearLayout 
+  			android:layout_width="fill_parent"
+  			android:layout_height="45dp"
+  			android:id="@+id/title" 
+  			android:background="@drawable/title_bar"
+  			android:gravity="center_horizontal|center_vertical"  >  
+      		<TextView 
+        		android:layout_width="wrap_content" 
+        		android:layout_height="wrap_content" 
+        		android:text="奇美拉"
+        		android:textSize="20sp"		
+				android:textColor="#ffffff" />       
+			</LinearLayout>
+<ScrollView 
+
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content"
+    android:background="#eee"
+>
+<LinearLayout 
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    >
+
+ 
+
+      
+ <ImageView
+           android:layout_width="wrap_content" 
+         android:layout_height="wrap_content" 
+           android:gravity="left" 
+			android:layout_gravity="center"
+			android:layout_marginTop="10dp"
+			android:layout_marginBottom="10dp"
+            android:src="@drawable/chimaera"
+           >
+      </ImageView>
+
+<TextView 
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="介绍"  
+            android:gravity="left"
+             android:textColor="#339966"
+            android:textSize="18sp"   
+            ></TextView>  
+<TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="        来自灰谷的奇美拉是和暗夜精灵族和睦相处的神秘野兽。这些可怕的双头怪物在黑暗森林的上空盘旋，用致命的喷吐来对付一切侵犯圣洁的卡利姆多大陆的敌人。"  
+            android:gravity="left"  
+           ></TextView>  
+<TextView android:layout_marginTop="10dp" 
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="数据"  
+            android:gravity="left"
+            android:textColor="#339966"
+            android:textSize="18sp"  
+         ></TextView>  
+<TableLayout  
+    android:layout_width="match_parent"  
+    android:layout_height="match_parent"  
+    android:shrinkColumns="*"  
+    android:stretchColumns="*"> 
+<TableRow
+        android:layout_height="wrap_content"  
+        android:layout_width="match_parent">        
+      <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="等级: 5 "  
+            android:gravity="left" 
+            android:layout_span="1" 
+           ></TextView>
+      <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="费用：330/70/5"  
+            android:gravity="left"
+            android:layout_span="1"  
+            ></TextView>
+ 
+</TableRow>
+
+<TableRow
+        android:layout_height="wrap_content"  
+        android:layout_width="match_parent">        
+      <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="单位类型: 普通"  
+            android:gravity="left" 
+            android:layout_span="1" 
+           ></TextView>
+      <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="攻击类型: 魔法/攻城"  
+            android:gravity="left"
+            android:layout_span="1"  
+            ></TextView>
+ 
+</TableRow>
+<TableRow
+        android:layout_height="wrap_content"  
+        android:layout_width="match_parent">        
+      <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="武器类型: 远程溅射/远程"  
+            android:gravity="left" 
+            android:layout_span="1" 
+           ></TextView>
+      <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="护甲类型:轻甲 "  
+            android:gravity="left"
+            android:layout_span="1"  
+            ></TextView>
+ 
+</TableRow>
+<TableRow
+        android:layout_height="wrap_content"  
+        android:layout_width="match_parent">        
+
+      <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="对地攻击:67-83(70-134*)
+45-55(48-88*)"  
+            android:gravity="left"
+            android:layout_span="2"  
+            ></TextView>
+ 
+</TableRow>
+<TableRow
+        android:layout_height="wrap_content"  
+        android:layout_width="match_parent">        
+      <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="对空攻击:无 "  
+            android:gravity="left" 
+            android:layout_span="1" 
+           ></TextView>
+      <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="攻击间隔:2.5"  
+            android:gravity="left"
+            android:layout_span="1"  
+            ></TextView>
+ 
+</TableRow>
+<TableRow
+        android:layout_height="wrap_content"  
+        android:layout_width="match_parent">        
+      <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="生命值:1000  "  
+            android:gravity="left" 
+            android:layout_span="1" 
+           ></TextView>
+      <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="生命恢复: 夜晚"  
+            android:gravity="left"
+            android:layout_span="1"  
+            ></TextView>
+ 
+</TableRow>
+<TableRow
+        android:layout_height="wrap_content"  
+        android:layout_width="match_parent">        
+      <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="魔法:无 "  
+            android:gravity="left" 
+            android:layout_span="1" 
+           ></TextView>
+      <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="攻击范围:45/85"  
+            android:gravity="left"
+            android:layout_span="1"  
+            ></TextView>
+ 
+</TableRow>
+<TableRow
+        android:layout_height="wrap_content"  
+        android:layout_width="match_parent">        
+      <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="白天视野: 160  "  
+            android:gravity="left" 
+            android:layout_span="1" 
+           ></TextView>
+      <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="夜晚视野: 80 (160*) "  
+            android:gravity="left"
+            android:layout_span="1"  
+            ></TextView>
+ 
+</TableRow>
+<TableRow
+        android:layout_height="wrap_content"  
+        android:layout_width="match_parent">        
+      <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="移动速度:中等 (250)"  
+            android:gravity="left" 
+            android:layout_span="1" 
+           ></TextView>
+      <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="训练时间: 60 "  
+            android:gravity="left"
+            android:layout_span="1"  
+            ></TextView>
+ 
+</TableRow>
+<TableRow
+        android:layout_height="wrap_content"  
+        android:layout_width="match_parent">        
+      <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="训练地点:奇美拉栖木 "  
+            android:gravity="left" 
+            android:layout_span="1" 
+           ></TextView>
+       <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="训练热键: C "  
+            android:gravity="left" 
+            android:layout_span="1" 
+           ></TextView>
+ 
+</TableRow>
+<TableRow
+        android:layout_height="wrap_content"  
+        android:layout_width="match_parent">        
+      <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="护甲:2 (8*)"  
+            android:gravity="left" 
+            android:layout_span="1" 
+           ></TextView>
+       <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="全伤害范围: 5 "  
+            android:gravity="left" 
+            android:layout_span="1" 
+           ></TextView>
+ 
+</TableRow>
+<TableRow
+        android:layout_height="wrap_content"  
+        android:layout_width="match_parent">        
+      <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="1/2 伤害范围: 12.5 "  
+            android:gravity="left" 
+            android:layout_span="1" 
+           ></TextView>
+       <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="1/4 伤害范围: 20  "  
+            android:gravity="left" 
+            android:layout_span="1" 
+           ></TextView>
+ 
+</TableRow>
+</TableLayout>
+
+<TextView android:layout_marginTop="10dp" 
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="信息"
+            android:textColor="#339966"
+            android:textSize="18sp"   
+            android:gravity="left"  
+         ></TextView> 
+ 
+     
+         <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="        奇美拉具有两种不同的攻击方式，一种是魔法攻击，主要用来对付战斗单位，并具有溅射伤害效果，另一种则是用来对付建筑的攻城伤害。当研究完腐蚀喷吐后，奇美拉才会具有攻城伤害。"  
+            android:gravity="left"  
+         ></TextView>  
+         <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="        奇美拉非常适合用其超远的射程来进行攻击-撤退类的攻击，特别是在骚扰敌人分矿的时候。"  
+            android:gravity="left"  
+         ></TextView>  
+         <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="        奇美拉无法攻击空中目标。当敌人使用空军来对抗奇美拉时，你需要一些角鹰兽或弓箭手来保护它们。"  
+            android:gravity="left"  
+         ></TextView>            
+<TextView android:layout_marginTop="10dp" 
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="技能"
+                        android:textColor="#339966"
+            android:textSize="18sp"    
+            android:gravity="left"  
+         >
+</TextView>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_marginTop="10dp"
+    android:layout_height="wrap_content" >
+
+ <ImageView
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:src="@drawable/corrosivebreath" >
+
+</ImageView> 
+
+ <TextView
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:layout_gravity="center_vertical"
+     android:text="      腐蚀喷吐 Corrosive Breath (被动技能)"
+     android:textColor="#000" />
+
+</LinearLayout>
+
+ <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content" 
+            android:layout_span="6"     
+            android:text="        让奇美拉在攻击敌人建筑的时候，喷出一股腐蚀性的酸液，来更快的摧毁建筑物。"  
+            android:gravity="left"  
+         >
+</TextView>
+
+    <TextView android:textColor="#000"  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"    
+            android:text="研究费用：125/225；研究地点：奇美拉栖木；研究时间：40s"  
+            android:gravity="left"  
+            ></TextView>  
+
+
+ 
+</LinearLayout>
+</ScrollView>
+</LinearLayout>

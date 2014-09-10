@@ -1,0 +1,352 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#eee"
+        android:orientation="vertical" >
+        
+        <LinearLayout 
+  			android:layout_width="fill_parent"
+  			android:layout_height="45dp"
+  			android:id="@+id/title" 
+  			android:background="@drawable/title_bar"
+  			android:gravity="center_horizontal|center_vertical"  >  
+      		<TextView
+        		android:layout_width="wrap_content" 
+        		android:layout_height="wrap_content" 
+        		android:text="第五章  燃烧军团的归来"
+        		android:textSize="20sp"		
+				android:textColor="#ffffff" />       
+			</LinearLayout>
+<ScrollView 
+
+    android:id="@+id/ScrollView01" 
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content"
+>
+
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin" >
+
+
+
+<ImageView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:layout_marginTop="10dp"
+    android:layout_marginBottom="10dp"
+    android:src="@drawable/humanseal" >
+
+</ImageView> 
+      
+    <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"  
+            android:textStyle="bold"  
+            android:typeface="serif"  
+            android:textSize="18sp"  
+            android:text="洛丹伦的灾难"  
+            android:layout_marginBottom="10dp"
+            android:gravity="left"  
+            ></TextView>  
+	<TextView android:textColor="#000"  
+			android:layout_width="wrap_content"  
+			android:layout_height="wrap_content"    
+			android:text="魔兽争霸3：混乱之治"  
+			android:gravity="left"  
+		></TextView>  
+		<TextView android:textColor="#000"  
+			android:layout_width="wrap_content"  
+			android:layout_height="wrap_content"    
+			android:text="        多月准备后，凯尔苏扎德和他的诅咒教最终释放不死瘟疫发起对洛丹伦的第一击。尤瑟和他的圣骑士们调查了感染区域，希望找到停止瘟疫的方法。尽管他们努力了，但是瘟疫继续传播并且威胁到摧毁联盟。"  
+			android:gravity="left"  
+		></TextView>  
+		<TextView android:textColor="#000"  
+			android:layout_width="wrap_content"  
+			android:layout_height="wrap_content"    
+			android:text="        当瘟疫横扫洛丹伦，特勒纳斯的独子，阿尔赛斯王子，开始对抗不死军团。阿尔赛斯成功的杀死了凯尔苏扎德，但是即便如此，随着抵抗士兵的倒下，不死军团更加强大了。因无法阻止敌军的挫折和打击，阿尔赛斯采取更加极端的措施来打倒他们。最终阿尔赛斯的同伴警告他正在失去人性。"  
+			android:gravity="left"  
+		></TextView>  
+		<TextView android:textColor="#000"  
+			android:layout_width="wrap_content"  
+			android:layout_height="wrap_content"    
+			android:text="        阿尔赛斯的恐惧和决心最终导致了他的毁灭。他追踪不死瘟疫到北极，打算永远结束他的威胁。但是阿尔赛斯王子最终成为巫妖王强大力量的俘虏。相信他将挽救他的人民，阿尔赛斯拿起了诅咒之剑霜之哀伤。虽然剑赋予了他无穷力量，但是也偷走了他的灵魂，并将他变成巫妖王的伟大死亡骑士。随着灵魂的失去和心智崩溃，阿尔赛斯谋杀了亲身父亲，特勒纳斯国王，并将洛丹伦置于巫妖王的铁蹄下。"  
+			android:gravity="left"  
+		></TextView>  
+		<TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"  
+            android:textStyle="bold"  
+            android:typeface="serif"  
+            android:textSize="18sp"  
+            android:text="日泉――奎尔撒拉斯的陨落"  
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:gravity="left"  
+           ></TextView>
+		<TextView android:textColor="#000"  
+			android:layout_width="wrap_content"  
+			android:layout_height="wrap_content"    
+			android:text="        虽然他已经打败了他现在认为的所有敌人，阿尔赛斯仍然被凯尔苏扎德的鬼魂困扰。鬼魂告诉他要为巫妖王的下个计划复活。为了复活，阿尔赛斯需要把凯尔苏扎德的尸体放到神秘的日泉，在高精灵永恒的王国奎尔撒拉斯的永恒王国里。"  
+			android:gravity="left"  
+		></TextView>  
+		<TextView android:textColor="#000"  
+			android:layout_width="wrap_content"  
+			android:layout_height="wrap_content"    
+			android:text="        阿尔赛斯和他的不死军团侵袭了库尔撒拉斯，并围攻粉碎了精灵的防御。斯瓦纳斯。风行者，英勇战斗，但是阿尔赛斯最终击溃了高精灵的军队并且杀到日泉。为表示他冷酷的统治，他甚至将斯瓦纳斯的尸体变为幽灵，诅咒成不死族以服从奎尔撒拉斯的征服。"  
+			android:gravity="left"  
+		></TextView>  
+		<TextView android:textColor="#000"  
+			android:layout_width="wrap_content"  
+			android:layout_height="wrap_content"    
+			android:text="        最终，阿尔赛斯把凯尔苏扎德的尸体放进日泉的圣水中。虽然永恒泉水被这个行为污染了，凯尔苏扎德复活为不死巫妖。复活成远强大于从前的生物，凯尔苏扎德解释了巫妖王的下阶段计划。当阿尔赛斯和他的不死军团转向南部，奎尔撒拉斯已经无一活口。已经屹立了超过九千年，高精灵的辉煌家园，不在了。"  
+			android:gravity="left"  
+		></TextView>  
+		<TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"  
+            android:textStyle="bold"  
+            android:typeface="serif"  
+            android:textSize="18sp"  
+            android:text="阿克蒙德的归来和卡里母多之战"  
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:gravity="left"  
+           ></TextView>
+		<TextView android:textColor="#000"  
+			android:layout_width="wrap_content"  
+			android:layout_height="wrap_content"    
+			android:text="        凯尔苏扎德复活后，阿尔赛斯领导不死军团向南部的达拉兰进发。那儿，巫妖将获得麦迪夫的强大魔力，并用他召唤阿克蒙德回到世界。从那时起，阿克蒙德将亲自开始燃烧军团的最终入侵。甚至科林塔的巫师也不能阻止阿尔赛斯窃取麦迪夫之书，很快凯尔苏扎德就取得施展魔法的一切所需。一万年后，强大的恶魔阿克蒙德和他的主人将再现于艾泽拉斯。但是达拉兰不是他们的最终目的地。在基尔加丹的亲自指挥下，阿克蒙德和他的恶魔跟随不死军团前往卡里母多，准备毁灭Nordrassi，世界之树。"  
+			android:gravity="left"  
+		></TextView>  
+		<TextView android:textColor="#000"  
+			android:layout_width="wrap_content"  
+			android:layout_height="wrap_content"    
+			android:text="        在混乱中，一个孤独的、神秘的先知出现指引众人。这个先知不是别人，正是麦迪夫，最后的守护者，奇迹般的从虚空归来，挽回他的过失。麦迪夫告诉兽人和联盟面临的危险并鼓励他们团结。被时代仇恨所累，兽人和人类将全部灭亡。麦迪夫和每个独立的民族打交道，用预言和欺骗指引他们横跨海洋，到达传说中的陆地卡里母多。兽人和人类很快遇到了长期隐居的卡拉多雷居民。"  
+			android:gravity="left"  
+		></TextView>  
+		<TextView android:textColor="#000"  
+			android:layout_width="wrap_content"  
+			android:layout_height="wrap_content"    
+			android:text="        兽人，由萨尔领导，在跨越卡里母多大荒原时遭受了很多磨难。虽然帮助了石冢。血狼和他的强大的桃仁（tauren）勇士，许多兽人开始屈服于感染他们多年的恶魔杀戮欲。萨尔的最得力的副手，格罗姆。地狱咆哮，甚至背叛了兽族，屈从自己的低贱本能。当地狱咆哮和他忠诚的战歌勇士穿越阿森瓦勒的森林时，他们遭遇了古老的夜精灵哨兵。认定兽人又回到他们好战的老路上，半神赛那瑞斯现身驱赶地狱咆哮和他的兽人。但是，地狱咆哮和他的兽人，被不可思议的憎恨和愤怒驱从，杀死了赛那瑞斯并踏平了古老的森林。最后，地狱咆哮帮助萨尔击败了马诺若斯挽回了荣誉。"  
+			android:gravity="left"  
+		></TextView>  
+		<TextView android:textColor="#000"  
+			android:layout_width="wrap_content"  
+			android:layout_height="wrap_content"    
+			android:text="        当麦迪夫努力使兽人和人类相信他们需要联合时，夜精灵用他们自己的秘密方法对抗燃烧军团。泰兰德。风语者，夜精灵哨兵的不朽高级女祭司，拼命抵挡恶魔和不死军团越过阿森瓦勒森林。泰兰德认识到她需要帮助，所以她唤醒了沉睡千年的夜精灵德鲁依。召集了她的古老爱人，福瑞恩。暴风之怒，泰兰德成功加强了防御并把燃烧军团赶回。在福瑞恩的帮助下，她击败燃烧军团和不死联盟的信心提升了。"  
+			android:gravity="left"  
+		></TextView>  
+		<TextView android:textColor="#000"  
+			android:layout_width="wrap_content"  
+			android:layout_height="wrap_content"    
+			android:text="        在寻找更多冬眠的德鲁依时，福瑞恩发现了他关押弟弟，尤迪安的监狱。认为尤迪安将帮助他们对抗燃烧军团，泰兰德将他释放了。虽然尤迪安真的帮助他们一段时期，他最终逃跑而继续自身的兴趣。"  
+			android:gravity="left"  
+		></TextView>  
+		<TextView android:textColor="#000"  
+			android:layout_width="wrap_content"  
+			android:layout_height="wrap_content"    
+			android:text="        夜精灵紧密团结并且以极大的勇气对抗燃烧军团。燃烧军团从未停止对永恒之泉的渴望，这是世界之树的能量根源和夜精灵王国的心脏。如果他们进攻大树的计化成功，恶魔将实际上毁灭了世界。"  
+			android:gravity="left"  
+		></TextView>  
+		<TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"  
+            android:textStyle="bold"  
+            android:typeface="serif"  
+            android:textSize="18sp"  
+            android:text="圣山海加尔之战"  
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:gravity="left"  
+           ></TextView>
+		<TextView android:textColor="#000"  
+			android:layout_width="wrap_content"  
+			android:layout_height="wrap_content"    
+			android:text="        在麦迪夫的领导下，萨尔和吉安娜?普劳德摩尔――卡里母多人类的领袖――认识到他们必须搁置分歧。同样，夜精灵，由福瑞恩和泰兰德，同意他们必须联合起来如果要保卫世界之树。在共同目标下，艾泽拉斯的种族共同努力尽最大可能保卫世界之树。在世界所有力量的支持下，福瑞恩成功释放了Nordrassil的原始愤怒，彻底粉碎了阿克蒙德和进攻和对永恒之泉的妄想。最后的决战震撼了卡里母多大陆和它的根基。不能从泉水吸取力量，燃烧军团在联军的打击下崩溃了。"  
+			android:gravity="left"  
+		></TextView>  
+		<TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"  
+            android:textStyle="bold"  
+            android:typeface="serif"  
+            android:textSize="18sp"  
+            android:text="叛徒势力"  
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:gravity="left"  
+           ></TextView>
+		<TextView android:textColor="#000"  
+			android:layout_width="wrap_content"  
+			android:layout_height="wrap_content"    
+			android:text="魔兽争霸3资料片：冰封王座"  
+			android:gravity="left"  
+		></TextView>  
+		<TextView android:textColor="#000"  
+			android:layout_width="wrap_content"  
+			android:layout_height="wrap_content"    
+			android:text="        当燃烧军团入侵阿森瓦勒时，尤迪安从一万年的监禁中逃脱了。但是为了安抚他的同伴，他很快恢复了真实外形并且消耗了称为古尔丹头骨的强力法器。通过这个，尤迪安得到了恶魔容貌和强大魔力。他也取得了古尔丹的一部分古老记忆――特别是萨格拉斯之墓，保存黑暗泰坦，萨格拉斯尸体的地牢岛屿。"  
+			android:gravity="left"  
+		></TextView>  
+		<TextView android:textColor="#000"  
+			android:layout_width="wrap_content"  
+			android:layout_height="wrap_content"    
+			android:text="        充满力量并且可以再次自由漫游世界，尤迪安开始寻找他在这次大事中的位置。但是，基尔加丹找上尤迪安并且提供给他一个难以拒绝的条件。基尔加丹对阿克蒙德在海加尔的失败十分生气，但是他更关心复仇。感到他的创造物，巫妖王，变的太强大难以控制，基尔加丹要求尤迪安毁灭耐奥祖并且永远消灭不死军团。作为交换，尤迪安将得到无穷的力量和燃烧军团主人尸体的真正所在。"  
+			android:gravity="left"  
+		></TextView>  
+		<TextView android:textColor="#000"  
+			android:layout_width="wrap_content"  
+			android:layout_height="wrap_content"    
+			android:text="        尤迪安同意立刻出发摧毁冰封王座，巫妖王灵魂居住的冰晶体。尤迪安知道他需要一个强大的法器来摧毁冰封王座。从古尔丹记忆中得到的知识，尤迪安决定寻找萨拉格斯之墓并且得到黑暗泰坦的尸体。他召集了一些老罪人和来自黑暗深海的娜加。由狡猾的女巫瓦饰率领，娜加帮助尤迪安到达了损坏的岛屿，传说萨拉格斯之墓所在地。"  
+			android:gravity="left"  
+		></TextView>  
+		<TextView android:textColor="#000"  
+			android:layout_width="wrap_content"  
+			android:layout_height="wrap_content"    
+			android:text="        当尤迪安和娜加出发时，守望者阴影之歌Maiev追捕他。Maiev已经看守了尤迪安一万年并且希望再抓回他。但是，尤迪安智胜了Maiev和她的看守者并且成功的获得了萨拉格斯之眼。拥有了强大的萨拉格斯之眼，尤迪安回到从前的法师城达拉兰。用城市的强大能量加强，尤迪安用萨拉格斯之眼对遥远的北极的巫妖王的巢穴冰冠发动了毁灭性的魔法。尤迪安攻击并击溃了巫妖王的防御，撕裂了世界屋脊。在最后一刻，尤迪安的毁灭魔法被赶来帮助Maiev的哥哥福瑞恩和女祭司泰兰德停止。"  
+			android:gravity="left"  
+		></TextView>  
+		<TextView android:textColor="#000"  
+			android:layout_width="wrap_content"  
+			android:layout_height="wrap_content"    
+			android:text="        知道基尔加丹对他没有摧毁冰封王座会不高兴，尤迪安逃到荒凉的成为奥特兰的外度空间：兽人原来家园君诺的最后残留。他在那儿打算逃避基尔加丹的愤怒和他的下个行动。成功制止了尤迪安，福瑞恩和泰兰德回到阿森瓦勒的森林照看他们的人民。但是Maiev没有这么容易死心，跟踪尤迪安来到奥特兰，决定将他绳之以法。"  
+			android:gravity="left"  
+		></TextView>  
+		<TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"  
+            android:textStyle="bold"  
+            android:typeface="serif"  
+            android:textSize="18sp"  
+            android:text="血精灵的崛起"  
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:gravity="left"  
+           ></TextView>
+		<TextView android:textColor="#000"  
+			android:layout_width="wrap_content"  
+			android:layout_height="wrap_content"    
+			android:text="        这段时期，不死军团已经完全将洛丹伦和奎尔撒拉斯变成腐蚀之地。只有一小部分联盟抵抗力量留下。其中一个，主要由高精灵构成，由最后的日行者王朝的王子卡尔。萨斯领导。卡尔，一个完全的法师，对联盟的失败很机警。这些高精灵哀痛家园的失去，并自称血精灵纪念死去的人民。当他们奋力抵抗不死军团时，他们由于失去了日泉的能量补给而痛苦不堪。为了找到治愈人民对魔力的上瘾，卡尔做了一件不可想象之事，加入了远古贵族祖先并且和尤迪安及他的娜加联合，希望找到新的魔力能源补给。剩余联盟的司令责备血精灵的背叛并且将他们永远踢出去。"  
+			android:gravity="left"  
+		></TextView>  
+		<TextView android:textColor="#000"  
+			android:layout_width="wrap_content"  
+			android:layout_height="wrap_content"    
+			android:text="        无处可去，卡尔和他的血精灵跟随尤迪安到奥特兰并且帮助他击败了守望者，她又抓到尤迪安的Maiev。但是，娜加和血精灵的联合成功击败了她，并且释放了尤迪安。以奥特兰为基地，尤迪安聚集他的力量，再次袭击巫妖王和他的冰冠要塞。"  
+			android:gravity="left"  
+		></TextView>  
+		<TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"  
+            android:textStyle="bold"  
+            android:typeface="serif"  
+            android:textSize="18sp"  
+            android:text="腐蚀之地的内战"  
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:gravity="left"  
+           ></TextView>
+		<TextView android:textColor="#000"  
+			android:layout_width="wrap_content"  
+			android:layout_height="wrap_content"    
+			android:text="        耐奥祖，巫妖王，知道他的时间不多了。被囚禁在冰封王座，他怀疑基尔加丹将派人干掉他。尤迪安魔法造成的破坏已经撕裂了冰封王座。因此，巫妖王日益流失力量。不顾自己的安全，他召集来伟大的仆人：死亡骑士阿尔赛斯王子。"  
+			android:gravity="left"  
+		></TextView>  
+		<TextView android:textColor="#000"  
+			android:layout_width="wrap_content"  
+			android:layout_height="wrap_content"    
+			android:text="        虽然他的力量因巫妖王的虚弱而消耗，阿尔赛斯卷入了洛丹伦的内战。一半的不死军团，由幽灵斯瓦纳斯。风行者率领，发动政变要统治不死帝国。当着战争的在整个腐蚀之地逐步升级时，阿尔萨斯，受到巫妖王召唤，被迫离开，将他的职位留给凯尔苏扎德，最终，斯瓦纳斯和她的不死叛乱者（称为遗弃者）将洛丹伦的毁灭的首都据为己有。在都市的废墟下建立了自己的基地，遗弃者发誓击败 并将凯尔苏扎德赶出这片土地。"  
+			android:gravity="left"  
+		></TextView>  
+		<TextView android:textColor="#000"  
+			android:layout_width="wrap_content"  
+			android:layout_height="wrap_content"    
+			android:text="        虚弱的，但是决定挽救主人，阿尔萨斯到达北极时只发现尤迪安的娜加和血精灵在等候他。他和他的蜘蛛联军抵抗尤迪安的武力到达冰河冰冠，并保卫冰封王座。"  
+			android:gravity="left"  
+		></TextView>  
+		<TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"  
+            android:textStyle="bold"  
+            android:typeface="serif"  
+            android:textSize="18sp"  
+            android:text="巫妖王的胜利"  
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:gravity="left"  
+           ></TextView>
+		<TextView android:textColor="#000"  
+			android:layout_width="wrap_content"  
+			android:layout_height="wrap_content"    
+			android:text="        虽然仍然虚弱，阿尔赛斯比尤迪安先到达了冰封王座。用他的宝剑，霜之哀伤，阿尔赛斯击碎了冰晶监狱，并且释放了耐奥祖的魔法头盔和胸甲。阿尔赛斯将难以置信强大的头盔戴在头上并且成为新的巫妖王。正如耐奥祖计划的那样，耐奥祖和阿尔赛斯的精神合而为一变的更强大。尤迪安和他的部队被迫耻辱的逃回奥特兰，同时阿尔赛斯成为有史以来最强大的实体之一。"  
+			android:gravity="left"  
+		></TextView>  
+		<TextView android:textColor="#000"  
+			android:layout_width="wrap_content"  
+			android:layout_height="wrap_content"    
+			android:text="        现在的阿尔赛斯，新的不朽的巫妖王，住在北极，据说他在重建冰冠要塞。他的信赖的副手，凯尔苏扎德，在腐蚀之地带领军队。斯瓦纳斯和她的遗弃者，拥有的只有提里斯法尔。格拉德，一个战争被毁灭的王国的一小部分。"  
+			android:gravity="left"  
+		></TextView>  
+		<TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"  
+            android:textStyle="bold"  
+            android:typeface="serif"  
+            android:textSize="18sp"  
+            android:text="旧仇――移民卡里母多"  
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:gravity="left"  
+           ></TextView>
+		<TextView android:textColor="#000"  
+			android:layout_width="wrap_content"  
+			android:layout_height="wrap_content"    
+			android:text="        虽然胜利是他们的，大家发现他们的世界已经被战争摧毁了。不死和燃烧军团已经完全摧毁了洛丹伦文明，并几乎摧毁了在卡里母多。没有森林来痊愈，墓地来埋葬和家园来居住。战争深深创伤了每一个种族，但是他们无私的联合起来尝试新的开始，开始兽人和联盟不稳的休战。"  
+			android:gravity="left"  
+		></TextView>  
+		<TextView android:textColor="#000"  
+			android:layout_width="wrap_content"  
+			android:layout_height="wrap_content"    
+			android:text="        萨尔领导兽人前往卡里母多大陆，在他们的桃仁同胞的帮助下建立了新的家园。以萨尔之父杜若汤命名新家，兽人开始重建他们曾经辉煌的社会。现在恶魔诅咒结束了，兽人从好战盲目变得更加和平团结，决定生存并更加繁荣。在高贵的桃仁和狡诈的黑矛部落的帮助下，萨尔和他的兽人他们的新土地上展望新的和平新世纪。"  
+			android:gravity="left"  
+		></TextView>  
+		<TextView android:textColor="#000"  
+			android:layout_width="wrap_content"  
+			android:layout_height="wrap_content"    
+			android:text="        剩余的联盟力量在吉安娜?普劳德摩尔领导下定居于卡里母多南部。在灰泥沼泽的东海岸，他们建立了港口城市，瑟拉摩尔。那儿，人类和他们的矮人联盟努力生存于一个永远对他们有敌意的土地。虽然杜若汤和瑟拉摩尔保持暂时的和平，但是脆弱的移民平静不会久远。"  
+			android:gravity="left"  
+		></TextView>  
+		<TextView android:textColor="#000"  
+			android:layout_width="wrap_content"  
+			android:layout_height="wrap_content"    
+			android:text="        兽人和人类的和平被一支卡里母多的舰队打破了。这只强大的舰队，在海军上将戴林?普劳德摩尔（吉安娜的父亲）的统率下，在阿尔赛斯摧毁王国前离开了洛丹伦。已经航行了几个月，海军上将戴林?普劳德摩尔在寻找任何发现的联盟生还者。"  
+			android:gravity="left"  
+		></TextView>  
+		<TextView android:textColor="#000"  
+			android:layout_width="wrap_content"  
+			android:layout_height="wrap_content"    
+			android:text="        普劳德摩尔的舰队严重威胁了地区的稳定。作为二战时著名的英雄，吉安娜的父亲是兽人的死敌，他决定在兽人立足前摧毁杜若汤。"  
+			android:gravity="left"  
+		></TextView>  
+		<TextView android:textColor="#000"  
+			android:layout_width="wrap_content"  
+			android:layout_height="wrap_content"    
+			android:text="        海军上将逼迫吉安娜作出可怕的决定：支持他攻打兽人并且背叛他的新盟友，或者攻打他的父亲维持与兽人的脆弱和平。在激烈的思想斗争后，吉安娜选择了后者，并且击败了她疯狂的父亲。不幸的是，在吉安娜和他和解并证实兽人不再是嗜血的怪物前，海军上将在战斗中死去了。为了她的忠诚，兽人允许吉安娜的部队安全回到瑟拉摩尔。"  
+			android:gravity="left"  
+		></TextView>  
+		
+
+
+        
+   
+</LinearLayout>
+</ScrollView>
+</LinearLayout>

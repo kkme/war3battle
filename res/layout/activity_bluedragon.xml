@@ -1,0 +1,693 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#eee"
+        android:orientation="vertical" >
+        
+        <LinearLayout 
+  			android:layout_width="fill_parent"
+  			android:layout_height="45dp"
+  			android:id="@+id/title" 
+  			android:background="@drawable/title_bar"
+  			android:gravity="center_horizontal|center_vertical"  >  
+      		<TextView 
+        		android:layout_width="wrap_content" 
+        		android:layout_height="wrap_content" 
+        		android:text="龙"
+        		android:textSize="20sp"		
+				android:textColor="#ffffff" />
+      		       
+			</LinearLayout>
+<ScrollView 
+    
+    android:layout_width="fill_parent" 
+    android:layout_height="fill_parent"
+    android:background="#eee"
+>
+
+<LinearLayout
+            android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin" 
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+<TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="        世界上有5种不同的龙：红、黑、蓝、青、绿。Their stats are all identical.蓝龙和青龙有着不同去其他龙的攻击技能。蓝龙（3种）的攻击具有冰冻效果，可以使单位减速10秒钟，就像不死族的冰霜巨龙。青龙（3种）攻击具有闪电效果。其他方面5种颜色的龙都是一样的。不同地区上有会出现对应的颜色的龙。"  
+            android:gravity="left" 
+            android:layout_marginTop="5dp"
+            android:layout_span="1" 
+           ></TextView>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_span="1"
+        android:src="@drawable/dragonwhelp" />
+ <TextView android:textColor="#000"   
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"  
+            android:text="幼龙"  
+            android:gravity="center"  
+     		
+            android:layout_span="5"></TextView>
+
+           
+<TableLayout  
+    android:layout_width="match_parent"  
+    android:layout_height="match_parent"  
+    android:shrinkColumns="*"  
+    android:stretchColumns="*"> 
+<TableRow
+        android:layout_height="wrap_content"  
+        android:layout_width="match_parent">        
+      <TextView android:textColor="#000"
+
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="等级: 3"  
+            android:gravity="left" 
+            android:layout_span="1" 
+           ></TextView>
+      <TextView android:textColor="#000" 
+
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="人口：2"  
+            android:gravity="left"
+            android:layout_span="1"  
+            ></TextView>
+ 
+</TableRow>
+
+<TableRow
+        android:layout_height="wrap_content"  
+        android:layout_width="match_parent">        
+      <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="攻击类型：穿刺 "  
+            android:gravity="left" 
+            android:layout_span="1" 
+           ></TextView>
+      <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="武器类型：远程 "  
+            android:gravity="left"
+            android:layout_span="1"  
+            ></TextView>
+ 
+</TableRow>
+<TableRow
+        android:layout_height="wrap_content"  
+        android:layout_width="match_parent">        
+      <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="护甲类型：轻甲 "  
+            android:gravity="left" 
+            android:layout_span="1" 
+           ></TextView>
+      <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="护甲：1 "  
+            android:gravity="left"
+            android:layout_span="1"  
+            ></TextView>
+ 
+</TableRow>
+<TableRow
+        android:layout_height="wrap_content"  
+        android:layout_width="match_parent">        
+      <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="对地攻击：25-32"  
+            android:gravity="left" 
+            android:layout_span="1" 
+           ></TextView>
+      <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="对空攻击：25-32 "  
+            android:gravity="left"
+            android:layout_span="1"  
+            ></TextView>
+ 
+</TableRow>
+<TableRow
+        android:layout_height="wrap_content"  
+        android:layout_width="match_parent">        
+      <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="攻击间隔：1.8"  
+            android:gravity="left" 
+            android:layout_span="1" 
+           ></TextView>
+      <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="生命：400"  
+            android:gravity="left"
+            android:layout_span="1"  
+            ></TextView>
+ 
+</TableRow>
+<TableRow
+        android:layout_height="wrap_content"  
+        android:layout_width="match_parent">        
+      <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="生命恢复：总是"  
+            android:gravity="left" 
+            android:layout_span="1" 
+           ></TextView>
+      <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="魔法：无 "  
+            android:gravity="left"
+            android:layout_span="1"  
+            ></TextView>
+ 
+</TableRow>
+<TableRow
+        android:layout_height="wrap_content"  
+        android:layout_width="match_parent">        
+      <TextView android:textColor="#000" 
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="魔法恢复：无"  
+            android:gravity="left" 
+            android:layout_span="1" 
+           ></TextView>
+      <TextView android:textColor="#000" 
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="攻击范围: 60 "  
+            android:gravity="left"
+            android:layout_span="1"  
+            ></TextView>
+ 
+</TableRow>
+<TableRow
+        android:layout_height="wrap_content"  
+        android:layout_width="match_parent">        
+      <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="白天视野: 140  "  
+            android:gravity="left" 
+            android:layout_span="1" 
+           ></TextView>
+      <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="夜晚视野: 80  "  
+            android:gravity="left"
+            android:layout_span="1"  
+            ></TextView>
+ 
+</TableRow>
+<TableRow
+        android:layout_height="wrap_content"  
+        android:layout_width="match_parent">        
+      <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="移动速度: 快(350)  "  
+            android:gravity="left" 
+            android:layout_span="1" 
+           ></TextView>
+
+</TableRow>
+
+     
+ 
+
+</TableLayout>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_span="1"
+        android:src="@drawable/drake" />
+ <TextView android:textColor="#000"   
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"  
+            android:text="浮游"  
+            android:gravity="center"  
+     		
+            android:layout_span="5"></TextView>
+
+<TableLayout  
+    android:layout_width="match_parent"  
+    android:layout_height="match_parent"  
+    android:shrinkColumns="*"  
+    android:stretchColumns="*"> 
+<TableRow
+        android:layout_height="wrap_content"  
+        android:layout_width="match_parent">        
+      <TextView android:textColor="#000"
+
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="等级: 6"  
+            android:gravity="left" 
+            android:layout_span="1" 
+           ></TextView>
+      <TextView android:textColor="#000" 
+
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="人口：5"  
+            android:gravity="left"
+            android:layout_span="1"  
+            ></TextView>
+ 
+</TableRow>
+
+<TableRow
+        android:layout_height="wrap_content"  
+        android:layout_width="match_parent">        
+      <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="攻击类型：穿刺 "  
+            android:gravity="left" 
+            android:layout_span="1" 
+           ></TextView>
+      <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="武器类型：远程 "  
+            android:gravity="left"
+            android:layout_span="1"  
+            ></TextView>
+ 
+</TableRow>
+<TableRow
+        android:layout_height="wrap_content"  
+        android:layout_width="match_parent">        
+      <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="护甲类型：重甲 "  
+            android:gravity="left" 
+            android:layout_span="1" 
+           ></TextView>
+      <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="护甲：2 "  
+            android:gravity="left"
+            android:layout_span="1"  
+            ></TextView>
+ 
+</TableRow>
+<TableRow
+        android:layout_height="wrap_content"  
+        android:layout_width="match_parent">        
+      <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="对地攻击：36-47"  
+            android:gravity="left" 
+            android:layout_span="1" 
+           ></TextView>
+      <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="对空攻击：36-47 "  
+            android:gravity="left"
+            android:layout_span="1"  
+            ></TextView>
+ 
+</TableRow>
+<TableRow
+        android:layout_height="wrap_content"  
+        android:layout_width="match_parent">        
+      <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="攻击间隔：1.8"  
+            android:gravity="left" 
+            android:layout_span="1" 
+           ></TextView>
+      <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="生命：950"  
+            android:gravity="left"
+            android:layout_span="1"  
+            ></TextView>
+ 
+</TableRow>
+<TableRow
+        android:layout_height="wrap_content"  
+        android:layout_width="match_parent">        
+      <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="生命恢复：总是"  
+            android:gravity="left" 
+            android:layout_span="1" 
+           ></TextView>
+      <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="魔法：无 "  
+            android:gravity="left"
+            android:layout_span="1"  
+            ></TextView>
+ 
+</TableRow>
+<TableRow
+        android:layout_height="wrap_content"  
+        android:layout_width="match_parent">        
+      <TextView android:textColor="#000" 
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="魔法恢复：无"  
+            android:gravity="left" 
+            android:layout_span="1" 
+           ></TextView>
+      <TextView android:textColor="#000" 
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="攻击范围: 50 "  
+            android:gravity="left"
+            android:layout_span="1"  
+            ></TextView>
+ 
+</TableRow>
+<TableRow
+        android:layout_height="wrap_content"  
+        android:layout_width="match_parent">        
+      <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="白天视野: 140  "  
+            android:gravity="left" 
+            android:layout_span="1" 
+           ></TextView>
+      <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="夜晚视野: 80  "  
+            android:gravity="left"
+            android:layout_span="1"  
+            ></TextView>
+ 
+</TableRow>
+<TableRow
+        android:layout_height="wrap_content"  
+        android:layout_width="match_parent">        
+      <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="移动速度: 快(350)  "  
+            android:gravity="left" 
+            android:layout_span="1" 
+           ></TextView>
+
+</TableRow>
+</TableLayout>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_span="1"
+        android:src="@drawable/dragon" />
+ <TextView android:textColor="#000"   
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"  
+            android:text="龙"  
+            android:gravity="center"  
+     		
+            android:layout_span="5"></TextView>
+
+           
+<TableLayout  
+    android:layout_width="match_parent"  
+    android:layout_height="match_parent"  
+    android:shrinkColumns="*"  
+    android:stretchColumns="*"> 
+<TableRow
+        android:layout_height="wrap_content"  
+        android:layout_width="match_parent">        
+      <TextView android:textColor="#000"
+
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="等级: 10"  
+            android:gravity="left" 
+            android:layout_span="1" 
+           ></TextView>
+      <TextView android:textColor="#000" 
+
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="人口：8"  
+            android:gravity="left"
+            android:layout_span="1"  
+            ></TextView>
+ 
+</TableRow>
+
+<TableRow
+        android:layout_height="wrap_content"  
+        android:layout_width="match_parent">        
+      <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="攻击类型：混乱 "  
+            android:gravity="left" 
+            android:layout_span="1" 
+           ></TextView>
+      <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="武器类型：远程 "  
+            android:gravity="left"
+            android:layout_span="1"  
+            ></TextView>
+ 
+</TableRow>
+<TableRow
+        android:layout_height="wrap_content"  
+        android:layout_width="match_parent">        
+      <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="护甲类型：重甲 "  
+            android:gravity="left" 
+            android:layout_span="1" 
+           ></TextView>
+      <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="护甲：6 "  
+            android:gravity="left"
+            android:layout_span="1"  
+            ></TextView>
+ 
+</TableRow>
+<TableRow
+        android:layout_height="wrap_content"  
+        android:layout_width="match_parent">        
+      <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="对地攻击：48-81"  
+            android:gravity="left" 
+            android:layout_span="1" 
+           ></TextView>
+      <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="对空攻击：48-81 "  
+            android:gravity="left"
+            android:layout_span="1"  
+            ></TextView>
+ 
+</TableRow>
+<TableRow
+        android:layout_height="wrap_content"  
+        android:layout_width="match_parent">        
+      <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="攻击间隔：1.5"  
+            android:gravity="left" 
+            android:layout_span="1" 
+           ></TextView>
+      <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="生命：2200"  
+            android:gravity="left"
+            android:layout_span="1"  
+            ></TextView>
+ 
+</TableRow>
+<TableRow
+        android:layout_height="wrap_content"  
+        android:layout_width="match_parent">        
+      <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="生命恢复：总是"  
+            android:gravity="left" 
+            android:layout_span="1" 
+           ></TextView>
+      <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="魔法：无 "  
+            android:gravity="left"
+            android:layout_span="1"  
+            ></TextView>
+ 
+</TableRow>
+<TableRow
+        android:layout_height="wrap_content"  
+        android:layout_width="match_parent">        
+      <TextView android:textColor="#000" 
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="魔法恢复：无"  
+            android:gravity="left" 
+            android:layout_span="1" 
+           ></TextView>
+      <TextView android:textColor="#000" 
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="攻击范围: 50 "  
+            android:gravity="left"
+            android:layout_span="1"  
+            ></TextView>
+ 
+</TableRow>
+<TableRow
+        android:layout_height="wrap_content"  
+        android:layout_width="match_parent">        
+      <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="白天视野: 140  "  
+            android:gravity="left" 
+            android:layout_span="1" 
+           ></TextView>
+      <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="夜晚视野: 80  "  
+            android:gravity="left"
+            android:layout_span="1"  
+            ></TextView>
+ 
+</TableRow>
+<TableRow
+        android:layout_height="wrap_content"  
+        android:layout_width="match_parent">        
+      <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="移动速度: 快(300)  "  
+            android:gravity="left" 
+            android:layout_span="1" 
+           ></TextView>
+
+</TableRow>
+</TableLayout>
+
+
+ 
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_marginTop="10dp"
+    android:layout_height="wrap_content" >
+
+ <ImageView
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:src="@drawable/devour" >
+
+</ImageView> 
+
+ <TextView
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:layout_gravity="center_vertical"
+     android:text="      吞噬 Devour"
+     android:textColor="#000" />
+
+</LinearLayout> 
+
+ <TextView android:textColor="#000"
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"  
+            android:text="Consumes a target unit, slowly digesting it and dealing 5 damage per second to it. If the creep is killed while the consumed unit is still digesting, the unit that was devoured will pop out."
+            android:layout_span="5" 
+
+ />
+
+
+
+ <TextView android:textColor="#000"
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"  
+            android:text="范围：10"
+            android:layout_span="2" 
+
+ />
+  <TextView android:textColor="#000"
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"  
+            android:text="效果：Devours Unit, Max Creep Level 5"
+            android:layout_span="2" 
+
+ />
+     <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_marginTop="10dp"
+    android:layout_height="wrap_content" >
+
+ <ImageView
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:src="@drawable/genericspellimmunity" >
+
+</ImageView> 
+
+ <TextView
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:layout_gravity="center_vertical"
+     android:text="      魔法免疫 Spell Immunity (被动技能)"
+     android:textColor="#000" />
+
+</LinearLayout> 
+
+    
+
+</LinearLayout>
+</ScrollView>
+</LinearLayout>

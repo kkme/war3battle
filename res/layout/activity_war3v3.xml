@@ -1,0 +1,374 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#eee"
+        android:orientation="vertical" >
+        
+        <LinearLayout 
+  			android:layout_width="fill_parent"
+  			android:layout_height="45dp"
+  			android:id="@+id/title" 
+  			android:background="@drawable/title_bar"
+  			android:gravity="center_horizontal|center_vertical"  >  
+      		<TextView 
+        		android:layout_width="wrap_content" 
+        		android:layout_height="wrap_content" 
+        		android:text="英雄物品"
+        		android:textSize="20sp"		
+				android:textColor="#ffffff" />       
+			</LinearLayout>
+<ScrollView 
+
+    android:id="@+id/ScrollView01" 
+    android:background="#eee"
+    android:layout_width="fill_parent" 
+    android:layout_height="fill_parent"
+>
+
+<LinearLayout
+            android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin" 
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center"
+    >
+     <TextView android:textColor="#000"
+         android:layout_marginTop="10dp"
+                  android:layout_width="match_parent" 
+         android:layout_height="match_parent"   
+            android:gravity="left"
+
+            android:text="        神奇的物品道具是不同寻常的玩意，可以通过多种途径来得到。最常见的，它们由野生单位掉落。他们也可以在商店中购买。你偶尔也可以在地图的某个地方找到宝箱，当然在对战地图中是不可能的。只有英雄可以使用物品。某些非英雄单位可以拾起、存储并携带物品。但他们不能使用。可以通过右键物品来拾取。被拾取的物品会占用单位的一个存储栏。" >
+        </TextView>
+             <TextView android:textColor="#000"
+                  android:layout_width="match_parent" 
+         android:layout_height="match_parent"   
+            android:gravity="left"
+
+            android:text="        每个英雄最多可以携带6个物品。某些非英雄单位可以携带2个物品，兽族的科多兽可以携带4样物品。最下面的列表显示了可以带物品的单位。对于你的英雄物品栏内的物品，你可以左键来使用。如果你想扔掉物品，使用右键。某些物品在使用前需要指定目标。其他物品在你左键以后会自动产生作用。" >
+        </TextView>
+             <TextView android:textColor="#000"
+                  android:layout_width="match_parent" 
+         android:layout_height="match_parent"   
+            android:gravity="left"
+
+            android:text="        你可以使用键盘来使用物品。物品栏对应的快捷键分别是右边数字区的1、2、4、5、7、8。" >
+        </TextView>
+             <TextView android:textColor="#000"
+                  android:layout_width="match_parent" 
+         android:layout_height="match_parent"   
+            android:gravity="left"
+
+            android:text="        单人游戏中的任务物品或者是不允许在对战中出现的物品不在下面的列表中出现。" >
+        </TextView>
+             <TextView android:textColor="#000"
+                  android:layout_width="match_parent" 
+         android:layout_height="match_parent"   
+            android:gravity="left"
+
+            android:text="在魔兽争霸III中，存在着5种物品。" >
+        </TextView>
+     <TextView 
+                  android:layout_width="match_parent" 
+         android:layout_height="match_parent"   
+            android:gravity="left"
+            android:textColor="#0000FF"
+            android:text="填充型 Charged Items" >
+        </TextView>
+                     <TextView android:textColor="#000"
+                  android:layout_width="match_parent" 
+         android:layout_height="match_parent"   
+            android:gravity="left"
+
+            android:text="        这种物品可以使用几次。物品的右下角会显示它的可使用次数。每使用一次，它的可使用次数就减1。你不能填充填充型物品。-_-！填充型物品在消耗型物品列表中。" >
+        </TextView>
+             <TextView 
+                  android:layout_width="match_parent" 
+         android:layout_height="match_parent"   
+            android:gravity="left"
+            android:textColor="#0000FF"
+            android:text="消耗型 Consumed" >
+        </TextView>
+        <Button
+		    android:id="@+id/main_regist_btn"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_gravity="center"
+		    android:background="@drawable/btn_style_white"
+		    android:gravity="center"
+		    android:text="点我查看消耗型物品"
+		    android:textColor="#000000"
+		    android:onClick="item1"
+		    android:textSize="18sp" />
+                     <TextView android:textColor="#000"
+                  android:layout_width="match_parent" 
+         android:layout_height="match_parent"   
+            android:gravity="left"
+
+            android:text="        这种物品只能使用一次， 使用后会自动从物品栏中消失。大部分消耗型物品不需要选择目标，因为它们仅对英雄起作用。" >
+        </TextView>
+             <TextView 
+                  android:layout_width="match_parent" 
+         android:layout_height="match_parent"   
+            android:gravity="left"
+            android:textColor="#0000FF"
+            android:text="提升能力型 Power Ups" >
+        </TextView>
+        <Button
+		    android:id="@+id/main_regist_btn"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_gravity="center"
+		    android:background="@drawable/btn_style_white"
+		    android:gravity="center"
+		    android:text="点我查看能力提升型物品"
+		    android:textColor="#000000"
+		    android:onClick="item2"
+		    android:textSize="18sp" />
+                     <TextView android:textColor="#000"
+                  android:layout_width="match_parent" 
+         android:layout_height="match_parent"   
+            android:gravity="left"
+
+            android:text="        这种物品在英雄检起的时候就使用了。有2种能力提升物品：书籍（永久属性提升）和神符（临时性效果）。" >
+        </TextView>
+             <TextView 
+                  android:layout_width="match_parent" 
+         android:layout_height="match_parent"   
+            android:gravity="left"
+            android:textColor="#0000FF"
+            android:text="永久型 Permanent" >
+        </TextView>
+        <Button
+		    android:id="@+id/main_regist_btn"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_gravity="center"
+		    android:background="@drawable/btn_style_white"
+		    android:gravity="center"
+		    android:text="点我查看永久型物品"
+		    android:textColor="#000000"
+		    android:onClick="item3"
+		    android:textSize="18sp" />
+                     <TextView android:textColor="#000"
+                  android:layout_width="match_parent" 
+         android:layout_height="match_parent"   
+            android:gravity="left"
+
+            android:text="        永久型物品不会消失。对于大部分这类物品，只要放在物品栏里，英雄就能得到好处。杖类物品需要指定目标，并且有冷却时间，但是可以无限次使用。" >
+        </TextView>
+             <TextView 
+                  android:layout_width="match_parent" 
+         android:layout_height="match_parent"   
+            android:gravity="left"
+            android:textColor="#0000FF"
+            android:text="神器 Artifacts" >
+        </TextView>
+          <TextView android:textColor="#000"
+                  android:layout_width="match_parent" 
+         android:layout_height="match_parent"   
+            android:gravity="left"
+
+            android:text="        神器是特别强大的物品，等级在7级或以上。它们比其他物品都要稀有。神器按其使用次数放到了消耗型物品列表和永久型列表中。" >
+        </TextView>
+                 <TextView android:textColor="#000"
+                  android:layout_width="wrap_content" 
+         android:layout_height="wrap_content"   
+            android:gravity="center"
+            android:textSize="20sp"
+            android:text="基本常识" 
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:textStyle="bold">
+        </TextView>
+                     <TextView 
+                  android:layout_width="match_parent" 
+         android:layout_height="match_parent"   
+            android:gravity="left"
+            android:textColor="#FF6600"
+            android:text="英雄死亡" >
+        </TextView>
+          <TextView android:textColor="#000"
+                  android:layout_width="match_parent" 
+         android:layout_height="match_parent"   
+            android:gravity="left"
+
+            android:text="        当英雄死亡时，物品不会掉落。等英雄复活后，他的物品还是在的。" >
+        </TextView>
+                             <TextView 
+                  android:layout_width="match_parent" 
+         android:layout_height="match_parent"   
+            android:gravity="left"
+            android:textColor="#FF6600"
+            android:text="单位死亡" >
+        </TextView>
+          <TextView android:textColor="#000"
+                  android:layout_width="match_parent" 
+         android:layout_height="match_parent"   
+            android:gravity="left"
+
+            android:text="        当一个携带物品的单位死亡时，他所携带的物品会掉落在地上。" >
+        </TextView>
+                             <TextView 
+                  android:layout_width="match_parent" 
+         android:layout_height="match_parent"   
+            android:gravity="left"
+            android:textColor="#FF6600"
+            android:text="敌人英雄的物品" >
+        </TextView>
+          <TextView android:textColor="#000"
+                  android:layout_width="match_parent" 
+         android:layout_height="match_parent"   
+            android:gravity="left"
+
+            android:text="        你可以通过选择敌人的英雄来查看他们的物品。" >
+        </TextView>
+                             <TextView 
+                  android:layout_width="match_parent" 
+         android:layout_height="match_parent"   
+            android:gravity="left"
+            android:textColor="#FF6600"
+            android:text="        英雄物品在中立商店和玩家商店卖出" >
+        </TextView>
+          <TextView android:textColor="#000"
+                  android:layout_width="match_parent" 
+         android:layout_height="match_parent"   
+            android:gravity="left"
+
+            android:text="        物品以原价的50%卖出。" >
+        </TextView>
+                             <TextView 
+                  android:layout_width="match_parent" 
+         android:layout_height="match_parent"   
+            android:gravity="left"
+            android:textColor="#FF6600"
+            android:text="物品处理" >
+        </TextView>
+          <TextView android:textColor="#000"
+                  android:layout_width="match_parent" 
+         android:layout_height="match_parent"   
+            android:gravity="left"
+
+            android:text="        当物品数量超过6样时，你可以让你的单位来携带，或者毁掉，记住，不要让你的敌人拿到你的物品。" >
+        </TextView>
+                             <TextView 
+                  android:layout_width="match_parent" 
+         android:layout_height="match_parent"   
+            android:gravity="left"
+            android:textColor="#FF6600"
+            android:text="普通单位物品携带量" >
+        </TextView>
+          <TextView android:textColor="#000"
+                  android:layout_width="match_parent" 
+         android:layout_height="match_parent"   
+            android:gravity="left"
+
+            android:text="下面的单位可以携带2样物品：" >
+        </TextView>
+                             <TextView 
+                  android:layout_width="match_parent" 
+         android:layout_height="match_parent"   
+            android:gravity="left"
+            android:textColor="#FF6600"
+            android:text="        人族：" >
+        </TextView>
+          <TextView android:textColor="#000"
+                  android:layout_width="match_parent" 
+         android:layout_height="match_parent"   
+            android:gravity="left"
+
+            android:text="        步兵，骑士，女巫，牧师，魔法破坏者，火枪手" >
+        </TextView>
+                             <TextView 
+                  android:layout_width="match_parent" 
+         android:layout_height="match_parent"   
+            android:gravity="left"
+            android:textColor="#FF6600"
+            android:text="        兽族：" >
+        </TextView>
+          <TextView android:textColor="#000"
+                  android:layout_width="match_parent" 
+         android:layout_height="match_parent"   
+            android:gravity="left"
+
+            android:text="        科多兽（4），萨满祭司，巨魔巫医，掠夺者，兽族步兵，灵魂行者" >
+        </TextView>
+                             <TextView 
+                  android:layout_width="match_parent" 
+         android:layout_height="match_parent"   
+            android:gravity="left"
+            android:textColor="#FF6600"
+            android:text="        暗夜精灵族：" >
+        </TextView>
+          <TextView android:textColor="#000"
+                  android:layout_width="match_parent" 
+         android:layout_height="match_parent"   
+            android:gravity="left"
+
+            android:text="        山岭巨人，利爪德鲁伊，猛禽德鲁伊，弓箭手，女猎手，树妖" >
+        </TextView>
+                             <TextView 
+                  android:layout_width="match_parent" 
+         android:layout_height="match_parent"   
+            android:gravity="left"
+            android:textColor="#FF6600"
+            android:text="        不死族：" >
+        </TextView>
+          <TextView android:textColor="#000"
+                  android:layout_width="match_parent" 
+         android:layout_height="match_parent"   
+            android:gravity="left"
+
+            android:text="食尸鬼，憎恶，女妖，亡灵巫师，地穴恶魔" >
+        </TextView>
+                             <TextView 
+                  android:layout_width="match_parent" 
+         android:layout_height="match_parent"   
+            android:gravity="left"
+            android:textColor="#FF6600"
+            android:text="英雄物品规则" >
+        </TextView>
+          <TextView android:textColor="#000"
+                  android:layout_width="match_parent" 
+         android:layout_height="match_parent"   
+            android:gravity="left"
+
+            android:text="        物品有75生命值。" >
+        </TextView>
+          <TextView android:textColor="#000"
+                  android:layout_width="match_parent" 
+         android:layout_height="match_parent"   
+            android:gravity="left"
+
+            android:text="        每个物品占一个物品栏。" >
+        </TextView>
+                  <TextView android:textColor="#000"
+                  android:layout_width="match_parent" 
+         android:layout_height="match_parent"   
+            android:gravity="left"
+
+            android:text="        你不会丢失英雄物品栏内的物品。其他人也不能偷走。" >
+        </TextView>
+                  <TextView android:textColor="#000"
+                  android:layout_width="match_parent" 
+         android:layout_height="match_parent"   
+            android:gravity="left"
+
+            android:text="        英雄在生命值或魔法值不满的时候使用相应的药水。" >
+        </TextView>
+                  <TextView android:textColor="#000"
+                  android:layout_width="match_parent" 
+         android:layout_height="match_parent"   
+            android:gravity="left"
+
+            android:text="        你可以通过攻击物品来毁掉它。" >
+        </TextView>
+               
+        
+</LinearLayout>
+</ScrollView>
+</LinearLayout>

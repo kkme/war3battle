@@ -1,0 +1,450 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#eee"
+        android:orientation="vertical" >
+        
+        <LinearLayout 
+  			android:layout_width="fill_parent"
+  			android:layout_height="45dp"
+  			android:id="@+id/title" 
+  			android:background="@drawable/title_bar"
+  			android:gravity="center_horizontal|center_vertical"  >  
+      		<TextView 
+        		android:layout_width="wrap_content" 
+        		android:layout_height="wrap_content" 
+        		android:text="农民"
+        		android:textSize="20sp"		
+				android:textColor="#ffffff" />       
+			</LinearLayout>
+
+<ScrollView 
+
+    android:layout_width="fill_parent" 
+    android:background="#eee"
+    android:layout_height="fill_parent"
+>
+
+<LinearLayout
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin" 
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+
+         <ImageView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_gravity="center"
+             android:layout_marginTop="10dp"
+             android:layout_marginBottom="10dp"
+             android:src="@drawable/peasant" >
+
+</ImageView> 
+
+
+        <TextView android:textColor="#000"   
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"  
+            android:text="        农民是洛丹伦大陆各个国家征召而来的纯朴，勤劳的劳力。他们开采军队作战所需的黄金和木材，保障了联盟顺利推进。他们不仅可以采矿，还能建造各种建筑物。农民们以服务军队为容，同时在听说了兽族的暴行后，也懂得如何使用锄头和斧头自卫。"  
+            android:gravity="left"  
+            android:layout_marginBottom="10dp"
+            ></TextView>
+
+<TableLayout  
+    android:layout_width="match_parent"  
+    android:layout_height="match_parent"  
+    android:shrinkColumns="*"  
+    android:stretchColumns="*"> 
+<TableRow
+        android:layout_height="wrap_content"  
+        android:layout_width="match_parent">        
+      <TextView  
+          android:textColor="#000"
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="等级: 1 "  
+            android:gravity="left" 
+            android:layout_span="1" 
+           ></TextView>
+      <TextView  
+          android:textColor="#000"
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="费用：75/0/1"  
+            android:gravity="left"
+            android:layout_span="1"  
+            ></TextView>
+ 
+</TableRow>
+
+<TableRow
+        android:layout_height="wrap_content"  
+        android:layout_width="match_parent">        
+      <TextView     android:textColor="#000"
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="单位类型: 普通 "  
+            android:gravity="left" 
+            android:layout_span="1" 
+           ></TextView>
+      <TextView     android:textColor="#000"
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="攻击类型: 普通 "  
+            android:gravity="left"
+            android:layout_span="1"  
+            ></TextView>
+ 
+</TableRow>
+<TableRow
+        android:layout_height="wrap_content"  
+        android:layout_width="match_parent">        
+      <TextView     android:textColor="#000"
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="武器类型: 近战 "  
+            android:gravity="left" 
+            android:layout_span="1" 
+           ></TextView>
+      <TextView     android:textColor="#000"
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="护甲类型: 中型  "  
+            android:gravity="left"
+            android:layout_span="1"  
+            ></TextView>
+ 
+</TableRow>
+<TableRow
+        android:layout_height="wrap_content"  
+        android:layout_width="match_parent">        
+      <TextView     android:textColor="#000"
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="护甲: 0 "  
+            android:gravity="left" 
+            android:layout_span="1" 
+           ></TextView>
+      <TextView     android:textColor="#000"
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="对地攻击: 5-6 "  
+            android:gravity="left"
+            android:layout_span="1"  
+            ></TextView>
+ 
+</TableRow>
+<TableRow
+        android:layout_height="wrap_content"  
+        android:layout_width="match_parent">        
+      <TextView     android:textColor="#000"
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="对空攻击: - "  
+            android:gravity="left" 
+            android:layout_span="1" 
+           ></TextView>
+      <TextView     android:textColor="#000"
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="攻击间隔: 2  "  
+            android:gravity="left"
+            android:layout_span="1"  
+            ></TextView>
+ 
+</TableRow>
+<TableRow
+        android:layout_height="wrap_content"  
+        android:layout_width="match_parent">        
+      <TextView     android:textColor="#000"
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="生命值: 220 "  
+            android:gravity="left" 
+            android:layout_span="1" 
+           ></TextView>
+      <TextView     android:textColor="#000"
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="生命恢复: 总是 "  
+            android:gravity="left"
+            android:layout_span="1"  
+            ></TextView>
+ 
+</TableRow>
+<TableRow
+        android:layout_height="wrap_content"  
+        android:layout_width="match_parent">        
+      <TextView     android:textColor="#000"
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="魔法: - "  
+            android:gravity="left" 
+            android:layout_span="1" 
+           ></TextView>
+      <TextView     android:textColor="#000"
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="攻击范围: 近战 "  
+            android:gravity="left"
+            android:layout_span="1"  
+            ></TextView>
+ 
+</TableRow>
+<TableRow
+        android:layout_height="wrap_content"  
+        android:layout_width="match_parent">        
+      <TextView     android:textColor="#000"
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="白天视野: 80  "  
+            android:gravity="left" 
+            android:layout_span="1" 
+           ></TextView>
+      <TextView     android:textColor="#000"
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="夜晚视野: 60  "  
+            android:gravity="left"
+            android:layout_span="1"  
+            ></TextView>
+ 
+</TableRow>
+<TableRow
+        android:layout_height="wrap_content"  
+        android:layout_width="match_parent">        
+      <TextView     android:textColor="#000"
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="移动速度: 慢 (190)  "  
+            android:gravity="left" 
+            android:layout_span="1" 
+           ></TextView>
+      <TextView     android:textColor="#000"
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="训练时间: 15 "  
+            android:gravity="left"
+            android:layout_span="1"  
+            ></TextView>
+ 
+</TableRow>
+<TableRow
+        android:layout_height="wrap_content"  
+        android:layout_width="match_parent">        
+      <TextView     android:textColor="#000"
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="训练地点: 城市大厅  "  
+            android:gravity="left" 
+            android:layout_span="1" 
+           ></TextView>
+       <TextView     android:textColor="#000"
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="运输占用空间: 1 "  
+            android:gravity="left" 
+            android:layout_span="1" 
+           ></TextView>
+ 
+</TableRow>
+<TableRow
+        android:layout_height="wrap_content"  
+        android:layout_width="match_parent">        
+      <TextView     android:textColor="#000"
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="训练热键: P   "  
+            android:gravity="left" 
+            android:layout_span="1" 
+           ></TextView>
+       <TextView     android:textColor="#000"
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="魔法恢复: - "  
+            android:gravity="left" 
+            android:layout_span="1" 
+           ></TextView>
+ 
+</TableRow>
+</TableLayout>
+
+<TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="      农民无法进行任何升级，但是他们可以在基地附近变成民兵。主基地1级就可以，分基地必须2级或3级才能变。"
+        android:textColor="#000" />
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_marginTop="10dp"
+    android:layout_height="wrap_content" >
+
+ <ImageView
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:src="@drawable/repair" >
+
+</ImageView> 
+
+ <TextView
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:layout_gravity="center_vertical"
+     android:text="      修理 Repair(自动施放)"
+     android:textColor="#000" />
+
+</LinearLayout>
+ <TextView android:textColor="#000"
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"  
+            android:text="      农民可以修理受损的建筑和机械单位，右键点击可以将修理设定为自动。修理需要花费黄金和木材，如果你的黄金或木材不足，那么你将无法进行修理 。"
+          
+
+ />
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_marginTop="10dp"
+    android:layout_height="wrap_content" >
+
+ <ImageView
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:src="@drawable/peasantgather" >
+
+</ImageView> 
+
+ <TextView
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:layout_gravity="center_vertical"
+     android:text="      采集 Gather "
+     android:textColor="#000" />
+
+</LinearLayout> 
+ <TextView android:textColor="#000"
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"  
+            android:text="      从金矿采集黄金或者砍树来获得木材，右键点击金矿或木材。"
+           
+
+ />
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_marginTop="10dp"
+    android:layout_height="wrap_content" >
+
+ <ImageView
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:src="@drawable/peasantreturngoods" >
+
+</ImageView> 
+
+ <TextView
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:layout_gravity="center_vertical"
+     android:text="      运送资源 Return Resources "
+     android:textColor="#000" />
+
+</LinearLayout>
+
+ 
+ <TextView android:textColor="#000"
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"  
+            android:text="      将收集到的资源送会城市大厅。在采集足够资源后，这个命令会自动执行。"
+           
+
+ />
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_marginTop="10dp"
+    android:layout_height="wrap_content" >
+
+ <ImageView
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:src="@drawable/peasantbuild" >
+
+</ImageView> 
+
+ <TextView
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:layout_gravity="center_vertical"
+     android:text="      修建建筑 Build Structure "
+     android:textColor="#000" />
+
+</LinearLayout> 
+ <TextView android:textColor="#000"
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"  
+            android:text="      点击后出现一个你可以进行建造的建筑列表。农民在进行建造的时候，是在建筑的外面。也就是说，敌人可以在他们工作的时候杀掉他们，同时建筑的建造工作将回停止。而且 ，你也可以使用多个农民共同进行建造。农民可以通过共同建造一个建筑的方法来增加建造速度。圈点几个农民然后右键点击正在建造的建筑就可以了。不过在加速建造时会消耗大量的资源，并且在建造结束后农民也不会自动的回到原先的工作岗位上。所以并不是任何时候加速建造都是个好方法。最后，只有人族可以用几个农民来加速建造建筑物。"
+          
+
+ />
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_marginTop="10dp"
+    android:layout_height="wrap_content" >
+
+ <ImageView
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:src="@drawable/calltoarms" >
+
+</ImageView> 
+
+ <TextView
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:layout_gravity="center_vertical"
+     android:text="      召集民兵 Call to Arms"
+     android:textColor="#000" />
+
+</LinearLayout> 
+ <TextView android:textColor="#000"
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"  
+            android:text="      将农民召回到最近的城市大厅，这样他们可以变成民兵来协助防守。"
+            
+
+ />
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_marginTop="10dp"
+    android:layout_height="wrap_content" >
+
+ <ImageView
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:src="@drawable/backtowork" >
+
+</ImageView> 
+
+ <TextView
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:layout_gravity="center_vertical"
+     android:text="      返回工作backtowork "
+     android:textColor="#000" />
+
+</LinearLayout> 
+ <TextView android:textColor="#000"
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"  
+            android:text="      农民由民兵变回，回到之前的工作。"
+        
+
+ />
+</LinearLayout>
+</ScrollView>
+</LinearLayout>

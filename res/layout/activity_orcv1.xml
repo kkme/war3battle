@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#eee"
+        android:orientation="vertical" >
+        
+        <LinearLayout 
+  			android:layout_width="fill_parent"
+  			android:layout_height="45dp"
+  			android:id="@+id/title" 
+  			android:background="@drawable/title_bar"
+  			android:gravity="center_horizontal|center_vertical"  >  
+      <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="返回" 
+        android:onClick="backv1"
+        />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="兽族VS人族"
+        android:gravity="center|center_horizontal|center_vertical"
+        android:textColor="#ffffff"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="点我" 
+        android:onClick="clickv1"
+        />    
+			</LinearLayout>
+<ScrollView 
+
+    android:id="@+id/ScrollView01" 
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content"
+
+    
+>
+
+<LinearLayout 
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    >
+      
+    <TextView  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"  
+            android:textStyle="bold"  
+            android:typeface="serif"  
+            android:textSize="18sp"  
+            android:text="兽族对抗人族"  
+            android:gravity="left"  
+            android:textColor="#000"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            ></TextView>  
+
+
+        
+    <TextView  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"    
+            android:text="        先介绍下，人族打兽族的3大主流上文有说，所以兽族打人族，有几种分别是如何对抗这3大主流战术（1本TR，2本TR或法师流，3本MK49等。）另外还有双骑流，JY的大招，Fly的暴力战术，和后期的高科技兵种作战等。"  
+            android:gravity="left"  
+            android:textColor="#000"></TextView>  
+
+     
+    <TextView  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"  
+            android:textStyle="bold"  
+            android:typeface="serif"  
+            android:textSize="18sp"  
+            android:text="防1本TR"  
+            android:gravity="left"  
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:textColor="#000"></TextView>  
+
+
+        
+    <TextView  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"    
+            android:text="        人族1本TR通常都是速TR，但首发有2种，AM和FL。打这个，ORC就要做好准备。探路的农民侦察到对手有TR意图，BM和大G停止MF 333，立刻去截他的部队。最好是BM砍AM，大G卡位，如果能在他去到你基地的时候把AM磨黄就最好，不能，就见什么砍什么。BM尽量缩在地洞的攻击范围之内砍所能砍的一切东西，然后基地内部补磨坊。BM和大G都红血后，买上药膏，然后缩到基地下面贴药膏。等恢复好血量，这时就应该砍他农民，然后拖上自己的部分苦工包着他的塔来拆。部队红血果断拉下去贴药膏，如此反复既可。另一种就是补磨坊然后基地内部补塔，出了2~3个苦工后2本转投石车的。这是针对他的塔造好后的思路。尖刺要早升，BM和大G还是和上述一样来应对。至于打FL，就要先杀小火人，其他大同小异。"  
+            android:gravity="left"  
+            android:layout_marginBottom="5dp"
+            android:textColor="#000"></TextView>  
+
+
+        
+    <TextView  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"    
+            android:text="        如果是AM练3的慢TR，那么ORC重点是注意保护自己的地洞，然后拉一个红血大G去酒馆，2发买出PD或PL，狂出大G，防下来应该不是什么问题了。（尽量砍杀AM，2级水人太恐怖了）"  
+            android:gravity="left"  
+            android:textColor="#000"></TextView>  
+
+      
+    <TextView  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"  
+            android:textStyle="bold"  
+            android:typeface="serif"  
+            android:textSize="18sp"  
+            android:text="防2本TR"  
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:gravity="left"  
+            android:textColor="#000"></TextView>  
+
+
+        
+    <TextView  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"    
+            android:text="        人族2本TR分成2种。1种是直接买出2发FL的速TR，另一种就是2发兽王或MK的慢TR了。"  
+            android:gravity="left"  
+            android:layout_marginBottom="5dp"
+            android:textColor="#000"></TextView>  
+
+
+        
+    <TextView  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"    
+            android:text="        前者买出2发FL速TR，他讲究的是一个快字。在你还没有2本兵种的时候，利用召唤物的协助来耗死ORC。那么，兽族将如何利用自身条件来对抗呢？首先，砍杀FL的火人，充分利用好商店，BM带血瓶加速，SH学蛇棒，基地里只造BS，不造BE（造BE没前途）然后兵营里继续生产大G。通常人族这种TR都是野商店，英雄带血瓶和快塔，所以ORC秒人族英雄前途不大。砍杀小火人，接下来要做的就是杀农民。点塔交给SH的蛇棒来完成，BM+大G全部用来杀农民，不要顾忌损失，因为人族不会拖第2波农民过来，只要把农民杀了，然后打爆塔的塔，即使你是大G全死，SH挂了，也有非常大的机会取胜。"  
+            android:gravity="left"  
+            android:layout_marginBottom="5dp"
+            android:textColor="#000"></TextView>  
+
+
+        
+    <TextView  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"    
+            android:text="        后者的慢TR，通常召唤流会先来搞你一波地洞，如果ORC是前期骚扰流的，就尽量用大G来双线小点，BM限制AM练3。特别是在TR SV等图，HUM经常使用到这招的，BM尽量别跟丢了。刚2本时部队应该退回家中防守迎接人族召唤物的骚扰。最好的建筑当然是像LYN那些，只留1个口的。Fly那种就容易被拆地洞了。接下来，人族骚扰占不到什么便宜，就会撤退，这个时候BM应该带大G练个黄点到3。如果那个黄点足够BM到3还有多，那SH也跑过去蹭点竟然，然后BM去侦察。也有只练SH的，反正SH到3和BM到3都意义非凡。抗人族那波，必须要把采木的苦工拖出来，先网杀女巫（网住，BM强砍，SH再变一个）然后其他单位攻击人族靠前的单位。如果他英雄冲得靠前，不要犹豫了直接网杀吧。有3J BM，砍他的女巫会很轻松，有3J SH，自己的部队更耐抗。杀了女巫后砍农民，然后集中A塔。SH升到2级后就不要X对手了，把魔法都用来放治疗波。只要合理分好攻击对象，抗这波不是太难。其实还有些小技巧。例如他部队经过商店等，你BM可以砍一下把怪引出来然后再W，野怪就会网住攻击他的单位。还有如果他部队抱团比较集中，那么你就可以选择一来强秒AM，因为他无路可走嘛。等他疏散了部队，你再网，网消失了再X，即使有血瓶也有一定的概率会被杀死。（前提是BM要够凶）"  
+            android:gravity="left"  
+            android:layout_marginBottom="5dp"
+            android:textColor="#000"></TextView>  
+
+
+        
+    <TextView  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"    
+            android:text="        至于MK的TR，由于他召唤出MK的时候不会来骚扰你，所以ORC就有一段MF的时机。这时BM练3后就立刻去骚扰，然后到SH双线。BM顺路的话可以去商店买个群补，非常有用的。他出MK TR，通常会选择把AM练3MK练2再来，所以你BM就尽量去抢怪。把有限的魔留着用来抢他最大的怪，拖慢他升级的步伐。当他来一波的时候你SH升到了3级，那么已经有很大胜算了。也有一出MK就来TR的，那么方法和刚才的差不多，当然SH也可以优先选择学治疗波了。"  
+            android:gravity="left"  
+            android:textColor="#000"></TextView>  
+
+      
+    <TextView  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"  
+            android:textStyle="bold"  
+            android:typeface="serif"  
+            android:textSize="18sp" 
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:text="对抗人族的冰火2重天"  
+            android:gravity="left"  
+            android:textColor="#000"></TextView>  
+
+
+        
+    <TextView  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"    
+            android:text="        貌似我用人族就很喜欢用这招来打兽族。EI图上AM下雪骚扰的同时用民兵双线开分矿，虽然科技较慢但2本3BR法师可以弥补兵力。过渡期用AM+BMG骚扰，搅得ORC没经济然后80人口法师一波。ORC面对这种战术，一定要把握好思路。前期BM不要跟着AM转，家里（靠近金矿的地洞编3队，他AM一接近立刻B，这样苦工就以最快速度进去）基地留1个大G防守，BM带剩下的大G偷宝那么在ORC 2本的时候BM就可以升到3级。（注意采金的苦工如果没血就和采木的苦工交换下位置）。2本时放下BE BS，2发SH，立刻开分矿。BE优先出一个狼骑，然后BS优先出一个巫医。SH带所有大G练分矿，而巫医则在关键位置插眼（防止他2本用女巫隐身来骚扰）。3J BM尽量跟着他AM，接近你部队就网杀，浪费他TP也是好的。这段时间完全是ORC的主动期，ORC可以直接把商店造在地图的中间，BM一发现他MF立刻大部队捉，各种抢群补，攀3本万金油+投车可以破解了。主要还是前期的防骚扰和2本的开矿上。即使是大家2矿打2矿，ORC有着高等级的英雄完全不处于下风。"  
+            android:gravity="left"  
+            android:textColor="#000"></TextView>  
+
+     
+    <TextView  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"  
+            android:textStyle="bold"  
+            android:typeface="serif"  
+            android:textSize="18sp"  
+            android:text="打MK49流"  
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:gravity="left"  
+            android:textColor="#000"></TextView>  
+
+
+        
+    <TextView  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"    
+            android:text="        有3种办法。1是芙蓉的塔车流或飞龙流，搜索luciforn对抗人族的REP就有很多。前期BM直接去骚扰，野商店无限压制。杀农民为主，人族亏农民就会拖更多民兵来分矿，势必会非常却木，然后ORC 2本飞龙直接去进攻人族主矿，如果他这时塔还没好，那就一辈子好不起来了。前期的骚扰重点放在分矿，使人族忽略主矿的防守。"  
+            android:gravity="left"  
+            android:layout_marginBottom="5dp"
+            android:textColor="#000"></TextView>  
+
+
+        
+    <TextView  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"    
+            android:text="        2本万金油强势开矿然后再攀3本转蝙蝠。LYN WULIN等兽族喜欢使用。良好的意识配合2本兵的强势时期，使得ORC能在2本占据更多的优势，通常HUM 3本41的2个英雄，ORC已经443了。最后用蝙蝠轰炸完HUM的49后剩下ORC强大的英雄配合少量万金油部队玩RPG。SH到5 HUM基本GG。"  
+            android:gravity="left"  
+            android:layout_marginBottom="5dp"
+            android:textColor="#000"></TextView>  
+
+
+        
+    <TextView  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"    
+            android:text="        直攀3本买迷你基地开分矿。FoCuS在MV经常使用。好处是BM更快买电球，开分矿更方便。缺点是2本对人族的震慑不足，如果人族MK带大量FM+雇佣来拆地洞。。日子不好过啊。"  
+            android:gravity="left"  
+            android:textColor="#000"></TextView>  
+
+       
+    <TextView  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"  
+            android:textStyle="bold"  
+            android:typeface="serif"  
+            android:textSize="18sp"  
+            android:text="双骑流"  
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:gravity="left"  
+            android:textColor="#000"></TextView>  
+
+
+        
+    <TextView  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"    
+            android:text="        一招无限yd人族的战术，打太厉害的人作用不大，但打10J左右的人族比较轻松。前期FS首发造兵营单BO升2本。FS直接去骚扰AM。2本后直接造双BE，FS练了131小点后+上前面的骚扰应该能到2了，然后呆在家里防御对手2本双召唤来骚扰。赶跑对手后你的2个BE应该开始出飞龙了。出到4条就转狼骑，2发TC。这时4条飞龙直接去HUM家里骚扰，而FS+1大G+TC带2组药膏去MF。顺序是自己分矿然后顺过去。4条飞龙2轮就可以点死1个农民，像天鬼骚扰NE精灵一样。这时人族有2个选择：1是部队守家，然后补塔。这个就正中下怀，你等他塔开始造直接4条龙一轮点爆然后缩回树林上，反复可以对人族造声很大的打击，2是人族造BG出龙赢，那么继续骚扰农民，然后他BG造好后开始撤退。部队转少量蝙蝠，英雄最快速度练到双3，加速一定不能少带。这样的话他英雄等级不高你见面WC还是比较容易取胜的。"  
+            android:gravity="left"  
+            android:textColor="#000"></TextView>  
+
+     
+    <TextView  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"  
+            android:textStyle="bold"  
+            android:typeface="serif"  
+            android:textSize="18sp"  
+            android:text="其他大招"  
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:gravity="left"  
+            android:textColor="#000"></TextView>  
+
+
+        
+    <TextView  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"    
+            android:text="        JY的2本KD+SM TR。针对召唤流，SM G他的召唤物，KD吞女巫，兵营再出少量猎头。"  
+            android:gravity="left"  
+            android:layout_marginBottom="5dp"
+            android:textColor="#000"></TextView>  
+
+
+        
+    <TextView  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"    
+            android:text="        无限黑白牛：有钱，就有这招。如果人族转49，数量不多的话电球BM可以解决。数量多？那就转多点猎头。"  
+            android:gravity="left"  
+            android:layout_marginBottom="5dp"
+            android:textColor="#000"></TextView>  
+
+
+        
+    <TextView  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"    
+            android:text="        1本无视野偷塔TR。针对MK开矿，在他建筑的视野外造塔，塔造稳后开始升2本，自己基地也补塔，2本出车。对意识不是太好的有奇效。"  
+            android:gravity="left"  
+            android:layout_marginBottom="5dp"
+            android:textColor="#000"></TextView>  
+
+
+        
+    <TextView  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"    
+            android:text="        FLY的暴力狼骑。前期的骚扰一定要大赚一笔，削弱人族的部队和英雄等级等，2本的纯狼骑才能占据优势。先MF 2发，然后估量人族的塔，塔少直接冲塔群，如果塔多，那么就捉人族MF为主，自己开分矿打后期。"  
+            android:gravity="left"  
+            android:textColor="#000"></TextView>  
+
+
+
+</LinearLayout>
+</ScrollView>
+</LinearLayout>

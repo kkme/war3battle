@@ -1,0 +1,955 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#eee"
+        android:orientation="vertical" >
+        
+        <LinearLayout 
+  			android:layout_width="fill_parent"
+  			android:layout_height="45dp"
+  			android:id="@+id/title" 
+  			android:background="@drawable/title_bar"
+  			android:gravity="center_horizontal|center_vertical"  >  
+      		<TextView 
+        		android:layout_width="wrap_content" 
+        		android:layout_height="wrap_content" 
+        		android:text="利爪德鲁依"
+        		android:textSize="20sp"		
+				android:textColor="#ffffff" />       
+			</LinearLayout>
+<ScrollView 
+
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content"
+    android:background="#eee"
+>
+<LinearLayout 
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    >
+
+      
+ <ImageView
+           android:layout_width="wrap_content" 
+         android:layout_height="wrap_content" 
+           android:gravity="left" 
+			android:layout_gravity="center"
+			android:layout_marginTop="10dp"
+			android:layout_marginBottom="10dp"
+            android:src="@drawable/docdruidform"
+           >
+      </ImageView>
+
+<TextView   
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="介绍"  
+            android:gravity="left"
+             android:textColor="#339966"
+            android:textSize="18sp"   
+            ></TextView>  
+<TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="        这些古老的德鲁依崇拜熊的图腾并且可以使用他的图腾的力量来保卫自己的家园。他们可以变形为巨大凶猛的熊，从而拥有惊人的力量和耐力。他们强大的魔法力量可以在战斗中提高盟军的战斗力和勇气。"  
+            android:gravity="left"  
+           ></TextView>  
+<TextView android:layout_marginTop="10dp" 
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="数据"  
+            android:gravity="left"
+            android:textColor="#339966"
+            android:textSize="18sp"  
+         ></TextView>
+ <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"   
+            android:text="德鲁伊形态" 
+                        android:textStyle="bold"
+            
+            android:gravity="left"  
+         >
+</TextView>   
+<TableLayout  
+    android:layout_width="match_parent"  
+    android:layout_height="match_parent"  
+    android:shrinkColumns="*"  
+    android:stretchColumns="*"> 
+<TableRow
+        android:layout_height="wrap_content"  
+        android:layout_width="match_parent">        
+      <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="等级: 4 "  
+            android:gravity="left" 
+            android:layout_span="1" 
+           ></TextView>
+      <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="费用：255/80/4"  
+            android:gravity="left"
+            android:layout_span="1"  
+            ></TextView>
+ 
+</TableRow>
+
+<TableRow
+        android:layout_height="wrap_content"  
+        android:layout_width="match_parent">        
+      <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="单位类型: 普通 "  
+            android:gravity="left" 
+            android:layout_span="1" 
+           ></TextView>
+      <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="攻击类型: 普通 "  
+            android:gravity="left"
+            android:layout_span="1"  
+            ></TextView>
+ 
+</TableRow>
+<TableRow
+        android:layout_height="wrap_content"  
+        android:layout_width="match_parent">        
+      <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="武器类型: 普通 "  
+            android:gravity="left" 
+            android:layout_span="1" 
+           ></TextView>
+      <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="护甲类型: 重甲 "  
+            android:gravity="left"
+            android:layout_span="1"  
+            ></TextView>
+ 
+</TableRow>
+<TableRow
+        android:layout_height="wrap_content"  
+        android:layout_width="match_parent">        
+      <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="护甲: 1 "  
+            android:gravity="left" 
+            android:layout_span="1" 
+           ></TextView>
+      <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="对地攻击:19-22(21-30*) "  
+            android:gravity="left"
+            android:layout_span="1"  
+            ></TextView>
+ 
+</TableRow>
+<TableRow
+        android:layout_height="wrap_content"  
+        android:layout_width="match_parent">        
+      <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="对空攻击:无 "  
+            android:gravity="left" 
+            android:layout_span="1" 
+           ></TextView>
+      <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="攻击间隔:1.5 "  
+            android:gravity="left"
+            android:layout_span="1"  
+            ></TextView>
+ 
+</TableRow>
+<TableRow
+        android:layout_height="wrap_content"  
+        android:layout_width="match_parent">        
+      <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="生命值: 430(580*)  "  
+            android:gravity="left" 
+            android:layout_span="1" 
+           ></TextView>
+      <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="生命恢复: 夜晚"  
+            android:gravity="left"
+            android:layout_span="1"  
+            ></TextView>
+ 
+</TableRow>
+<TableRow
+        android:layout_height="wrap_content"  
+        android:layout_width="match_parent">        
+      <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="魔法:200(400*)"  
+            android:gravity="left" 
+            android:layout_span="1" 
+           ></TextView>
+      <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="魔法恢复: 0.667(1.167*) "  
+            android:gravity="left"
+            android:layout_span="1"  
+            ></TextView>
+ 
+</TableRow>
+<TableRow
+        android:layout_height="wrap_content"  
+        android:layout_width="match_parent">        
+      <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="攻击范围: 近战 "  
+            android:gravity="left" 
+            android:layout_span="1" 
+           ></TextView>
+      <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="白天视野: 140 "  
+            android:gravity="left"
+            android:layout_span="1"  
+            ></TextView>
+ 
+</TableRow>
+<TableRow
+        android:layout_height="wrap_content"  
+        android:layout_width="match_parent">        
+      <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="夜晚视野: 80 (140*) "  
+            android:gravity="left" 
+            android:layout_span="1" 
+           ></TextView>
+      <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="移动速度: 中等 (270)  "  
+            android:gravity="left"
+            android:layout_span="1"  
+            ></TextView>
+ 
+</TableRow>
+<TableRow
+        android:layout_height="wrap_content"  
+        android:layout_width="match_parent">        
+      <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="训练时间: 35  "  
+            android:gravity="left" 
+            android:layout_span="1" 
+           ></TextView>
+       <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="运训练地点: 智慧之树 "  
+            android:gravity="left" 
+            android:layout_span="1" 
+           ></TextView>
+ 
+</TableRow>
+<TableRow
+        android:layout_height="wrap_content"  
+        android:layout_width="match_parent">        
+      <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="需求: 无  "  
+            android:gravity="left" 
+            android:layout_span="1" 
+           ></TextView>
+       <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="运输占用空间:  1 "  
+            android:gravity="left" 
+            android:layout_span="1" 
+           ></TextView>
+ 
+</TableRow>
+<TableRow
+        android:layout_height="wrap_content"  
+        android:layout_width="match_parent">        
+      <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="训练热键: C "  
+            android:gravity="left" 
+            android:layout_span="1" 
+           ></TextView>
+      
+           
+</TableRow>
+ <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"   
+            android:text="熊形态" 
+                        android:textStyle="bold"
+            
+            android:gravity="left"  
+         >
+</TextView> 
+<TableRow
+        android:layout_height="wrap_content"  
+        android:layout_width="match_parent">        
+      <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="等级: 4  "  
+            android:gravity="left" 
+            android:layout_span="1" 
+           ></TextView>
+       <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="单位类型: 普通 "  
+            android:gravity="left" 
+            android:layout_span="1" 
+           ></TextView>
+ 
+</TableRow>
+<TableRow
+        android:layout_height="wrap_content"  
+        android:layout_width="match_parent">        
+      <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="攻击类型: 普通 "  
+            android:gravity="left" 
+            android:layout_span="1" 
+           ></TextView>
+       <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="武器类型: 普通 "  
+            android:gravity="left" 
+            android:layout_span="1" 
+           ></TextView>
+ 
+</TableRow>
+<TableRow
+        android:layout_height="wrap_content"  
+        android:layout_width="match_parent">        
+      <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="护甲类型: 重甲 "  
+            android:gravity="left" 
+            android:layout_span="1" 
+           ></TextView>
+       <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="护甲: 3(9*) "  
+            android:gravity="left" 
+            android:layout_span="1" 
+           ></TextView>
+ 
+</TableRow>
+<TableRow
+        android:layout_height="wrap_content"  
+        android:layout_width="match_parent">        
+      <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="对地攻击: 29-44(32-62*)  "  
+            android:gravity="left" 
+            android:layout_span="1" 
+           ></TextView>
+       <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="对空攻击: 无 "  
+            android:gravity="left" 
+            android:layout_span="1" 
+           ></TextView>
+ 
+</TableRow>
+<TableRow
+        android:layout_height="wrap_content"  
+        android:layout_width="match_parent">        
+      <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="攻击间隔: 1.5  "  
+            android:gravity="left" 
+            android:layout_span="1" 
+           ></TextView>
+       <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="生命值: 960 "  
+            android:gravity="left" 
+            android:layout_span="1" 
+           ></TextView>
+ 
+</TableRow>
+<TableRow
+        android:layout_height="wrap_content"  
+        android:layout_width="match_parent">        
+      <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="生命恢复: 夜晚  "  
+            android:gravity="left" 
+            android:layout_span="1" 
+           ></TextView>
+       <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="魔法值: 400  "  
+            android:gravity="left" 
+            android:layout_span="1" 
+           ></TextView>
+ 
+</TableRow>
+<TableRow
+        android:layout_height="wrap_content"  
+        android:layout_width="match_parent">        
+      <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="魔法恢复: 0.75  "  
+            android:gravity="left" 
+            android:layout_span="1" 
+           ></TextView>
+       <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="攻击范围: 近战 "  
+            android:gravity="left" 
+            android:layout_span="1" 
+           ></TextView>
+ 
+</TableRow>
+<TableRow
+        android:layout_height="wrap_content"  
+        android:layout_width="match_parent">        
+      <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="白天视野: 140  "  
+            android:gravity="left" 
+            android:layout_span="1" 
+           ></TextView>
+       <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="夜晚视野: 80 (140*) "  
+            android:gravity="left" 
+            android:layout_span="1" 
+           ></TextView>
+ 
+</TableRow>
+<TableRow
+        android:layout_height="wrap_content"  
+        android:layout_width="match_parent">        
+      <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="移动速度: 中等 (270)  "  
+            android:gravity="left" 
+            android:layout_span="1" 
+           ></TextView>
+       <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="运输占用空间:  1 "  
+            android:gravity="left" 
+            android:layout_span="1" 
+           ></TextView>
+ 
+</TableRow>
+</TableLayout>
+
+<TextView android:layout_marginTop="10dp" 
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="信息"
+            android:textColor="#339966"
+            android:textSize="18sp"   
+            android:gravity="left"  
+         ></TextView> 
+ 
+     
+         <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="        利爪德鲁依是一个强力单位。在熊形态时，它是一个高级近战单位，和骑士、憎恶、牛头人一样。在暗夜精灵形态时，它是一个魔法兵种，其地位类似于牧师，女巫或者萨满祭司。不管怎么说，利爪德鲁依的两种形态对于暗夜精灵的部队来说都是不可缺少的组成部分。在你完成远古之树的升级后，你就可以建造智慧之树，并训练一些树妖和利爪德鲁依。让利爪德鲁依混杂在你的部队中使用吼叫。吼叫可以给你的部队增加25%的攻击力（树妖是魔法免疫不会获得额外攻击力）。"  
+            android:gravity="left"  
+         ></TextView>  
+           <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="        一个暗夜精灵族比较常用的战术就是用单英雄骚扰，然后快速的攀科技。在初期，只需要造那些必要建筑，然后一直升级到3级基地永恒之树，并在其中间隙建造智慧之树。当完成利爪德鲁依的大师级训练时，训练一定数量的熊，有的是是普通状态可以吼叫和使用返老还童，有的可以变身为熊。"  
+            android:gravity="left"  
+         ></TextView>  
+            <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="        有一点很重要，不要随便的让利爪德鲁依死掉，对于那些受伤的利爪德鲁依你需要对他们使用返老换童。利用子组切换可以很方便的完成这项操作。首先在子组中选择普通形态的利爪德鲁依，然后点击返老换童技能，然后利用[TAB]来切换到你想要治疗的单位身上，点击一下就可以了。或者使用[ALT]来随时观察自己部队的状态。"  
+            android:gravity="left"  
+         ></TextView>  
+                    <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="        升级利爪之痕迹技能可以让你的利爪德鲁依在熊形态时使用吼叫技能。利爪德鲁依无法攻击空中目标。这是它们最大的弱点。最好使用利爪德鲁依和弓箭手这类远近搭配的组合。"  
+            android:gravity="left"  
+         ></TextView>  
+                    <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="        用月亮井来恢复利爪德鲁依的生命和魔法，使他们可以使用强大的魔法技能。"  
+            android:gravity="left"  
+         ></TextView>
+  <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"   
+            android:text="对抗魔法破坏者" 
+                        android:textStyle="bold"
+            
+            android:gravity="left"  
+         >
+</TextView> 
+                    <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="        在面对破法者的时候，最好将魔法尽可能的释放掉，例如说不停的吼叫，这样破法者的魔法反馈技能就无法给你带来太多的伤害。吼叫的另一个作用，就是用来对付破法者的盗法技能，在你面对破法者的时候，几次的吼叫就会让他们忙个不停，而不会攻击你。"  
+            android:gravity="left"  
+         ></TextView>
+    <TextView android:textColor="#000"  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"    
+            android:text="        这样的好处就是："  
+            android:gravity="left"  
+            ></TextView>  
+     <TextView android:textColor="#000"  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"    
+            android:text="        a) 消耗掉大量魔法，这样不会受到魔法反馈的伤害。"  
+            android:gravity="left"  
+            ></TextView>  
+      <TextView android:textColor="#000"  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"    
+            android:text="        b) 吼叫技能可以作用于多个单位，而盗法一次只能作用一个单位。"  
+            android:gravity="left"  
+            ></TextView>  
+    <TextView android:textColor="#000"  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"    
+            android:text="        c) 永远记住，消耗掉的魔法=魔法反馈技能给你带来的伤害。"  
+            android:gravity="left"  
+            ></TextView>  
+      
+<TextView android:layout_marginTop="10dp" 
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="技能"
+                        android:textColor="#339966"
+            android:textSize="18sp"    
+            android:gravity="left"  
+         >
+</TextView>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_marginTop="10dp"
+    android:layout_height="wrap_content" >
+ <ImageView
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:src="@drawable/docdruidform" >
+</ImageView> 
+ <TextView
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:layout_gravity="center_vertical"
+     android:text="      暗夜精灵形态 Night Elf Form"
+     android:textColor="#000" />
+</LinearLayout> 
+
+ <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content" 
+            android:layout_span="6"     
+            android:text="        让利爪德鲁依变回暗夜精灵的形态，在这种状态下可以施放魔法并得到更快的法力恢复速度。"  
+            android:gravity="left"  
+         >
+</TextView>
+
+    <TextView android:textColor="#000"  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"    
+            android:text="魔法消耗：25；效果：变回暗夜精灵形态"  
+            android:gravity="left"  
+            ></TextView>  
+<TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"   
+            android:text="暗夜精灵形态下可以施放下列技能：" 
+                        android:textStyle="bold"
+            
+            android:gravity="left"  
+         >
+</TextView> 
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_marginTop="10dp"
+    android:layout_height="wrap_content" >
+
+ <ImageView
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:src="@drawable/roar" >
+
+</ImageView> 
+
+ <TextView
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:layout_gravity="center_vertical"
+     android:text="      吼叫 Roar"
+     android:textColor="#000" />
+
+</LinearLayout>  
+
+ <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content" 
+            android:layout_span="6"     
+            android:text="        增加周围的友军25%的攻击力。"  
+            android:gravity="left"  
+         >
+</TextView>
+
+     <TextView android:textColor="#000"  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"    
+            android:text="持续时间：45s；魔法消耗：100；作用范围：50；使用目标：天空、地面、友军、自己；效果：增加友军攻击力25%"  
+            android:gravity="left"  
+            ></TextView>  
+ <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"   
+            android:text="提示" 
+                        android:textStyle="bold"
+            
+            android:gravity="left"  
+         >
+</TextView> 
+    <TextView android:textColor="#000"  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"    
+            android:text="        吼叫是一个可以让你大部分友军收益的技能，在较大的组队游戏中，其效果更加明显。"  
+            android:gravity="left"  
+            ></TextView>  
+    <TextView android:textColor="#000"  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"    
+            android:text="        研究利爪之痕可以让利爪德鲁依在熊形态是施放吼叫。"  
+            android:gravity="left"  
+            ></TextView>  
+ <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"   
+            android:text="应对策略" 
+                        android:textStyle="bold"
+            
+            android:gravity="left"  
+         >
+</TextView> 
+
+    <TextView android:textColor="#000"  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"    
+            android:text="        你可以驱散这个魔法效果，或者暂时撤退。"  
+            android:gravity="left"  
+            ></TextView>              
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_marginTop="10dp"
+    android:layout_height="wrap_content" >
+
+ <ImageView
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:src="@drawable/rejuvenation" >
+
+</ImageView> 
+
+ <TextView
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:layout_gravity="center_vertical"
+     android:text="      返老还童 Rejuvenation"
+     android:textColor="#000" />
+
+</LinearLayout>  
+
+ <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content" 
+            android:layout_span="6"     
+            android:text="        12秒内恢复友军一个单位400点生命。"  
+            android:gravity="left"  
+         >
+</TextView>
+
+     <TextView android:textColor="#000"  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"    
+            android:text="研究费用：100/50；研究地点：智慧之树；需求：专家级利爪德鲁伊训练"  
+            android:gravity="left"  
+            ></TextView>  
+                <TextView android:textColor="#000"  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"    
+            android:text="持续时间：12s；魔法消耗：125；距离：40；使用目标：天空、地面、友军、自己、中立；效果：恢复400点生命"  
+            android:gravity="left"  
+            ></TextView>
+                 <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"   
+            android:text="提示" 
+                        android:textStyle="bold"
+            
+            android:gravity="left"  
+         >
+</TextView>   
+                <TextView android:textColor="#000"  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"    
+            android:text="        返老还童是一个非常适合使用在英雄身上的技能。例如说，在自己或友军的英雄身上使用返老还童来拯救他们。或者对那些你不想损失掉的高级单位使用返老还童。"  
+            android:gravity="left"  
+            ></TextView>  
+                <TextView android:textColor="#000"  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"    
+            android:text="        对正在使用流星雨的月 之女祭司使用返老还童，这样可以让她支持的更久一些。"  
+            android:gravity="left"  
+            ></TextView>  
+                <TextView android:textColor="#000"  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"    
+            android:text="        返老还童能对满生命值的单位使用，也能对魔免单位使用。"  
+            android:gravity="left"  
+            ></TextView>
+                 <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"   
+            android:text="应对策略" 
+                        android:textStyle="bold"
+            
+            android:gravity="left"  
+         >
+</TextView>   
+                <TextView android:textColor="#000"  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"    
+            android:text="        返老还童可以被驱散。"  
+            android:gravity="left"  
+            ></TextView>  
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_marginTop="10dp"
+    android:layout_height="wrap_content" >
+
+ <ImageView
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:src="@drawable/bearform" >
+
+</ImageView> 
+
+ <TextView
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:layout_gravity="center_vertical"
+     android:text="      熊形态 Bear Form"
+     android:textColor="#000" />
+
+</LinearLayout>  
+
+ <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content" 
+            android:layout_span="6"     
+            android:text="        让利爪德鲁依变身成熊，魔法恢复速度变慢，但是护甲值增加，生命值增加，不能使用魔法，但可以使用吼叫。"  
+            android:gravity="left"  
+         >
+</TextView>
+
+    <TextView android:textColor="#000"  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"    
+            android:text="研究费用：100/150；研究地点：智慧之树；需求：大师级利爪德鲁依训练"  
+            android:gravity="left"  
+            ></TextView>  
+    <TextView android:textColor="#000"  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"    
+            android:text="距离：40；魔法消耗：25；效果：变身成熊"  
+            android:gravity="left"  
+            ></TextView>  
+<TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"   
+            android:text="提示" 
+                        android:textStyle="bold"
+            
+            android:gravity="left"  
+         >
+</TextView>
+    <TextView android:textColor="#000"  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"    
+            android:text="        如果你不需要经常施法的话，那么把利爪德鲁依变成熊，当成一个近战单位来使用吧。"  
+            android:gravity="left"  
+            ></TextView>  
+<TextView android:layout_marginTop="10dp" 
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="升级"  
+            android:gravity="left"
+             android:textColor="#339966"
+            android:textSize="18sp"   
+            ></TextView>  
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_marginTop="10dp"
+    android:layout_height="wrap_content" >
+
+ <ImageView
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:src="@drawable/docadepttraining" >
+
+</ImageView> 
+
+ <TextView
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:layout_gravity="center_vertical"
+     android:text="      专家级利爪德鲁依训练 Druid of Claw Adept Training"
+     android:textColor="#000" />
+
+</LinearLayout> 
+
+ <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content" 
+            android:layout_span="6"     
+            android:text="        增加利爪徳鲁依100点魔法，魔法恢复速度加快25%，生命增加75，增加攻击力，并可以使用返老还童技能。"  
+            android:gravity="left"  
+         >
+</TextView>
+
+    <TextView android:textColor="#000"  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"    
+            android:text="研究费用：100/50；研究地点：智慧之树；研究时间：25s"  
+            android:gravity="left"  
+            ></TextView>  
+   
+          
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_marginTop="10dp"
+    android:layout_height="wrap_content" >
+
+ <ImageView
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:src="@drawable/docmastertraining" >
+
+</ImageView> 
+
+ <TextView
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:layout_gravity="center_vertical"
+     android:text="      大师级利爪徳鲁依训练 Druid of Claw Master Training"
+     android:textColor="#000" />
+
+</LinearLayout> 
+
+ <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content" 
+            android:layout_span="6"     
+            android:text="        再增加利爪徳鲁依100点魔法，魔法恢复速度加快25%，生命增加75，增加攻击力，并可以使用熊形态技能。"  
+            android:gravity="left"  
+         >
+</TextView>
+
+    <TextView android:textColor="#000"  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"    
+            android:text="研究费用：100/150；研究地点：智慧之树；需求：专家级利爪德鲁依训练、永恒之树；研究时间：35s"  
+            android:gravity="left"  
+            ></TextView>  
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_marginTop="10dp"
+    android:layout_height="wrap_content" >
+
+ <ImageView
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:src="@drawable/enchantedbears" >
+
+</ImageView> 
+
+ <TextView
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:layout_gravity="center_vertical"
+     android:text="      利爪之痕 Mark of the Claw"
+     android:textColor="#000" />
+
+</LinearLayout> 
+
+ <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content" 
+            android:layout_span="6"     
+            android:text="        让熊形态的利爪徳鲁依可以使用吼叫。"  
+            android:gravity="left"  
+         >
+</TextView>
+
+    <TextView android:textColor="#000"  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"    
+            android:text="研究费用：25/100；研究地点：智慧之树；需求：大师级利爪德鲁依训练；研究时间：20s"  
+            android:gravity="left"  
+            ></TextView>  
+    
+</LinearLayout>
+</ScrollView>
+</LinearLayout>

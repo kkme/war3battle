@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#eee"
+        android:orientation="vertical" >
+        
+        <LinearLayout 
+  			android:layout_width="fill_parent"
+  			android:layout_height="45dp"
+  			android:id="@+id/title" 
+  			android:background="@drawable/title_bar"
+  			android:gravity="center_horizontal|center_vertical"  >  
+      <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="返回" 
+        android:onClick="backv3"
+        />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="兽族VS精灵族"
+        android:gravity="center|center_horizontal|center_vertical"
+        android:textColor="#ffffff"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="点我" 
+        android:onClick="clickv3"
+        />    
+			</LinearLayout>
+<ScrollView 
+
+    android:id="@+id/ScrollView01" 
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content"
+
+>
+
+<LinearLayout 
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    >
+     
+    <TextView  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"  
+            android:textStyle="bold"  
+            android:typeface="serif"  
+            android:textSize="18sp"  
+            android:text="兽精大战"  
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:gravity="left"  
+            android:textColor="#000"></TextView>  
+
+
+        
+    <TextView  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"    
+            android:text="        好了，依然是先介绍下有什么思路。分成前期的压制或TR，2本TR，常规万金油战术（分成打熊鹿和吹风）双骑流，WS和其他大招。"  
+            android:gravity="left"  
+            android:layout_marginBottom="5dp"
+            android:textColor="#000"></TextView>  
+
+
+        
+    <TextView  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"    
+            android:text="       前期压制。说了压制，那当然要第1时间去了。等DH练到2，NE MF第1个点走回去封家，错过了最佳时机还压什么制？所以当侦察到NE的出生点后，BM直接卖TP买头环（针对MF难的地图，如AI TM等）买了头环后，用光W来砍精灵，运气好能2刀一个。（这是前期骚扰最主要的任务，NE刚升2本就死精灵，后果可想而知，如果他还没升本，不精灵耽误科技，2本DH+兽王来骚扰你就慢了，怎么也是赚的）。接下来BM没磨，可以看看有什么砍的，顺序是：精灵-AC-建造中的井-实在没东西砍可以和DH磨下血。然后退回家中贴药膏。鞋和粉是必须的，接下来就是如何躲开DH去MF。推荐练大点，因为那时有3个大G了，练大点的话先打远程怪，然后到近战怪（此时贴药膏）练完后BM应该可以到达2级半。如果顺利，练多个点到3，之后就好打了。如果是之前耽误了一些时间的，那么就可以选择用3个大G堵酒馆，使他不敢买2发。前期压制的另一个目的：就是为2本TR作准备。这种压制，通常会把商店造到地图中间，BM和大G持续找DH拼血。当然，能砍AC最好，最主要的目的就是要耗干NE的井水。试想一下，2本TR时，NE没什么井水了，这样ORC的TR难度就小多了。拼到没血，ORC去中间买药膏和加速，继续拼，2本后直接TR就OK了。"  
+            android:gravity="left"  
+            android:textColor="#000"></TextView>  
+      
+    <TextView  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"  
+            android:textStyle="bold"  
+            android:typeface="serif"  
+            android:textSize="18sp"  
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:text="TR"  
+            android:gravity="left"  
+            android:textColor="#000"></TextView>  
+
+
+        
+    <TextView  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"    
+            android:text="        NE是一个脆弱的种族，经常受到各族的TR（UD是RUSH）。当然，兽族TR NE在某些情况下会取得非常好的效果。"  
+            android:gravity="left"  
+            android:layout_marginBottom="5dp"
+            android:textColor="#000"></TextView>  
+
+
+        
+    <TextView  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"    
+            android:text="        1本TR。例如芙蓉的地洞RUSH，Grubby在AI的1本造塔TR，都是打NE一个措手不及。芙蓉的地洞RUSH，是利用NE 野BR MF的特点，在NE的DH走出去MF的时候造BO，等DH回防的时候BO已经造好一半+了。这时BM卖TP买头环买粉火速过去，利用他DH砍BO的时间，尽量攻击DH，等BO被打退的时候DH也不健康了。接下来ORC重造BO，拖多几个苦工过来，补商店。DH没血，不敢和BM刚，一直被动。而Grubby的1本TR，野磨坊来麻痹NE，然后趁NE常规升本的时候直接带大G苦工过去造塔。这时NE大概是DH+2~3个AC，井水比较充裕。ORC是BM+4大G，带4个农民一次造4根塔。值得注意的是塔不要靠得太密，不然的话很容易被NE买出2发PL砸爆。GB就是这样被remind翻盘的。"  
+            android:gravity="left"  
+            android:layout_marginBottom="5dp"
+            android:textColor="#000"></TextView>  
+
+
+        
+    <TextView  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"    
+            android:text="        2本TR。通常都是BM+NAGA的TR，也有BM+SH，FS+NAGA等。前期尽量耗NE水，2本时一出了2发英雄，立刻压到NE基地，直接造塔。攻击时攻击离自己单位最近的东西，不是建筑。不要被NE诱进去被树拍，能对峙最好对峙，拖到塔好就OK了。也有BM前期偷宝为主，这样NE就会放心单AC跳3本，这时ORC再TR也会取得不错的效果。塔好了之后可以转猎头或投石车，对风德的效果不错。"  
+            android:gravity="left"  
+            android:layout_marginBottom="5dp"
+            android:textColor="#000"></TextView>  
+
+
+        
+    <TextView  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"    
+            android:text="        3本TR。通常是小白流，O区小白原创。前期利用狼，多耗耗NE的精灵。注意FS不要被DH跟到，狼要分开走。通常1个狼捉到在野外的精灵，NE都会选择自爆的。接下来2本后直升3本，科技比NE的3本要快，因为NE断木了嘛。3本后升城甲，然后带4个苦工4大G 1投石车3英雄。FS+NAGA+FL，也可以3发DR。"  
+            android:gravity="left"  
+            android:textColor="#000"></TextView>  
+
+     
+    <TextView  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"  
+            android:textStyle="bold"  
+            android:typeface="serif"  
+            android:textSize="18sp"  
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:text="常规万金油"  
+            android:gravity="left"  
+            android:textColor="#000"></TextView>  
+
+
+        
+    <TextView  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"    
+            android:text="        打吹风的。前期骚扰或MF，依然是看地图。EI，TR等图BM当然是练练了，但注意不要偷大点，前期ORC最好就是捉紧时间，避开DH MF，和DH拼血赶跑DH后，ORC的BM+3大G可以选择偷练大点。通常DH不会捉大点，但被捉了就非常悲剧了。所以去练之前一定要仔细看清楚有没有被NE发现。例如TM ORC可以练分矿，TR也是。这样练完，跑回基地，NE的2本骚扰大概就来了，比起练小点BM这时起码多了半级经验。至于2发，应该如何判断呢？最简单的方法就是看NE的前期兵种和2发英雄。TR，AI等图，NE通常会AC开局跳吹风，2发兽王，ORC就可以从这个方面判断出。TM，EI等图，如果NE用HT开局，2发KOG，那么ORC也可以判断为熊鹿。也不排除会有AC开局熊鹿，HT开局吹风的，如果是后着，ORC不小心出了2发SH，可以在SH刚出时尽量杀他2个HT，然后练2就反压制，在他大师吹风成型之前尽量赚他便宜，这样就能占据优势。至于出了TC，他是熊鹿，那么出TC的适合开分矿后再迅速爆KD，狼骑数量不用太多。"  
+            android:gravity="left"  
+            android:layout_marginBottom="5dp"
+            android:textColor="#000"></TextView>  
+
+
+        
+    <TextView  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"    
+            android:text="        前者，是曾经的主流战术。在比赛中，经常可以看到2个FS带着狼纠缠的身影。通常情况下开局都是先2本再兵营的。如果是大地图，FS刚走出祭坛就分狼探路，然后持续骚扰。注意不要送狼的经验给BM，BM不在时可以打打地洞影响他苦工的采木速度。要买双鞋，重点是刚买出2发FL那波。模仿AM+兽王，尽量拆他的地洞，方便自己的后续TR。他SH出来后果断TP（或者被BM砍到红血的时候）然后恢复一下双BE 狼骑KD带苦工TR，再转投石车。去TR那波提前召唤出召唤物，英雄身上要带血瓶和加速。如果前期骚扰得好对手这时大概只有4~5个大G，兵力上并不足以和你抗衡。关于箭塔的位置，前2根最好保守一点，之后的塔就最好能射到他的商店或兵营。他失去补给，问题就严重了。之后投石车对砸，TR一方地形开阔绝对占据优势，而且还能用召唤物来突击他的投车。"  
+            android:gravity="left"  
+            android:layout_marginBottom="5dp"
+            android:textColor="#000"></TextView>  
+
+
+        
+    <TextView  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"    
+            android:text="        中期：如果BM没到3，先BM练3，可以和老牛蹭经验。到3后去3陪。至于TC，如何快速练3呢？EI为例，先练雇佣兵，然后到131，再到旁边的鱼人，就刚好到3了。TR图，分矿旁的3322，等狼骑白牛来了后练分矿，再随便练一个点到3。其实MF路线是非常随意的，重点是偷练，最好是先MF雇佣兵，能买绿皮。接下来依然是有2种思路，学Fly那样压制，或者继续把TC练3，扔下分矿换家再打后期。压制型的，去之前数次把DH砍得很伤，那么不用看NE家的井水也是不太够，那么买好绿皮直接冲去NE家中，先把商店拆了，这样一波打沉NE的成功率将会大大增加。或者拆了商店拉后，引风德出来然后网杀。"  
+            android:gravity="left"  
+            android:layout_marginBottom="5dp"
+            android:textColor="#000"></TextView>  
+
+
+        
+    <TextView  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"    
+            android:text="        打后期型的，放分矿时机尽量早一些，他买出3发英雄4~6个风德那一波，你的分矿一定要接近完成，主力部队直接去NE家拆月井，这样就会出现2种情况，1是他TP，你立刻贴加速闪人。2是他不顾基地直接打你分矿的，你就取消，部队继续拆井。他TP的时候你应该能拆2~3个井了，立刻闪人，走不了就TP。这时NE绝对是卡人口，部队也只有40左右。ORC这时应该是接近50人口，不要犹豫立刻爆兵，买上群补拖苦工直接进攻NE，就比较容易拿下。"  
+            android:gravity="left"  
+            android:layout_marginBottom="5dp"
+            android:textColor="#000"></TextView>  
+
+
+        
+    <TextView  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"    
+            android:text="        ORC打吹风后期的大战操作：NE阵型好不冲，阵型不好立刻贴加速冲上去。注意保存TC的魔法（网住DH，TC和DH保持距离）侍机围杀他的英雄。强秒的时候BM最好顶起无敌。吃群补的时机是苦工半血的时候。至于攻击对象，ORC如果部队多，可以直接切入NE的阵型中。打精灵龙，要预先出个蝙蝠来炸。TC波风德，最好是冲到侧翼来放。见面看到TK的工厂要首先A爆。其他的就不多说了。"  
+            android:gravity="left"  
+            android:layout_marginBottom="5dp"
+            android:textColor="#000"></TextView>  
+
+
+        
+    <TextView  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"    
+            android:text="        万金油打熊鹿。由于熊鹿成型没有吹风快，而且他英雄也是需要等级的，这就给了ORC 2发SH一个MF的时间。熟悉地图，用最快的速度练3，然后买个群补，拖上苦工，憋到50人口（有没KD问题不是太大）直接找NE决战。由于战术体系的缘故，ORC 50人口时NE大概只有43人口，兵力上是完全不足以和ORC抗衡的。大战时SH注意躲开DH就OK了。有几点要注意：1是SH刚出来的时候要赚NE 2个HT（X+BM的攻击）最少也要赚1个，然后BM练3，去3陪NE。ORC随时准备好捉NE MF的准备。见面时率先网住肉熊，然后由BM来攻击。避忌打到后期，NE的填鸭流打ORC的胜算还是非常高的。记住的一点就是50人口ORC有优势，70人口NE有优势。参考这场REP  "  
+            android:gravity="left"  
+            android:textColor="#000"></TextView>  
+
+      
+    <TextView  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"  
+            android:textStyle="bold"  
+            android:typeface="serif"  
+            android:textSize="18sp"  
+            android:text="双骑流"  
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:gravity="left"  
+            android:textColor="#000"></TextView>  
+
+
+        
+    <TextView  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"    
+            android:text="        双骑流（也有暴力狼骑）有2个分支，无BB 2本和常规2本。前者，BM前期专走诡异路线偷宝，2本时最好凑到4个属性宝，然后2发SH或NAGA，爆狼骑利用无限网来削弱NE的部队。打熊鹿流的，尽量在熊出来之前占据优势，然后转KD，还是可以打打的。至于打吹风，如果他是封家，那么他的英雄外露很容易抗不住你的进攻，如果他BR站起英雄走进去，你就直接带苦工TR。最好造个进攻型商店，狼骑优先拆他的商店月井。如果他是部队藏在BR后面的，不要硬打，只要在他大师吹风或大师熊完成之前赚了他足够的单位，后面的战斗将会比较轻松。"  
+            android:gravity="left"  
+            android:textColor="#000"></TextView>  
+
+     
+    <TextView  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"  
+            android:textStyle="bold"  
+            android:typeface="serif"  
+            android:textSize="18sp"  
+            android:text="WS"  
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:gravity="left"  
+            android:textColor="#000"></TextView>  
+
+
+        
+    <TextView  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"    
+            android:text="        WS，分成3种。跑LQ，飞龙开矿和燃烧蝙蝠拆基地。3本的是必须的，先清了分矿，然后在进攻时在分矿开始玛塔。这个不需要多说了。"  
+            android:gravity="left"  
+            android:textColor="#000"></TextView>  
+
+      
+    <TextView  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"  
+            android:textStyle="bold"  
+            android:typeface="serif"  
+            android:textSize="18sp"  
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:text="其他战术"  
+            android:gravity="left"  
+            android:textColor="#000"></TextView>  
+
+
+        
+      
+
+
+        
+    <TextView  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"    
+            android:text="        眩晕流，剑圣宗师FarSeer用得非常BT的一招，打吹风，内战都不错。就是大师巫医无限插棒子，配合大G和BM电球来输出。"  
+            android:gravity="left"  
+            android:layout_marginBottom="5dp"
+            android:textColor="#000"></TextView>  
+
+
+        
+    <TextView  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"    
+            android:text="        3本嗜血牛头：一个字，憋。前期偷宝练3，然后骚扰，憋够部队找NE决战一波拿下。当然电球和无限黑白牛是关键，注意部队的搭配。"  
+            android:gravity="left"  
+            android:layout_marginBottom="5dp"
+            android:textColor="#000"></TextView>  
+
+
+        
+    <TextView  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"    
+            android:text="        猎头+白牛TR。相信前几天看过Fly和Moon比赛的，应该会历历在目。这招的确是打NE的一个不错的选择。"  
+            android:gravity="left"  
+            android:layout_marginBottom="5dp"
+            android:textColor="#000"></TextView>  
+
+
+        
+    <TextView  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"    
+            android:text="        DAYFLY流，就是Moon和FoCuS的那场Must see的REP。2发NAGA 3发TK用塔把中间霸占然后配合投车逐渐向NE家推进"  
+            android:gravity="left"  
+            android:layout_marginBottom="5dp"
+            android:textColor="#000"></TextView>  
+
+
+        
+    <TextView  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"    
+            android:text="        ORC对抗NE，掌握好常规和大战操作的同时希望也能同时掌握多几个战术，让自己的变招打NE一个措手不及。"  
+            android:gravity="left"  
+            android:textColor="#000"></TextView>  
+
+
+
+</LinearLayout>
+</ScrollView>
+</LinearLayout>

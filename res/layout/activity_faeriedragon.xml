@@ -1,0 +1,516 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#eee"
+        android:orientation="vertical" >
+        
+        <LinearLayout 
+  			android:layout_width="fill_parent"
+  			android:layout_height="45dp"
+  			android:id="@+id/title" 
+  			android:background="@drawable/title_bar"
+  			android:gravity="center_horizontal|center_vertical"  >  
+      		<TextView 
+        		android:layout_width="wrap_content" 
+        		android:layout_height="wrap_content" 
+        		android:text="精灵龙"
+        		android:textSize="20sp"		
+				android:textColor="#ffffff" />       
+			</LinearLayout>
+<ScrollView 
+
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content"
+    android:background="#eee"
+>
+<LinearLayout 
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    >
+
+ 
+       
+ <ImageView
+           android:layout_width="wrap_content" 
+         android:layout_height="wrap_content" 
+           android:gravity="left" 
+			android:layout_gravity="center"
+			android:layout_marginTop="10dp"
+			android:layout_marginBottom="10dp"
+            android:src="@drawable/faeriedragon"
+           >
+      </ImageView>
+
+<TextView  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="介绍"  
+            android:gravity="left"
+             android:textColor="#339966"
+            android:textSize="18sp"   
+            ></TextView>  
+<TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="        快速的小型飞行单位，可以有效的克制魔法单位。虽然不是真正的龙，但是这些貌似的神秘生物具有翡翠梦境的伟大魔法力量。"  
+            android:gravity="left"  
+           ></TextView>  
+<TextView android:layout_marginTop="10dp" 
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="数据"  
+            android:gravity="left"
+            android:textColor="#339966"
+            android:textSize="18sp"  
+         ></TextView>
+
+
+<TableLayout  
+    android:layout_width="match_parent"  
+    android:layout_height="match_parent"  
+    android:shrinkColumns="*"  
+    android:stretchColumns="*"> 
+<TableRow
+        android:layout_height="wrap_content"  
+        android:layout_width="match_parent">        
+      <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="等级: 3 "  
+            android:gravity="left" 
+            android:layout_span="1" 
+           ></TextView>
+      <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="费用：155/25/2"  
+            android:gravity="left"
+            android:layout_span="1"  
+            ></TextView>
+ 
+</TableRow>
+
+<TableRow
+        android:layout_height="wrap_content"  
+        android:layout_width="match_parent">        
+      <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="单位类型: 普通 "  
+            android:gravity="left" 
+            android:layout_span="1" 
+           ></TextView>
+      <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="攻击类型: 穿刺 "  
+            android:gravity="left"
+            android:layout_span="1"  
+            ></TextView>
+ 
+</TableRow>
+<TableRow
+        android:layout_height="wrap_content"  
+        android:layout_width="match_parent">        
+      <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="武器类型: 远程 "  
+            android:gravity="left" 
+            android:layout_span="1" 
+           ></TextView>
+      <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="护甲类型: 轻甲 "  
+            android:gravity="left"
+            android:layout_span="1"  
+            ></TextView>
+ 
+</TableRow>
+<TableRow
+        android:layout_height="wrap_content"  
+        android:layout_width="match_parent">        
+
+      <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="对地攻击:14-16(17-25*)"  
+            android:gravity="left"
+            android:layout_span="2"  
+            ></TextView>
+ 
+</TableRow>
+<TableRow
+        android:layout_height="wrap_content"  
+        android:layout_width="match_parent">    
+      <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="对空攻击:14-16(17-25*)"  
+            android:gravity="left" 
+            android:layout_span="2" 
+           ></TextView>
+       
+</TableRow>
+<TableRow
+        android:layout_height="wrap_content"  
+        android:layout_width="match_parent">        
+      <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="护甲:0 (6*)"  
+            android:gravity="left" 
+            android:layout_span="1" 
+           ></TextView>
+      <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="攻击间隔:1.6 "  
+            android:gravity="left"
+            android:layout_span="1"  
+            ></TextView>
+ 
+</TableRow>
+<TableRow
+        android:layout_height="wrap_content"  
+        android:layout_width="match_parent">        
+      <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="生命值: 450 "  
+            android:gravity="left" 
+            android:layout_span="1" 
+           ></TextView>
+      <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="生命恢复: 夜晚"  
+            android:gravity="left"
+            android:layout_span="1"  
+            ></TextView>
+ 
+</TableRow>
+<TableRow
+        android:layout_height="wrap_content"  
+        android:layout_width="match_parent">        
+      <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="魔法:200"  
+            android:gravity="left" 
+            android:layout_span="1" 
+           ></TextView>
+      <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="魔法恢复: 0.75 "  
+            android:gravity="left"
+            android:layout_span="1"  
+            ></TextView>
+ 
+</TableRow>
+<TableRow
+        android:layout_height="wrap_content"  
+        android:layout_width="match_parent">        
+      <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="攻击范围:30 "  
+            android:gravity="left" 
+            android:layout_span="1" 
+           ></TextView>
+      <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="白天视野: 160"  
+            android:gravity="left"
+            android:layout_span="1"  
+            ></TextView>
+ 
+</TableRow>
+<TableRow
+        android:layout_height="wrap_content"  
+        android:layout_width="match_parent">        
+      <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="夜晚视野: 80 (160*) "  
+            android:gravity="left" 
+            android:layout_span="1" 
+           ></TextView>
+      <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="移动速度: 快 (350) "  
+            android:gravity="left"
+            android:layout_span="1"  
+            ></TextView>
+ 
+</TableRow>
+<TableRow
+        android:layout_height="wrap_content"  
+        android:layout_width="match_parent">        
+      <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="训练时间: 25  "  
+            android:gravity="left" 
+            android:layout_span="1" 
+           ></TextView>
+       <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="运训练地点: 风之古树 "  
+            android:gravity="left" 
+            android:layout_span="1" 
+           ></TextView>
+ 
+</TableRow>
+<TableRow
+        android:layout_height="wrap_content"  
+        android:layout_width="match_parent">        
+      <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="需求:奇迹古树 "  
+            android:gravity="left" 
+            android:layout_span="1" 
+           ></TextView>
+   <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="训练热键: F "  
+            android:gravity="left" 
+            android:layout_span="1" 
+           ></TextView>
+ 
+</TableRow>
+
+
+</TableLayout>
+
+<TextView android:layout_marginTop="10dp" 
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="信息"
+            android:textColor="#339966"
+            android:textSize="18sp"   
+            android:gravity="left"  
+         ></TextView> 
+ 
+     
+         <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="        精灵龙是一个反魔法单位，你不需要训练太多的精灵龙，通常情况下4个精灵龙就可以应付你的各种需要了。在一般的1V1游戏中，2-3个精灵龙就足够了，在较大的组队游戏中，可能需要多一点。总之，不要训练太多精灵龙。"  
+            android:gravity="left"  
+         ></TextView>  
+
+
+<TextView android:layout_marginTop="10dp"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="技能"
+                        android:textColor="#339966"
+            android:textSize="18sp"    
+            android:gravity="left"  
+         >
+</TextView>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_marginTop="10dp"
+    android:layout_height="wrap_content" >
+ <ImageView
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:src="@drawable/phaseshift" >
+</ImageView> 
+ <TextView
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:layout_gravity="center_vertical"
+     android:text="      变相移动 Phase Shift (自动施放)"
+     android:textColor="#000" />
+</LinearLayout> 
+
+ <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content" 
+            android:layout_span="6"     
+            android:text="        使这个单位一旦受到攻击就会从现实中移出。当这个技能发动时，精灵龙无法移动，攻击施法，同时也不会被攻击。这个技能可设置为自动施放。"  
+            android:gravity="left"  
+         >
+</TextView>
+
+    <TextView android:textColor="#000"  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"    
+            android:text="持续时间：1.5s；使用间隔：6.5s；魔法消耗：20；效果：脱离现实，躲避攻击"  
+            android:gravity="left"  
+            ></TextView>
+     <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"   
+            android:text="应对策略" 
+                         android:textStyle="bold"
+             
+            android:gravity="left"  
+         >
+</TextView>   
+
+    <TextView android:textColor="#000"  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"    
+            android:text="        在使用魔法闪耀时，无法使用变相移动。"  
+            android:gravity="left"  
+            ></TextView>    
+
+    <TextView android:textColor="#000"  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"    
+            android:text="        变相移动无法消除网的效果。"  
+            android:gravity="left"  
+            ></TextView>
+        <TextView android:textColor="#000"  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"    
+            android:text="        这个技能的目的就是转换攻击目标，变相移动发动时的敌人攻击都会打空。"  
+            android:gravity="left"  
+            ></TextView>       
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_marginTop="10dp"
+    android:layout_height="wrap_content" >
+ <ImageView
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:src="@drawable/manaflare" >
+</ImageView> 
+ <TextView
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:layout_gravity="center_vertical"
+     android:text="      魔法闪耀 Mana Flare"
+     android:textColor="#000" />
+</LinearLayout> 
+
+ <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content" 
+            android:layout_span="6"     
+            android:text="        让精灵龙对那些正在施法的单位造成伤害，并增加护甲值12点。"  
+            android:gravity="left"  
+         >
+</TextView>
+
+     <TextView android:textColor="#000"  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"    
+            android:text="持续时间：30s；魔法消耗：50；使用间隔：20s；作用范围：75；使用目标：空中、地面、敌人；效果：对施法单位造成伤害，最大伤害125"  
+            android:gravity="left"  
+            ></TextView>  
+ <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"   
+            android:text="提示" 
+                        android:textStyle="bold"
+            
+            android:gravity="left"  
+         >
+</TextView> 
+    <TextView android:textColor="#000"  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"    
+            android:text="        溅射伤害半径: 20（不对无魔法单位造成溅射伤害）"  
+            android:gravity="left"  
+            ></TextView>  
+    <TextView android:textColor="#000"  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"    
+            android:text="        单位每消耗一点魔法造成伤害: 3"  
+            android:gravity="left"  
+            ></TextView>
+        <TextView android:textColor="#000"  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"    
+            android:text="        英雄每使用一点魔法造成伤害: 1"  
+            android:gravity="left"  
+            ></TextView>
+                <TextView android:textColor="#000"  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"    
+            android:text="        对单位最大伤害: 90"  
+            android:gravity="left"  
+            ></TextView>  
+                    <TextView android:textColor="#000"  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"    
+            android:text="        对英雄最大伤害: 50 "  
+            android:gravity="left"  
+            ></TextView>  
+                    <TextView android:textColor="#000"  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"    
+            android:text="        掌握好使用这个技能的时机，关掉自动施放来拥有足够的魔法使用这个技能。"  
+            android:gravity="left"  
+            ></TextView>  
+                    <TextView android:textColor="#000"  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"    
+            android:text="        这个技能一次只能对一个单位造成伤害。移动精灵龙必须中止魔法闪耀技能的释放。"  
+            android:gravity="left"  
+            ></TextView>      
+ <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"   
+            android:text="应对策略" 
+                        android:textStyle="bold"
+            
+            android:gravity="left"  
+         >
+</TextView> 
+
+    <TextView android:textColor="#000"  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"    
+            android:text="        快跑，或者杀掉精灵龙，或者关掉施法单位的自动施放。"  
+            android:gravity="left"  
+            ></TextView>              
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_marginTop="10dp"
+    android:layout_height="wrap_content" >
+ <ImageView
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:src="@drawable/spellimmunity" >
+</ImageView> 
+ <TextView
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:layout_gravity="center_vertical"
+     android:text="      魔法免疫 Spell Immunity (被动技能)"
+     android:textColor="#000" />
+</LinearLayout> 
+
+ <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content" 
+            android:layout_span="6"     
+            android:text="        对所有魔法免疫。"  
+            android:gravity="left"  
+         >
+</TextView>
+
+
+    
+</LinearLayout>
+</ScrollView>
+</LinearLayout>

@@ -1,0 +1,584 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#eee"
+        android:orientation="vertical" >
+        
+        <LinearLayout 
+  			android:layout_width="fill_parent"
+  			android:layout_height="45dp"
+  			android:id="@+id/title" 
+  			android:background="@drawable/title_bar"
+  			android:gravity="center_horizontal|center_vertical"  >  
+      		<TextView
+        		android:layout_width="wrap_content" 
+        		android:layout_height="wrap_content" 
+        		android:text="第一章  神话"
+        		android:textSize="20sp"		
+				android:textColor="#ffffff" />       
+			</LinearLayout>
+<ScrollView 
+
+    android:id="@+id/ScrollView01" 
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content"
+>
+
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin" >
+
+
+
+<ImageView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:layout_marginTop="10dp"
+    android:layout_marginBottom="10dp"
+    android:src="@drawable/humanseal" >
+
+</ImageView> 
+      
+    <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"  
+            android:textStyle="bold"  
+            android:typeface="serif"  
+            android:textSize="18sp"  
+            android:text="泰坦和宇宙的形成"  
+            android:layout_marginBottom="10dp"
+            android:gravity="left"  
+            ></TextView>  
+
+
+
+        
+    <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="        没人知道宇宙到底是怎么样诞生的。有些人认为，一次宇宙大爆炸把无数个世界交织起来，形成一个巨大的黑暗，在那里将会孕育许多各种各样令人惊奇的可怕的生命形式。还有一些人认为，宇宙是由一个具有无穷力量的实体独自创造出来的。尽管仍然无法确定这个混乱的宇宙是从哪里来的，但是有一点是毋庸质疑的，那就是一个强有力的种族会给这个纷繁的世界带来稳定，并能给那些追随他们的种族带来安全与和平。"  
+            android:gravity="left"  
+            ></TextView>  
+
+
+        
+    <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="        泰坦，一群来自宇宙深处的神，他们身材巨大，披着金属的外壳。他们探索新生的世界，并对遇到的世界进行改造。泰坦们建造出高耸的群山，挖掘出宽广的海洋，用他们的方式创造世界。他们呼出的气体形成了天空，怒气变成了大气层。这只不过是他们建造世界新秩序的宏伟计划中的一部分。泰坦们授权给原始布族，让他们从事工作，并维持着每个世界的完整。"  
+            android:gravity="left"  
+           ></TextView>  
+
+    <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="        在创造世界的第一年里，在一群被称做Pantheon的顶尖宗派的指示下，泰坦们把秩序带给了成千上万个分布在宇宙中的世界。这些仁慈的Pantheon一直寻求着保卫这些世界的方法，他们同样还警惕着来自卑鄙的异次空间下方的的威胁。下方的具有一种虚幻神秘的混乱魔法，联系着宇宙中无数的世界，它是数以万记恶魔的巢穴。这些恶魔不仅妄图摧残生命而且还吞食宇宙中生命的能量。面对无法想象的各种类型的罪恶与邪灵，泰坦们设法想找出一种永久消除恶魔威胁的方法。"  
+            android:gravity="left"  
+           ></TextView> 
+       
+    <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"  
+            android:textStyle="bold"  
+            android:typeface="serif"  
+            android:textSize="18sp"  
+            android:text="萨格拉斯的背叛"  
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:gravity="left"  
+           ></TextView>  
+	<TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="        一直以来，恶魔们都打算从回旋的下方的空间进入泰坦们的世界。Pantheon推选Sargeras,他们最伟大的战士，担任第一道抵抗的防线。Sargeras,是一个由青铜铸成的巨人。无数年来，他一直勇敢的承担着守卫的责任，这些恶魔无论在哪里他都能找到他们并将他们摧毁。在这些年中，Sargeras,遇上了两个强大的魔族，这些魔族主宰着物质世界，并从那获取力量。Eredar，就是其中一个阴险的魔族，他们的男巫师利用术士魔法侵略和奴役许多的世界。原本生活在那些世界的种族在Eredar的邪恶能力之下也堕落成了魔鬼。虽然Sargeras无穷的力量足以打败卑鄙的Eredar，但他一直被人的堕落和各种弊病所困扰。对于这种堕落的无能为力，伟大的泰坦也陷入了长期的沮丧。即使这种不安在逐渐加剧，Sargeras依然把宇宙中的男巫赶入了下方的的角落里。"  
+            android:gravity="left"  
+            ></TextView>  
+
+
+        
+    <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="        在Sargeras的痛苦与迷茫变得越来越深的同时, 他正被迫同另一个以颠覆泰坦所建立的世界秩序为目的的组织Nathrezim进行斗争。这个黑暗种族vampiric，也被人称为恐惧魔王，征服了许多人口众多的世界，他们控制了当地的居民，并把他们变成了阴影。邪恶狡猾的恐惧魔王们操控着所有的国家，并使他们互相敌视憎恨。Sargeras虽然轻易的就能击败Nathrezim，但是那些国家人民的堕落深深的影响着他。慢慢的，Sargeras的心中充满了猜疑和绝望，他不仅对自己的任务失去了信念，而且怀疑起泰坦的世界观来。最后，他逐渐开始相信，世界秩序的概念本身就是愚蠢，而混乱和堕落才是这个黑暗孤寂的宇宙的唯一和全部。他的泰坦同伴们想法设法要说服他，纠正他的错误，平息他愤怒的情绪，但是他们并没有注意到他们乐观的想法只是一种错觉。可怕的事终于发生了， Sargeras决定出发去寻找自己在宇宙中的位置。虽然Pantheon对于Sargeras的离去非常悲伤，但他们永远猜不到他们的兄弟Sargeras将会走的多远。"  
+            android:gravity="left"  
+           ></TextView>  
+
+    <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="        Sargeras变的愈加的疯狂，等到他精神世界中最后的一点勇猛也消耗待尽时，他相信泰坦们对于创造世界的失败是有责任的。他于是决定要破坏泰坦在宇宙中的工作，他下决心建立起一只永不停息的军队，把燃烧的火焰拨撒到全宇宙。"  
+            android:gravity="left"  
+           ></TextView> 
+     <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="        Sargeras的泰坦身躯由于堕落而扭曲，他曾经无比高尚的心已经受到了侵蚀，他的眼睛头发还有胡须都喷发出火焰。从他青铜的皮肤下透出的是无尽的憎恶。狂怒之下，Sargeras 摧毁了监禁eredar 和 Nathrezim的牢笼，这些讨厌的恶魔们都获得了自由。这些狡猾的恶魔在这个愤怒的黑暗泰坦前卑躬屈膝，发誓向他效忠，无论什么事他们都会听从他。他从强大的eredar族中挑选了两名首领管理他的恶魔军队。其中一位欺骗者Kil‘jaeden‘s被派去寻找宇宙中的黑暗种族，并把他们拉拢到Sargeras的军队中来。第二位污染者Archimonde被指派去领导Sargeras最庞大的军队，消灭任何违反Sargeras意志的人。"  
+            android:gravity="left"  
+            ></TextView>  
+
+
+        
+    <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="        Kil‘jaeden的第一步就是用他可怕的力量驱使vampiric的恐惧魔王为他服务。恐惧魔王不但是在全宇宙的私人代理，他们还乐此不疲的搜寻那些原始的部落，好让他们的主人去污染他们。恐惧魔王中首屈一指的就要属暗黑者Tichondrius了，他是最完美的战士，并且发誓要把Sargeras的燃烧意志带到宇宙中每一个黑暗的角落。势力强大的Archimonde同样授权给他自己的代理。依靠着煞星地穴领主和他们野蛮的领导者，毁灭者Mannoroth，Archimonde希望建立起一支能够摧毁一切生命形式的精英的战斗队伍。"  
+            android:gravity="left"  
+           ></TextView>  
+
+    <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="        当Sargeras看见自己庞大的军队集结在一起，并时刻等待服从他的命令时，他向浩瀚的宇宙发射出愤怒的力量。他把自己日益壮大的军队命名为燃烧军团。此刻，还不知道宇宙中要有多少的世界将在这次十字军东征中灭亡。"  
+            android:gravity="left"  
+           ></TextView> 
+    <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="        Old Gods和 Azeroth的新秩序"  
+            android:gravity="left"  
+            ></TextView>  
+
+
+        
+    <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="        泰坦们完全没有意识到Sargeras正要去破坏他们的工作，他们依然从一个世界到另一个世界，遇上合适的星球他们就对它进行改造并在那里建立新的秩序。在旅途中，他们遇上了一个小星球，那里的居民后来被称做Azeroth。在泰坦们穿越原始风景的时候，他们碰上了一群不太友好的原始生物，这些原始生物膜拜一群被叫做古老上帝的邪灵，他们发誓要把泰坦们赶回去，保持他们神圣的土地免受入侵者的亵渎。"  
+            android:gravity="left"  
+           ></TextView>  
+
+    <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="        Pantheon在一直受到来自Old Gods的不怀好意的扰乱后，开始向这些原始生物以及他们的黑暗主人宣战。Old Gods的军队由四个最强大的军官组成，火之魔王Ragnaros，石母Therazane，风魔王和潮汐猎手Neptulon，他们的混乱力量掠过世界的表面与泰坦发生冲突。尽管他们联合起来的力量已经超乎常人的想象，但依然不能阻挡强大的泰坦的步伐。他们一个个接连倒下，力量也被一一驱散。"  
+            android:gravity="left"  
+           ></TextView> 
+    <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="        Pantheon摧毁了Old Gods的根据地，并把五个邪神锁在地表以下的深处。失去了Old Gods能力的帮助，四个魔王愤怒的灵魂也无法跃进到物质世界，他们被流放到深渊里，在那里他们会永久的互相争斗。随着魔王的离去，大自然逐渐平静下来，世界恢复一片祥和。泰坦们见到威胁暂时消除而又继续开始工作。"  
+            android:gravity="left"  
+           ></TextView>  
+
+    <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="        泰坦们授权给一些种族以帮助他们建立世界的新面貌。泰坦为了开掘地底下深不可测的洞穴，用有生命的魔法石造出了侏儒样的土人。为了开凿出海洋并把河床抬升成为陆地，泰坦创造除了身材硕大而又温和的海巨人。许多年过去了，泰坦们移动和改造着土地，直至最后形成一个完整的大陆。在大陆的中心，泰坦建了一个拥有源源不断的湖。这个湖被人称为永恒之井，它是世界上所有生命的源泉。它强有力的能量培育着世界，并使所有的生命能够在富饶的土地上生根成长。植物，树木，怪物，各种生物在这片原始大陆上繁衍成长。当黎明的最后的曙光撒在这片土地上时，泰坦把这片大陆命名为Kalimdor，意思是拥有永恒星光的陆地。"  
+            android:gravity="left"  
+           ></TextView>   
+<TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"  
+            android:textStyle="bold"  
+            android:typeface="serif"  
+            android:textSize="18sp"  
+            android:text="飞龙的职责"  
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:gravity="left"  
+           ></TextView>  
+	<TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="        泰坦们对自己在这个小小的世界里所建立的秩序以及他们完成的工作感到非常满意，因此他们准备离开Azeroth。然而，在他们准备离开前，他们赋予大陆上最优秀的物种以守卫Kalimdor大陆的任务，惟恐任何力量威胁这完美的宁静。那个时候，有许多的飞龙。然而其中五条飞龙具有管辖其他飞龙的权利。这五条飞龙是由泰坦选出来管理这个刚刚萌芽的世界的。Pantheon中最伟大的成员把一部分力量注入到了这五条飞龙领袖的体内。这些宏伟的龙就是知名的伟大的样子也叫做龙样子。"  
+            android:gravity="left"  
+            ></TextView>  
+
+
+        
+    <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="        Aman‘Thul作为Pantheon的首领，把他的力量赐予给厚重的青铜龙Nozdormu。 Aman‘Thul授予Nozdormu保卫自己和掌控命运的能力。可敬的Nozdormu于是也成为知名的永恒的一个。"  
+            android:gravity="left"  
+           ></TextView>  
+
+    <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="        Eonar是泰坦的赞助人，她把一部分力量给了红色的海中怪兽Alexstrasza。后来，Alexstrasza成为了知名的生命-装订工，并且负责保卫着世界上活着的生物。由于她的至高智慧和对生命的无限同情心，她被冠以龙之女王，并管辖她的族群。"  
+            android:gravity="left"  
+           ></TextView> 
+     <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="        Alexstrasza最年幼的妹妹，温柔的绿龙Ysera幸运的得到了Eonar一部分自然的力量。Ysera陷入了永久的沉睡，进入了梦的世界。她是有名的做梦人，她管理着她翠绿色的疆域--翡翠梦世界，上的所有生物。"  
+            android:gravity="left"  
+            ></TextView>  
+
+
+        
+    <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="        Norgannon,泰坦的学问监护人兼主魔法师，赐予了蓝龙Malygos无穷的力量，自此，他Malygos成为了有名的符咒-织工,负责守卫隐藏的秘密与魔法。"  
+            android:gravity="left"  
+           ></TextView>  
+           <TextView android:textColor="#000"  
+			android:layout_width="wrap_content"  
+			android:layout_height="wrap_content"    
+			android:text="        Khaz‘goroth,作为建造和构建世界的泰坦，把自己的一部分力量给予了黑色巨大的Neltharion，他就是后来的地球-看守，他统辖着地上低下的世界。他具有世界上的力量，并且是Alexstrasza‘最有力的支持者。"  
+			android:gravity="left"  
+		></TextView> 
+		<TextView android:textColor="#000"  
+			android:layout_width="wrap_content"  
+			android:layout_height="wrap_content"    
+			android:text="        就这样，五条巨龙负责在泰坦们不在的时候保卫新世界的安全。有五条巨龙时刻准备着捍卫泰坦创造的结晶，泰坦们也就把Azeroth抛在了脑后，永远的忘记了。不幸的是，对于Sargeras来说，知道这个新生世界的存在只不过是个时间的问题。"  
+			android:gravity="left"  
+		></TextView> 
+		<TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"  
+            android:textStyle="bold"  
+            android:typeface="serif"  
+            android:textSize="18sp"  
+            android:text="觉醒的世界和永恒之井"  
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:gravity="left"  
+           ></TextView>
+		<TextView android:textColor="#000"  
+			android:layout_width="wrap_content"  
+			android:layout_height="wrap_content"    
+			android:text="        在兽族与人族进行第一场战争前的一万年，Azeroth只不过是一片宽广的大陆，一望无际的大海包围着这片大陆。那块被称为Kalimdor的大陆成为了不同种族生活聚居的乐土，各个种族为了生存在这片即将觉醒的世界上互相野蛮地争夺厮杀。在大陆的中心有一片充满神秘力量的湖，它就是永恒之井，它也是世界上一切魔法和自然力量的真正的源泉。永恒之井从无限的宇宙吸取力量，并将这能量有力地传送到世界的各个角落，供生命滋养生长。"  
+			android:gravity="left"  
+		></TextView>
+		<TextView android:textColor="#000"  
+			android:layout_width="wrap_content"  
+			android:layout_height="wrap_content"    
+			android:text="        一次，一个习惯在夜间活动的原始部落来到了这有催眠魔法的湖边。这个种族勇猛顽强，以游牧为生。他们依靠井中的奇特力量，在安静的岸边建起了自己的家园。一直以来，井中的神秘力量影响着整个部落，使他们变的强壮，聪明，甚至不朽。这个部落取名Kaldorei，在他们的土语中意为“星之子”，为了庆祝部落的刚刚建成，他们在湖的外围建造了大型的建筑和神庙。"  
+			android:gravity="left"  
+		></TextView>  
+		<TextView android:textColor="#000"  
+			android:layout_width="wrap_content"  
+			android:layout_height="wrap_content"    
+			android:text="        Kaldorei，后来也被叫作“夜精灵”，他们崇拜月之女神Elune，他们相信女神白天的时候睡在永恒之井里。早期的夜精灵法师和预言家带着无限的好奇研究永恒之井，想要揭开井中未知的秘密与力量。随着部落的成长壮大，夜精灵们拓宽了探索Kalimdo的范围，并因此而遇上了其他种族的居民。唯一能够阻挡他们前进步伐的就是强大的远古巨龙。巨大的蛇和野兽经常是排外的，但他们肩负使命保护大陆抵御潜在的威胁。夜精灵发现巨龙们把他们自己当成是世界的守护者，于是他们同意不去侵犯巨龙以及他们守护的秘密。"  
+			android:gravity="left"  
+		></TextView>  
+		<TextView android:textColor="#000"  
+			android:layout_width="wrap_content"  
+			android:layout_height="wrap_content"    
+			android:text="        夜精灵的好奇心引领着他们遇上了许多强大的人物，其中一位就是住在丛林中半人半神的Cenarius。伟大的Cenarius逐渐喜欢上了好奇的夜精灵，并花大量的时间教授他们有关自然世界的知识。安静的Kaldorei渐渐对Kalimdo的森林产生了强烈的同情,并为了自然界的和谐平衡而努力。"  
+			android:gravity="left"  
+		></TextView>  
+		<TextView android:textColor="#000"  
+			android:layout_width="wrap_content"  
+			android:layout_height="wrap_content"    
+			android:text="        又过了不知多少年，夜精灵的文明不仅在领土上还在文化上大大扩展了。他们的神庙，道路以及居住地跨越了黑暗的大陆。Azshara是夜精灵中最漂亮最聪明的女王，她在永恒之井的岸边建起了一幢巨大而又奇异的宫殿。宫殿里满是服侍她的仆人，美丽的珠宝装饰着宽敞的大厅。"  
+			android:gravity="left"  
+		></TextView>  
+		<TextView android:textColor="#000"  
+			android:layout_width="wrap_content"  
+			android:layout_height="wrap_content"    
+			android:text="        她的仆人被称做或者Highborne，他们只听从Azshara的吩咐，并把她当作是夜精灵中最伟大的人。尽管Azshara同等受到她的人民的爱戴，但是Highborne却私下里遭到其他夜精灵的妒忌和讨厌。"  
+			android:gravity="left"  
+		></TextView>  
+		<TextView android:textColor="#000"  
+			android:layout_width="wrap_content"  
+			android:layout_height="wrap_content"    
+			android:text="        Azshara象其他夜精灵法师一样，对永恒之井充满了好奇，她命令Highborne去发掘井的秘密，并要把它公之于众。Highborne埋头于他们的工作，不停的研究着井的奥秘。其间，他们逐步学会了操纵和控制井中宇宙能量的方法。随着实验的深入，他们发现他们可以利用这种新发现的能量随意地进行创造和毁灭。粗心的Highborne偶然发现了原始的魔力，并决定要去掌握这种能量。尽管Azshara和她的Highborne知道如果处理不当这种魔法会变的十分危险，但他们依然毫无节制地开始操控这些魔法。Cenarius以及许多小精灵学者警告说玩弄魔法将会导致灾难。即便如此，Azshara和她的下属依旧固执的进行着他们提高法力的计划。"  
+			android:gravity="left"  
+		></TextView>  
+		<TextView android:textColor="#000"  
+			android:layout_width="wrap_content"  
+			android:layout_height="wrap_content"    
+			android:text="        随着力量的增加，Azshara和Highborne也出现了明显的变化。傲慢的他们开始变的日益麻木，并且开始残忍地对待他们的夜精灵同类。黑暗遮住了Azshara曾经迷人的外表。她开始收起她的慈爱，拒绝与她信任的Highborne法师以外的夜精灵接触。"  
+			android:gravity="left"  
+		></TextView>  
+		<TextView android:textColor="#000"  
+			android:layout_width="wrap_content"  
+			android:layout_height="wrap_content"    
+			android:text="        有一名年轻的学者Malfurion Stormrage，她曾经花很多时间研究德鲁伊的魔法。她开始怀疑有一种可怕的力量正在污染Highborne和他们钟爱的女王的心灵。虽然他不知道邪恶正在接近，但至少他相信夜精灵的生活不久将永远改变。"  
+			android:gravity="left"  
+		></TextView>  
+		<TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"  
+            android:textStyle="bold"  
+            android:typeface="serif"  
+            android:textSize="18sp"  
+            android:text="远古的战争"  
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:gravity="left"  
+           ></TextView>
+		<TextView android:textColor="#000"  
+			android:layout_width="wrap_content"  
+			android:layout_height="wrap_content"    
+			android:text="魔兽争霸前的10000年"  
+			android:gravity="left"  
+		></TextView> 
+		<TextView android:textColor="#000"  
+			android:layout_width="wrap_content"  
+			android:layout_height="wrap_content"    
+			android:text="        Highborne滥用魔法，使大量来自永恒之井的能量又放射回到了黑暗的宇宙。但螺旋状的能量喷发已经被恐怖的外来生物察觉到了。Sargeras---所有生物的敌人，世界的毁灭者，感觉到了能量的喷发，并被这个遥远的喷发点所吸引。在知道了原始世界Azeroth的存在并查知了永恒之井无限的能量之后，Sargeras对此产生了极大的渴望。这个黑暗君主决定去摧毁这个刚刚诞生的世界，并将所有的能量据为几有。"  
+			android:gravity="left"  
+		></TextView> 
+		<TextView android:textColor="#000"  
+			android:layout_width="wrap_content"  
+			android:layout_height="wrap_content"    
+			android:text="        Sargeras集结了他庞大的燃烧军团，并朝着未知的Azeroth世界进军。燃烧军团里有百万的魔鬼，他们来自宇宙的深处，尖叫着，渴望征服一切。Sargeras的下属Archimonde和Mannoroth集合他们阴间的军队等待着开赴战场。"  
+			android:gravity="left"  
+		></TextView> 
+		<TextView android:textColor="#000"  
+			android:layout_width="wrap_content"  
+			android:layout_height="wrap_content"    
+			android:text="        Azshara女王此时以完全为她可怕的魔法而着迷，她臣服于Sargeras无可否认的强大力量，并答应为Sargeras打开通向Azeroth的大门。甚至她的Highborne侍从也不可避免的受到了魔法的污染，开始把Sargeras当作他们的上帝。为了表示对燃烧军团的忠诚，Highborne准备协助他们的女王在永恒之井打开巨大的旋涡入口。"  
+			android:gravity="left"  
+		></TextView>
+		<TextView android:textColor="#000"  
+			android:layout_width="wrap_content"  
+			android:layout_height="wrap_content"    
+			android:text="        所有的准备工作已经完成，Sargeras将展开对Azeroth灾难性的入侵。燃烧军团的恶魔战士们通过永恒之井涌入世界，对沉睡中的夜精灵的城市展开围攻。在Archimonde 和Mannoroth的带领下，燃烧军团成群结队穿过Kalimdor大陆，所到之处留下的只有废墟和人们的哀伤。恶魔法师召唤出的阴间恶魔象流星般滑过神庙优美的尖顶坠落在Kalimdor上。一群群浑身燃烧的恶魔守卫跨过Kalimdor的田野，他们见一个杀一个。一批批狂暴的地狱犬践踏着村庄。尽管勇敢的Kaldorei战士誓死捍卫着他们古老的家园，但是在呼啸而来的燃烧军团面前，他们不得不一步步向后退却。"  
+			android:gravity="left"  
+		></TextView> 
+		<TextView android:textColor="#000"  
+			android:layout_width="wrap_content"  
+			android:layout_height="wrap_content"    
+			android:text="        Malfurion Stormrage为了族人开始寻找援军。Stormrage曾目睹上层阶级的堕落，Stormrage的兄弟Illidan也练习Highborne的魔法。为了劝说Illidan放弃对这种危险魔法的迷恋，Malfurion出发寻找Cenarius并集合抵抗的力量。年轻美丽的女祭司Tyrande以月之女神Elune的名义答应陪伴在兄弟两身边。虽然Malfurion和Illidan都深爱着他们的女祭司，但Tyrande的心却只属于Malfurion一人。Illidan非常憎恨Tyrande与Malfurion之间萌生的爱情，但是这点心痛与他对于魔法沉迷的痛来说根本不算什么。"  
+			android:gravity="left"  
+		></TextView> 
+		<TextView android:textColor="#000"  
+			android:layout_width="wrap_content"  
+			android:layout_height="wrap_content"    
+			android:text="        Illidan已经完全依赖于魔法所赐予他的巨大能量。他努力想控制住他对于永恒之井能量的无穷渴望。然而在Tyrande的耐心支持下，他控制住了自己，并帮助他的兄长找到了隐居的半人半神的Cenarius。Cenarius居住在遥远的Hyjal山神圣的Moonglades里，他同意帮助夜精灵们找到古龙，寻求他们的帮助。巨龙们在红色海怪Alexstrasza的带领下，同意率领他们庞大的队伍来对抗恶魔们和他们阴间的主人。"  
+			android:gravity="left"  
+		></TextView> 
+		<TextView android:textColor="#000"  
+			android:layout_width="wrap_content"  
+			android:layout_height="wrap_content"    
+			android:text="        Cenarius凭借魔法森林里的的精神力量，集合了一支有古代树人组成的军队，他领导着他们抵抗燃烧军团凶猛的地面攻击。当夜精灵的联军在Azshara的神庙和永恒之井集结时，战争全面爆发了。尽管有新的盟军加入，但Malfurion和他的同伴们开始意识到，燃烧军团是不可能被这点战斗力所击败的。当战火燃烧在Azshara的城市里时，受到蒙蔽的Azshara王后依然期待着Sargeras的到来。燃烧军团的首领Sargeras正打算通过永恒之井来到这个战火纷飞的世界。当他巨大的身影逐渐靠近永恒之井的表面时，Azshara集合了他最强大的Highborne追随者，因为只有把他们所有的魔法力量联合聚集起来形成的魔法阵，才能创造出一个足够大的传送门让Sargeras进入这个世界。"  
+			android:gravity="left"  
+		></TextView>
+		<TextView android:textColor="#000"  
+			android:layout_width="wrap_content"  
+			android:layout_height="wrap_content"    
+			android:text="        当战火笼罩在Kalimdor大陆上时，可怕的事情才刚刚开始发生，虽然整个详细的过程将随着时间而消逝，但有些事情人们不会忘记，Neltharion地球的守护龙在与燃烧军团的对抗中变的疯狂。受到来自黑暗火焰的袭击，他开始分裂变形，他变成了燃烧的巨龙Deathwing。他背叛了他的兄弟们，五条飞龙守护神，并在战场上击败了他们。"  
+			android:gravity="left"  
+		></TextView> 
+		<TextView android:textColor="#000"  
+			android:layout_width="wrap_content"  
+			android:layout_height="wrap_content"    
+			android:text="        Deathwing的突然背叛对于五条飞龙守护神来说是一个毁灭性的打击。拖着受伤的身躯带着难以平复的震惊，Alexstrasza和其他神龙被迫退出了联军。Malfurion和他的同伴们此时已经变得非常绝望，只是为了生存而继续战斗。"  
+			android:gravity="left"  
+		></TextView> 
+		<TextView android:textColor="#000"  
+			android:layout_width="wrap_content"  
+			android:layout_height="wrap_content"    
+			android:text="        Malfurion认为永恒之井是恶魔们通向这个物质世界的通道，所以他坚持认为要把它摧毁。而他的同伴们则认为永恒之井是他们神圣力量的来源，所以认为这是个卤莽草率的决定。而Tyrande则认为Malfurion的想法是明智的，因此她要求Cenarius和他的同伴们摧毁Azshara的神庙并将永恒之井永远封印。"  
+			android:gravity="left"  
+		></TextView> 
+		<TextView android:textColor="#000"  
+			android:layout_width="wrap_content"  
+			android:layout_height="wrap_content"    
+			android:text="世界的分离"  
+			android:gravity="left"  
+		></TextView>
+		<TextView android:textColor="#000"  
+			android:layout_width="wrap_content"  
+			android:layout_height="wrap_content"    
+			android:text="        Illidan知道了Malfurion等要摧毁永恒之井的计划后，担心曾经奇异的魔法将永离他而去，于是他背弃了他的族人，自私的决定出发去通知Highborne们Malfurion的计划。由于沉迷魔法而产生的疯狂以及出于对Malfurion与Tyrande相恋的嫉恨，Illidan并不后悔背叛Malfurion而转投Azshara的队伍。Illidan发誓要不惜一切保护住永恒之井的能量。"  
+			android:gravity="left"  
+		></TextView> 
+		<TextView android:textColor="#000"  
+			android:layout_width="wrap_content"  
+			android:layout_height="wrap_content"    
+			android:text="        Malfurion为他兄弟的离去而痛心。他带领着他的同伴们来到了Azshara神殿的中心。然而当他们进入主大厅时，他们发现Highborne正在进行他们最后的黑暗咒语。咒语使井的底部产生出一个不太稳定的深不见底的旋涡。当Sargeras的阴影开始逐渐接近井的表面时，Malfurion和他的联军匆忙地开始了进攻。"  
+			android:gravity="left"  
+		></TextView> 
+		<TextView android:textColor="#000"  
+			android:layout_width="wrap_content"  
+			android:layout_height="wrap_content"    
+			android:text="        Azshara早已收到了Illidan的警告，所以做好了充分的准备。在 Azshara疯狂的力量之下，Malfurion的同伴们一一倒下。Tyrande,打算从背后攻击女王，但被女王的Highborne守卫擒住。尽管Tyrande费劲全力击败了守卫，她自己也是身受重伤。Malfurion眼见自己的爱人也被击倒，一阵狂怒，他决定要杀死Azshara。"  
+			android:gravity="left"  
+		></TextView> 
+		<TextView android:textColor="#000"  
+			android:layout_width="wrap_content"  
+			android:layout_height="wrap_content"    
+			android:text="        战斗在神殿内外激烈的进行着，突然Illidan出现在永恒之井的岸边。他带着一些特制的容器，跪下身来把永恒之井的圣水装进每个容器里，他知道恶魔们迟早会将夜精灵的文明彻底摧毁，于是他要偷去这些圣水，供自己享用。"  
+			android:gravity="left"  
+		></TextView>
+		<TextView android:textColor="#000"  
+			android:layout_width="wrap_content"  
+			android:layout_height="wrap_content"    
+			android:text="        Malfurion和Azshara随后的战斗使Highborne的魔法阵陷入了混乱，井中不稳定的旋涡发生了大爆炸，爆炸引发的一系列灾难将使得整个世界互相分割开来。巨大的爆炸动摇了神殿的基座,地动山摇。燃烧军团与夜精灵联军之间的激烈斗争几乎夷平了整个城市，永恒之井也慢慢崩塌。"  
+			android:gravity="left"  
+		></TextView> 
+		<TextView android:textColor="#000"  
+			android:layout_width="wrap_content"  
+			android:layout_height="wrap_content"    
+			android:text="        最后灾难性的爆炸破坏了地表，扬起的尘土遮住了天空。"  
+			android:gravity="left"  
+		></TextView> 
+		<TextView android:textColor="#000"  
+			android:layout_width="wrap_content"  
+			android:layout_height="wrap_content"    
+			android:text="        来自永恒之井的余震使地表破裂，地理结构完全破坏，海水冲入满是创痍的地表。几乎白分之八十的Kalimdor大陆被分割开来，只有一小部分大陆环绕着新生的海洋。海的中心曾经是永恒之井的位置，现在那里只有汹涌的潮汐，怒吼的风暴还有混乱的力量。这就是战争后留下的可怕伤痕，被人称做大旋涡。旋涡不停的旋转，提醒我们过去曾经发生过的巨大灾难。和平时代就此一去不复返。"  
+			android:gravity="left"  
+		></TextView> 
+		<TextView android:textColor="#000"  
+			android:layout_width="wrap_content"  
+			android:layout_height="wrap_content"    
+			android:text="        Azshara王后和她的Highborne不计成败，转而开始面对生存的残酷考验。Azshara和她的追随者被他们所释放出的能量拖入了愤怒的海底深处。他们受到了诅咒，他们的外型逐渐改变，变成了蛇形的naga族。Azshara的憎恨与愤怒急剧膨胀，成为了厚重的畸形，她的内心透出邪恶和恶意。"  
+			android:gravity="left"  
+		></TextView>
+		<TextView android:textColor="#000"  
+			android:layout_width="wrap_content"  
+			android:layout_height="wrap_content"    
+			android:text="        在大旋涡的底部naga新建了他们的城市Nazjatar，他们要在那里重建他们自己的力量。但他们不知道直至1万年后naga才将重新出现在世界的舞台上。"  
+			android:gravity="left"  
+		></TextView> 
+		<TextView android:textColor="#000"  
+			android:layout_width="wrap_content"  
+			android:layout_height="wrap_content"    
+			android:text="Hyjal 山和Illidan的礼物"  
+			android:gravity="left"  
+		></TextView> 
+		<TextView android:textColor="#000"  
+			android:layout_width="wrap_content"  
+			android:layout_height="wrap_content"    
+			android:text="        在大爆炸中存活下来的少数夜精灵们乘上粗制的竹筏，缓缓地向视野中的大陆驶去。Malfurion, Tyrande, 和Cenarius在月之女神Elune的保佑下也幸存地活了下来。疲倦的英雄们同意继续领导他们的族人，并带领剩下的族人去建立新的家园。他们安静的踏上了建立新家园的旅途。他们注视着爆炸后留下的一片残破景象，意识到他们的一时冲动毁灭了周围的一切。虽然Sargeras和他的燃烧军团在爆炸中被赶出了这个世界，但Malfurion和他的同伴们也开始沉思他们付出的可怕代价。"  
+			android:gravity="left"  
+		></TextView> 
+		<TextView android:textColor="#000"  
+			android:layout_width="wrap_content"  
+			android:layout_height="wrap_content"    
+			android:text="        也有许多Highborne在灾难中幸存下来，他们尾随着夜精灵向新大陆驶去。尽管Malfurion并不相信Highborne，但他很满足的是这些Highborne缺乏了井中的力量后不会对他们造成任何危害了。"  
+			android:gravity="left"  
+		></TextView>
+		<TextView android:textColor="#000"  
+			android:layout_width="wrap_content"  
+			android:layout_height="wrap_content"    
+			android:text="        疲惫的夜精灵们登上了新大陆。他们发现神圣之山Hyjal也在爆炸中保存了下来。为了建立新的家园，Malfurion和他的同伴们沿着山坡爬上了顶峰。当他们进入一个被山峰所包围的树木葱荣的盆地时，他们发现了一个安静的小湖。让他们惊骇的是他们发现这湖水已经被施过了魔法。"  
+			android:gravity="left"  
+		></TextView> 
+		<TextView android:textColor="#000"  
+			android:layout_width="wrap_content"  
+			android:layout_height="wrap_content"    
+			android:text="        Malfurion在知道了他兄弟Illidan将在那里进行他可怕无情的计划后，他断然决定干涉他因魔法而迷失心智的兄弟的行动。在Cenarius的帮助下，Malfurion将Illidan囚禁在一个巨大的地下监狱里，在那里Illidan将被链条锁住，力量永远无法发挥。为了能够安全的关住Illidan，Malfurion让年轻的守望者Maiev Shadowsong担当看守Illidan的狱卒。"  
+			android:gravity="left"  
+		></TextView> 
+		<TextView android:textColor="#000"  
+			android:layout_width="wrap_content"  
+			android:layout_height="wrap_content"    
+			android:text="        夜精灵害怕摧毁新的井会引发更大的灾难，于是打算任由它去，但Malfurion宣布他们以后永远也不会再使用这魔法的力量。在Cenarius的监督下，夜精灵们开始学习德鲁伊魔法，用以治愈破坏的地球，在圣山上重建他们热爱的森林。世界树和翡翠梦世界"  
+			android:gravity="left"  
+		></TextView> 
+		<TextView android:textColor="#000"  
+			android:layout_width="wrap_content"  
+			android:layout_height="wrap_content"    
+			android:text="魔兽争霸前的9000年"  
+			android:gravity="left"  
+		></TextView>
+		<TextView android:textColor="#000"  
+			android:layout_width="wrap_content"  
+			android:layout_height="wrap_content"    
+			android:text="        多年来，夜精灵们不辞辛劳的重建他们古老的家园。夜精灵们离开了他们破损的神庙和长满杂草的道路，在Hyjal山翠绿的丛林中修建自己新的家园。后来，在大战中幸存下来的巨龙也从原先秘密逗留的地方来到了这里。"  
+			android:gravity="left"  
+		></TextView> 
+		<TextView android:textColor="#000"  
+			android:layout_width="wrap_content"  
+			android:layout_height="wrap_content"    
+			android:text="        红色的Alexstrasza，绿色的Ysera还有青铜色的Nozdormu降落在德鲁伊的安静的林间空地上，观看着夜精灵的劳作。Malfurion，此时已成为具有强大能力的德鲁伊，他上前迎接神龙的到来，告诉他们新的永恒之井是如何建造出来的。巨龙们听到这个消息后非常担心，他们猜想只要永恒之井存在，燃烧军团会再度到来袭击这个世界。于是Malfurion和三条神龙定下契约，他们会保证永恒之井的安全，不会让燃烧军团有机会发现来到这个世界的通道。"  
+			android:gravity="left"  
+		></TextView> 
+		<TextView android:textColor="#000"  
+			android:layout_width="wrap_content"  
+			android:layout_height="wrap_content"    
+			android:text="        Alexstrasza，在永恒之井的中心拨撒了一颗带有魔法的种子。种子在井中泉水强有力的魔法的作用下，逐渐长成一颗巨型大树。大树扎根于井水中，向上展开的树枝形成翠绿的天蓬，似乎把天也遮住了。大树是夜精灵与大自然之间永恒纽带的象征，树所产生的生命力量将逐渐治愈剩下的世界。夜精灵们将这棵树取名为Nordrassi，在精灵语中意为上帝的王冠。"  
+			android:gravity="left"  
+		></TextView> 
+		<TextView android:textColor="#000"  
+			android:layout_width="wrap_content"  
+			android:layout_height="wrap_content"    
+			android:text="        Nozdormu在世界之树上施了魔法，只要这棵树存在，夜精灵们就不会衰老，也不会受到疾病的侵袭。"  
+			android:gravity="left"  
+		></TextView>
+		<TextView android:textColor="#000"  
+			android:layout_width="wrap_content"  
+			android:layout_height="wrap_content"    
+			android:text="        Ysera也在世界树上施了魔法，她把世界树与她管辖的疆域也就是翡翠梦世界联结了起来。翡翠梦世界是一个宽广的永恒不变的精神世界，它独立于物质世界以外。"  
+			android:gravity="left"  
+		></TextView> 
+		<TextView android:textColor="#000"  
+			android:layout_width="wrap_content"  
+			android:layout_height="wrap_content"    
+			android:text="        Ysera在梦中调整自然的潮起潮落以及世界的模式。夜精灵中的德鲁伊包括Malfurion自己能通过世界树进入梦的世界。作为契约的一部分，德鲁伊答应沉睡数百年，好让他们的精神能够在无限的Ysera的梦世界中漫游。虽然德鲁伊们对于在睡梦中度过百年感到遗憾万分，但无私的他们依然遵守了与Ysera所订立的契约。"  
+			android:gravity="left"  
+		></TextView> 
+		<TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"  
+            android:textStyle="bold"  
+            android:typeface="serif"  
+            android:textSize="18sp"  
+            android:text="高级精灵的放逐"  
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:gravity="left"  
+           ></TextView>
+		<TextView android:textColor="#000"  
+			android:layout_width="wrap_content"  
+			android:layout_height="wrap_content"    
+			android:text="魔兽争霸前的7300年"  
+			android:gravity="left"  
+		></TextView> 
+		<TextView android:textColor="#000"  
+			android:layout_width="wrap_content"  
+			android:layout_height="wrap_content"    
+			android:text="        数百年过去了，新的夜精灵族不断壮大，他们的势力扩展到整个森林，他们开始把这片森林称作Ashenvale，在大爆炸前，这片大陆物种丰富，象furbolgs和quilboars都在这片土地上繁衍生长。在德鲁伊仁慈的领导下，夜精灵族正处在前所未有的安静与和平下。"  
+			android:gravity="left"  
+		></TextView>
+		<TextView android:textColor="#000"  
+			android:layout_width="wrap_content"  
+			android:layout_height="wrap_content"    
+			android:text="        然而原先的那些Highborne幸存者却并不安分。象Illidan一样，这些Highborne成为了他们所垂涎的魔法的受害者，当这些魔力失去时，他们不知所措。于是他们被永恒之井的力量所吸引，悄悄地去偷取井中的力量，对于能够使用这些魔法他们狂喜万分。Dath‘Remar是这些Highborne临时的领导者，他非常坦白，他开始公开嘲笑德鲁伊，他把德鲁伊们喊作懦夫，因为他们拒绝使用Highborne的魔法。"  
+			android:gravity="left"  
+		></TextView> 
+		<TextView android:textColor="#000"  
+			android:layout_width="wrap_content"  
+			android:layout_height="wrap_content"    
+			android:text="        Malfurion和德鲁伊反驳了Dath‘Remar的言论并且警告Highborne说任何人使用这种魔法都将受到极刑。Dath‘Remar努力想说服德鲁伊撤消他们的法律, 但不幸的是都没有成功。Dath‘Remar和他的追随者们在Ashenvale上刮起了一场可怕的魔法风暴。"  
+			android:gravity="left"  
+		></TextView> 
+		<TextView android:textColor="#000"  
+			android:layout_width="wrap_content"  
+			android:layout_height="wrap_content"    
+			android:text="        德鲁伊们实在不忍将他们众多的同族一起处死，于是他们决定将Highborne流放出这片大陆。而Dath‘Remar和他的追随者则非常高兴他们最终摆脱了这些专制的同族，他们乘上他们特制的木船，向海的远方驶去。尽管没人知道在大旋涡外的海域外等待着他们的是什么，但他们的确非常急切地想建立自己的新家园，他们可以在那里使用他们钟爱的魔法而不用受到惩罚。Highborne或者说是Quel‘dorei（Azshara过去一直这样叫他们）最终他们到达了东方的人类大陆Lordaeron上。他们打算建立魔法王国Quel‘Thalas。他们拒绝象夜精灵一样崇拜月亮和只在夜间活动。自此以后他们将永远拥抱太阳，并把自己称作高级精灵。"  
+			android:gravity="left"  
+		></TextView> 
+		<TextView android:textColor="#000"  
+			android:layout_width="wrap_content"  
+			android:layout_height="wrap_content"    
+			android:text="Sentinels和长期的监视"  
+			android:gravity="left"  
+		></TextView>
+		<TextView android:textColor="#000"  
+			android:layout_width="wrap_content"  
+			android:layout_height="wrap_content"    
+			android:text="        随着任性的Highborne的离去，夜精灵们把注意力重新集中到保卫他们的魔法王国上，德鲁伊们感觉到沉睡的时间即将来到，他们即将抛开他们心爱的家人进入休眠。Elune的女祭司Tyrande要求他心爱的Malfurion不要离开她进入梦世界。Malfurion以进入梦世界为荣，他向Tyrande告别，并发誓只要他们真正相爱就永远不会分开。为了防止Kalimdor大陆上出现新的危险状况，Tyrande从她的夜精灵姐妹中集合了一支强有力的战斗队伍。这些无畏的女战士们训练有素，积极投身于Kalimdor的防卫工作，他们被称为Sentinels。尽管他们喜欢独自在森林中巡逻，但一有紧急事情发生,他们就可以召集他们的盟军。"  
+			android:gravity="left"  
+		></TextView> 
+		<TextView android:textColor="#000"  
+			android:layout_width="wrap_content"  
+			android:layout_height="wrap_content"    
+			android:text="        半神Cenarius依然居住在Hyjal山的Moonglades附近。他的儿子也被叫做Keepers of the Grove，他注视着夜精灵们还时常帮助Sentinels维护当地的和平。甚至Cenarius的女儿，害羞的森林女神也经常出现在户外的森林中。"  
+			android:gravity="left"  
+		></TextView> 
+		<TextView android:textColor="#000"  
+			android:layout_width="wrap_content"  
+			android:layout_height="wrap_content"    
+			android:text="        管理Ashenvale的艰巨使得Tyrande忙于工作，没有Malfurion在她的身边，她很少有快乐的心情。随着德鲁伊进入休眠又过了数百年，而Tyrande对恶魔们再度袭击这个世界的担心却与日俱增，她的勇气开始动摇，也许燃烧军团在宇宙外的某一个地方正在计划着对夜精灵和Azeroth的复仇。"  
+			android:gravity="left"  
+		></TextView> 
+		
+</LinearLayout>
+</ScrollView>
+</LinearLayout>

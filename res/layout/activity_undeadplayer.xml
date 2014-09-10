@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#eee"
+        android:orientation="vertical" >
+        
+        <LinearLayout 
+  			android:layout_width="fill_parent"
+  			android:layout_height="45dp"
+  			android:id="@+id/title" 
+  			android:background="@drawable/title_bar"
+  			android:gravity="center_horizontal|center_vertical"  >  
+      		<TextView 
+        		android:layout_width="wrap_content" 
+        		android:layout_height="wrap_content" 
+        		android:text="不死族选手"
+        		android:textSize="20sp"		
+				android:textColor="#ffffff" />       
+			</LinearLayout>
+<ScrollView 
+
+    android:layout_width="fill_parent" 
+    android:layout_height="fill_parent"
+    android:background="#eee"
+>
+<LinearLayout 
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    >
+ 
+
+
+<TextView  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="TED"  
+            android:layout_marginTop="10dp"
+            android:gravity="left"
+             android:textColor="#0000CC"
+            android:textSize="18sp"   
+            ></TextView>  
+<TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="        TeD中国电子竞技魔兽争霸3项目亡灵选手曾卓的游戏ID，中国“鬼王”。2012年是对于所有的亡灵玩家至关重要的一年！TED作为2012WCG总决赛唯一的亡灵选手，创造了历史！2012年12月2日WCG世界总决赛历史上第一个魔兽争霸项目的亡灵种族世界冠军！ "  
+            android:gravity="left"  
+           ></TextView>
+<TextView  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="Lucifer"  
+            android:layout_marginTop="10dp"
+            android:gravity="left"
+             android:textColor="#0000CC"
+            android:textSize="18sp"   
+            ></TextView>  
+<TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="        Lucifer，一位被人们称为“恶魔”的与 Fov、 Sweet. gostop齐名的鬼王；一位与 Moon携手创造 MYM辉煌的UDer。终于在获得了ESWC冠军以后，他的时代已经来临了。此后Lucifer便一发不可收拾，连夺PPS中韩对抗冠军以及IEST全球总决赛的亚军，成为了最近一年表现最出色的UD选手之一。 "  
+            android:gravity="left"  
+           ></TextView>
+<TextView  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="sweet"  
+            android:layout_marginTop="10dp"
+            android:gravity="left"
+             android:textColor="#0000CC"
+            android:textSize="18sp"   
+            ></TextView>  
+<TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="        sweet，中文名叫田正曦，魔兽比赛选手，又称忧郁鬼王、亡灵天王，与lucifer、fov、gostop并称四大鬼王，曾经是世界上最好的NE选手之一，现今为同样出色的UD选手，2008年退役，2013年复出。 "  
+            android:gravity="left"  
+           ></TextView>
+<TextView  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="space"  
+            android:layout_marginTop="10dp"
+            android:gravity="left"
+             android:textColor="#0000CC"
+            android:textSize="18sp"   
+            ></TextView>  
+<TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="        Space，男，韩国人。是游戏魔兽争霸的电子竞技中的一名传奇残疾选手。Space从小就患有肌肉失调症，但即便这样，他还是通过自己的努力拿下多项冠军。 Space在2013年5月6日凌晨逝世，年仅23岁。被玩家尊称为“意志亡灵”。2013年5月9日暴雪为他发布了悼文。 "  
+            android:gravity="left"  
+           ></TextView>
+
+</LinearLayout>
+</ScrollView>
+</LinearLayout>

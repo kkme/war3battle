@@ -1,0 +1,995 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="laiqn.war3battle"
+    android:versionCode="9"
+    android:versionName="1.8.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="18" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:theme="@android:style/Theme.NoTitleBar" >
+        <activity
+            android:name="laiqn.war3battle.Appstart"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="laiqn.war3battle.MainActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="laiqn.war3battle.Human"
+            android:label="@string/title_activity_human"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="laiqn.war3battle.Humanv1"
+            android:label="@string/title_activity_humanv1"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="laiqn.war3battle.Humanv2"
+            android:label="@string/title_activity_humanv2"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="laiqn.war3battle.Humanv3"
+            android:label="@string/title_activity_humanv3"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="laiqn.war3battle.Humanv4"
+            android:label="@string/title_activity_humanv4"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="laiqn.war3battle.Orc"
+            android:label="@string/title_activity_orc"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="laiqn.war3battle.Ne"
+            android:label="@string/title_activity_ne"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="laiqn.war3battle.Undead"
+            android:label="@string/title_activity_undead"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="laiqn.war3battle.Orcv1"
+            android:label="@string/title_activity_orcv1"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="laiqn.war3battle.Orcv2"
+            android:label="@string/title_activity_orcv2"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="laiqn.war3battle.Orcv3"
+            android:label="@string/title_activity_orcv3"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="laiqn.war3battle.Orcv4"
+            android:label="@string/title_activity_orcv4"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="laiqn.war3battle.Nev1"
+            android:label="@string/title_activity_nev1"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="laiqn.war3battle.Nev2"
+            android:label="@string/title_activity_nev2"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="laiqn.war3battle.Nev3"
+            android:label="@string/title_activity_nev3"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="laiqn.war3battle.Nev4"
+            android:label="@string/title_activity_nev4"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="laiqn.war3battle.Undeadv1"
+            android:label="@string/title_activity_undeadv1"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="laiqn.war3battle.Undeadv2"
+            android:label="@string/title_activity_undeadv2"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="laiqn.war3battle.Undeadv3"
+            android:label="@string/title_activity_undeadv3"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="laiqn.war3battle.Undeadv4"
+            android:label="@string/title_activity_undeadv4"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="laiqn.war3battle.Archmage"
+            android:label="@string/title_activity_archmage"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="laiqn.war3battle.Mountainking"
+            android:label="@string/title_activity_mountainking"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="laiqn.war3battle.Paladin"
+            android:label="@string/title_activity_paladin"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="laiqn.war3battle.Bloodmage"
+            android:label="@string/title_activity_bloodmage"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="laiqn.war3battle.Humanbattle"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="laiqn.war3battle.Nebattle"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="laiqn.war3battle.Orcbattle"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="laiqn.war3battle.Undeadbattle"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="laiqn.war3battle.Humanhero"
+            android:label="@string/title_activity_orchero"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="laiqn.war3battle.Humanintro"
+            android:label="@string/title_activity_humanintro"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="laiqn.war3battle.Neintro"
+            android:label="@string/title_activity_neintro"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="laiqn.war3battle.Orcintro"
+            android:label="@string/title_activity_orcintro"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="laiqn.war3battle.Undeadintro"
+            android:label="@string/title_activity_undeadintro"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="laiqn.war3battle.Blademaster"
+            android:label="@string/title_activity_blademaster"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="laiqn.war3battle.Shadowhunter"
+            android:label="@string/title_activity_shadowhunter"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="laiqn.war3battle.Farseer"
+            android:label="@string/title_activity_farseer"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="laiqn.war3battle.Chieftain"
+            android:label="@string/title_activity_chieftain"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="laiqn.war3battle.Demonhunter"
+            android:label="@string/title_activity_demonhunter"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="laiqn.war3battle.Keeper"
+            android:label="@string/title_activity_keeper"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="laiqn.war3battle.Warden"
+            android:label="@string/title_activity_warden"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="laiqn.war3battle.Priestess"
+            android:label="@string/title_activity_priestess"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="laiqn.war3battle.Lich"
+            android:label="@string/title_activity_lich"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="laiqn.war3battle.Deathknight"
+            android:label="@string/title_activity_deathknight"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="laiqn.war3battle.Cryptlord"
+            android:label="@string/title_activity_cryptlord"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="laiqn.war3battle.Dreadlord"
+            android:label="@string/title_activity_dreadlord"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="laiqn.war3battle.Orchero"
+            android:label="@string/title_activity_orchero"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="laiqn.war3battle.Nehero"
+            android:label="@string/title_activity_nehero"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="laiqn.war3battle.Undeadhero"
+            android:label="@string/title_activity_undeadhero"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="laiqn.war3battle.War3"
+            android:label="@string/title_activity_war3"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="laiqn.war3battle.War3v1"
+            android:label="@string/title_activity_war3v1"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="laiqn.war3battle.War3v2"
+            android:label="@string/title_activity_war3v2"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="laiqn.war3battle.War3v3"
+            android:label="@string/title_activity_war3v3"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="laiqn.war3battle.War3v4"
+            android:label="@string/title_activity_war3v4"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="laiqn.war3battle.War3v5"
+            android:label="@string/title_activity_war3v5"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="laiqn.war3battle.War3v6"
+            android:label="@string/title_activity_war3v6"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="laiqn.war3battle.Races"
+            android:label="@string/title_activity_races"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="laiqn.war3battle.Cheats"
+            android:label="@string/title_activity_cheats"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="laiqn.war3battle.Appintro"
+            android:label="@string/title_activity_appintro"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="laiqn.war3battle.Humanunits"
+            android:label="@string/title_activity_humanunits"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="laiqn.war3battle.Orcunits"
+            android:label="@string/title_activity_orcunits"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="laiqn.war3battle.Neunits"
+            android:label="@string/title_activity_neunits"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="laiqn.war3battle.Undeadunits"
+            android:label="@string/title_activity_undeadunits"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="laiqn.war3battle.Peasant"
+            android:label="@string/title_activity_peasant"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="laiqn.war3battle.Footman"
+            android:label="@string/title_activity_footman"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="laiqn.war3battle.Knight"
+            android:label="@string/title_activity_knight"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="laiqn.war3battle.Priest"
+            android:label="@string/title_activity_priest"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="laiqn.war3battle.Sorceress"
+            android:label="@string/title_activity_sorceress"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="laiqn.war3battle.Spellbreaker"
+            android:label="@string/title_activity_spellbreaker"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="laiqn.war3battle.Dragonhawk"
+            android:label="@string/title_activity_dragonhawk"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="laiqn.war3battle.Mortarteam"
+            android:label="@string/title_activity_mortarteam"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="laiqn.war3battle.Gyrocopter"
+            android:label="@string/title_activity_gyrocopter"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="laiqn.war3battle.Siegeengine"
+            android:label="@string/title_activity_siegeengine"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="laiqn.war3battle.Gryphonrider"
+            android:label="@string/title_activity_gryphonrider"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="laiqn.war3battle.Rifleman"
+            android:label="@string/title_activity_rifleman"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="laiqn.war3battle.PeonActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="laiqn.war3battle.GruntActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="laiqn.war3battle.HeadhunterActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="laiqn.war3battle.ShamanActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="laiqn.war3battle.WitchdoctorActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="laiqn.war3battle.SpiritwalkerActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="laiqn.war3battle.RaiderActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="laiqn.war3battle.KodobeastActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="laiqn.war3battle.WyvernriderActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="laiqn.war3battle.TrollbatriderActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="laiqn.war3battle.DemolisherActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="laiqn.war3battle.TaurenActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="laiqn.war3battle.WispActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="laiqn.war3battle.ArcherActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="laiqn.war3battle.HuntressActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="laiqn.war3battle.GlaivethrowerActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="laiqn.war3battle.DryadActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="laiqn.war3battle.DocdruidformActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="laiqn.war3battle.MountaingiantActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="laiqn.war3battle.HippogryphActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="laiqn.war3battle.DruidtalonActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="laiqn.war3battle.FaeriedragonActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="laiqn.war3battle.ChimaeraActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="laiqn.war3battle.AcolyteActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="laiqn.war3battle.GhoulActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="laiqn.war3battle.CryptfiendActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="laiqn.war3battle.GargoyleActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="laiqn.war3battle.NecromancerActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="laiqn.war3battle.BansheeActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="laiqn.war3battle.MeatwagonActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="laiqn.war3battle.AbominationActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="laiqn.war3battle.ObsidianstatueActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="laiqn.war3battle.SacrificeActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="laiqn.war3battle.FrostwyrmActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="laiqn.war3battle.Racesv2"
+            android:label="@string/title_activity_racesv2"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="laiqn.war3battle.Racesv3"
+            android:label="@string/title_activity_racesv3"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="laiqn.war3battle.Racesv4"
+            android:label="@string/title_activity_racesv4"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="laiqn.war3battle.Item1"
+            android:label="@string/title_activity_item1"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="laiqn.war3battle.Item2"
+            android:label="@string/title_activity_item2"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="laiqn.war3battle.Item3"
+            android:label="@string/title_activity_item3"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="laiqn.war3battle.War32"
+            android:label="@string/title_activity_war32"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="laiqn.war3battle.Townhall"
+            android:label="@string/title_activity_townhall"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="laiqn.war3battle.Keep"
+            android:label="@string/title_activity_keep"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="laiqn.war3battle.Castle"
+            android:label="@string/title_activity_castle"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="laiqn.war3battle.Humanbarracks"
+            android:label="@string/title_activity_humanbarracks"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="laiqn.war3battle.Farm"
+            android:label="@string/title_activity_farm"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="laiqn.war3battle.Altarofkings"
+            android:label="@string/title_activity_altarofkings"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="laiqn.war3battle.Humanlumbermill"
+            android:label="@string/title_activity_humanlumbermill"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="laiqn.war3battle.Blacksmith"
+            android:label="@string/title_activity_blacksmith"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="laiqn.war3battle.Workshop"
+            android:label="@string/title_activity_workshop"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="laiqn.war3battle.Arcanesanctum"
+            android:label="@string/title_activity_arcanesanctum"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="laiqn.war3battle.Gryphonaviary"
+            android:label="@string/title_activity_gryphonaviary"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="laiqn.war3battle.Humanwatchtower"
+            android:label="@string/title_activity_humanwatchtower"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="laiqn.war3battle.Neu"
+            android:label="@string/title_activity_neu"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="laiqn.war3battle.Racesv5"
+            android:label="@string/title_activity_racesv5"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="laiqn.war3battle.Neuintro"
+            android:label="@string/title_activity_neuintro"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="laiqn.war3battle.Neuunits"
+            android:label="@string/title_activity_neuunits"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="laiqn.war3battle.Nagaseawitch"
+            android:label="@string/title_activity_nagaseawitch"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="laiqn.war3battle.Darkranger"
+            android:label="@string/title_activity_darkranger"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="laiqn.war3battle.Pandarenbrewmaster"
+            android:label="@string/title_activity_pandarenbrewmaster"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="laiqn.war3battle.Beastmaster"
+            android:label="@string/title_activity_beastmaster"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="laiqn.war3battle.Pitlord"
+            android:label="@string/title_activity_pitlord"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="laiqn.war3battle.Goblintinker"
+            android:label="@string/title_activity_goblintinker"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="laiqn.war3battle.Firelord"
+            android:label="@string/title_activity_firelord"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="laiqn.war3battle.Goblinalchemist"
+            android:label="@string/title_activity_goblinalchemist"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="laiqn.war3battle.Warmill"
+            android:label="@string/title_activity_warmill"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="laiqn.war3battle.Orcburrow"
+            android:label="@string/title_activity_orcburrow"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="laiqn.war3battle.Greathall"
+            android:label="@string/title_activity_greathall"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="laiqn.war3battle.Barracks"
+            android:label="@string/title_activity_barracks"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="laiqn.war3battle.Altarofstorms"
+            android:label="@string/title_activity_altarofstorms"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="laiqn.war3battle.Watchtower"
+            android:label="@string/title_activity_watchtower"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="laiqn.war3battle.Stronghold"
+            android:label="@string/title_activity_stronghold"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="laiqn.war3battle.Spiritlodge"
+            android:label="@string/title_activity_spiritlodge"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="laiqn.war3battle.Beastiary"
+            android:label="@string/title_activity_beastiary"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="laiqn.war3battle.Fortress"
+            android:label="@string/title_activity_fortress"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="laiqn.war3battle.Taurentotem"
+            android:label="@string/title_activity_taurentotem"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="laiqn.war3battle.Ancientofwar"
+            android:label="@string/title_activity_ancientofwar"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="laiqn.war3battle.Treeoflife"
+            android:label="@string/title_activity_treeoflife"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="laiqn.war3battle.Moonwell"
+            android:label="@string/title_activity_moonwell"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="laiqn.war3battle.Altarofelders"
+            android:label="@string/title_activity_altarofelders"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="laiqn.war3battle.Huntershall"
+            android:label="@string/title_activity_huntershall"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="laiqn.war3battle.Ancientprotector"
+            android:label="@string/title_activity_ancientprotector"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="laiqn.war3battle.Treeofages"
+            android:label="@string/title_activity_treeofages"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="laiqn.war3battle.Ancientofwind"
+            android:label="@string/title_activity_ancientofwind"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="laiqn.war3battle.Ancientoflore"
+            android:label="@string/title_activity_ancientoflore"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="laiqn.war3battle.Treeofeternity"
+            android:label="@string/title_activity_treeofeternity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="laiqn.war3battle.Chimaeraroost"
+            android:label="@string/title_activity_chimaeraroost"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="laiqn.war3battle.Altarofdarkness"
+            android:label="@string/title_activity_altarofdarkness"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="laiqn.war3battle.Ziggurat"
+            android:label="@string/title_activity_ziggurat"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="laiqn.war3battle.Graveyard"
+            android:label="@string/title_activity_graveyard"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="laiqn.war3battle.Necropolis"
+            android:label="@string/title_activity_necropolis"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="laiqn.war3battle.Crypt"
+            android:label="@string/title_activity_crypt"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="laiqn.war3battle.Hallsofthedead"
+            android:label="@string/title_activity_hallsofthedead"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="laiqn.war3battle.Templeofthedamned"
+            android:label="@string/title_activity_templeofthedamned"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="laiqn.war3battle.Slaughterhouse"
+            android:label="@string/title_activity_slaughterhouse"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="laiqn.war3battle.Sacrificialpit"
+            android:label="@string/title_activity_sacrificialpit"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="laiqn.war3battle.Blackcitadel"
+            android:label="@string/title_activity_blackcitadel"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="laiqn.war3battle.Boneyard"
+            android:label="@string/title_activity_boneyard"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="laiqn.war3battle.History"
+            android:label="@string/title_activity_history"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="laiqn.war3battle.History1"
+            android:label="@string/title_activity_history1"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="laiqn.war3battle.History2"
+            android:label="@string/title_activity_history2"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="laiqn.war3battle.History3"
+            android:label="@string/title_activity_history3"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="laiqn.war3battle.History4"
+            android:label="@string/title_activity_history4"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="laiqn.war3battle.History5"
+            android:label="@string/title_activity_history5"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="laiqn.war3battle.Humanshort"
+            android:label="@string/title_activity_humanshort"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="laiqn.war3battle.Orcshort"
+            android:label="@string/title_activity_orcshort"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="laiqn.war3battle.Neshort"
+            android:label="@string/title_activity_neshort"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="laiqn.war3battle.Undeadshort"
+            android:label="@string/title_activity_undeadshort"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="laiqn.war3battle.Neushort"
+            android:label="@string/title_activity_neushort"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="laiqn.war3battle.Name"
+            android:label="@string/title_activity_name"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="laiqn.war3battle.Foresttrolls"
+            android:label="@string/title_activity_foresttrolls" 
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name="laiqn.war3battle.Icetroll"
+            android:label="@string/title_activity_icetroll" 
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name="laiqn.war3battle.Mudgolem"
+            android:label="@string/title_activity_mudgolem" 
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name="laiqn.war3battle.Furbolgshaman"
+            android:label="@string/title_activity_furbolgshaman" 
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name="laiqn.war3battle.Bluedragon"
+            android:label="@string/title_activity_bluedragon" 
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name="laiqn.war3battle.Thunderlizard"
+            android:label="@string/title_activity_thunderlizard" 
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name="laiqn.war3battle.Centaur"
+            android:label="@string/title_activity_centaur" 
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name="laiqn.war3battle.Harpy"
+            android:label="@string/title_activity_harpy" 
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name="laiqn.war3battle.Humanplayer"
+            android:label="@string/title_activity_humanplayer" 
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name="laiqn.war3battle.Orcplayer"
+            android:label="@string/title_activity_orcplayer" 
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name="laiqn.war3battle.Neplayer"
+            android:label="@string/title_activity_neplayer" 
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name="laiqn.war3battle.Undeadplayer"
+            android:label="@string/title_activity_undeadplayer" 
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name="laiqn.war3battle.War3v7"
+            android:label="@string/title_activity_war3v7" 
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name="laiqn.war3battle.Other"
+            android:label="@string/title_activity_other" 
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name="laiqn.war3battle.War3information"
+            android:label="@string/title_activity_war3information" 
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name="laiqn.war3battle.Maps"
+            android:label="@string/title_activity_maps" 
+            android:screenOrientation="portrait">
+        </activity>
+    </application>
+
+</manifest>

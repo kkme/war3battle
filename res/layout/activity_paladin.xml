@@ -1,0 +1,402 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#eee"
+        android:orientation="vertical" >
+        
+        <LinearLayout 
+  			android:layout_width="fill_parent"
+  			android:layout_height="45dp"
+  			android:id="@+id/title" 
+  			android:background="@drawable/title_bar"
+  			android:gravity="center_horizontal|center_vertical"  >  
+      		<TextView
+        		android:layout_width="wrap_content" 
+        		android:layout_height="wrap_content" 
+        		android:text="圣骑士"
+        		android:textSize="20sp"		
+				android:textColor="#ffffff" />       
+			</LinearLayout>
+
+<ScrollView 
+
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1" >
+
+        <TextView android:textColor="#000"
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="10dp"
+            android:text="      大主教阿伦索斯·法奥在第二次战争中建立了白银之手骑士团。这些神圣的骑士——人们通常称他们为圣骑士——领导着对抗邪恶兽人的战争并保证洛丹伦不会变成一片废墟。虽然第二次战争已经结束将近15年了，圣骑士仍然为保护被邪恶不断侵蚀的人性而做出无私的奉献。在光明力量的指引下，他们以战锤和神圣之火作为武器，对抗一切杀戮无辜人民的敌人。" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1" >
+
+        <ImageView
+            android:id="@+id/imageViewpaladin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/paladin" 
+           />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+
+            <TextView android:textColor="#000"
+                android:id="@+id/textViewblpaladin"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="0.99"
+                android:gravity="center"
+                android:layout_marginTop="2dp"
+                android:layout_marginBottom="2dp"
+                android:background="@drawable/blood"
+                android:text="650/650" />
+
+            <TextView android:textColor="#000"
+                android:id="@+id/textViewmapaladin"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:layout_marginTop="2dp"
+                android:layout_marginBottom="2dp"
+                android:background="@drawable/magic"
+                android:text="255/255" />
+        </LinearLayout>
+
+        <TextView android:textColor="#000"
+            android:id="@+id/textViewdjpaladin"
+            android:layout_width="46dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="right"
+            android:gravity="center"
+            android:text="1" />
+    </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal" >
+        </LinearLayout>
+
+    <TableLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:shrinkColumns="*"
+        android:layout_marginTop="10dp"
+        android:stretchColumns="*" >
+	<TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal" >
+
+		<Button
+		    android:id="@+id/button2"
+		    style="?android:attr/buttonStyleSmall"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:text="想升级就点我吧" 
+		    android:onClick="uplevelpaladin"/>
+
+		<Button
+		    android:id="@+id/button3"
+		    style="?android:attr/buttonStyleSmall"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:text="觉得等级太高了？" 
+		    android:onClick="downlevelpaladin"/>
+
+
+
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal" >
+
+            <TextView android:textColor="#000"
+                android:id="@+id/textViewgjpaladin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:text="攻击：24-34" >
+            </TextView>
+
+            <TextView android:textColor="#000"
+                android:id="@+id/textViewllpaladin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:text="力量：22(+2.7)" >
+            </TextView>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal" >
+
+            <TextView android:textColor="#000"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:text="攻速：2.2" >
+            </TextView>
+
+            <TextView android:textColor="#000"
+                android:id="@+id/textViewmjpaladin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:text="敏捷：13(+1.5)" >
+            </TextView>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal" >
+
+            <TextView android:textColor="#000"
+                android:id="@+id/textViewhjpaladin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:text="护甲：4" >
+            </TextView>
+
+            <TextView android:textColor="#000"
+                android:id="@+id/textViewzlpaladin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:text="智力：17(+1.8)" >
+            </TextView>
+        </TableRow>
+           <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal" >
+
+            <TextView android:textColor="#000"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:text="移动速度：270" >
+            </TextView>
+
+            <TextView android:textColor="#000"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:text="建造时间:55s" >
+            </TextView>
+        </TableRow>
+    </TableLayout>
+
+
+
+
+<LinearLayout
+     android:layout_width="fill_parent"
+     android:layout_height="wrap_content"
+     android:layout_alignParentBottom="true"
+     android:paddingBottom="2dp"            
+   >
+        	 <LinearLayout
+            	android:layout_width="wrap_content"
+            	android:layout_height="wrap_content"
+              	android:gravity="center_horizontal"
+              	android:layout_marginTop="10dp"
+              	android:orientation="vertical"
+              	android:layout_weight="1">               	
+                <ImageView
+            		android:id="@+id/img_friends"
+        			android:layout_width="wrap_content"
+        			android:layout_height="wrap_content"        	     	
+        			android:scaleType="matrix"
+        			android:clickable="true"
+        			android:onClick="jn1paladin"
+        			android:src="@drawable/holybolt" />
+                <TextView
+            		android:layout_width="wrap_content"
+            		android:layout_height="wrap_content"
+            		android:text="    圣光    "
+            		android:textColor="#000"
+            		android:textSize="12sp" />                
+        	 </LinearLayout>
+        	 <LinearLayout
+            	android:layout_width="wrap_content"
+            	android:layout_height="wrap_content"
+              	android:gravity="center_horizontal"
+              	android:layout_marginTop="10dp"
+              	android:orientation="vertical"
+              	android:layout_weight="1">               	
+                <ImageView
+            		android:id="@+id/img_friends"
+        			android:layout_width="wrap_content"
+        			android:layout_height="wrap_content"        	     	
+        			android:scaleType="matrix"
+        			android:onClick="jn2paladin"
+        			android:clickable="true"
+        			android:src="@drawable/divineshield" />
+                <TextView
+            		android:layout_width="wrap_content"
+            		android:layout_height="wrap_content"
+            		android:text="神圣护盾"
+            		android:textColor="#000"
+            		android:textSize="12sp" />                
+        	 </LinearLayout>
+        	 <LinearLayout
+            	android:layout_width="wrap_content"
+            	android:layout_height="wrap_content"
+              	android:gravity="center_horizontal"
+              	android:layout_marginTop="10dp"
+              	android:orientation="vertical"
+              	android:layout_weight="1">               	
+                <ImageView
+            		android:id="@+id/img_friends"
+        			android:layout_width="wrap_content"
+        			android:layout_height="wrap_content"        	     	
+        			android:scaleType="matrix"
+        			android:clickable="true"
+        			android:onClick="jn3paladin"
+        			android:src="@drawable/devotion" />
+                <TextView
+            		android:layout_width="wrap_content"
+            		android:layout_height="wrap_content"
+            		android:text="专注光环"
+            		android:textColor="#000"
+            		android:textSize="12sp" />                
+        	 </LinearLayout>
+        	 <LinearLayout
+            	android:layout_width="wrap_content"
+            	android:layout_height="wrap_content"
+              	android:gravity="center_horizontal"
+              	android:layout_marginTop="10dp"
+              	android:orientation="vertical"
+              	android:layout_weight="1">               	
+                <ImageView
+            		android:id="@+id/img_friends"
+        			android:layout_width="wrap_content"
+        			android:layout_height="wrap_content"        	     	
+        			android:scaleType="matrix"
+        			android:onClick="jn4paladin"
+        			android:clickable="true"
+        			android:src="@drawable/resurrection" />
+                <TextView
+            		android:layout_width="wrap_content"
+            		android:layout_height="wrap_content"
+            		android:text="    复活    "
+            		android:textColor="#000"
+            		android:textSize="12sp" />                
+        	 </LinearLayout>
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical" >
+
+           <TextView android:textColor="#0066ff"
+               android:id="@+id/textViewjn1paladin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:text="      神圣之光可以治疗我方受伤的单位或者伤害不死族的单位，使用间隔5s，魔法消耗65，距离80(快截键T)。" >
+            </TextView>
+            <TextView android:textColor="#0066ff"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:id="@+id/textViewjn2paladin"
+                android:text="      等级1——恢复单位200生命/给不死单位100点伤害" >
+            </TextView>
+            <TextView android:textColor="#0066ff"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:id="@+id/textViewjn3paladin"
+                android:text="      等级2——恢复单位400生命/给不死单位200点伤害" >
+            </TextView>
+            <TextView android:textColor="#0066ff"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:id="@+id/textViewjn4paladin"
+                android:text="      等级3——恢复单位600生命/给不死单位300点伤害" >
+            </TextView>
+          <TextView android:textColor="#000"
+              	android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:text="      圣骑士虽然是一个近战型英雄，但并不像恶魔猎手、剑圣、山丘之王那样强大。对于近身肉搏的单位而言，他更像一个地面辅助英雄。圣骑士的技能都非常有用。在战斗时，圣光治疗受伤单位非常实用，特别在游戏初期对付野外生物的时候。圣光也可以治疗盟军英雄和你的其他英雄。治疗一个单位比重新训练一个要便宜的多。神盾可以保护他免于阵亡，还可以进行骚扰。专注光环与骑士和步兵配合十分有用，特别是在多人的大型游戏中，专注可以帮助到众多的战斗单位。复活同样十分强大，它可以给你或你的盟军带来6个强大的地面单位。" >
+            </TextView>      
+
+        <TextView android:textColor="#ff0000"   
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"  
+            android:textStyle="bold"  
+            android:typeface="serif"  
+            android:textSize="18sp"  
+            android:text="技能分配"  
+            android:layout_marginTop="10dp"
+            android:gravity="left"  
+></TextView>      
+
+        <TextView android:textColor="#000"   
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"  
+            android:layout_marginTop="10dp"
+            android:text="     大部分玩家喜欢用神圣之光配合神圣之盾最后升级复生。而另一种方法就是升级神圣之盾和专注光环。"  
+></TextView>      
+ 
+        <TextView android:textColor="#ff0000"   
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"  
+            android:textStyle="bold"  
+            android:typeface="serif"  
+            android:textSize="18sp"  
+            android:layout_marginTop="10dp"
+            android:text="应对策略"  
+            android:gravity="left"  
+></TextView>      
+        <TextView android:textColor="#000"   
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"   
+            android:layout_marginTop="10dp"
+            android:text="      圣骑士很容易因为齐射或者围杀而死亡。所以如果你不想总是被杀的话，学着跑远点吧。"  
+            ></TextView>             
+      </LinearLayout>
+</LinearLayout>
+
+</ScrollView>
+</LinearLayout>

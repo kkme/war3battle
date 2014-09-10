@@ -1,0 +1,408 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#eee"
+        android:orientation="vertical" >
+
+<LinearLayout 
+  			android:layout_width="fill_parent"
+  			android:layout_height="45dp"
+  			android:id="@+id/title" 
+  			android:background="@drawable/title_bar"
+  			android:gravity="center_horizontal|center_vertical"  >  
+      		<TextView
+        		android:layout_width="wrap_content" 
+        		android:layout_height="wrap_content" 
+        		android:text="人族单位"
+        		android:textSize="20sp"		
+        		
+				android:textColor="#ffffff" />       
+			</LinearLayout>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<TableLayout  
+    android:layout_width="fill_parent"  
+    android:layout_height="fill_parent"  
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:shrinkColumns="*"  
+    android:stretchColumns="*">    
+        <TableRow  
+        android:layout_height="wrap_content"  
+        android:layout_width="match_parent"  
+        android:gravity="center_horizontal">  
+        <TextView  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"  
+            android:textStyle="bold"  
+            android:typeface="serif"  
+            android:textSize="18sp"  
+            android:text="英雄"  
+            android:textColor="#000"
+            android:gravity="left"  
+            android:layout_span="4"></TextView>  
+    </TableRow> 
+    <TableRow
+        android:layout_height="wrap_content"  
+        android:layout_width="match_parent">        
+
+   <Button
+       android:id="@+id/button_archmage"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:background="#eee"
+       android:drawableTop="@drawable/archmage_h"
+       android:onClick="archmage"
+       android:text="大法师" />
+ 
+      <Button
+          android:id="@+id/button_mountainking"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:background="#eee"
+          android:drawableTop="@drawable/mountainking_h"
+          android:onClick="mountainking"
+          android:text="山丘" />
+
+     <Button
+         android:id="@+id/button_paladin"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:background="#eee"
+         android:drawableTop="@drawable/paladin_h"
+         android:onClick="paladin"
+         android:text="圣骑士" />
+ 
+        <Button
+            android:id="@+id/button_bloodmage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#eee"
+            android:drawableTop="@drawable/bloodmage_h"
+            android:onClick="bloodmage"
+            android:text="血法师" />
+
+</TableRow>
+    <TableRow
+                android:id="@+id/tableRow2"  
+        android:layout_height="wrap_content"  
+        android:layout_width="match_parent" >
+<TextView
+            android:id="@+id/textView9"  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"  
+            android:textStyle="bold"  
+            android:typeface="serif"  
+            android:textSize="18sp"  
+            android:text="单位" 
+            android:textColor="#000"
+            android:gravity="left"  
+            android:layout_span="4" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+      <Button
+          android:id="@+id/button_peasant"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:background="#eee"
+          android:drawableTop="@drawable/peasant"
+          android:onClick="peasant"
+          android:text="农民" />
+  
+             <Button
+                 android:id="@+id/button_footman"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:background="#eee"
+                 android:drawableTop="@drawable/footman"
+                 android:onClick="footman"
+                 android:text="步兵" />
+   
+     <Button
+         android:id="@+id/button_rifleman"
+         android:layout_width="match_parent"
+         android:layout_height="match_parent"
+         android:background="#eee"
+         android:drawableTop="@drawable/rifleman"
+         android:onClick="rifleman"
+         android:text="火枪" />
+  
+     <Button
+         android:id="@+id/button_knight"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:background="#eee"
+         android:drawableTop="@drawable/knight"
+         android:onClick="knight"
+         android:text="骑士" />
+
+</TableRow><TableRow        android:id="@+id/tableRow3"  
+        android:layout_height="wrap_content"  
+        android:layout_width="match_parent" >
+
+    <Button
+        android:id="@+id/button_priest"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#eee"
+        android:drawableTop="@drawable/priest"
+        android:onClick="priest"
+        android:text="男巫" />
+ 
+         <Button
+             android:id="@+id/button_sorceress"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:background="#eee"
+             android:drawableTop="@drawable/sorceress"
+             android:onClick="sorceress"
+             android:text="女巫" />
+   
+         <Button
+             android:id="@+id/button_spellbreaker"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:background="#eee"
+             android:drawableTop="@drawable/spellbreaker"
+             android:onClick="spellbreaker"
+             android:text="破法" />
+   
+         <Button
+             android:id="@+id/button_dragonhawk"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:background="#eee"
+             android:drawableTop="@drawable/dragonhawk"
+             android:onClick="dragonhawk"
+             android:text="龙鹰" />
+    
+    </TableRow>
+    <TableRow
+                android:id="@+id/tableRow4"  
+        android:layout_height="wrap_content"  
+        android:layout_width="match_parent" >
+
+             <Button
+                 android:id="@+id/button_gryphonrider"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:background="#eee"
+                 android:drawableTop="@drawable/gryphonrider"
+                 android:onClick="gryphonrider"
+                 android:text="狮鹫" />
+     
+                 <Button
+                     android:id="@+id/button_mortarteam"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:background="#eee"
+                     android:drawableTop="@drawable/mortarteam"
+                     android:onClick="mortarteam"
+                     android:text="小炮" />
+  
+              <Button
+                  android:id="@+id/button_gyrocopter"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:background="#eee"
+                  android:drawableTop="@drawable/gyrocopter"
+                  android:onClick="gyrocopter"
+                  android:text="直升机" />
+  
+      <Button
+          android:id="@+id/button_siegeengine"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:background="#eee"
+          android:drawableTop="@drawable/siegeengine"
+          android:onClick="siegeengine"
+          android:text="坦克" />
+ 
+     </TableRow>
+    <TableRow
+                android:id="@+id/tableRow2"  
+        android:layout_height="wrap_content"  
+        android:layout_width="match_parent" >
+     <TextView
+            android:id="@+id/textView9"  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"  
+            android:textStyle="bold"  
+            android:typeface="serif"  
+            android:textSize="18sp"  
+            android:text="建筑" 
+            android:textColor="#000"
+            android:gravity="left"  
+            android:layout_span="4" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+      <Button
+          android:id="@+id/button_peasant"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:background="#eee"
+          android:drawableTop="@drawable/townhall"
+          android:onClick="townhall"
+          android:text="城镇大厅" />
+  
+             <Button
+                 android:id="@+id/button_footman"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:background="#eee"
+                 android:drawableTop="@drawable/keep"
+                 android:onClick="keep"
+                 android:text="要塞" />
+   
+     <Button
+         android:id="@+id/button_rifleman"
+         android:layout_width="match_parent"
+         android:layout_height="match_parent"
+         android:background="#eee"
+         android:drawableTop="@drawable/castle"
+         android:onClick="castle"
+         android:text="城堡" />
+  
+     <Button
+         android:id="@+id/button_knight"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:background="#eee"
+         android:drawableTop="@drawable/humanbarracks"
+         android:onClick="humanbarracks"
+         android:text="兵营" />
+
+</TableRow><TableRow        android:id="@+id/tableRow3"  
+        android:layout_height="wrap_content"  
+        android:layout_width="match_parent" >
+
+    <Button
+        android:id="@+id/button_priest"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#eee"
+        android:drawableTop="@drawable/farm"
+        android:onClick="farm"
+        android:text="农场" />
+ 
+         <Button
+             android:id="@+id/button_sorceress"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:background="#eee"
+             android:drawableTop="@drawable/altarofkings"
+             android:onClick="altarofkings"
+             android:text="祭坛" />
+   
+         <Button
+             android:id="@+id/button_spellbreaker"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:background="#eee"
+             android:drawableTop="@drawable/humanlumbermill"
+             android:onClick="humanlumbermill"
+             android:text="伐木场" />
+   
+         <Button
+             android:id="@+id/button_dragonhawk"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:background="#eee"
+             android:drawableTop="@drawable/humanwatchtower"
+             android:onClick="humanwatchtower"
+             android:text="哨塔" />
+    
+    </TableRow>
+    <TableRow
+                android:id="@+id/tableRow4"  
+        android:layout_height="wrap_content"  
+        android:layout_width="match_parent" >
+
+             <Button
+                 android:id="@+id/button_gryphonrider"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:background="#eee"
+                 android:drawableTop="@drawable/blacksmith"
+                android:onClick="blacksmith"
+                 android:text="铁匠铺" />
+     
+                 <Button
+                     android:id="@+id/button_mortarteam"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:background="#eee"
+                     android:drawableTop="@drawable/workshop"
+                    android:onClick="workshop"
+                     android:text="车间" />
+  
+              <Button
+                  android:id="@+id/button_gyrocopter"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:background="#eee"
+                  android:drawableTop="@drawable/arcanesanctum"
+                  android:onClick="arcanesanctum"
+                  android:text="神秘圣地" />
+  
+      <Button
+          android:id="@+id/button_siegeengine"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:background="#eee"
+          android:drawableTop="@drawable/gryphonaviary"
+          android:onClick="gryphonaviary"
+          android:text="狮鹫笼" />
+ 
+     </TableRow>
+         <TableRow
+                android:id="@+id/tableRow4"  
+        android:layout_height="wrap_content"  
+        android:layout_width="match_parent" >
+
+             <Button
+                 android:id="@+id/button_gryphonrider"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:background="#eee"
+                 android:drawableTop="@drawable/guardtower"
+               
+                 android:text="箭塔" />
+     
+                 <Button
+                     android:id="@+id/button_mortarteam"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:background="#eee"
+                     android:drawableTop="@drawable/elvenguardtower"
+                     
+                     android:text="圣塔" />
+  
+              <Button
+                  android:id="@+id/button_gyrocopter"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:background="#eee"
+                  android:drawableTop="@drawable/cannontower"
+                 
+                  android:text="炮塔" />
+  
+      
+ 
+     </TableRow>
+</TableLayout>
+</ScrollView>
+</LinearLayout>

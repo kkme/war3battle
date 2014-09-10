@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#eee"
+        android:orientation="vertical" >
+        
+        <LinearLayout 
+  			android:layout_width="fill_parent"
+  			android:layout_height="45dp"
+  			android:id="@+id/title" 
+  			android:background="@drawable/title_bar"
+  			android:gravity="center_horizontal|center_vertical"  >  
+      <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="返回" 
+        android:onClick="backv2"
+        />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="人族VS兽族"
+        android:gravity="center|center_horizontal|center_vertical"
+        android:textColor="#ffffff"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="点我" 
+        android:onClick="clickv2"
+        />    
+			</LinearLayout>
+<ScrollView 
+
+    android:id="@+id/ScrollView01" 
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content"
+
+>
+
+<LinearLayout
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin" 
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+      
+    <TextView  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"  
+            android:textStyle="bold"  
+            android:typeface="serif"  
+            android:textSize="18sp"  
+            android:text="MK49流"  
+            android:gravity="left"  
+            android:textColor="#000"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"></TextView>  
+
+
+        
+    <TextView  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"    
+            android:text="      简单来说就是，首发MK，开矿，猥琐，憋狮鹫。"  
+            android:gravity="left"  
+            android:textColor="#000"></TextView>  
+
+       
+    <TextView  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"  
+            android:textStyle="bold"  
+            android:typeface="serif"  
+            android:textSize="18sp"  
+            android:text="1本TR"  
+            android:gravity="left"  
+            android:textColor="#000"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"></TextView>  
+
+
+        
+    <TextView  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"    
+            android:text="      这个1本TR，又分成2种。1种是一来就TR，另一种则是AM练3再TR。"  
+            android:gravity="left"  
+            android:textColor="#000"
+            android:layout_marginBottom="5dp"></TextView>  
+
+
+        
+    <TextView  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"    
+            android:text="      一来就TR：这种情况通常发生在EI和SV等图。由于出生点不是左就是右，不用探路，一来直接CALL上民兵抄家伙过去，那时BM大概还在练333吧。所以你去到的时候，他BM大概半血以下，所以这情况，创造了对这波TR非常有利的条件。一来，2话不说，先攻击离自己最近的单位。避忌这个打下那个打下，一定要非常坚决的，先逐个逐个把他的大兽兵红。农民造塔的位置也有讲究，就是能打到他基地（最少要打到他兵营）的地方。而且，2根塔也不是挤在一起的，而是中间隔1行（留1条农民能穿过而其他部队不能穿过的缝隙。这样被BM或大G砍的农民就能从这条缝隙走到另一头，浪费ORC的DPS。如果他是重点攻击你农民的，你就立刻从基地拖第2波农民过来，把他大G打退，然后到BM。他的部队消失在你的视线里的时候，你的AM就往他基地下面跑，他肯定是贴药膏了，然后你打断就跑回来，FM继续打兵营。然后就是升盾，推塔。只要第1批塔好，自己损失不算太巨大，TR通常都能成功。"  
+            android:gravity="left"  
+            android:textColor="#000"
+            android:layout_marginBottom="5dp"></TextView>  
+
+
+        
+    <TextView  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"    
+            android:text="      AM练3再TR：和一开始就TR差不多，通常发生在大地图。不同的是对手有2J BM和3~4个大G，而自己则有更多FM更多民兵，AM要卖TP买鞋买粉。去到他基地之前，就开始召水人，去到他基地的时候召第2个水人，就有2个水人了。见面点大G，他刚不过你的，打退他，就点地洞。如果FM多，先越过地洞，然后包着拆，很容易拆爆，接下来可以随便发挥。"  
+            android:gravity="left"  
+            android:textColor="#000"
+            ></TextView>  
+
+     
+    <TextView  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"  
+            android:textStyle="bold"  
+            android:typeface="serif"  
+            android:textSize="18sp"  
+            android:text="2本TR"  
+            android:gravity="left"  
+            android:textColor="#000"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"></TextView>  
+
+
+        
+    <TextView  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"    
+            android:text="      2本TR同样分成2种。1种是速TR，一种是慢TR"  
+            android:gravity="left"  
+            android:textColor="#000"
+            android:layout_marginBottom="5dp"></TextView>  
+
+
+        
+    <TextView  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"    
+            android:text="      速TR：最常见的就是HUM升到2本，不造BR，直接买出FL TR。这种TR的好处在于能在他2发SH或TC和他2本兵种出来前，利用双召唤瞬间增加部队数量，使TR的成功率大大增加。去之前先召唤一次召唤物，去到的时候就能召唤第2次了。可以选择敲个商店再买MINI塔放，也可以6~7个农民直接敲6~7个塔。然后看他是杀农民型还是杀英雄型。前者，塔的位置不要太靠前，尽量用FM来顶，然后AM F1+召唤物点射他的大G。后者，注意英雄的走位，一被攻击就立刻拖后，最好是拖出基地，引他BM追你，这样他的BM就会浪费很多DPS。塔立好后，立刻N敲个BS，然后再敲个车间转小炮就OK了。"  
+            android:gravity="left"  
+            android:textColor="#000"
+            android:layout_marginBottom="5dp"></TextView>  
+
+
+        
+    <TextView  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"    
+            android:text="      其他变招：例如慢MK+FM，速2本FL TR。好处是2本依然强势，前期也不亏。FM一定要升顶盾。还有9塔一波流，最好第2第3个商店都造在基地里（或野商店），2本2英雄最好是AM+兽王，拖上7~8个农民，带上9个MINI塔和血瓶，反正把钱花光，然后直接去他家TR。此TR的成功度和英雄放塔的效率成正比例，前期AM尽量买鞋，然后骚扰顺便看看他建筑，如果他没造磨坊，那么这招就很适合了。法师流TR：05年Sky完善的一招人族对抗兽族比较强势的战术。前期AM偷练，尽量少死FM，然后集中前期的兵力，买出2发兽王去ORC基地打退2本建筑或拆地洞（具体要根据他建筑的位置来确定，地洞靠外就拆洞，建筑靠外就打退）。骚扰到英雄没血没蓝，就可以TP了。基地双敲的BR这时大概已经出了2女2男（顺序是先女后男，40多人口再转破法）注意放塔的位置，那波是召唤物先顶，然后是FM，英雄紧贴法师，不要落单，避免被网杀。这波，不需要歼灭ORC的部队，而是讲求一个耗字。只要拖得越久，人族就会越有利，拖到箭塔完成就OK了。攻击对象是先打离自己近的兽族部队，不要片面追求点射而乱了阵型。能对峙就对峙，反正最重要的目标就是拖到塔完成就OK了。变的塔最好是2箭1圣。"  
+            android:gravity="left"  
+            android:textColor="#000"></TextView>  
+
+      
+    <TextView  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"  
+            android:textStyle="bold"  
+            android:typeface="serif"  
+            android:textSize="18sp"  
+            android:text="法师流"  
+            android:gravity="left"  
+            android:textColor="#000"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"></TextView>  
+
+
+        
+    <TextView  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"    
+            android:text="      打兽族，法师流绝对是中流砥柱，如果运用好法师，如何飘起来，这是非常关键的问题。常见的其他运用法师的例子，2本时2发MK带MINI塔，出了2个女巫后立刻去开分矿，这时BM是2级或3级+4大G+1级SH，缺乏白牛和治疗波，是打不过人族的。女巫少的时候，一定要把减速关闭，然后手动W BM。而其他部队，则是攻击兽族冲得最前的单位，打BM也是一个很好的选择，只要这波把兽族打退，然后3BR量产法师，就能把兽族耗死。切记就是不能拖到大后期打，那时兽族SH有等级，而且有投石车，人族是非常难打的。人族法师流打ORC，优势期是60人口左右，多了或少了，都是兽族比较优势。后期大战AM还可以把技能重修成暴风雪，而且要买个无敌，AM是可以顶着无敌下雪的。下雪能打乱兽族部队的阵型，不过要随时有用女巫隐身AM的准备。后期大战中，依然是拖，不求杀死ORC单位，拖得越久人族就越有利。没血的单位就拉后，总体顶不住了，就立刻TP。面对FS和TC，使用群补不用心急，Sky等，会经常带一个群疗，等WC连击放了后，把法师拖后，然后贴个群疗，这样就可以承受第2次WC后再吃群补，提高群补的效果。至于民兵，通常是人族2本不久，一和兽族遭遇就要拖了，只要民兵一拖兽族肯定打不过的，你有女巫，就可以慢慢蚕食对手单位。要记住的就是不要贪心继续追，召唤流的把英雄练到双3就可以找兽族耗（打持久战）了。关于前期MF的小技巧，AM被BM紧追怎么办？可以召唤一个水人拉走，AM引开BM，水人配合FM民兵双线就OK了。"  
+            android:gravity="left"  
+            android:textColor="#000"
+            android:layout_marginBottom="5dp"></TextView>  
+
+
+        
+    <TextView  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"    
+            android:text="      至于其他英雄，例如AM+BMG，AM+PD等，先说说前面那个吧，大家或许都知道RohjinWook,一个把血法用得非常牛B的人。他的第1招技能升虚无，第2招升吸魔。虚无能挽救自己的红血单位，提升接受牧师治疗时恢复的血量，还可以在英雄被围住群殴的时候使用。至于升到了2级，抽蓝对BMG的限制实在是非常有用。50人口以下，人族打不过有着3级SH的兽族，很大的一个原因就是在于SH的+血太猛了。而BMG则可以很好地限制SH的+血，也可以虚无BM来限制他的攻击输出。这个依然是以耗字为住，重点是要保护好自己的英雄。至于AM+PD，通常是用来针对兽族的FS首发，PD的群伤魔法配合AM的光环，只要法师流稳定成型，MF得越多PD的成长性就越高，到后期比MK恐怖多了。要注意的是法师成型前尽量不要和ORC大战，就算交战，也要及时拖民兵，避免处于下风。"  
+            android:gravity="left"  
+            android:textColor="#000"></TextView>  
+     
+    <TextView  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"  
+            android:textStyle="bold"  
+            android:typeface="serif"  
+            android:textSize="18sp"  
+            android:text="一些比较少人使用的小技巧"  
+            android:gravity="left"  
+            android:textColor="#000"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"></TextView>  
+
+
+        
+    <TextView  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"    
+            android:text="1.女巫隐身召唤物去ORC基地骚扰。"  
+            android:gravity="left"  
+            android:textColor="#000"></TextView>  
+
+
+        
+    <TextView  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"    
+            android:text="2.女巫隐身AM等部队去ORC基地拆地洞。"  
+            android:gravity="left"  
+            android:textColor="#000"></TextView>  
+
+
+        
+    <TextView  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"    
+            android:text="3.隐身女巫大战时偷袭投石车。"  
+            android:gravity="left"  
+            android:textColor="#000"></TextView>  
+
+
+        
+    <TextView  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"    
+            android:text="4.面对兽族双骑流，HUM可以转龙鹰然后女巫隐身龙鹰去偷袭他的飞龙。"  
+            android:gravity="left"  
+            android:textColor="#000"></TextView>  
+
+
+        
+    <TextView  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"    
+            android:text="5.2个女巫相互隐身，只要拉开一段距离，然后选中2个女巫同时在编队里相互I一下就OK了。大战时，可以放MINI塔卡阵型，妨碍ORC近战部队输出的同时还可以小小的充当一下肉盾。MF时女巫关闭自动减速，MK魔法充裕的时候可以学C。等等。。（想到的迟点再补吧）"  
+            android:gravity="left"  
+            android:textColor="#000"></TextView>  
+
+     
+    <TextView  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"  
+            android:textStyle="bold"  
+            android:typeface="serif"  
+            android:textSize="18sp"  
+            android:text="其他战术"  
+            android:gravity="left"  
+            android:textColor="#000"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"></TextView>  
+
+
+        
+
+
+
+        
+    <TextView  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"    
+            android:text="      ToD流：部队构成是3法+小炮+飞机。打ORC几乎是全能型，当然前提是ORC有飞龙人族才出飞机了。飞机也是无限反隐，BM来抢宝？MK一T女巫一减速破法一A，BM直接半血。前提是有矿，为什么ToD速矿能速得这么稳呢？不是因为他玛塔，而是把钱转换成FM和农民，一有事立刻拖民兵。防住前提塔就起来了。冰火2重天：分成普通开局和骚扰流开局。普通开局不用说，练3后把技能洗成冰火，打ORC的大量近战单位效果非常好。骚扰流开局，则可以利用民兵来各种双线小点来提高英雄等级，甚至能用盾步+民兵来偷矿。这招不容易暴露开矿意图，但对操作要求较高。2本后依然是法师，成型前可以用女巫隐身英雄去骚扰，站的位置最好是在金矿后面。"  
+            android:gravity="left"  
+            android:textColor="#000"
+            android:layout_marginBottom="5dp"></TextView>  
+
+        
+    <TextView  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"    
+            android:text="      隐炮WS啊，坦克74啊，这些都很容易被ORC针对的，就不说了。"  
+            android:gravity="left"  
+            android:textColor="#000"
+            android:layout_marginBottom="5dp"></TextView>  
+
+
+        
+    <TextView  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"    
+            android:text="      人族没板凳兵，合理运用好每一个单位（特别是民兵），就能一点一滴地积累优势。"  
+            android:gravity="left"  
+            android:textColor="#000"></TextView>  
+
+
+
+</LinearLayout>
+</ScrollView>
+
+</LinearLayout>

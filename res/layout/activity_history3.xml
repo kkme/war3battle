@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#eee"
+        android:orientation="vertical" >
+        
+        <LinearLayout 
+  			android:layout_width="fill_parent"
+  			android:layout_height="45dp"
+  			android:id="@+id/title" 
+  			android:background="@drawable/title_bar"
+  			android:gravity="center_horizontal|center_vertical"  >  
+      		<TextView
+        		android:layout_width="wrap_content" 
+        		android:layout_height="wrap_content" 
+        		android:text="第三章  君诺的毁灭"
+        		android:textSize="20sp"		
+				android:textColor="#ffffff" />       
+			</LinearLayout>
+<ScrollView 
+
+    android:id="@+id/ScrollView01" 
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content"
+>
+
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin" >
+
+
+
+<ImageView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:layout_marginTop="10dp"
+    android:layout_marginBottom="10dp"
+    android:src="@drawable/humanseal" >
+
+</ImageView> 
+      
+    <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"  
+            android:textStyle="bold"  
+            android:typeface="serif"  
+            android:textSize="18sp"  
+            android:text="基尔加丹和黑暗契约"  
+            android:layout_marginBottom="10dp"
+            android:gravity="left"  
+            ></TextView>  
+	<TextView android:textColor="#000"  
+			android:layout_width="wrap_content"  
+			android:layout_height="wrap_content"    
+			android:text="        大约在麦迪夫在艾泽拉斯诞生时，欺骗者基尔加丹在坐在冥界内他的信徒中沉思。狡诈的恶魔领主，根据他的主人萨格拉斯的指令，准备燃烧军团对艾泽拉斯的第二次入侵。这次他不允许有任何失误。基尔加丹认为他需要一股新力量在燃烧军团入侵世界前削弱艾泽拉斯的防御。如果强大的种族，例如夜精灵和龙族，被迫应付新威胁，他们在燃烧军团真正入侵时就作不出任何有效抵抗。正是那时基尔加丹在黑暗空间外的和平繁荣的君诺世界。撒满教徒、部落制的兽人和和平的君内族的家园，君诺如它的广阔一样田园般和平。高贵的兽人在广阔的草原游猎嬉戏，同时好奇的君内族在世界屋脊的悬崖峭壁上建造天然都市。基尔加丹知道君诺的居民如果经过适当培养的话有很大潜能成为燃烧军团的奴仆。"  
+			android:gravity="left"  
+		></TextView> 
+		<TextView android:textColor="#000"  
+			android:layout_width="wrap_content"  
+			android:layout_height="wrap_content"    
+			android:text="        在两个种族中，基尔加丹发现兽人更容易被燃烧军团污染。他迷惑了兽人撒满长老，耐奥祖，这和过去萨格拉斯控制女王阿兹莎拉十分相似。通过狡诈的撒满，恶魔迅速在整个兽人部落传播野蛮激烈的争斗。不久，兽人的种族精神就变得残忍嗜血了。基尔加丹随后督促耐奥祖和他的人民迈向新的阶段：放弃自身，追求死亡和战争。但是，老撒满，感到他的人民将永远被仇恨奴役，仍然抵抗恶魔的控制。因耐奥祖的抵抗而落空，基尔加丹寻找另一个兽人使他的人民落入燃烧军团控制。聪明的恶魔领主最终找到了自愿听从他指示的兽人――耐奥祖雄心勃勃的徒弟，古尔丹。基尔加丹许给古尔丹无尽的力量来换取他的完全服从。年轻的兽人成为一个渴望恶魔力量的学徒并成为历史上最强大的魔法师。他传授给其他兽人生命的法术并努力根除兽人的撒满传统。古尔丹向他的同胞们展示了新型魔法，一种散发着死亡气息的新魔法。"  
+			android:gravity="left"  
+		></TextView> 
+		<TextView android:textColor="#000"  
+			android:layout_width="wrap_content"  
+			android:layout_height="wrap_content"    
+			android:text="        基尔加丹，加紧控制兽人，帮助古尔丹建立了黑暗契约会，一个神秘协会，操纵兽人在整个君诺传遍魔法。当越来越多的兽人开始使用魔法，君诺温和的田野河流开始变黑枯萎。随着时间过去，兽人广阔的草原，他们几代的家园，完全枯萎了，只留下红色的荒土。恶魔能量慢慢杀死了世界。"  
+			android:gravity="left"  
+		></TextView> 
+		<TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"  
+            android:textStyle="bold"  
+            android:typeface="serif"  
+            android:textSize="18sp"  
+            android:text="兽族的兴起"  
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:gravity="left"  
+           ></TextView>
+		<TextView android:textColor="#000"  
+			android:layout_width="wrap_content"  
+			android:layout_height="wrap_content"    
+			android:text="        兽人在古尔丹和阴影协会的秘密操控下越来越富有侵略性。他们建立了巨大的竞技场，兽人在那儿练习他们的为搏斗和死亡准备的技巧。这时，一小部分部落酋长声讨在他们族内日益加深的堕落。其中一个，霜狼部落的杜若汤（Durotan），警告兽人将迷失在憎恨和疯狂中。他的话无人理睬，但是，强大的酋长比如军歌部落的地狱咆哮却追求新世纪的战争和统治。"  
+			android:gravity="left"  
+		></TextView> 
+		<TextView android:textColor="#000"  
+			android:layout_width="wrap_content"  
+			android:layout_height="wrap_content"    
+			android:text="        基尔加丹知道兽人部落已经准备就绪了，但是他需要确定他们的最后忠诚。他秘密地让阴影协会召唤毁灭者马诺若斯，毁灭和疯狂的导者。古尔丹召集了部落酋长，并说服他们喝下马诺若斯的血液将使他们不可战胜。在格罗姆。地狱咆哮的带头下，出了杜若汤外的所有部落首领喝下血液，并将命运变为燃烧军团的奴隶。受马诺若斯疯狂的影响，酋长们无意地将这种征服也带给他们毫不怀疑的同胞。 "  
+			android:gravity="left"  
+		></TextView> 
+		<TextView android:textColor="#000"  
+			android:layout_width="wrap_content"  
+			android:layout_height="wrap_content"    
+			android:text="        在洗的杀戮血液的诅咒下，兽人开始向站在他们面前的每一个生物释放疯狂。感到时机已经来临，古尔丹将敌对的各个部落联合成统一的兽族。但是，考虑到各个酋长像地狱咆哮喝奥格瑞姆。毁灭之锤竞争最高权利，古尔丹推出一个傀儡首领来约束洗的兽族。破坏者黑手，一个堕落恶毒的兽人军阀，被选择为古尔丹的傀儡。在黑手的指挥下，兽族开始向唯一的君内试刀。"  
+			android:gravity="left"  
+		></TextView> 
+		<TextView android:textColor="#000"  
+			android:layout_width="wrap_content"  
+			android:layout_height="wrap_content"    
+			android:text="        在短短的几个月内，游牧民族几乎屠尽了每一个君诺的君内族。只有一小部分幸存者成功逃脱兽人的追杀。受胜利鼓舞，古尔丹得意于兽族的力量的强大。但是，他也知道如果没有敌人可以战斗，兽族将因为无尽的杀戮欲而陷入永无止境自相争斗。"  
+			android:gravity="left"  
+		></TextView> 
+		<TextView android:textColor="#000"  
+			android:layout_width="wrap_content"  
+			android:layout_height="wrap_content"    
+			android:text="        基尔加丹知道兽族终于准备就绪。兽人成为燃烧军团的最大武器。狡诈的恶魔告知了他在等候的主人，萨拉格斯同意复仇的时机终于到来了。"  
+			android:gravity="left"  
+		></TextView> 
+
+
+        
+   
+</LinearLayout>
+</ScrollView>
+</LinearLayout>

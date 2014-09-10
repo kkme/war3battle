@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#eee"
+        android:orientation="vertical" >
+        
+        <LinearLayout 
+  			android:layout_width="fill_parent"
+  			android:layout_height="45dp"
+  			android:id="@+id/title" 
+  			android:background="@drawable/title_bar"
+  			android:gravity="center_horizontal|center_vertical"  >  
+      		<TextView 
+        		android:layout_width="wrap_content" 
+        		android:layout_height="wrap_content" 
+        		android:text="日夜循环"
+        		android:textSize="20sp"		
+				android:textColor="#ffffff" />       
+			</LinearLayout>
+<ScrollView 
+
+    android:id="@+id/ScrollView01" 
+    android:layout_width="fill_parent" 
+    android:background="#eee"
+    android:layout_height="fill_parent"
+>
+<LinearLayout
+            android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin" 
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center"
+    >
+             <TextView android:textColor="#000"
+                  android:layout_width="match_parent" 
+         android:layout_height="match_parent"   
+            android:gravity="left"
+            android:layout_marginTop="10dp"
+            android:text="        时间在魔兽争霸III中扮演了战术的重要角色。黑夜与白天带给各个种族有利与不利。兽族和人族在白天和黑夜都可以自动回复生命，但是暗夜只能在晚上回复。暗夜的某些单位可以在夜晚隐形。另外，在夜晚的时候，一些野生单位会睡觉，你的单位的视野会减小。" >
+        </TextView>
+        <TextView 
+                  android:layout_width="match_parent" 
+         android:layout_height="match_parent"   
+            android:gravity="left"
+            android:textColor="#CC0000"
+            android:text="时间指示器 Day/Night Indicator" >
+        </TextView>
+                     <TextView android:textColor="#000"
+                  android:layout_width="match_parent" 
+         android:layout_height="match_parent"   
+            android:gravity="left"
+            
+            android:text="        在你的屏幕的最上方，你可以看到一个变化的球体。它会在太阳和月亮之间转换。这就是魔兽世界III中的时间。上面有8个刻度，当全部亮起时，时间就会从白天变成黑夜或者从黑夜变成白天。白天时指示器呈黄色，夜晚时呈蓝色。当夜晚来临时，你会听到狼嚎，随之视野变小。" >
+        </TextView>
+        <TextView 
+                  android:layout_width="match_parent" 
+         android:layout_height="match_parent"   
+            android:gravity="left"
+            android:textColor="#CC0000"
+            android:text="视野 Sight Range" >
+        </TextView>
+                     <TextView android:textColor="#000"
+                  android:layout_width="match_parent" 
+         android:layout_height="match_parent"   
+            android:gravity="left"
+            
+            android:text="        日夜循环影响单位和建筑的视野。在白天看到的视野比较远。但是暗夜可以通过研究夜视，让夜晚的视野和白天一样远。" >
+        </TextView> 
+     
+             <TextView 
+                  android:layout_width="match_parent" 
+         android:layout_height="match_parent"   
+            android:gravity="left"
+            android:textColor="#CC0000"
+            android:text="生命回复 Health Regeneration" >
+        </TextView>
+        <TextView android:textColor="#000"
+                  android:layout_width="match_parent" 
+         android:layout_height="match_parent"   
+            android:gravity="left"
+            android:text="        英雄不管白天或者夜晚都会回复生命。日夜循环影响普通单位。兽族和人族在白天和黑夜都可以自动回复生命，但是暗夜只能在晚上回复。不死族白天夜晚都可以，但是必须在荒芜上面。" >
+        </TextView>
+                     <TextView 
+                  android:layout_width="match_parent" 
+         android:layout_height="match_parent"   
+            android:gravity="left"
+            android:textColor="#CC0000"
+            android:text="技能 Spells" >
+        </TextView>
+             <TextView android:textColor="#000"
+                  android:layout_width="match_parent" 
+         android:layout_height="match_parent"   
+            android:gravity="left"
+            android:text="        某些技能与日夜循环有关：" >
+        </TextView>
+                     <TextView android:textColor="#000"
+                  android:layout_width="match_parent" 
+         android:layout_height="match_parent"   
+            android:gravity="left"
+            android:text="        影遁 Shadow Meld - 许多暗夜可以在夜晚隐形。影遁单位不能移动或者攻击。影子风衣让英雄也能拥有这个技能。" >
+        </TextView>
+
+          
+             <TextView android:textColor="#000"
+                  android:layout_width="match_parent" 
+         android:layout_height="match_parent"   
+            android:gravity="left"
+            android:text="        暗夜玩家可以用月亮石来制造一段时间的假夜晚。此时暗夜单位可以回复生命。此时时间指示器呈紫色。" >
+        </TextView>
+                             <TextView 
+                  android:layout_width="match_parent" 
+         android:layout_height="match_parent"   
+            android:gravity="left"
+            android:textColor="#CC0000"
+            android:text="魔兽中的时间 by blizzardANSWER" >
+        </TextView>
+             <TextView android:textColor="#000"
+                  android:layout_width="match_parent" 
+         android:layout_height="match_parent"   
+            android:gravity="left"
+            android:text="        对时间的把握是即时战略这个类型游戏永恒的主题，而《魔兽争霸3》，则把这个概念提高到史无前例的高度。《魔兽争霸3》中，由于引入了CREEP，英雄等概念，导致比赛的双方必须时刻掌握地图的动态，时刻计算对手各种科技，或者研究项目的完成状况，所以作为一个优秀的魔兽选手，必须能在比赛的过程中精确地掌握时间。" >
+        </TextView>
+ 
+        
+             <TextView android:textColor="#000"
+                  android:layout_width="match_parent" 
+         android:layout_height="match_parent"   
+            android:gravity="left"
+            android:text="        在魔兽游戏的顶端，会有一个钟表，相信很多人早就注意到了，具体这个钟表要怎么看呢？相信能说出来的人并不多。首先这个钟表的启始时间是8:00，并不是我们现实生活的0:00，这点大家必须要注意。这个魔兽时钟一共有8个刻度，转一圈并非一个昼夜，而是一个白天/黑天。 白天时钟最顶端为6:00，走一个刻度就到了7:30，依次时9:00、10:30、12:00、13:30、15:00、16:30，回到顶点为18:00，时间到此进入黑夜。黑夜的刻度代表是19:30，之后是21:00、22:30、24:00、1:30、3:00、4:30，最后回到6:00的时候，再次进入白昼，魔兽时间也就正式进入第2天。由此可以知道，一个刻度是魔兽时间1小时30分钟，那么和成现实时间是多少呢？经过测算大概是30秒左右，也就是说一整个表盘刻度走完大概时间是现实世界4分钟左右，这是一个重要的结论，游戏中经常会用到，希望大家牢记。" >
+        </TextView>
+                     <TextView android:textColor="#000"
+                  android:layout_width="match_parent" 
+         android:layout_height="match_parent"   
+            android:gravity="left"
+            android:text="        了解了整个时间系统后，我们来结合魔兽中其他元素来讨论时间概念。首先就是英雄。我们知道，任何种族的英雄复活或者建造的时间都是一样，并没有哪个族在这里有任何优势。我们在游戏之初基本上会第一时间放下英雄祭坛来建造我们的首发英雄，这是毫无疑问的（除非有特殊极端的战术安排，比如人族的不造祭坛TOWEER RUSH、不死的蜘蛛流、兽族的牛头人酋长首发之类）。1级英雄的建造时间是魔兽时间2小时45分钟，即现实中的55秒。这和第二个、第三个英雄的训练时间是样的。实际上第一个英雄建造时间基本可以忽略，因为这段时间基本没有任何人能发动正式的进攻。而第二个英雄就不同了，很多时候我们要趁对手第二个英雄没出来之前发动进攻，这种情况在人族对不死族、兽族对人族、暗夜精灵族对人族的时候尤为明显。" >
+        </TextView>
+
+  
+             <TextView android:textColor="#000"
+                  android:layout_width="match_parent" 
+         android:layout_height="match_parent"   
+            android:gravity="left"
+            android:text="        说了英雄的生，当然该说说英雄们的身后事。魔兽中的英雄，尤其事高级英雄，在一场战斗中起着左右胜负的作用，我们必须尽量避免英雄被对手杀死，或者尽量杀死对手的英雄。比如当对手的英雄被杀死之后，一般来说我们应该趁这个优势时间进攻，而这个优势时间会存在多长时间呢？我们来一起看一下。" >
+        </TextView>
+             <TextView android:textColor="#000"
+                  android:layout_width="match_parent" 
+         android:layout_height="match_parent"   
+            android:gravity="left"
+            android:text="        从上面可以看出，1级英雄复活时间是非常短的。 当一上来英雄面临必死的时候，就要把1级英雄和350金币的回程卷轴作比较了，看看哪个比较重要。当英雄升级到2级之后，复活时间会从短短的现实时间35秒彪升到1分10秒，这段时间是游戏中的中期，这时候各个种族的二级基地都应该还在升级中，兵种也等待成型，正是积累英雄等级的大好时机，所以复活所须的1分多钟是谁也耗不起的，在英雄面临危险的时候，必须毫不犹豫地使用回程卷轴，保护英雄的生命。从3级开始复活时间会上升到1分45秒以上，比上一等级再次多出30秒左右的时间，涨幅也相当可怕。4级以后，复活的时间不会再上涨了，维持在1分50秒这个时间上，也就是说如果杀死对手一个10级的英雄，和杀死对手一个3、4级的英雄，复活时间是基本一样的。不同的只是复活所花费的金钱不同罢了。在实战中，有时间对手会等不起4级英雄那漫长的复活时间，直接去酒馆复活英雄，这是需要大量金钱的，到那时候，资源和战机两者任何取舍，就由游戏者根据具体情况抉择了。" >
+        </TextView>
+             <TextView android:textColor="#000"
+                  android:layout_width="match_parent" 
+         android:layout_height="match_parent"   
+            android:gravity="left"
+            android:text="        最后说一下建筑，魔兽中从建筑来看科技路线应该还是很明显的。所以掌握几种科技建筑物的建造时间，再稍加推算就可以知道对手的科技部队大概在什么时候成型。" >
+        </TextView>
+
+        </LinearLayout>
+</ScrollView>
+</LinearLayout>

@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#eee"
+        android:orientation="vertical" >
+        
+        <LinearLayout 
+  			android:layout_width="fill_parent"
+  			android:layout_height="45dp"
+  			android:id="@+id/title" 
+  			android:background="@drawable/title_bar"
+  			android:gravity="center_horizontal|center_vertical"  >  
+      		<TextView 
+        		android:layout_width="wrap_content" 
+        		android:layout_height="wrap_content" 
+        		android:text="人族选手"
+        		android:textSize="20sp"		
+				android:textColor="#ffffff" />       
+			</LinearLayout>
+<ScrollView 
+
+    android:layout_width="fill_parent" 
+    android:layout_height="fill_parent"
+    android:background="#eee"
+>
+<LinearLayout 
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    >
+ 
+
+
+<TextView  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="SKY"  
+            android:layout_marginTop="10dp"
+            android:gravity="left"
+             android:textColor="#0000CC"
+            android:textSize="18sp"   
+            ></TextView>  
+<TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="        SKY即李晓峰（中国电子竞技选手） "  
+            android:gravity="left"  
+           ></TextView>
+<TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="        李晓峰（SKY），中国电子竞技著名选手，2005、2006连续两届WCG（电子竞技世界总决赛）魔兽争霸项目冠军，被称为魔兽“人皇”。SKY在代表世界电子竞技最高水平的WCG上取得了令国人瞩目的辉煌成绩，第一次让五星红旗飘扬在全球电子竞技的最高峰。Sky是卫冕WCG魔兽争霸项目的世界第一人，并且进入了WCG名人堂，与BOXER等电子竞技前辈享受同等高的荣誉。"  
+            android:gravity="left"  
+           ></TextView>
+<TextView  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="INFI"  
+            android:layout_marginTop="10dp"
+            android:gravity="left"
+             android:textColor="#0000CC"
+            android:textSize="18sp"   
+            ></TextView>  
+<TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="        Infi，中文名王诩文。世界电子竞技魔兽争霸3（Warcraft III）项目顶尖选手，WCG2009魔兽争霸3项目世界冠军，人族巨星，同时也是世界最优秀的随机选手之一。曾被誉为“新人皇”、“塔魔”、“人族新星”、“Sky接班人”、“托塔天王”等称号。他对塔的精髓理解和运用，被认为达到了“人塔合一”的至高境界。 "  
+            android:gravity="left"  
+           ></TextView>
+
+<TextView  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="Yumiko"  
+            android:layout_marginTop="10dp"
+            android:gravity="left"
+             android:textColor="#0000CC"
+            android:textSize="18sp"   
+            ></TextView>  
+<TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="        电子竞技魔兽争霸3项目人族选手余健凯，ID：Yumiko0414，而他的粉丝们则亲切的称呼他为：“玉米”。他在作为职业选手积极参加魔兽赛事的同时，尝试着做魔兽争霸3比赛的解说，向广大爱好魔兽竞技的朋友们传授各种技巧，现为土豆播客。 "  
+            android:gravity="left"  
+           ></TextView>
+<TextView  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="TH000"  
+            android:layout_marginTop="10dp"
+            android:gravity="left"
+             android:textColor="#0000CC"
+            android:textSize="18sp"   
+            ></TextView>  
+<TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="        TH000是中国电子竞技魔兽争霸3项目人族选手黄翔的游戏ID，因其不拘一格的思路和特立独行的战术而被魔兽争霸业内广泛称之为“皇冠制造机”，也是世界上最优秀的随机种族选手之一。而他的粉丝们则亲切的称呼他为：“三蛋”、“蛋总”、“神蛋”、“蛋皇”、“小怪兽”、“大怪兽”、“头晕锤神教教主”等。"  
+            android:gravity="left"  
+           ></TextView>
+<TextView  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="Tod"  
+            android:layout_marginTop="10dp"
+            android:gravity="left"
+             android:textColor="#0000CC"
+            android:textSize="18sp"   
+            ></TextView>  
+<TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="        姓名：Yoan Merlo，中文译名：尤安·梅洛，种族：人族(与InsomniaSKY并称世界三大HUM)，昵称：浪漫人族|80人口无敌拖鞋短袖空调男（比较夸张）"  
+            android:gravity="left"  
+           ></TextView>
+<TextView  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="Insomnia"  
+            android:layout_marginTop="10dp"
+            android:gravity="left"
+             android:textColor="#0000CC"
+            android:textSize="18sp"   
+            ></TextView>  
+<TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="        SK. Insomnia是ROC时代就开始奋斗的魔兽玩家，作为欧洲的人族领袖，没人怀疑他的贡献。没有他的封口建筑学，人族农民不知道要惨遭屠杀多少个版本；没有他的万金油，人族就不可能在War3初期获得那么多荣誉；没有他的人族三本流，人族还不知道受毁灭胖子部队欺负到什么时候。然而这样一个为War3做出如此重大贡献的开拓者，于2007年12月离开了我们的视野。也许日后会有很多巨星，然而要产生一个像Insomnia那样改变整个种族乃至圈子的人实在是太少了。"  
+            android:gravity="left"  
+           ></TextView>
+<TextView  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="Hawk"  
+            android:layout_marginTop="10dp"
+            android:gravity="left"
+             android:textColor="#0000CC"
+            android:textSize="18sp"   
+            ></TextView>  
+<TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="        相信关注Zcup的，都会对Hawk有一定的印象。曾多次把ReMinD淘汰出局，足以见证了Hawk的实力。当时在欧洲，大概是09年和10年，星际2未流行的时候，欧洲的魔兽界依然火热。Hawk和Demuslim、Kas、VeryB1gman、Thorzain是欧洲最强的人族。但现在坚持下来的，也只有Hawk和VeryB1gman了。另外的3名都转型了星际2。"  
+            android:gravity="left"  
+           ></TextView>
+</LinearLayout>
+</ScrollView>
+</LinearLayout>

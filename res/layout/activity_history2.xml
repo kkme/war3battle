@@ -1,0 +1,456 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#eee"
+        android:orientation="vertical" >
+        
+        <LinearLayout 
+  			android:layout_width="fill_parent"
+  			android:layout_height="45dp"
+  			android:id="@+id/title" 
+  			android:background="@drawable/title_bar"
+  			android:gravity="center_horizontal|center_vertical"  >  
+      		<TextView
+        		android:layout_width="wrap_content" 
+        		android:layout_height="wrap_content" 
+        		android:text="第二章  新世界"
+        		android:textSize="20sp"		
+				android:textColor="#ffffff" />       
+			</LinearLayout>
+<ScrollView 
+
+    android:id="@+id/ScrollView01" 
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content"
+>
+
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin" >
+
+
+
+<ImageView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:layout_marginTop="10dp"
+    android:layout_marginBottom="10dp"
+    android:src="@drawable/humanseal" >
+
+</ImageView> 
+      
+    <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"  
+            android:textStyle="bold"  
+            android:typeface="serif"  
+            android:textSize="18sp"  
+            android:text="奎尔撒拉斯的建立"  
+            android:layout_marginBottom="10dp"
+            android:gravity="left"  
+            ></TextView>  
+	<TextView android:textColor="#000"  
+			android:layout_width="wrap_content"  
+			android:layout_height="wrap_content"    
+			android:text="魔兽争霸1前6800年"  
+			android:gravity="left"  
+		></TextView> 
+		<TextView android:textColor="#000"  
+			android:layout_width="wrap_content"  
+			android:layout_height="wrap_content"    
+			android:text="        高精灵，由达斯。瑞马率领，离开卡里母多挑战大漩涡的风暴。他们的船队在灾难后的世界漂流着，并且他们在逗留之处发现了神秘的失落的王国。达斯。瑞马，自称为日行者（白日行走者），寻找拥有大量草能量（ley power）的地方来建立家园。"  
+			android:gravity="left"  
+		></TextView> 
+		<TextView android:textColor="#000"  
+			android:layout_width="wrap_content"  
+			android:layout_height="wrap_content"    
+			android:text="        他的船队最终停在了后来称为洛丹伦的人类王国的海岸上。高精灵慢慢探索内陆，最后停在安静的提里斯法尔沼泽Tirisfal Glades。几年以后，他们中的许多人发疯了。有人认为是因为某些邪恶的东西还沉睡在世界此次的地下，但是谣言从未被证实。"  
+			android:gravity="left"  
+		></TextView> 
+		<TextView android:textColor="#000"  
+			android:layout_width="wrap_content"  
+			android:layout_height="wrap_content"    
+			android:text="        高精灵收起营地继续往北，到达了另一个草能量丰富的土地。"  
+			android:gravity="left"  
+		></TextView> 
+		<TextView android:textColor="#000"  
+			android:layout_width="wrap_content"  
+			android:layout_height="wrap_content"    
+			android:text="        当高精灵横穿洛丹伦的崎岖的，多山的土地时，他们的旅途更加危险。自从失去永恒之泉的滋养生命的能量的影响后，他们中的许多人因为寒冷的气候生病或者死于饥饿。但是，更令人惊恐的改变是，他们不再永生和对元素免疫。他们在高处有些皱缩，并且他们的皮肤失去了紫罗兰的色彩。不止这些困难，他们在路途中还遇到了许多在卡里母多从未遇到过的生物。他们也发现了人类的原始部落，这些人在古老的丛林中四处打猎。但是他们遇到的最大威胁还是贪婪狡诈的丛林巨魔――祖。阿曼（Zul‘Aman）这些有着苔藓般皮肤的巨魔可以再生肢体并自愈严重的物理创伤，但是他们是野蛮、邪恶的民族。阿曼帝国横跨洛丹伦北部的大部分地区，并且他们驱赶疆域内的陌生人。这些精灵讨厌这些邪恶的巨魔并且遇到一个杀一个。多年以后，高精灵终于发现了一个类似卡里母多的土地。在北部大陆森林的深处，他们建立了奎尔。撒拉斯王国，并且发誓要把它变成一个比卡尔多雷更强大的帝国。但是不幸的是，奎尔。多雷是建立在丛林巨魔神圣的古都上的。几乎立刻，丛林巨魔就开始群攻精灵的驻地。"  
+			android:gravity="left"  
+		></TextView> 
+		<TextView android:textColor="#000"  
+			android:layout_width="wrap_content"  
+			android:layout_height="wrap_content"    
+			android:text="        顽固的精灵，不想放弃他们的新家，利用从永恒之泉得到的魔力，他们将野蛮的巨魔打的走投无路。在达斯。瑞马的领导下，他们以十对一，击败了阿曼的巫师。一些精灵，仍然警惕卡尔多雷的古老警告，感到使用魔法将吸引已被放逐的燃烧军团的注意力。因此，他们决定给他们的土地罩上保护罩，这样他们就仍然可以在里面修习魔法。他们在奎尔。撒拉斯的四周布上符咒石来标明魔法罩的边界。这些符咒石不止将夜精灵隐藏于外太空的威胁之下，也帮助驱赶迷信的丛林巨魔的巫师。时间渐渐过去，奎尔。撒拉斯成为高精灵辛劳和魔力的辉煌之作。它美丽的宫殿与卡里母多古老殿堂的建筑风格一致，并且与当地的自然地形完美融合。银月会被成立来管理奎尔。撒拉斯，虽然白日行走者王朝还保留一些权利。由七个高精灵长老组成，银月会负责保障精灵土地和人们的安全。在保护罩的掩盖下，高精灵不顾卡尔多雷的古老警告，仍然在生活的各个方面肆无忌惮的使用魔法。"  
+			android:gravity="left"  
+		></TextView> 
+		<TextView android:textColor="#000"  
+			android:layout_width="wrap_content"  
+			android:layout_height="wrap_content"    
+			android:text="        四千年来，高精灵在他们隐蔽安全的王国内和平生活。但是，复仇的巨魔不是这么容易就被击败。他们在丛林深处密谋策划，并且等待他们的巫师数量增长。最后，大量的巨魔军队冲出丛林的阴影，再次围攻奎尔。撒拉斯。"  
+			android:gravity="left"  
+		></TextView> 
+		<TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"  
+            android:textStyle="bold"  
+            android:typeface="serif"  
+            android:textSize="18sp"  
+            android:text="阿拉斯和巨魔战争"  
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:gravity="left"  
+           ></TextView>
+		<TextView android:textColor="#000"  
+			android:layout_width="wrap_content"  
+			android:layout_height="wrap_content"    
+			android:text="魔兽争霸1前2800年"  
+			android:gravity="left"  
+		></TextView> 
+		<TextView android:textColor="#000"  
+			android:layout_width="wrap_content"  
+			android:layout_height="wrap_content"    
+			android:text="        当夜精灵竭力抵抗巨魔的猛烈冲击时，居住在洛丹伦分散游牧的人类，也为自己部落的领土而斗争。早期的人类互相攻击，很少考虑人类的联合与荣耀。但是一个叫阿拉斯的部落认识到巨魔已经成为一个不可忽视的威胁。阿拉斯希望在自己领导下建立联合所有部落共同对抗巨魔的部队。"  
+			android:gravity="left"  
+		></TextView> 
+		<TextView android:textColor="#000"  
+			android:layout_width="wrap_content"  
+			android:layout_height="wrap_content"    
+			android:text="        经过六年时间，狡猾的阿拉斯通过策略击败了竞争对手。每一次胜利之后，阿拉斯都将和平与平等赐予被征服的民族。因此，他们获得了战败民族的忠诚。最终，阿拉斯部落统一了许多分散部落，他的军队组成也庞大起来。坚信自己可以独力对抗丛林巨魔甚至隐居的精灵，阿拉斯的首脑决定在洛丹伦南部建立一个坚固的要塞。这个城市，名为斯土姆（Strom），成为阿拉斯民族阿拉瑟（Arathor）的首都。当阿拉瑟繁荣昌盛，来自广阔大陆的人类都向南迁徙来到安全的斯土姆。"  
+			android:gravity="left"  
+		></TextView> 
+		<TextView android:textColor="#000"  
+			android:layout_width="wrap_content"  
+			android:layout_height="wrap_content"    
+			android:text="        在一个旗帜下，人类部落发展出强大、乐观的文明。索拉丁（Thoradin），阿拉瑟的国王，知道北部大陆的神秘的精灵正处在巨魔持续的围攻下，但是拒绝冒人民的安全帮助隐居的陌生人。许多月来都谣传被击败的精灵从北部讨来。直到来自奎尔。撒拉斯的使者来到斯土姆，索拉丁才知道巨魔的威胁有多大。"  
+			android:gravity="left"  
+		></TextView> 
+		<TextView android:textColor="#000"  
+			android:layout_width="wrap_content"  
+			android:layout_height="wrap_content"    
+			android:text="        精灵告知索拉丁巨魔军队的强大，一旦巨魔摧毁奎尔。撒拉斯，他们将转而进攻南部。不顾一切的精灵，为了获得军事援助，轻率同意教授一部分人类魔法来换取他们共同对抗 。索拉丁怀疑魔法的真实性，同意必要时帮助精灵。几乎立即，精灵魔法师到达阿拉瑟并开始传授一些人魔法之道。"  
+			android:gravity="left"  
+		></TextView> 
+		<TextView android:textColor="#000"  
+			android:layout_width="wrap_content"  
+			android:layout_height="wrap_content"    
+			android:text="        精灵们发现虽然人类对使用魔法时天生笨拙，但他们对魔法有令人吃惊的天然亲和力。一百个人类已经被教授了最基本的精灵魔法秘诀：这些已经足够对付巨魔。确信人类学生已经准备就绪帮助他们，精灵离开斯土姆和国王索拉丁的强大军队一同向北部进发。"  
+			android:gravity="left"  
+		></TextView> 
+		<TextView android:textColor="#000"  
+			android:layout_width="wrap_content"  
+			android:layout_height="wrap_content"    
+			android:text="        精灵人类联军在阿尔特拉克（Alterac）的山脚冲击占压倒性优势的巨魔军队。战斗持续了许多天，但是阿拉瑟的坚持不懈的军队在巨魔的冲击下不知疲倦，寸步不让。十一个国王相信是时候向敌人释放魔法。一百个人类法师和众多精灵魔法师召来天堂之怒，点燃了巨魔部队。元素之火阻止了巨魔的伤口再生并将它们彻底焚毁。"  
+			android:gravity="left"  
+		></TextView> 
+		<TextView android:textColor="#000"  
+			android:layout_width="wrap_content"  
+			android:layout_height="wrap_content"    
+			android:text="        当巨魔军队崩溃并开始逃散时，索拉丁的军队穷追不舍屠尽他们的每一个士兵。巨魔再也不能从惨败中恢复元气，而历史上再也看不到巨魔作为种族崛起。确定奎尔。撒拉斯已经安全，精灵向阿拉瑟民族和他国王索拉丁的血统表达了忠心和友谊。人类和精灵在将来将和平共处。"  
+			android:gravity="left"  
+		></TextView> 
+		<TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"  
+            android:textStyle="bold"  
+            android:typeface="serif"  
+            android:textSize="18sp"  
+            android:text="提里斯法尔的守护者"  
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:gravity="left"  
+           ></TextView>
+		<TextView android:textColor="#000"  
+			android:layout_width="wrap_content"  
+			android:layout_height="wrap_content"    
+			android:text="魔兽争霸1前2700"  
+			android:gravity="left"  
+		></TextView> 
+		<TextView android:textColor="#000"  
+			android:layout_width="wrap_content"  
+			android:layout_height="wrap_content"    
+			android:text="        当北部不再有巨魔，精灵开始竭力重建显赫的家园。获胜的阿拉瑟军队回到南部斯土姆。阿拉瑟的人类社会越发繁荣，索拉丁，害怕他的王国因过度扩张而分裂，要保持斯土姆在阿拉瑟帝国的中心。多年的和平岁月过去了，伟大的索拉丁死于年老，留下阿拉瑟的年轻一代不知节制的扩张到斯土姆领土之外。"  
+			android:gravity="left"  
+		></TextView> 
+		<TextView android:textColor="#000"  
+			android:layout_width="wrap_content"  
+			android:layout_height="wrap_content"    
+			android:text="        最初由精灵传授的一百个法师，增长了他们的力量并且更加深入详细研究神秘的魔法。这些，最初是由于他们强大的意志和高尚的精神而入选的，总是小心有责任感的修习魔法。但是，他们将秘密和力量传授给年轻一代，这些年青人没有关于战争和自制必要性的概念。这些年轻的法师修习魔法更多是为个人利益，而不是对别人的责任。"  
+			android:gravity="left"  
+		></TextView> 
+		<TextView android:textColor="#000"  
+			android:layout_width="wrap_content"  
+			android:layout_height="wrap_content"    
+			android:text="        当帝国扩张并延伸到新的土地，这些年轻法师也扩展到南部地区。依靠他们神秘的力量，法师们保护同胞们免受野外生物的伤害，并使在荒野建造新城市成为可能。但是，随着力量的增长，法师们变的自以为是和孤立。"  
+			android:gravity="left"  
+		></TextView> 
+		<TextView android:textColor="#000"  
+			android:layout_width="wrap_content"  
+			android:layout_height="wrap_content"    
+			android:text="        第二个阿拉瑟城市，达拉兰建立在斯土姆的北部。许多初出茅庐的男巫们离开了斯土姆的疆域限制，迁移到达拉兰，在那儿他们希望可以极大自由的使用他们的新力量。这些法师们使用他们的技能修建迷人的达拉兰建筑并且沉迷于学习。达拉兰容忍法师的行为，并在他们的法力保护下建立了繁荣的经济。但是，当越来越多的法师滥用魔法，达拉兰周围的真实构架（the fabric of reality）开始削弱和破碎。燃烧军团险恶的走卒，在永恒之泉崩溃时被放逐，现在又被达拉兰法师们无意的魔法吸引回来。虽然这些虚弱的恶魔不再大规模出现，他们还是在达拉兰的街道造成了不小的混乱。大部分的遭遇恶魔都是单独的事件，法师协会尽其所能向公众隐瞒。最强大的魔法师被派遣出去抓捕神出鬼没的恶魔，但是他们发现根本就不是强大的燃烧军团这些孤身走卒的对手。"  
+			android:gravity="left"  
+		></TextView> 
+		<TextView android:textColor="#000"  
+			android:layout_width="wrap_content"  
+			android:layout_height="wrap_content"    
+			android:text="        几个月后迷信的农民开始怀疑他们的法师协会对他们隐藏了一些可怕的事情。变革的谣言开始传遍达拉兰的大街小巷，多疑的市民开始质问他们曾经羡慕的法师的动机和行为。法师协会害怕农民将会起义，斯土姆也会对他们采取行动，求助于他们认为唯一可以明白他们特殊难题的――精灵。"  
+			android:gravity="left"  
+		></TextView> 
+		<TextView android:textColor="#000"  
+			android:layout_width="wrap_content"  
+			android:layout_height="wrap_content"    
+			android:text="        听到达拉兰法师的恶魔事件，精灵迅速派出了他们最强大的魔法师赶奔人类领土。精灵法师研究了达拉兰现在的能量并且作出了他们认为是恶魔事件的详细报告。他们得出结论，虽然这只是遗失在这个世界少量恶魔，但只要人类继续使用魔法，燃烧军团本身仍然是一个可怕的威胁。"  
+			android:gravity="left"  
+		></TextView> 
+		<TextView android:textColor="#000"  
+			android:layout_width="wrap_content"  
+			android:layout_height="wrap_content"    
+			android:text="        管理奎尔。撒拉斯的银月会，和达拉兰的法师协会统治者们签订了一个秘密协约。精灵告知法师协会古老卡里母多的历史和燃烧军团，这个历史至今威胁世界。他们告知人类只要他们使用魔法，他们就必须保护他们的市民免受燃烧军团恶毒走卒的威胁。法师协会提议培养一个强大的战士，他可以利用集体的力量与燃烧军团展开永无止境的斗争。它强调大部分人不能知道守护者和燃烧军团的威胁，因为他们将陷入恐惧之中。精灵同意了这个提议，并且建立一个秘密组织监视守护者的挑选和帮助阻止世界日益增长的混乱。"  
+			android:gravity="left"  
+		></TextView> 
+		<TextView android:textColor="#000"  
+			android:layout_width="wrap_content"  
+			android:layout_height="wrap_content"    
+			android:text="        组织在提里斯法尔举行秘密会议，这是他们在洛丹伦的第一个驻留处。这个被选为守护者的强大战士被注满精灵和人类难以置信的强大魔力。虽然，一个时期只能有一个守护者，但是他们有强大的力量可以单独击退这个世界上发现的燃烧军团的走卒。当一个守护者太老了，或者厌倦了与混乱的秘密战争，协会将选择一个新战士，在条件控制下，将守护者力量注入他体内。"  
+			android:gravity="left"  
+		></TextView> 
+		<TextView android:textColor="#000"  
+			android:layout_width="wrap_content"  
+			android:layout_height="wrap_content"    
+			android:text="        几代过去了，守护者保护阿拉瑟和奎尔。撒拉斯的人民免受燃烧军团的无形威胁。当整个帝国普遍使用魔法的情况下，阿拉瑟更加繁荣了。同时守护者密切监视着恶魔的蛛丝马迹。"  
+			android:gravity="left"  
+		></TextView> 
+		<TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"  
+            android:textStyle="bold"  
+            android:typeface="serif"  
+            android:textSize="18sp"  
+            android:text="铸铁城－－矮人的觉醒"  
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:gravity="left"  
+           ></TextView>
+		<TextView android:textColor="#000"  
+			android:layout_width="wrap_content"  
+			android:layout_height="wrap_content"    
+			android:text="魔兽争霸1前2500年"  
+			android:gravity="left"  
+		></TextView> 
+		<TextView android:textColor="#000"  
+			android:layout_width="wrap_content"  
+			android:layout_height="wrap_content"    
+			android:text="        在远古时期，当泰坦离开艾泽拉斯后，他们的创造物，称为土人，继续塑造和保卫着世界的深处。"  
+			android:gravity="left"  
+		></TextView> 
+		<TextView android:textColor="#000"  
+			android:layout_width="wrap_content"  
+			android:layout_height="wrap_content"    
+			android:text="        当世界因永恒之泉的爆炸而分裂时，土人也深受影响。受土地自身痛楚的影响，土人失去了特性，并且躲在他们首创的石洞内。巫达曼（Uldaman）、巫毒姆（Uldum）、巫毒阿（Ulduar）。。。。这些远古泰坦时期土人创造的都市之名。掩埋在世界的深处，土人在和平中沉睡了将近8000年。"  
+			android:gravity="left"  
+		></TextView> 
+		<TextView android:textColor="#000"  
+			android:layout_width="wrap_content"  
+			android:layout_height="wrap_content"    
+			android:text="        虽然不知道什么唤醒了他们，密封在巫达曼的土人最终从他们自愿的沉睡中醒来。这些土人发现在他们在沉睡中已经发生了显著变化。他们坚固的皮肤，已经变得柔软光滑，他们对石头和土地的力量已经削弱了。"  
+			android:gravity="left"  
+		></TextView> 
+		<TextView android:textColor="#000"  
+			android:layout_width="wrap_content"  
+			android:layout_height="wrap_content"    
+			android:text="        自称矮人，这些最后的土人离开巫达曼，冒险进入这个苏醒的世界。惊讶与地下深处的安全和奇妙，他们在陆地最高峰下建立了一个庞大的王国。他们命名它为卡兹莫丹或者“卡兹山脉”，以纪念泰坦塑造者，卡兹。郭罗斯。为了给他们的泰坦祖先建立了一个祭坛，矮人在山脉的心脏开始庞大的铸造工程。因此，在铸造中成长起来的城市从此被命名为铸铁城。"  
+			android:gravity="left"  
+		></TextView> 
+		<TextView android:textColor="#000"  
+			android:layout_width="wrap_content"  
+			android:layout_height="wrap_content"    
+			android:text="        矮人，天生痴迷于锻造石头宝石，开始在山脉四周开矿挖掘丰富珍贵的矿物。满足于地下的工作，矮人仍然与地表邻居隔绝。"  
+			android:gravity="left"  
+		></TextView>
+		<TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"  
+            android:textStyle="bold"  
+            android:typeface="serif"  
+            android:textSize="18sp"  
+            android:text="七个王国"  
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:gravity="left"  
+           ></TextView> 
+		<TextView android:textColor="#000"  
+			android:layout_width="wrap_content"  
+			android:layout_height="wrap_content"    
+			android:text="魔兽争霸1前1200"  
+			android:gravity="left"  
+		></TextView> 
+		<TextView android:textColor="#000"  
+			android:layout_width="wrap_content"  
+			android:layout_height="wrap_content"    
+			android:text="        斯土姆仍然是阿拉瑟的中心，但是像达拉兰那样，许多新的城市在洛丹伦大陆兴起。吉尔尼斯（Gilneas），阿尔特拉克，和库提拉斯是第一批兴起的城市，虽然他们有各自的习俗和商业，他们仍然遵守斯土姆的统一权威。"  
+			android:gravity="left"  
+		></TextView> 
+		<TextView android:textColor="#000"  
+			android:layout_width="wrap_content"  
+			android:layout_height="wrap_content"    
+			android:text="        在提里斯法尔的警惕注意下，达拉兰成为整个大陆学习魔法的中心。统治达拉兰的法师协会建立了科林塔（Kirin Tor），一个特殊教派，承担分类和研究各种当时人类所知的咒符、制品和魔法咒文。"  
+			android:gravity="left"  
+		></TextView> 
+		<TextView android:textColor="#000"  
+			android:layout_width="wrap_content"  
+			android:layout_height="wrap_content"    
+			android:text="        吉尔尼斯和和阿尔特拉克成为斯土姆的有力支持者，并且发展处强大的军队来探索南部的卡兹莫丹山脉。正是这个时期，人类第一次遇到了古老的矮人族，并访问了他们的地下洞穴城市铸铁城。人类和矮人分享了金属铸造和工程技术的秘诀，并且发现了战斗和说故事的共同爱好。"  
+			android:gravity="left"  
+		></TextView> 
+		<TextView android:textColor="#000"  
+			android:layout_width="wrap_content"  
+			android:layout_height="wrap_content"    
+			android:text="        库尔。提拉斯，洛丹伦南部的巨大岛屿上，发展出建立在渔业和航运基础上的繁荣经济。随着时间过去，库尔。提拉斯建立了庞大的商船舰队，航行到已知的大陆搜寻外国货物来交易。随着阿拉瑟经济的繁荣，它坚实的基础也开始分裂了。"  
+			android:gravity="left"  
+		></TextView> 
+		<TextView android:textColor="#000"  
+			android:layout_width="wrap_content"  
+			android:layout_height="wrap_content"    
+			android:text="        一段时期，斯土姆的领主将他们的财产迁移到繁华的洛丹伦北部，并离开贫瘠的南部。索拉丁国王的继承人，阿拉斯血统的最后一代，认为斯土姆不能被抛弃并因此触犯了同样渴望离开的上层市民。斯土姆领主，寻求未驯服的北部的纯洁和教化，决定离开他们古老的城市。在达拉兰更北处，斯土姆领主建立了一个他们名为洛丹伦的城市。整个大陆因这个城市得名。洛丹伦成为寻求和平安宁的信教者的麦加。留在瓦解了的斯土姆城的阿拉斯后代，决定迁移过卡兹莫丹的落基山脉。他们的旅途在漫长的许多季节后结束，他们定居于大陆南部地区，他们称之为艾泽拉斯。在一个肥沃的流域他们建立了暴风（Stormwind）王国,它很快开始自给自足。留在斯土姆的很少人决定保持和守卫他们的古老都市。斯土姆不再是帝国的中心，但它发展成一个称为斯土姆加德的新国家。虽然每个城市各自都繁荣昌盛，但阿拉瑟帝国因此分裂了。各个国家发展出自己的习俗和信仰，他们越来越相互隔离。索拉丁国王的人类统一理想最终失落了。"  
+			android:gravity="left"  
+		></TextView> 
+		<TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"  
+            android:textStyle="bold"  
+            android:typeface="serif"  
+            android:textSize="18sp"  
+            android:text="伊格温和猎龙"  
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:gravity="left"  
+           ></TextView>
+		<TextView android:textColor="#000"  
+			android:layout_width="wrap_content"  
+			android:layout_height="wrap_content"    
+			android:text="魔兽争霸1前823年"  
+			android:gravity="left"  
+		></TextView> 
+		<TextView android:textColor="#000"  
+			android:layout_width="wrap_content"  
+			android:layout_height="wrap_content"    
+			android:text="        当七个人类王国的政治竞争此起彼伏，守护者仍保持他对抗混乱的永恒职责。多年来有多个守望者，但只有一个时期只有一个拥有提里斯法尔赋予的魔力。最近的一个卓越的守望者是对抗黑暗的强大战士。伊格温，一个人类烈性女子，获得组织认可并被赐予象征守护职责的披风。"  
+			android:gravity="left"  
+		></TextView> 
+		<TextView android:textColor="#000"  
+			android:layout_width="wrap_content"  
+			android:layout_height="wrap_content"    
+			android:text="        伊格温热衷于追捕消灭她遇到的每一个恶魔，但是她经常置疑提里斯法尔协会的男性权威。她相信古老的精灵和人类长老们思想太狭隘，缺乏远见来终结与混乱的斗争。不耐烦争辩和讨论，她渴望向贵族和长老们证明自己，结果在紧急关头选择武勇而不是智慧。掌握了提里斯法尔赋予的宇宙力量后，伊格温意识到在北部大陆寒冷的极北之处有许多强大的恶魔。旅行到遥远的北方，伊格温最终追踪恶魔进入了群山。在那儿，她发现恶魔正在追捕一条幸存的飞龙并且吸收古老生物的天然魔力。这些巨大的龙，从先进的人类社会逃窜出来.发现它们自身难以对抗燃烧军团的黑暗魔力。伊格温对抗恶魔，并在高贵的飞龙的帮助下消灭了他们."  
+			android:gravity="left"  
+		></TextView> 
+		<TextView android:textColor="#000"  
+			android:layout_width="wrap_content"  
+			android:layout_height="wrap_content"    
+			android:text="        但是，当最后一个恶魔被放逐出人类世界时，一个巨大的风暴在北部爆发。北极上空出现了一个巨大的黑影。充满地狱般的能量的萨格拉斯，恶魔之王和燃烧军团的首领，出现在伊格温面前。他告诉年轻的守护者，提里斯法尔的时代就要终结，世界将很快屈服在燃烧军团的铁蹄下。骄傲的伊格温，相信自己的力量可以和邪神对抗，向萨拉格斯的化身释放她的能量。出奇的轻松，伊格温用她的能量击碎了恶魔之主，并成功消灭了他的物理形态。"  
+			android:gravity="left"  
+		></TextView> 
+		<TextView android:textColor="#000"  
+			android:layout_width="wrap_content"  
+			android:layout_height="wrap_content"    
+			android:text="        伊格温将萨格拉斯的灵魂留下，天真的伊格温将他的毁灭的躯体封印在永恒之泉爆炸时沉入海底的卡里母多荒废的殿堂。伊格温永远也不会知道她的行动完全符合萨格拉斯的计划。她已经无意间改变了人类世界的命运，因为萨格拉斯，在他肉体死亡时，灵魂乘虚而入了伊格温虚弱的身体。不为年轻的守护者所知，萨格拉斯在她灵魂的黑暗深处隐藏了漫长岁月。"  
+			android:gravity="left"  
+		></TextView> 
+		<TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"  
+            android:textStyle="bold"  
+            android:typeface="serif"  
+            android:textSize="18sp"  
+            android:text="三国演义（三锤之战）"  
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:gravity="left"  
+           ></TextView>
+		<TextView android:textColor="#000"  
+			android:layout_width="wrap_content"  
+			android:layout_height="wrap_content"    
+			android:text="魔兽争霸1前230年"  
+			android:gravity="left"  
+		></TextView> 
+		<TextView android:textColor="#000"  
+			android:layout_width="wrap_content"  
+			android:layout_height="wrap_content"    
+			android:text="        铸铁城山脉的矮人和平生活了漫长的世纪。但是，他们的社会在山脉城市里增长的太大了。虽然伟大的国王。莫迪穆斯。安维马尔，以公正智慧统治矮人，三个集团还是在矮人社会中崛起了。青胡部落，由玛多兰。青胡领主统治，与国王关系密切并且是铸铁城山脉传统的拥护者。野锤部落，由卡德罗。野锤领主统治，住在山脉底部的山脚和峭壁上，想获得更多的城市控制权。第三方，黑铁部落，由魔法师领主绍里桑统治。黑铁部落隐藏与山脉的黑暗深处，密谋对抗青胡和野锤部落。长久以来，三个部落保持微妙的和平关系，但是当国王安维马尔老死后冲突爆发了。三个部落以战争寻求对铸铁城的控制权。矮人内战的地下持续了许多年。最终青胡部落，拥有最多的军队，将黑铁部落和野锤部落赶出山脉。卡德罗和他的野锤部落向北迁徙，通过了敦。阿尔加兹（Dun Algaz）的障碍之门，在遥远的格林。巴托山脉（Grim Batol）内建立了自己的王国。那儿，野锤繁荣发展重建了财富。绍里桑的黑铁并不走运。被他们的战败所羞辱和激怒，他们发誓向铸铁城复仇。领导人民到达遥远的南部，绍里桑在美丽的红桥山脉建立了一个城市（后来以自己的名字命名）。繁荣和时间被没有丝毫减弱黑铁部落对他们同胞的仇恨。绍里桑和他的法师妻子，摩德古（Modgud），开始分头攻击铸铁城和格林。巴托。黑铁部落声称要将整个卡兹莫丹据为己有。黑铁部落摧毁了同胞的据点，几乎占领了两个王国。但是，玛多兰。青胡最后率领了他的部落对绍里桑的军队取得了决定性的一场胜利。绍里桑和他的随从逃回了他们自己的城市，但他没有觉察到在格林。巴托的战事，那儿摩德古在对抗卡德罗和他的野锤勇士时并不走运。"  
+			android:gravity="left"  
+		></TextView> 
+		<TextView android:textColor="#000"  
+			android:layout_width="wrap_content"  
+			android:layout_height="wrap_content"    
+			android:text="        当她面对敌人的部队时，摩德古用她的力量将恐惧带给他们的心灵。她控制阴影，黑暗之物从地底爬出，在野锤他们自己的宫殿内攻击他们。最终摩德古攻破大门并且围攻要塞本身。野锤部落拼命抵抗，卡德罗自己集众人之怒奋力杀死了魔法女王。随着女王的倒下，黑铁部落在野锤的愤怒下崩溃了，其余的黑铁部落部队被完全摧毁了。"  
+			android:gravity="left"  
+		></TextView> 
+		<TextView android:textColor="#000"  
+			android:layout_width="wrap_content"  
+			android:layout_height="wrap_content"    
+			android:text="        铸铁城和格林。巴托的联军转而向南，决心永远解决掉绍里桑和他的黑铁部落。他们并未走远，因为绍里桑的愤怒导致了一场大变故。寻求召唤一个超自然奴仆来确保他的胜利，绍里桑唤醒了沉睡于地下的远古力量。令他感到震惊，并最终导致他的毁灭，召唤出来的远比他想象的还要可怕。"  
+			android:gravity="left"  
+		></TextView> 
+		<TextView android:textColor="#000"  
+			android:layout_width="wrap_content"  
+			android:layout_height="wrap_content"    
+			android:text="        火领主拉格纳罗斯，所有火元素的不朽领主，在世界初生时已被泰坦放逐。现在，被绍里桑的召唤释放，拉格纳罗斯再次对生物爆发了，拉格纳罗斯的回归艾泽拉斯摧毁了红桥山脉并在毁灭中心制造出火山大喷发。这个火山，称为黑岩峰，与北部的灼热谷和南部的燃烧原毗邻。虽然绍里桑被他自己释放的力量杀死，他的幸存的同胞最终还是被拉格纳罗斯和他的元素奴役。他们至今还在山峰上。看到这场可怕的灾变，火势蔓延南部群山，玛多兰和卡德罗停下军队并急速折回他们的国家，不愿面对拉格纳罗斯可怕的愤怒。"  
+			android:gravity="left"  
+		></TextView> 
+		<TextView android:textColor="#000"  
+			android:layout_width="wrap_content"  
+			android:layout_height="wrap_content"    
+			android:text="        青胡回到铸铁城并重建了他们的辉煌都市。野锤也回到了格林。巴托。但是，摩德古的死亡灾山脉要塞留下了一个诅咒，野锤发现那儿已经不适合居住。他们痛心于失去自己的家园。青胡国王向野锤在铸铁城境外提供了一个住处，但是野锤坚持拒绝。卡德罗率领他的人民向洛丹伦北部进发。定居在腹原（Hinterlands）繁茂的森林里，野锤建立了山堡城，那儿他们与自然亲密接触，甚至和那儿的巨型狮鹫联合。寻求和他们同胞的联系，铸铁城的矮人建立两个巨大的拱桥，桑多（Thandol）桥，连接卡兹莫丹和洛丹伦的天堑。得益于相互交易，两个王国都繁荣了。玛多兰和卡德罗死后，他们的子孙为纪念祖先建立了两个巨大雕像。两个雕像看守通往南部的入口，那儿在拉格纳罗斯苏醒时已成为火山。他们作为对那些想进攻矮人王国的警告，也提醒黑铁部落为罪行所付出的代价。两个王国紧密联系了许多年，但是野锤被格林。巴托的惨事更多的改变了。他们更喜欢居住在山堡城的斜坡上，而不是在山脉内部建立王国。两个矮人部落喜好的不同最终导致了他们的分道扬镳。"  
+			android:gravity="left"  
+		></TextView>
+		<TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"  
+            android:textStyle="bold"  
+            android:typeface="serif"  
+            android:textSize="18sp"  
+            android:text="最后的守护者"  
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:gravity="left"  
+           ></TextView> 
+		<TextView android:textColor="#000"  
+			android:layout_width="wrap_content"  
+			android:layout_height="wrap_content"    
+			android:text="魔兽争霸1前45年守护者"  
+			android:gravity="left"  
+		></TextView> 
+		<TextView android:textColor="#000"  
+			android:layout_width="wrap_content"  
+			android:layout_height="wrap_content"    
+			android:text="        伊格温多年来更加强大了，并且用提里斯法尔的能量大大延长了自己的生命。愚蠢的她相信已经永久击败了萨格拉斯，她继续在恶魔之王走卒将进900年的骚扰下守护世界。但是，提里斯法尔协会最终判定她的职责已经到尽头了。协会要求伊格温返回达拉兰，这样他们可以选择新的继任者传授能量。但是伊格温，不信任协会，决定自己选择继任者。骄傲的伊格温打算把她的能量传给一个儿子..她不想让提里斯法尔像操纵她一样操纵她的继任者。旅行到南部国家艾泽拉斯，伊格温发现一个完美的男人作她儿子的父亲：一个名为聂拉斯。阿郎熟练的的男巫。阿郎是宫廷魔法师和艾泽拉斯国王的老师。伊格温诱惑了男巫并为他怀了一个儿子。聂拉斯对魔力的天然亲和力将对未来的儿子产生深远影响并造成未来悲剧的发生。提里斯法尔的力量被注入这个孩子，但不到他成熟不会觉醒。"  
+			android:gravity="left"  
+		></TextView> 
+		<TextView android:textColor="#000"  
+			android:layout_width="wrap_content"  
+			android:layout_height="wrap_content"    
+			android:text="        时间逝去，伊格温在一个隐秘的树林里产下了儿子麦迪夫(Medivh)，高精灵语意为“保密者”。伊格温相信这个男孩将成熟成为下一个守护者。不幸的是，阴险的萨格拉斯的灵魂，隐藏在她体内，在孩子仍在腹内毫无防备时侵入他。伊格温不知道世界的新守护者已经被最大的复仇所支配。"  
+			android:gravity="left"  
+		></TextView> 
+		<TextView android:textColor="#000"  
+			android:layout_width="wrap_content"  
+			android:layout_height="wrap_content"    
+			android:text="        确定她的儿子健康无恙，伊格温将麦迪夫送入艾泽拉斯的宫廷，由他的人类父亲和人民抚养。她流浪到野外并准备度过她的晚年。麦迪夫长大并成为一个健壮的小孩但不知道他体内潜藏的继承自提里斯法尔的力量。萨格拉斯等待小孩力量自身的觉醒。当麦迪夫十几岁时，他因为他强大的魔力在艾泽拉斯很受欢迎，并且经常他两个伙伴出去冒险，他们是：莱恩Llane，艾泽拉斯王子，安杜恩。劳撒Anduin Lothar，阿拉斯血脉的最后继承者。三个小孩经常在王国里恶作剧，但市民们都很喜欢他们。当麦迪夫十四岁时，他体内的能量觉醒了并和藏在他灵魂内的萨格拉斯灵魂发生冲突。麦迪夫因此患了许多年精神病。当他从昏迷中醒来，他发现他已经成年，他的伙伴莱恩和安杜恩已经成为艾泽拉斯的统治者。虽然他希望用他难以置信的新发现的力量保卫他的家园，萨格拉斯的黑暗之魂扭曲了他的思想并导致了邪恶的情感..萨格拉斯在麦迪夫的黑暗之心内狂欢，因为他知道他的第二次入侵世界的计划接近成功了，世界的最后一个守护者将把给他们带来成功果实。"  
+			android:gravity="left"  
+		></TextView> 
+		
+		
+
+
+        
+   
+</LinearLayout>
+</ScrollView>
+</LinearLayout>

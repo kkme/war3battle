@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#eee"
+        android:orientation="vertical" >
+
+<LinearLayout 
+  			android:layout_width="fill_parent"
+  			android:layout_height="45dp"
+  			android:id="@+id/title" 
+  			android:background="@drawable/title_bar"
+  			android:gravity="center_horizontal|center_vertical"  >  
+      		<TextView
+        		android:layout_width="wrap_content" 
+        		android:layout_height="wrap_content" 
+        		android:text="不死族单位"
+        		android:textSize="20sp"		
+				android:textColor="#ffffff" />       
+			</LinearLayout>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<TableLayout  
+    android:layout_width="fill_parent"  
+    android:layout_height="fill_parent"  
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:shrinkColumns="*"  
+    android:stretchColumns="*">    
+    <TableRow  
+        android:layout_height="wrap_content"  
+        android:layout_width="match_parent"  
+        android:gravity="center_horizontal">  
+        <TextView  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"  
+            android:textStyle="bold"  
+            android:typeface="serif"  
+            android:textSize="18sp"  
+            android:text="英雄"  
+            android:textColor="#000"
+            android:gravity="left"  
+            android:layout_span="4"></TextView>  
+    </TableRow> 
+    <TableRow
+        android:layout_height="wrap_content"  
+        android:layout_width="match_parent">        
+   <Button   
+        android:id="@+id/button_deathknight"  
+        android:text="死亡骑士"
+        android:drawableTop="@drawable/deathknight_u"
+		android:onClick="deathknight"
+        android:background="#eee"
+     /> 
+      <Button   
+        android:id="@+id/button_lich"   
+        android:text="巫妖"
+        android:drawableTop="@drawable/lich_u"
+android:onClick="lich"
+        android:background="#eee"
+     />
+
+     <Button   
+        android:id="@+id/button_cryptlord"  
+        android:text="地穴领主"
+        android:drawableTop="@drawable/cryptlord_u"
+android:onClick="cryptlord"
+        android:background="#eee"
+     /> 
+        <Button   
+        android:id="@+id/button_dreadlord"  
+        android:text="恐惧魔王"
+        android:drawableTop="@drawable/dreadlord_u"
+android:onClick="dreadlord"
+        android:background="#eee"
+     />  
+
+</TableRow>
+    <TableRow
+                android:id="@+id/tableRow2"  
+        android:layout_height="wrap_content"  
+        android:layout_width="match_parent" >
+<TextView
+            android:id="@+id/textView9"  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"  
+            android:textStyle="bold"  
+            android:typeface="serif"  
+            android:textSize="18sp"  
+            android:text="单位" 
+            android:textColor="#000"
+            android:gravity="left"  
+            android:layout_span="4" />
+    </TableRow>
+    <TableRow>
+      <Button   
+        android:id="@+id/button_acolyte"  
+        android:text="寺僧"
+        android:drawableTop="@drawable/acolyte"
+        android:onClick="acolyte"
+        android:background="#eee"
+     /> 
+  
+             <Button   
+        android:id="@+id/button_ghoul"  
+        android:text="食尸鬼"
+        android:drawableTop="@drawable/ghoul"
+        android:onClick="ghoul"
+        android:background="#eee"
+     />   
+     <Button   
+        android:id="@+id/button_cryptfiend"  
+        android:text="蜘蛛"
+        android:drawableTop="@drawable/cryptfiend"
+        android:onClick="cryptfiend"
+        android:background="#eee"
+     />  
+     <Button   
+        android:id="@+id/button_gargoyle"  
+        android:text="天鬼"
+        android:drawableTop="@drawable/gargoyle"
+        android:onClick="gargoyle"
+        android:background="#eee"
+     />    
+            
+
+</TableRow><TableRow        android:id="@+id/tableRow3"  
+        android:layout_height="wrap_content"  
+        android:layout_width="match_parent" >
+    <Button   
+        android:id="@+id/button_necromancer"  
+        android:text="巫师"
+        android:drawableTop="@drawable/necromancer"
+        android:onClick="necromancer"
+        android:background="#eee"
+     /> 
+         <Button   
+        android:id="@+id/button_banshee"  
+        android:text="女妖"
+        android:drawableTop="@drawable/banshee"
+        android:onClick="banshee"
+        android:background="#eee"
+     />   
+         <Button   
+        android:id="@+id/button_meatwagon"  
+        android:text="绞肉车"
+        android:drawableTop="@drawable/meatwagon"
+        android:onClick="meatwagon"
+        android:background="#eee"
+     />   
+         <Button   
+        android:id="@+id/button_abomination"  
+        android:text="憎恶"
+        android:drawableTop="@drawable/abomination"
+        android:onClick="abomination"
+        android:background="#eee"
+     />   
+
+    
+    </TableRow><TableRow
+                android:id="@+id/tableRow4"  
+        android:layout_height="wrap_content"  
+        android:layout_width="match_parent" >
+             <Button   
+        android:id="@+id/button_obsidianstatue"  
+        android:text="雕像"
+        android:drawableTop="@drawable/obsidianstatue"
+        android:onClick="obsidianstatue"
+        android:background="#eee"
+     /> 
+
+              <Button   
+        android:id="@+id/button_sacrifice"  
+        android:text="阴影"
+        android:drawableTop="@drawable/sacrifice"
+        android:onClick="sacrifice"
+        android:background="#eee"
+     />  
+      <Button   
+        android:id="@+id/button_frostwyrm"  
+        android:text="冰龙"
+        android:drawableTop="@drawable/frostwyrm"
+        android:onClick="frostwyrm"
+        android:background="#eee"
+     /> </TableRow>
+    <TableRow
+                android:id="@+id/tableRow2"  
+        android:layout_height="wrap_content"  
+        android:layout_width="match_parent" >
+<TextView
+            android:id="@+id/textView9"  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"  
+            android:textStyle="bold"  
+            android:typeface="serif"  
+            android:textSize="18sp"  
+            android:text="建筑" 
+            android:textColor="#000"
+            android:gravity="left"  
+            android:layout_span="4" />
+    </TableRow>
+    <TableRow>
+      <Button   
+        android:id="@+id/button_acolyte"  
+        android:text="黑暗祭坛"
+        android:drawableTop="@drawable/altarofdarkness"
+        android:onClick="altarofdarkness"
+        android:background="#eee"
+     /> 
+  
+             <Button   
+        android:id="@+id/button_ghoul"  
+        android:text="通灵塔"
+        android:drawableTop="@drawable/ziggurat"
+        android:onClick="ziggurat"
+        android:background="#eee"
+     />   
+     <Button   
+        android:id="@+id/button_cryptfiend"  
+        android:text="坟场"
+        android:drawableTop="@drawable/graveyard"
+        android:onClick="graveyard"
+        android:background="#eee"
+     />  
+     <Button   
+        android:id="@+id/button_gargoyle"  
+        android:text="大墓地"
+        android:drawableTop="@drawable/necropolis"
+        android:onClick="necropolis"
+        android:background="#eee"
+     />    
+            
+
+</TableRow><TableRow        android:id="@+id/tableRow3"  
+        android:layout_height="wrap_content"  
+        android:layout_width="match_parent" >
+    <Button   
+        android:id="@+id/button_necromancer"  
+        android:text="地穴"
+        android:drawableTop="@drawable/crypt"
+        android:onClick="crypt"
+        android:background="#eee"
+     /> 
+         <Button   
+        android:id="@+id/button_banshee"  
+        android:text="亡者大厅"
+        android:drawableTop="@drawable/hallsofthedead"
+        android:onClick="hallsofthedead"
+        android:background="#eee"
+     />   
+         <Button   
+        android:id="@+id/button_meatwagon"  
+        android:text="诅咒神庙"
+        android:drawableTop="@drawable/templeofthedamned"
+        android:onClick="templeofthedamned"
+        android:background="#eee"
+     />   
+         <Button   
+        android:id="@+id/button_abomination"  
+        android:text="屠宰场"
+        android:drawableTop="@drawable/slaughterhouse"
+        android:onClick="slaughterhouse"
+        android:background="#eee"
+     />   
+
+    
+    </TableRow><TableRow
+                android:id="@+id/tableRow4"  
+        android:layout_height="wrap_content"  
+        android:layout_width="match_parent" >
+             <Button   
+        android:id="@+id/button_obsidianstatue"  
+        android:text="牺牲深渊"
+        android:drawableTop="@drawable/sacrificialpit"
+        android:onClick="sacrificialpit"
+        android:background="#eee"
+     /> 
+
+              <Button   
+        android:id="@+id/button_sacrifice"  
+        android:text="黑色城堡"
+        android:drawableTop="@drawable/blackcitadel"
+        android:onClick="blackcitadel"
+        android:background="#eee"
+     />  
+      <Button   
+        android:id="@+id/button_frostwyrm"  
+        android:text="埋骨地"
+        android:drawableTop="@drawable/boneyard"
+        android:onClick="boneyard"
+        android:background="#eee"
+     /> </TableRow>  
+</TableLayout>
+</ScrollView>
+</LinearLayout>

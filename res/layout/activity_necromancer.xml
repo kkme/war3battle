@@ -1,0 +1,692 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#eee"
+        android:orientation="vertical" >
+        
+        <LinearLayout 
+  			android:layout_width="fill_parent"
+  			android:layout_height="45dp"
+  			android:id="@+id/title" 
+  			android:background="@drawable/title_bar"
+  			android:gravity="center_horizontal|center_vertical"  >  
+      		<TextView 
+        		android:layout_width="wrap_content" 
+        		android:layout_height="wrap_content" 
+        		android:text="亡灵巫师"
+        		android:textSize="20sp"		
+				android:textColor="#ffffff" />       
+			</LinearLayout>
+<ScrollView 
+
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content"
+    android:background="#eee"
+>
+<LinearLayout 
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    >
+
+ 
+      
+ <ImageView
+           android:layout_width="wrap_content" 
+         android:layout_height="wrap_content" 
+           android:gravity="left" 
+           android:layout_gravity="center"
+           android:layout_marginTop="10dp"
+           android:layout_marginBottom="10dp"
+
+            android:src="@drawable/necromancer"
+           >
+      </ImageView>
+
+<TextView 
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="介绍"  
+            android:gravity="left"
+             android:textColor="#999966"
+            android:textSize="18sp"   
+            ></TextView>  
+<TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="        虽然保留着一些人族的特征，但这些于死神定下契约的不死族巫师是不折不扣的灾难代言人。这些黑暗，邪恶的人族曾经被认为是达拉然的天才法师，但他们渴求黑暗魔法的欲望最终毁灭了他们的灵魂。巫妖王耐奥祖赐于他们超越死亡的力量以换取他们的忠诚。这些不死族的巫师可以从墓地复活骷髅战士，并用黑暗法术提高不死族战士们的作战能力。"  
+            android:gravity="left"  
+           ></TextView>  
+<TextView android:layout_marginTop="10dp"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="数据"  
+            android:gravity="left"
+            android:textColor="#999966"
+            android:textSize="18sp"  
+         ></TextView>  
+<TableLayout  
+    android:layout_width="match_parent"  
+    android:layout_height="match_parent"  
+    android:shrinkColumns="*"  
+    android:stretchColumns="*"> 
+<TableRow
+        android:layout_height="wrap_content"  
+        android:layout_width="match_parent">        
+      <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="等级: 2 "  
+            android:gravity="left" 
+            android:layout_span="1" 
+           ></TextView>
+      <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="费用：145/20/2"  
+            android:gravity="left"
+            android:layout_span="1"  
+            ></TextView>
+ 
+</TableRow>
+
+<TableRow
+        android:layout_height="wrap_content"  
+        android:layout_width="match_parent">        
+      <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="单位类型: 普通 "  
+            android:gravity="left" 
+            android:layout_span="1" 
+           ></TextView>
+      <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="攻击类型: 魔法"  
+            android:gravity="left"
+            android:layout_span="1"  
+            ></TextView>
+ 
+</TableRow>
+<TableRow
+        android:layout_height="wrap_content"  
+        android:layout_width="match_parent">        
+      <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="武器类型: 远程 "  
+            android:gravity="left" 
+            android:layout_span="1" 
+           ></TextView>
+      <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="护甲类型: 无甲 "  
+            android:gravity="left"
+            android:layout_span="1"  
+            ></TextView>
+ 
+</TableRow>
+<TableRow
+        android:layout_height="wrap_content"  
+        android:layout_width="match_parent">        
+      <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="护甲: 0"  
+            android:gravity="left" 
+            android:layout_span="1" 
+           ></TextView>
+      <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="对地攻击: 8-9"  
+            android:gravity="left"
+            android:layout_span="1"  
+            ></TextView>
+ 
+</TableRow>
+<TableRow
+        android:layout_height="wrap_content"  
+        android:layout_width="match_parent">        
+      <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="对空攻击: 8-9 "  
+            android:gravity="left" 
+            android:layout_span="1" 
+           ></TextView>
+      <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="攻击间隔: 1.8 "  
+            android:gravity="left"
+            android:layout_span="1"  
+            ></TextView>
+ 
+</TableRow>
+<TableRow
+        android:layout_height="wrap_content"  
+        android:layout_width="match_parent">        
+      <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="生命值:305 (385*) "  
+            android:gravity="left" 
+            android:layout_span="1" 
+           ></TextView>
+      <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="生命恢复: 荒芜上"  
+            android:gravity="left"
+            android:layout_span="1"  
+            ></TextView>
+ 
+</TableRow>
+<TableRow
+        android:layout_height="wrap_content"  
+        android:layout_width="match_parent">        
+      <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="魔法: 200 (400*) "  
+            android:gravity="left" 
+            android:layout_span="1" 
+           ></TextView>
+      <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="攻击范围:60"  
+            android:gravity="left"
+            android:layout_span="1"  
+            ></TextView>
+ 
+</TableRow>
+<TableRow
+        android:layout_height="wrap_content"  
+        android:layout_width="match_parent">        
+      <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="白天视野: 140  "  
+            android:gravity="left" 
+            android:layout_span="1" 
+           ></TextView>
+      <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="夜晚视野: 90  "  
+            android:gravity="left"
+            android:layout_span="1"  
+            ></TextView>
+ 
+</TableRow>
+<TableRow
+        android:layout_height="wrap_content"  
+        android:layout_width="match_parent">        
+      <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="移动速度:中等 (270)"  
+            android:gravity="left" 
+            android:layout_span="1" 
+           ></TextView>
+       <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="训练时间: 24  "  
+            android:gravity="left" 
+            android:layout_span="1" 
+           ></TextView>
+        
+ 
+</TableRow>
+<TableRow
+        android:layout_height="wrap_content"  
+        android:layout_width="match_parent">        
+      <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="训练地点:诅咒神庙 "  
+            android:gravity="left" 
+            android:layout_span="1" 
+           ></TextView>
+       <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="运输占用空间: 1 "  
+            android:gravity="left" 
+            android:layout_span="1" 
+           ></TextView>
+ 
+</TableRow>
+<TableRow
+        android:layout_height="wrap_content"  
+        android:layout_width="match_parent">        
+      <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="训练热键: N   "  
+            android:gravity="left" 
+            android:layout_span="1" 
+           ></TextView>
+       <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="魔法恢复: 0.667 (1.167*)  "  
+            android:gravity="left" 
+            android:layout_span="1" 
+           ></TextView>
+ 
+</TableRow>
+</TableLayout>
+
+<TextView android:layout_marginTop="10dp"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="信息"
+            android:textColor="#999966"
+            android:textSize="18sp"   
+            android:gravity="left"  
+         ></TextView> 
+ 
+     
+         <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="        亡灵巫师是一个非常受欢迎的法师单位，很多玩家喜欢制造出大量的骷髅来作战。而实际上，亡灵巫师的邪恶狂热技能也非常的有用，一般来说将这个技能使用在那些强力单位上，例如说憎恶和冰龙。而残废技能可以用于捕获那些企图逃走的敌人，也可以在交战时有效的减少敌方给你带来的伤害。"  
+            android:gravity="left"  
+         ></TextView>  
+         <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="        在组队游戏中，不死玩家的典型策略是一下子造2-3个诅咒神庙。这样你就可以同时进行升级和训练亡灵巫师。幽魂之塔和亡者大厅/黑色城堡可以在亡灵巫师完成前保证不死族老家的安全。"  
+            android:gravity="left"  
+         ></TextView>  
+         <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="        亡灵巫师非常脆弱，很容易被近战部队和远程部队的齐射杀死。所以保持他们于战场的距离是非常重要的。 亡灵巫师的优势在于利用地形让敌方近战部队无法靠近他。不死族玩家会让亡灵巫师远离战场，以防被杀，他们的任务只是在必要时召些骷髅出来。"  
+            android:gravity="left"  
+         ></TextView>  
+
+ 
+<TextView android:layout_marginTop="10dp" 
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="技能"
+                        android:textColor="#999966"
+            android:textSize="18sp"    
+            android:gravity="left"  
+         >
+</TextView>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_marginTop="10dp"
+    android:layout_height="wrap_content" >
+ <ImageView
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:src="@drawable/skeletonwarrior" >
+</ImageView> 
+ <TextView
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:layout_gravity="center_vertical"
+     android:text="      复活死尸 Raise Dead (自动施放)"
+     android:textColor="#000" />
+</LinearLayout>
+
+ <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content" 
+            android:layout_span="6"     
+            android:text="        从一具尸体上召唤出2个骷髅战士。"  
+            android:gravity="left"  
+         >
+</TextView>
+
+    <TextView android:textColor="#000"  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"    
+            android:text="持续时间：40s；使用间隔：8s；距离：60；魔法消耗：75；使用目标：尸体；效果：召唤出2个骷髅战士"  
+            android:gravity="left"  
+            ></TextView>  
+
+ <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"   
+            android:text="提示" 
+                        android:textStyle="bold"
+            
+            android:gravity="left"  
+         >
+</TextView> 
+    <TextView android:textColor="#000"  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"    
+            android:text="        当研究了骷髅掌控后，将会每次从一具尸体上召唤出一个骷髅战士和一个骷髅法师。"  
+            android:gravity="left"  
+            ></TextView>  
+    <TextView android:textColor="#000"  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"    
+            android:text="        这个技能默认是关闭的。这是为了防止亡灵巫师召唤坟场里的尸体。"  
+            android:gravity="left"  
+            ></TextView> 
+    <TextView android:textColor="#000"  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"    
+            android:text="        骷髅战士可以存在40秒，研究完骨质增强后会增加15秒，最大存在时间变为55秒。"  
+            android:gravity="left"  
+            ></TextView> 
+ <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"   
+            android:text="应对策略" 
+                         android:textStyle="bold"
+             
+            android:gravity="left"  
+         >
+</TextView>   
+    <TextView android:textColor="#000"  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"    
+            android:text="        使用驱散。"  
+            android:gravity="left"  
+            ></TextView>  
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_marginTop="10dp"
+    android:layout_height="wrap_content" >
+ <ImageView
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:src="@drawable/unholyfrenzy" >
+</ImageView> 
+ <TextView
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:layout_gravity="center_vertical"
+     android:text="      邪恶狂热 Unholy Frenzy"
+     android:textColor="#000" />
+</LinearLayout>
+
+ <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content" 
+            android:layout_span="6"     
+            android:text="        增加单位攻击频率75%，并以4点每秒的速度流失生命，持续时间45秒。"  
+            android:gravity="left"  
+         >
+</TextView>
+
+   <TextView android:textColor="#000"  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"    
+            android:text="研究费用：100/50；研究地点：诅咒神庙；需求：专家级亡灵巫师训练"  
+            android:gravity="left"  
+            ></TextView>  
+   <TextView android:textColor="#000"  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"    
+            android:text="持续时间：45s；使用间隔：1s；魔法消耗：50；距离：50；作用范围：一个单位；使用目标：空中、地面、有机；效果：每秒损失4点生命,攻击频率加快75%"  
+            android:gravity="left"  
+            ></TextView>  
+ <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"   
+            android:text="提示" 
+                        android:textStyle="bold"
+            
+            android:gravity="left"  
+         >
+</TextView> 
+
+    <TextView android:textColor="#000"  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"    
+            android:text="        这个技能非常适合用在英雄，还有高级单位，例如说憎恶、冰龙、牛头人、骑士、熊等等。但是最好不要在那些生命较低的脆弱单位上使用这个技能。"  
+            android:gravity="left"  
+            ></TextView> 
+    <TextView android:textColor="#000"  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"    
+            android:text="        在组队游戏时，一定要确定你的盟军需要这个技能的帮助再施放。有些玩家根本不需要邪恶狂热（因为他的单位会因此减少生命）。"  
+            android:gravity="left"  
+            ></TextView>  
+    <TextView android:textColor="#000"  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"    
+            android:text="        懂得何时用邪恶狂热。如果你只是在MF或是小战场，不值得使用它。"  
+            android:gravity="left"  
+            ></TextView>  
+        <TextView android:textColor="#000"  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"    
+            android:text="        配合了恐惧魔王吸血光环的憎恶，加上邪恶狂热可以发挥最大的效力。"  
+            android:gravity="left"  
+            ></TextView>  
+        <TextView android:textColor="#000"  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"    
+            android:text="        将邪恶狂热施放在那些重伤的单位，或濒死的英雄身上。那么如果你的对手没有及时恢复的话，就会被邪恶狂热杀死。"  
+            android:gravity="left"  
+            ></TextView>  
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_marginTop="10dp"
+    android:layout_height="wrap_content" >
+ <ImageView
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:src="@drawable/cripple" >
+</ImageView> 
+ <TextView
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:layout_gravity="center_vertical"
+     android:text="      残废 Cripple"
+     android:textColor="#000" />
+</LinearLayout>
+
+ <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content" 
+            android:layout_span="6"     
+            android:text="         减少目标单位移动速度75%，攻击频率50%和50%的攻击力。 "  
+            android:gravity="left"  
+         >
+</TextView>
+
+   <TextView android:textColor="#000"  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"    
+            android:text="研究费用：100/150；研究地点：诅咒神庙；需求：大师级亡灵巫师训练"  
+            android:gravity="left"  
+            ></TextView>  
+   <TextView android:textColor="#000"  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"    
+            android:text="持续时间：60 (10)s；使用间隔：10s；魔法消耗：175；距离：60；作用范围：一个单位；使用目标：空中、地面、敌人、有机；效果：减少目标单位移动速度75%，攻击频率50%和50%的攻击力"  
+            android:gravity="left"  
+            ></TextView>  
+ <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"   
+            android:text="提示" 
+                        android:textStyle="bold"
+            
+            android:gravity="left"  
+         >
+</TextView> 
+
+    <TextView android:textColor="#000"  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"    
+            android:text="        残废象是一个加强的减速。不过你不能随意施放它，一定要选择好目标。最好就是敌方的英雄和高级部队等等。"  
+            android:gravity="left"  
+            ></TextView> 
+ 
+ <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"   
+            android:text="应对策略" 
+                         android:textStyle="bold"
+             
+            android:gravity="left"  
+         >
+</TextView>   
+   <TextView android:textColor="#000"  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"    
+            android:text="        使用驱散。"  
+            android:gravity="left"  
+            ></TextView>  
+<TextView android:layout_marginTop="10dp" 
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="升级"
+                        android:textColor="#999966"
+            android:textSize="18sp"    
+            android:gravity="left"  
+         >
+</TextView>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_marginTop="10dp"
+    android:layout_height="wrap_content" >
+ <ImageView
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:src="@drawable/skeletallongevity" >
+</ImageView> 
+ <TextView
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:layout_gravity="center_vertical"
+     android:text="      骨质增强术 Skeletal Longevity"
+     android:textColor="#000" />
+</LinearLayout>
+
+ <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content" 
+            android:layout_span="6"     
+            android:text="        将骷髅战士的存在时间增加15秒 。"  
+            android:gravity="left"  
+         >
+</TextView>
+
+   <TextView android:textColor="#000"  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"    
+            android:text="研究费用：50/75；研究地点：诅咒神庙；研究时间：15s"  
+            android:gravity="left"  
+            ></TextView>  
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_marginTop="10dp"
+    android:layout_height="wrap_content" >
+ <ImageView
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:src="@drawable/skeletalmasterylarge" >
+</ImageView> 
+ <TextView
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:layout_gravity="center_vertical"
+     android:text="      骷髅掌控 Skeletal Mastery"
+     android:textColor="#000" />
+</LinearLayout>
+
+ <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content" 
+            android:layout_span="6"     
+            android:text="        从一具尸体上召唤出一个骷髅战士和一个骷髅法师。 "  
+            android:gravity="left"  
+         >
+</TextView>
+
+   <TextView android:textColor="#000"  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"    
+            android:text="研究费用：200/100；研究地点：诅咒神庙；需求：黑色城堡；研究时间：30s"  
+            android:gravity="left"  
+            ></TextView>  
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_marginTop="10dp"
+    android:layout_height="wrap_content" >
+ <ImageView
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:src="@drawable/necromanceradept" >
+</ImageView> 
+ <TextView
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:layout_gravity="center_vertical"
+     android:text="      专家级亡灵巫师训练 Necromancer Adept Training"
+     android:textColor="#000" />
+</LinearLayout>
+
+ <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content" 
+            android:layout_span="6"     
+            android:text="        增加100点魔法，加快30%魔法恢复速度，增加40点生命和可以使用邪恶狂热。"  
+            android:gravity="left"  
+         >
+</TextView>
+
+   <TextView android:textColor="#000"  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"    
+            android:text="研究费用：100/50；研究地点：诅咒神庙；研究时间：30s"  
+            android:gravity="left"  
+            ></TextView>  
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_marginTop="10dp"
+    android:layout_height="wrap_content" >
+ <ImageView
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:src="@drawable/necromancermaster" >
+</ImageView> 
+ <TextView
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:layout_gravity="center_vertical"
+     android:text="      大师级亡灵巫师训练 Necromancer Master Training"
+     android:textColor="#000" />
+</LinearLayout>
+
+ <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content" 
+            android:layout_span="6"     
+            android:text="       增加100点魔法，加快30%魔法恢复速度，增加40点生命和可以使用残废。"  
+            android:gravity="left"  
+         >
+</TextView>
+
+   <TextView android:textColor="#000"  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"    
+            android:text="研究费用：100/150；研究地点：诅咒神庙；需求：专家级亡灵巫师训练、黑色城堡；研究时间：45s"  
+            android:gravity="left"  
+            ></TextView>  
+</LinearLayout>
+</ScrollView>
+</LinearLayout>

@@ -1,0 +1,384 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#eee"
+        android:orientation="vertical" >
+        
+        <LinearLayout 
+  			android:layout_width="fill_parent"
+  			android:layout_height="45dp"
+  			android:id="@+id/title" 
+  			android:background="@drawable/title_bar"
+  			android:gravity="center_horizontal|center_vertical"  >  
+      		<TextView
+        		android:layout_width="wrap_content" 
+        		android:layout_height="wrap_content" 
+        		android:text="山丘之王"
+        		android:textSize="20sp"		
+				android:textColor="#ffffff" />       
+			</LinearLayout>
+<ScrollView 
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1" >
+
+        <TextView android:textColor="#000"
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="10dp"
+            android:text="      山丘之王在卡兹莫丹大陆被称为领主，是生活在山脉脚下的最强大的矮人战士。他们的双手分别握着战锤和手斧，在与强大敌人的战斗中证明自己的价值。和他们热衷于制造机械和采集矿石的族群不同的是，山丘之王生来就是为了战斗。在宣誓效忠曾经拯救过他们王国的联盟之后，山丘之王成为了人类部队的强大支柱，对抗不断膨胀的邪恶势力。" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1" >
+
+        <ImageView
+            android:id="@+id/imageViewmountainking"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/mountainking" 
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+
+            <TextView android:textColor="#000"
+                android:id="@+id/textViewblmountainking"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="0.99"
+                android:gravity="center"
+                android:layout_marginTop="2dp"
+                android:layout_marginBottom="2dp"
+                android:background="@drawable/blood"
+                android:text="700/700" />
+
+            <TextView android:textColor="#000"
+                android:id="@+id/textViewmamountainking"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:layout_marginTop="2dp"
+                android:layout_marginBottom="2dp"
+                android:background="@drawable/magic"
+                android:text="225/225" />
+        </LinearLayout>
+
+        <TextView android:textColor="#000"
+            android:id="@+id/textViewdjmountainking"
+            android:layout_width="46dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="right"
+            android:gravity="center"
+            android:text="1" />
+    </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal" >
+        </LinearLayout>
+
+    <TableLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:shrinkColumns="*"
+        android:layout_marginTop="10dp"
+        android:stretchColumns="*" >
+	<TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal" >
+
+		<Button
+		    android:id="@+id/button2"
+		    style="?android:attr/buttonStyleSmall"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:text="想升级就点我吧" 
+		    android:onClick="uplevelmountainking"/>
+
+		<Button
+		    android:id="@+id/button3"
+		    style="?android:attr/buttonStyleSmall"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:text="觉得等级太高了？" 
+		    android:onClick="downlevelmountainking"/>
+
+
+
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal" >
+
+            <TextView android:textColor="#000"
+                android:id="@+id/textViewgjmountainking"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:text="攻击：26-36" >
+            </TextView>
+
+            <TextView android:textColor="#000"
+                android:id="@+id/textViewllmountainking"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:text="力量：24(+3)" >
+            </TextView>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal" >
+
+            <TextView android:textColor="#000"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:text="攻速：2.22" >
+            </TextView>
+
+            <TextView android:textColor="#000"
+                android:id="@+id/textViewmjmountainking"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:text="敏捷：11(+1.5)" >
+            </TextView>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal" >
+
+            <TextView android:textColor="#000"
+                android:id="@+id/textViewhjmountainking"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:text="护甲：2" >
+            </TextView>
+
+            <TextView android:textColor="#000"
+                android:id="@+id/textViewzlmountainking"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:text="智力：15(+1.5)" >
+            </TextView>
+        </TableRow>
+           <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal" >
+
+            <TextView android:textColor="#000"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:text="移动速度：270" >
+            </TextView>
+
+            <TextView android:textColor="#000"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:text="建造时间:55s" >
+            </TextView>
+        </TableRow>
+    </TableLayout>
+
+
+
+
+<LinearLayout
+     android:layout_width="fill_parent"
+     android:layout_height="wrap_content"
+     android:layout_alignParentBottom="true"
+     android:paddingBottom="2dp"            
+   >
+        	 <LinearLayout
+            	android:layout_width="wrap_content"
+            	android:layout_height="wrap_content"
+              	android:gravity="center_horizontal"
+              	android:layout_marginTop="10dp"
+              	android:orientation="vertical"
+              	android:layout_weight="1">               	
+                <ImageView
+            		android:id="@+id/img_friends"
+        			android:layout_width="wrap_content"
+        			android:layout_height="wrap_content"        	     	
+        			android:scaleType="matrix"
+        			android:clickable="true"
+        			android:onClick="jn1mountainking"
+        			android:src="@drawable/stormbolt" />
+                <TextView
+            		android:layout_width="wrap_content"
+            		android:layout_height="wrap_content"
+            		android:text="风暴之锤"
+            		android:textColor="#000"
+            		android:textSize="12sp" />                
+        	 </LinearLayout>
+        	 <LinearLayout
+            	android:layout_width="wrap_content"
+            	android:layout_height="wrap_content"
+              	android:gravity="center_horizontal"
+              	android:layout_marginTop="10dp"
+              	android:orientation="vertical"
+              	android:layout_weight="1">               	
+                <ImageView
+            		android:id="@+id/img_friends"
+        			android:layout_width="wrap_content"
+        			android:layout_height="wrap_content"        	     	
+        			android:scaleType="matrix"
+        			android:onClick="jn2mountainking"
+        			android:clickable="true"
+        			android:src="@drawable/thunderclap" />
+                <TextView
+            		android:layout_width="wrap_content"
+            		android:layout_height="wrap_content"
+            		android:text="雷霆一击"
+            		android:textColor="#000"
+            		android:textSize="12sp" />                
+        	 </LinearLayout>
+        	 <LinearLayout
+            	android:layout_width="wrap_content"
+            	android:layout_height="wrap_content"
+              	android:gravity="center_horizontal"
+              	android:layout_marginTop="10dp"
+              	android:orientation="vertical"
+              	android:layout_weight="1">               	
+                <ImageView
+            		android:id="@+id/img_friends"
+        			android:layout_width="wrap_content"
+        			android:layout_height="wrap_content"        	     	
+        			android:scaleType="matrix"
+        			android:clickable="true"
+        			android:onClick="jn3mountainking"
+        			android:src="@drawable/bash" />
+                <TextView
+            		android:layout_width="wrap_content"
+            		android:layout_height="wrap_content"
+            		android:text="    重击    "
+            		android:textColor="#000"
+            		android:textSize="12sp" />                
+        	 </LinearLayout>
+        	 <LinearLayout
+            	android:layout_width="wrap_content"
+            	android:layout_height="wrap_content"
+              	android:gravity="center_horizontal"
+              	android:layout_marginTop="10dp"
+              	android:orientation="vertical"
+              	android:layout_weight="1">               	
+                <ImageView
+            		android:id="@+id/img_friends"
+        			android:layout_width="wrap_content"
+        			android:layout_height="wrap_content"        	     	
+        			android:scaleType="matrix"
+        			android:onClick="jn4mountainking"
+        			android:clickable="true"
+        			android:src="@drawable/avatar" />
+                <TextView
+            		android:layout_width="wrap_content"
+            		android:layout_height="wrap_content"
+            		android:text="天神下凡"
+            		android:textColor="#000"
+            		android:textSize="12sp" />                
+        	 </LinearLayout>
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical" >
+
+           <TextView android:textColor="#0066ff"
+               android:id="@+id/textViewjn1mountainking"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:text="      高山矮人经常练习投掷战锤——作为运动和战斗技能。但只有铁炉城的山丘之王才能如此猛烈地掷出战锤，以至于能够一下击昏他们的敌人。于是风暴之锤就成为了山丘之王最可怕的攻击方式。魔法消耗75，使用间隔9s，距离60(快捷键T)。" >
+            </TextView>
+            <TextView android:textColor="#0066ff"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:id="@+id/textViewjn2mountainking"
+                android:text="      等级1——100伤害，5s(英雄3)的眩晕" >
+            </TextView>
+            <TextView android:textColor="#0066ff"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:id="@+id/textViewjn3mountainking"
+                android:text="      等级2——225伤害，5s(英雄3)的眩晕" >
+            </TextView>
+            <TextView android:textColor="#0066ff"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:id="@+id/textViewjn4mountainking"
+                android:text="      等级3——350伤害，5s(英雄3)的眩晕" >
+            </TextView>
+          <TextView android:textColor="#000"
+              	android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:text="      山丘之王与恶魔猎手、剑圣是最强的近战英雄。特别是在1V1的英雄对抗中，因为它的风暴之锤技能是当之无愧的英雄杀手。风暴之锤可以终止英雄的施法，并可以阻挠其逃跑。而雷霆一击也是一个很强大的技能，高级别的雷霆一击可以轻松的杀掉低生命的单位，例如说食尸鬼，并可以减慢被攻击单位的移动速度。在有大法师的辉煌光环支援时，最好集中升级风暴之锤和雷霆一击。在辉煌光环的支持下，山丘之王会有足够的魔法用来施放多次风暴之锤和雷霆一击。" >
+            </TextView>
+
+   
+ 
+        <TextView android:textColor="#ff0000"   
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"  
+            android:textStyle="bold"  
+            android:typeface="serif"  
+            android:textSize="18sp"  
+            android:layout_marginTop="10dp"
+            android:text="应对策略"  
+            android:gravity="left"  
+></TextView>      
+        <TextView android:textColor="#000"   
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"   
+            android:layout_marginTop="10dp"
+            android:text="      在远处使用远程部队集中火力在山丘之王身上。尽可能不要进入雷霆一击的范围。 "  
+            ></TextView>             
+      </LinearLayout>
+</LinearLayout>
+
+</ScrollView>
+</LinearLayout>

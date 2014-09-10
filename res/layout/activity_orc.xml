@@ -1,0 +1,80 @@
+<LinearLayout  
+   xmlns:android="http://schemas.android.com/apk/res/android"  
+   android:layout_height="fill_parent" 
+   android:layout_width="fill_parent" 
+   android:orientation="vertical"
+   android:background="@drawable/orc"
+  
+   >
+
+	<LinearLayout
+	    android:layout_width="fill_parent"
+	    android:layout_height="match_parent"
+	    android:gravity="center|center_horizontal|center_vertical"
+	    android:orientation="vertical" >
+
+		<Button
+		    android:id="@+id/button1"
+		    android:layout_width="160dp"
+	        android:textSize="20sp"
+		    android:layout_height="wrap_content"
+		    android:layout_marginTop="200dp"
+		    android:onClick="orcv1"
+		    android:text="种族介绍" 
+		    android:textColor="#ffea17"
+	        android:background="@drawable/buttonbg"
+		    />
+		
+		<Button
+		    android:id="@+id/enter"
+		    android:layout_width="160dp"
+	        android:textSize="20sp"
+		    android:layout_height="wrap_content"
+		    android:onClick="orcbattle"
+		    android:textColor="#ffea17"
+	        android:background="@drawable/buttonbg"
+		    android:layout_marginTop="20dp"
+		    android:text="战术" 
+		   >
+</Button>
+<Button
+		    android:id="@+id/enter"
+		   android:layout_width="160dp"
+	        android:textSize="20sp"
+		    android:layout_height="wrap_content"
+		    android:onClick="orcunits"
+		    android:textColor="#ffea17"
+	        android:background="@drawable/buttonbg"
+		    android:layout_marginTop="20dp"
+		    android:text="单位介绍" 
+		   >
+</Button>
+
+<Button
+		    android:id="@+id/enter"
+		   android:layout_width="160dp"
+	        android:textSize="20sp"
+		    android:layout_height="wrap_content"
+		    android:onClick="orcshort"
+		    android:textColor="#ffea17"
+	        android:background="@drawable/buttonbg"
+		    android:layout_marginTop="20dp"
+		    android:text="快捷键" 
+		   >
+</Button>
+<Button
+		    android:id="@+id/enter"
+		    android:layout_width="160dp"
+	        android:textSize="20sp"
+		    android:layout_height="wrap_content"
+		    android:onClick="orcplayer"
+		    android:textColor="#ffea17"
+	        android:background="@drawable/buttonbg"
+		    android:layout_marginTop="20dp"
+		    android:text="职业选手" 
+		    >
+</Button>
+
+
+	</LinearLayout>  
+</LinearLayout> 

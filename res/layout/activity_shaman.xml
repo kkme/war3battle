@@ -1,0 +1,589 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#eee"
+        android:orientation="vertical" >
+        
+        <LinearLayout 
+  			android:layout_width="fill_parent"
+  			android:layout_height="45dp"
+  			android:id="@+id/title" 
+  			android:background="@drawable/title_bar"
+  			android:gravity="center_horizontal|center_vertical"  >  
+      		<TextView 
+        		android:layout_width="wrap_content" 
+        		android:layout_height="wrap_content" 
+        		android:text="萨满法师"
+        		android:textSize="20sp"		
+				android:textColor="#ffffff" />       
+			</LinearLayout>
+<ScrollView 
+
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content"
+    android:background="#eee"
+>
+<LinearLayout 
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    >
+ 
+ <ImageView
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:layout_gravity="center"
+     android:gravity="left"
+     android:layout_marginTop="10dp"
+     android:layout_marginBottom="10dp"
+     android:src="@drawable/shaman" >
+
+      </ImageView>
+
+<TextView 
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="介绍"  
+            android:gravity="left"
+             android:textColor="#0000CC"
+            android:textSize="18sp"   
+            ></TextView>  
+<TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="        在萨尔的领导下，兽人回归了他们古老的信奉萨满教的传统。为了使兽人部落彻底摒弃邪恶和野蛮，萨尔禁止兽人使用法师魔法和亡灵巫术。现在，所有的兽人魔法使用者都在练习使用萨满魔法，从大自然及其元素中汲取无穷无尽的力量。 "  
+            android:gravity="left"  
+           ></TextView>  
+<TextView 
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="数据"  
+            android:gravity="left"
+            android:layout_marginTop="10dp"
+            android:textColor="#0000CC"
+            android:textSize="18sp"  
+         ></TextView>  
+<TableLayout  
+    android:layout_width="match_parent"  
+    android:layout_height="match_parent"  
+    android:shrinkColumns="*"  
+    android:stretchColumns="*"> 
+<TableRow
+        android:layout_height="wrap_content"  
+        android:layout_width="match_parent">        
+      <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="等级: 2 "  
+            android:gravity="left" 
+            android:layout_span="1" 
+           ></TextView>
+      <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="费用：130/20/2"  
+            android:gravity="left"
+            android:layout_span="1"  
+            ></TextView>
+ 
+</TableRow>
+
+<TableRow
+        android:layout_height="wrap_content"  
+        android:layout_width="match_parent">        
+      <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="单位类型: 普通 "  
+            android:gravity="left" 
+            android:layout_span="1" 
+           ></TextView>
+      <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="攻击类型: 魔法 "  
+            android:gravity="left"
+            android:layout_span="1"  
+            ></TextView>
+ 
+</TableRow>
+<TableRow
+        android:layout_height="wrap_content"  
+        android:layout_width="match_parent">        
+      <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="武器类型: 远程 "  
+            android:gravity="left" 
+            android:layout_span="1" 
+           ></TextView>
+      <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="护甲类型: 无甲  "  
+            android:gravity="left"
+            android:layout_span="1"  
+            ></TextView>
+ 
+</TableRow>
+<TableRow
+        android:layout_height="wrap_content"  
+        android:layout_width="match_parent">        
+      <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="护甲: 0 "  
+            android:gravity="left" 
+            android:layout_span="1" 
+           ></TextView>
+      <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="对地攻击: 8-9 "  
+            android:gravity="left"
+            android:layout_span="1"  
+            ></TextView>
+ 
+</TableRow>
+<TableRow
+        android:layout_height="wrap_content"  
+        android:layout_width="match_parent">        
+      <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="对空攻击: 8-9 "  
+            android:gravity="left" 
+            android:layout_span="1" 
+           ></TextView>
+      <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="攻击间隔: 2.1 "  
+            android:gravity="left"
+            android:layout_span="1"  
+            ></TextView>
+ 
+</TableRow>
+<TableRow
+        android:layout_height="wrap_content"  
+        android:layout_width="match_parent">        
+      <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="生命值: 335 (415*)  "  
+            android:gravity="left" 
+            android:layout_span="1" 
+           ></TextView>
+      <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="生命恢复: 总是 "  
+            android:gravity="left"
+            android:layout_span="1"  
+            ></TextView>
+ 
+</TableRow>
+<TableRow
+        android:layout_height="wrap_content"  
+        android:layout_width="match_parent">        
+      <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="魔法: 200 (400*) "  
+            android:gravity="left" 
+            android:layout_span="1" 
+           ></TextView>
+      <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="攻击范围: 60 "  
+            android:gravity="left"
+            android:layout_span="1"  
+            ></TextView>
+ 
+</TableRow>
+<TableRow
+        android:layout_height="wrap_content"  
+        android:layout_width="match_parent">        
+      <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="白天视野: 140  "  
+            android:gravity="left" 
+            android:layout_span="1" 
+           ></TextView>
+      <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="夜晚视野: 80  "  
+            android:gravity="left"
+            android:layout_span="1"  
+            ></TextView>
+ 
+</TableRow>
+<TableRow
+        android:layout_height="wrap_content"  
+        android:layout_width="match_parent">        
+      <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="移动速度: 中等 (270)  "  
+            android:gravity="left" 
+            android:layout_span="1" 
+           ></TextView>
+      <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="训练时间: 30 "  
+            android:gravity="left"
+            android:layout_span="1"  
+            ></TextView>
+ 
+</TableRow>
+<TableRow
+        android:layout_height="wrap_content"  
+        android:layout_width="match_parent">        
+      <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="训练地点: 灵魂归宿  "  
+            android:gravity="left" 
+            android:layout_span="1" 
+           ></TextView>
+       <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="运输占用空间: 1 "  
+            android:gravity="left" 
+            android:layout_span="1" 
+           ></TextView>
+ 
+</TableRow>
+<TableRow
+        android:layout_height="wrap_content"  
+        android:layout_width="match_parent">        
+      <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="训练热键: S   "  
+            android:gravity="left" 
+            android:layout_span="1" 
+           ></TextView>
+       <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="魔法恢复: 0.667 (1.167*) "  
+            android:gravity="left" 
+            android:layout_span="1" 
+           ></TextView>
+ 
+</TableRow>
+</TableLayout>
+
+<TextView 
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="信息"
+            android:textColor="#0000CC"
+            android:textSize="18sp"   
+            android:layout_marginTop="10dp"
+            android:gravity="left"  
+         ></TextView> 
+ 
+     
+         <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="        萨满祭司是除去人族女巫以外最有用的魔法单位之一。而其有用的主要原因就是因为它的嗜血术。萨满祭司可以给所有的己方单位，包括盟军和自己施放嗜血术。不过 ，他无法将嗜血术施放在机械单位和魔法免疫单位上。萨满祭司还可以利用净化来阻止单位的行动,还可以给一个单位施加上闪电盾来伤害其周围的敌人。这里介绍几个使用萨满祭司的方法。很多玩家喜欢使用兽人步兵 ，然后训练萨满祭司，组成混合部队作战。而同样的方法可以配合双足飞龙、牛头人等等。"  
+            android:gravity="left"  
+         ></TextView>  
+           <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="        切记要研究专家级及大师级技能，升级后萨满祭司将会得到新的魔法技能，同时拥有更大的魔力值和魔力恢复速度。如果你需要施放多次魔法的话，这点非常重要。"  
+            android:gravity="left"  
+         ></TextView>  
+ 
+<TextView 
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="技能"
+                        android:textColor="#0000CC"
+            android:textSize="18sp"    
+            android:layout_marginTop="10dp"
+            android:gravity="left"  
+         >
+</TextView>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_marginTop="10dp"
+    android:layout_height="wrap_content" >
+
+ <ImageView
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:src="@drawable/purge" >
+
+</ImageView> 
+
+ <TextView
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:layout_gravity="center_vertical"
+     android:text="      净化 Purge"
+     android:textColor="#000" />
+
+</LinearLayout>
+
+ <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content" 
+            android:layout_span="6"     
+            android:text="        驱散目标身上的所有魔法效果，敌方单位会被固定住，持续时间为3秒，并且他们的移动速度会以5的一个因子值来被减慢，不过在15秒的时间内，他们的速度会慢慢恢复过来。对召唤单位造成400点伤害，净化不会减慢友军的速度，只是在刚被使用时停顿一下。"  
+            android:gravity="left"  
+         >
+</TextView>
+
+ <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"   
+            android:text="        持续时间：15（5）s；使用间隔1s；魔法消耗75；距离70；作用范围单位；使用目标：空中，地面，守卫；效果：驱散魔法效果，移动速度减慢，对召唤单位造成400伤害。"  
+            android:gravity="left"  
+         >
+</TextView>   
+  <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"   
+            android:text="        净化可以用来消除我方单位身上的不利魔法，例如说女巫的变形术。"  
+            android:gravity="left"  
+         >
+</TextView> 
+  <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"   
+            android:text="        使用净化来捕捉那些逃走的敌方单位 ，例如说敌方英雄。"  
+            android:gravity="left"  
+         >
+</TextView>     
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_marginTop="10dp"
+    android:layout_height="wrap_content" >
+
+ <ImageView
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:src="@drawable/lightningshield" >
+
+</ImageView> 
+
+ <TextView
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:layout_gravity="center_vertical"
+     android:text="      闪电盾牌 Lightning Shield"
+     android:textColor="#000" />
+
+</LinearLayout>
+
+ <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content" 
+            android:layout_span="6"     
+            android:text="        使目标身上形成闪电护盾，在20秒内对其周围的敌人造成每秒20点的伤害。"  
+            android:gravity="left"  
+         >
+</TextView>
+
+ <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"   
+            android:text="        研究费用：100/50；研究地点：灵魂归宿；需求：专家级萨满训练"  
+            android:gravity="left"  
+         >
+</TextView>   
+  <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"   
+            android:text="        持续时间20s；使用间隔无；魔法消耗100；距离60；作用范围16；使用目标：地面友军敌人；效果：20伤害每秒"  
+            android:gravity="left"  
+         >
+</TextView> 
+  <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"   
+            android:text="        在遭遇到敌人大部队的时候，将闪电盾用在敌军集中的单位身上。你的对手如果不将这个单位撤离，那么闪电盾就回持续伤害周围的单位。"  
+            android:gravity="left"  
+         >
+</TextView>
+  <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"   
+            android:text="        你也可以将闪电盾施放到你自己一个单独的单位上 ，冲向敌军密集的地方。不过一般来说，好的玩家都可以很容易的回避。"  
+            android:gravity="left"  
+         >
+</TextView>
+  <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"   
+            android:text="应对策略"  
+            android:gravity="left"  
+         >
+</TextView>   
+  <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"   
+            android:text="        选择被施放了闪电盾的单位，让他撤离战场。闪电盾可以被驱散。"  
+            android:gravity="left"  
+         >
+</TextView>  
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_marginTop="10dp"
+    android:layout_height="wrap_content" >
+
+ <ImageView
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:src="@drawable/bloodlust" >
+
+</ImageView> 
+
+ <TextView
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:layout_gravity="center_vertical"
+     android:text="      嗜血术 Bloodlust (自动施放)"
+     android:textColor="#000" />
+
+</LinearLayout>
+
+ <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content" 
+            android:layout_span="6"     
+            android:text="        在咒语持续时间里，目标单位的攻击速度提升40%，移动速度提升25%。"  
+            android:gravity="left"  
+         >
+</TextView>
+
+  <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"   
+            android:text="        研究费用：100/100；研究地点：灵魂归宿；需求：大师级萨满训练"  
+            android:gravity="left"  
+         >
+</TextView>   
+  <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"   
+            android:text="        持续时间60s；使用间隔1s；魔法消耗40；距离60；作用范围单位；使用目标：空中，地面，友军，非机械，自己；效果：攻击频率 +40%, 移动速度 +25%"  
+            android:gravity="left"  
+         >
+</TextView> 
+  <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"   
+            android:text="        和魔兽争霸2一样，嗜血术是个支援类魔法。不过作为兽族玩家必须要拥有这个技能，因为它可以非常有效的提高你的部队的作战能力。"  
+            android:gravity="left"  
+         >
+</TextView>
+  <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"   
+            android:text="        在你不需要的时候 ，最好关掉嗜血术的自动施放。这样你的萨满祭司才可能有足够的魔法去使用嗜血术、净化和闪电盾。"  
+            android:gravity="left"  
+         >
+</TextView>
+<TextView  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="升级"  
+            android:gravity="left"
+             android:textColor="#0000CC"
+            android:textSize="18sp" 
+            android:layout_marginTop="10dp"  
+            ></TextView>  
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_marginTop="10dp"
+    android:layout_height="wrap_content" >
+
+ <ImageView
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:src="@drawable/shamanadept" >
+
+</ImageView> 
+
+ <TextView
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:layout_gravity="center_vertical"
+     android:text="      专家级萨满训练 Shaman Adept Training"
+     android:textColor="#000" />
+
+</LinearLayout>
+
+ <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content" 
+            android:layout_span="6"     
+            android:text="        提高萨满祭司100点魔法值，魔法恢复速度+30%，生命值+40，允许施放闪电盾牌。 "  
+            android:gravity="left"  
+         >
+</TextView>
+
+  <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"   
+            android:text="        研究费用：100/50；研究地点：灵魂归宿；研究时间：60s"  
+            android:gravity="left"  
+         >
+</TextView> 
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_marginTop="10dp"
+    android:layout_height="wrap_content" >
+
+ <ImageView
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:src="@drawable/shamanmaster" >
+
+</ImageView> 
+
+ <TextView
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:layout_gravity="center_vertical"
+     android:text="      大师级萨满训练 Shaman Master Training"
+     android:textColor="#000" />
+
+</LinearLayout>
+
+ <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content" 
+            android:layout_span="6"     
+            android:text="        进一步提高萨满祭司100点魔法值，魔法恢复速度+30%，生命值+40，允许施放嗜血术。 "  
+            android:gravity="left"  
+         >
+</TextView>
+
+  <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"   
+            android:text="        研究费用：100/150；研究地点：灵魂归宿；需求：专家级萨满训练，堡垒；研究时间：75s"  
+            android:gravity="left"  
+         >
+</TextView> 
+
+</LinearLayout>
+</ScrollView>
+</LinearLayout>

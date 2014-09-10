@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#eee"
+        android:orientation="vertical" >
+        
+        <LinearLayout 
+  			android:layout_width="fill_parent"
+  			android:layout_height="45dp"
+  			android:id="@+id/title" 
+  			android:background="@drawable/title_bar"
+  			android:gravity="center_horizontal|center_vertical"  >  
+      		<TextView 
+        		android:layout_width="wrap_content" 
+        		android:layout_height="wrap_content" 
+        		android:text="坟场"
+        		android:textSize="20sp"		
+				android:textColor="#ffffff" />       
+			</LinearLayout>
+<ScrollView 
+
+    android:layout_width="fill_parent" 
+    android:layout_height="fill_parent"
+    android:background="#eee"
+>
+<LinearLayout 
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    >
+ 
+ <ImageView
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:layout_gravity="center"
+     android:layout_marginBottom="10dp"
+     android:layout_marginTop="10dp"
+     android:gravity="left"
+     android:src="@drawable/graveyard" >
+
+      </ImageView>
+
+<TextView  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="介绍"  
+            android:gravity="left"
+             android:textColor="#0000CC"
+            android:textSize="18sp"   
+            ></TextView>  
+<TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="        提供对不死的攻防升级。同时也会生产尸体，存放木材。 "  
+            android:gravity="left"  
+           ></TextView>  
+<TextView  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="数据"  
+            android:gravity="left"
+            android:textColor="#0000CC"
+            android:layout_marginTop="10dp"
+            android:textSize="18sp"  
+         ></TextView>  
+       
+      <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="费用:215/0 "  
+            android:gravity="left" 
+            android:layout_span="1" 
+           ></TextView>
+
+    
+      <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="生命值:900"  
+            android:gravity="left" 
+            android:layout_span="1" 
+           ></TextView>
+     
+      <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="护甲:5"  
+            android:gravity="left" 
+            android:layout_span="1" 
+           ></TextView>
+
+     
+      <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="护甲类型:城甲 "  
+            android:gravity="left" 
+            android:layout_span="1" 
+           ></TextView>
+
+ 
+      
+      <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="视野：90/60 "  
+            android:gravity="left" 
+            android:layout_span="1" 
+           ></TextView>
+
+      <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="建造时间：80"  
+            android:gravity="left" 
+            android:layout_span="1" 
+           ></TextView> 
+
+
+
+<TextView  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="可升级"
+            android:layout_marginTop="10dp"
+            android:textColor="#0000CC"
+            android:textSize="18sp"   
+            android:gravity="left"  
+         ></TextView> 
+<LinearLayout
+     android:layout_width="fill_parent"
+     android:layout_height="wrap_content"
+     android:layout_alignParentBottom="true"
+     android:paddingBottom="2dp"            
+   >
+        	 <LinearLayout
+            	android:layout_width="wrap_content"
+            	android:layout_height="wrap_content"
+              	android:gravity="center_horizontal"
+              	android:layout_marginTop="10dp"
+              	android:orientation="vertical"
+              	android:layout_weight="1">    
+              	<TextView
+            		android:layout_width="wrap_content"
+            		android:layout_height="wrap_content"
+            		android:text="邪恶力量"
+            		android:textColor="#000"
+            		android:textSize="12sp" />             	
+                <ImageView
+            		android:id="@+id/img_friends"
+        			android:layout_width="wrap_content"
+        			android:layout_height="wrap_content"        	     	
+        			android:scaleType="matrix"
+        			android:clickable="true"
+        			android:layout_marginTop="5dp"
+        			android:src="@drawable/unholystrength" />
+                <ImageView
+            		android:id="@+id/img_friends"
+        			android:layout_width="wrap_content"
+        			android:layout_height="wrap_content"        	     	
+        			android:scaleType="matrix"
+        			android:layout_marginTop="5dp"
+        			android:clickable="true"
+        			android:src="@drawable/improvedunholystrength" />
+                <ImageView
+            		android:id="@+id/img_friends"
+        			android:layout_width="wrap_content"
+        			android:layout_height="wrap_content"        	     	
+        			android:scaleType="matrix"
+        			android:layout_marginTop="5dp"
+        			android:clickable="true"
+        			android:src="@drawable/advancedunholystrength" 
+        			/>  
+                
+                              
+        	 </LinearLayout>
+        	<LinearLayout
+            	android:layout_width="wrap_content"
+            	android:layout_height="wrap_content"
+              	android:gravity="center_horizontal"
+              	android:layout_marginTop="10dp"
+              	android:orientation="vertical"
+              	android:layout_weight="1">    
+              	<TextView
+            		android:layout_width="wrap_content"
+            		android:layout_height="wrap_content"
+            		android:text="邪恶装甲"
+            		android:textColor="#000"
+            		android:textSize="12sp" />             	
+                <ImageView
+            		android:id="@+id/img_friends"
+        			android:layout_width="wrap_content"
+        			android:layout_height="wrap_content"        	     	
+        			android:scaleType="matrix"
+        			android:clickable="true"
+        			android:layout_marginTop="5dp"
+        			android:src="@drawable/unholyarmor" />
+                <ImageView
+            		android:id="@+id/img_friends"
+        			android:layout_width="wrap_content"
+        			android:layout_height="wrap_content"        	     	
+        			android:scaleType="matrix"
+        			android:layout_marginTop="5dp"
+        			android:clickable="true"
+        			android:src="@drawable/improvedunholyarmor" />
+                <ImageView
+            		android:id="@+id/img_friends"
+        			android:layout_width="wrap_content"
+        			android:layout_height="wrap_content"        	     	
+        			android:scaleType="matrix"
+        			android:clickable="true"
+        			android:layout_marginTop="5dp"
+        			android:src="@drawable/advancedunholyarmor" />
+                
+                              
+        	 </LinearLayout>
+        	 <LinearLayout
+            	android:layout_width="wrap_content"
+            	android:layout_height="wrap_content"
+              	android:gravity="center_horizontal"
+              	android:layout_marginTop="10dp"
+              	android:orientation="vertical"
+              	android:layout_weight="1">    
+              	<TextView
+            		android:layout_width="wrap_content"
+            		android:layout_height="wrap_content"
+            		android:text="生物攻击"
+            		android:textColor="#000"
+            		android:textSize="12sp" />             	
+                <ImageView
+            		android:id="@+id/img_friends"
+        			android:layout_width="wrap_content"
+        			android:layout_height="wrap_content"        	     	
+        			android:scaleType="matrix"
+        			android:clickable="true"
+        			android:layout_marginTop="5dp"
+        			android:src="@drawable/creatureattack" />
+                <ImageView
+            		android:id="@+id/img_friends"
+        			android:layout_width="wrap_content"
+        			android:layout_height="wrap_content"        	     	
+        			android:scaleType="matrix"
+        			android:clickable="true"
+        			android:layout_marginTop="5dp"
+        			android:src="@drawable/improvedcreatureattack" />
+                <ImageView
+            		android:id="@+id/img_friends"
+        			android:layout_width="wrap_content"
+        			android:layout_height="wrap_content"        	     	
+        			android:scaleType="matrix"
+        			android:clickable="true"
+        			android:layout_marginTop="5dp"
+        			android:src="@drawable/advancedcreatureattack" />
+                
+                              
+        	 </LinearLayout>
+        	 <LinearLayout
+            	android:layout_width="wrap_content"
+            	android:layout_height="wrap_content"
+              	android:gravity="center_horizontal"
+              	android:layout_marginTop="10dp"
+              	android:orientation="vertical"
+              	android:layout_weight="1">    
+              	<TextView
+            		android:layout_width="wrap_content"
+            		android:layout_height="wrap_content"
+            		android:text="生物甲壳"
+            		android:textColor="#000"
+            		android:textSize="12sp" />             	
+                <ImageView
+            		android:id="@+id/img_friends"
+        			android:layout_width="wrap_content"
+        			android:layout_height="wrap_content"        	     	
+        			android:scaleType="matrix"
+        			android:layout_marginTop="5dp"
+        			android:clickable="true"
+        			android:src="@drawable/creaturecarapace" />
+                <ImageView
+            		android:id="@+id/img_friends"
+        			android:layout_width="wrap_content"
+        			android:layout_height="wrap_content"        	     	
+        			android:scaleType="matrix"
+        			android:layout_marginTop="5dp"
+        			android:clickable="true"
+        			android:src="@drawable/improvedcreaturecarapace" />
+                <ImageView
+            		android:id="@+id/img_friends"
+        			android:layout_width="wrap_content"
+        			android:layout_height="wrap_content"        	     	
+        			android:scaleType="matrix"
+        			android:clickable="true"
+        			android:layout_marginTop="5dp"
+        			android:src="@drawable/advancedcreaturecarapace" />
+                
+                              
+        	 </LinearLayout>
+</LinearLayout>
+
+
+</LinearLayout>
+</ScrollView>
+</LinearLayout>

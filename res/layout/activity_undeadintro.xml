@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#eee"
+        android:orientation="vertical" >
+        
+        <LinearLayout 
+  			android:layout_width="fill_parent"
+  			android:layout_height="45dp"
+  			android:id="@+id/title" 
+  			android:background="@drawable/title_bar"
+  			android:gravity="center_horizontal|center_vertical"  >  
+      		<TextView
+        		android:layout_width="wrap_content" 
+        		android:layout_height="wrap_content" 
+        		android:text="不死族"
+        		android:textSize="20sp"		
+				android:textColor="#ffffff" />       
+			</LinearLayout>
+<ScrollView 
+
+    android:id="@+id/ScrollView01" 
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content"
+>
+
+<LinearLayout 
+            android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >  
+
+<ImageView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:layout_marginTop="10dp"
+    android:layout_marginBottom="10dp"
+    android:src="@drawable/undeadseal" >
+
+</ImageView> 
+     
+    <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"  
+            android:textStyle="bold"  
+            android:typeface="serif"  
+            android:textSize="18sp"  
+            android:text="简介"  
+            
+    android:layout_marginBottom="10dp"
+            android:gravity="left"  
+             ></TextView>  
+
+
+        
+    <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="        恐怖的不死军队，被称作天灾，由成千上万的僵尸、亡灵、接触瘟疫的人类和扭曲冥界 的邪恶力量。为了燃烧军团预期入侵，将恐怖散布到这个世界，他们制造了天灾。不死军团由位于冰冷的诺森德的冰封王座内的巫妖王耐奥祖支配。耐奥祖将他的瘟疫能量灌入许多被称为‘瘟疫之源’的神器中，并命令克尔苏加德将这些神器带往洛丹伦，隐藏在那些被教派控制的村庄中。这些被忠诚的教徒保护着的瘟疫之源将作为产生瘟疫的源泉，源源不断地放出瘟疫，横扫洛丹伦北部的城市和村庄。巫妖王的计划运作得十分成功。许多洛丹伦北部的村民几乎是瞬间就被感染了。与诺森德一样，接触瘟疫的人类死去，变成对巫妖王唯命是从的奴隶。不死族使用强大的诅咒魔法和元素力量来对付他们的敌人。"  
+            android:gravity="left"  
+             ></TextView>  
+
+
+        
+    <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="        亡灵是一支十分平衡的势力--它的地面部队和空军都很强大。它们的法师掌握着许多威力十足的魔法，包括能操纵死去的战士作战的恐怖魔法。亡灵可以用这种方式控制数量远多于其他种族的部队。"  
+            android:gravity="left"  
+             ></TextView>  
+      
+    <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"  
+            android:textStyle="bold"  
+            android:typeface="serif"  
+            android:textSize="18sp"  
+            android:text="优势"  
+            android:layout_marginTop="10dp"
+    android:layout_marginBottom="10dp"
+            android:gravity="left"  
+             ></TextView>  
+    
+    <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"  
+            android:textStyle="bold"  
+            android:typeface="serif"  
+            android:textSize="16sp"  
+            android:text="召唤建筑物"  
+            android:gravity="left"  
+             ></TextView>  
+
+
+        
+    <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="        亡灵并不建造建筑物，而是召唤它们。当一个侍僧被告知要建造某座建筑物时，他就开始施放召唤法术，然后建筑物逐渐地成型。在这段时间里，侍僧可以离开去做别的事情，因为当建筑物被召唤时侍僧无需站在一边等候。亡灵也可以回收它们的建筑物以获得一部分建造这座建筑物时花费的资源。"  
+            android:gravity="left"  
+             ></TextView>  
+      
+    <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"  
+            android:textStyle="bold"  
+            android:typeface="serif"  
+            android:textSize="16sp"  
+            android:text="尸体"  
+            android:gravity="left"  
+             ></TextView>  
+
+
+        
+    <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="        亡灵在黄金和木材之外还收集尸体作为第三种资源。尸体并非用来购买部队或者建造建筑物，而是用来提高亡灵的战斗力。亡灵巫师可以使用尸体制造出骷髅战士，食尸鬼则可以通过吞吃尸体快速回复生命值。地面上的尸体会逐渐腐烂消失，但亡灵可以把尸体保存在绞肉车中以保证它们永远也不会消失。当亡灵需要尸体时，它们可以从绞肉车中卸下尸体。"  
+            android:gravity="left"  
+             ></TextView>  
+
+   
+    <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"  
+            android:textStyle="bold"  
+            android:typeface="serif"  
+            android:textSize="16sp"  
+            android:text="防御"  
+            android:gravity="left"  
+             ></TextView>  
+
+
+        
+    <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="        不死族的坚硬的防御归功于他们的幽魂之塔和有着加强护甲的主基地，即使在战斗时也可以修复。"  
+            android:gravity="left"  
+             ></TextView>  
+      
+    <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"  
+            android:textStyle="bold"  
+            android:typeface="serif"  
+            android:textSize="16sp"  
+            android:text="钻地/石像形态"  
+            android:gravity="left"  
+             ></TextView>  
+
+
+        
+    <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="        地穴恶魔可以钻入地下来躲避敌人的攻击，同时提高生命恢复速度。石像形态对于石像鬼的生命恢复非常有用。 "  
+            android:gravity="left"  
+             ></TextView>  
+    
+    <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"  
+            android:textStyle="bold"  
+            android:typeface="serif"  
+            android:textSize="16sp"  
+            android:text="再生"  
+            android:gravity="left"  
+             ></TextView>  
+
+
+        
+    <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="        不死族可以带着十胜石雕像来恢复部队的生命和魔法。"  
+            android:gravity="left"  
+             ></TextView>  
+
+
+
+  
+ 
+
+</LinearLayout>
+</ScrollView></LinearLayout>

@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#eee"
+        android:orientation="vertical" >
+        
+        <LinearLayout 
+  			android:layout_width="fill_parent"
+  			android:layout_height="45dp"
+  			android:id="@+id/title" 
+  			android:background="@drawable/title_bar"
+  			android:gravity="center_horizontal|center_vertical"  >  
+      <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="返回" 
+        android:onClick="backv4"
+        />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="不死族VS不死族"
+        android:gravity="center|center_horizontal|center_vertical"
+        android:textColor="#ffffff"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="点我" 
+        android:onClick="clickv4"
+        />    
+			</LinearLayout>
+<ScrollView 
+
+    android:id="@+id/ScrollView01" 
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content"
+
+>
+
+<LinearLayout 
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    >
+     
+    <TextView  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"  
+            android:textStyle="bold"  
+            android:typeface="serif"  
+            android:textSize="18sp"  
+            android:text="UD内战"  
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"  
+            android:gravity="left"  
+            android:textColor="#000"></TextView>  
+
+
+        
+    <TextView  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"    
+            android:text="        最热门的，有2种路线。1是ZZ流开局，或科技ZZ流开局，另外一种是狗流开局。（这2种详细讲解）。还有爆天鬼，速冰龙，双BC狗RUSH，2本RUSH，骷髅海，绿油油，对射ZZ，拼天鬼，混合部队等，下面为大家一一道来。"  
+            android:gravity="left"  
+            android:textColor="#000"></TextView>  
+
+      
+    <TextView  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"  
+            android:textStyle="bold"  
+            android:typeface="serif"  
+            android:textSize="18sp"  
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"  
+            android:text="常规ZZ流开局"  
+            android:gravity="left"  
+            android:textColor="#000"></TextView>  
+
+
+        
+    <TextView  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"    
+            android:text="        现在很少人这样了。UD内战讲求的是速科技，3本带球的lich成为了火力的代言词。而这招，被狗流搞一搞农民，科技就更慢了。唯一的好处就是面对对手开矿，或少G攀3本，可以选择2本压制，有机会把对手压死。开局和打ORC一样，尽量不封家，不然被杀农民的时候农民不好周旋。多派骷髅探路，不是探他基地，而是探他MF点和他基地来你基地的必经之路。当然之后才轮到探他基地了。由于没有对手来3陪，DK的C可以拿来帮ZZ补血和C怪，所以肉盾骷髅的数量不需要太多。2本时出了2发lich就可以去找对手交战了。有场REP是TeD双BC狗RUSH掉常规ZZ流的UD。碰到这种最好第1时间升冰红塔。"  
+            android:gravity="left"  
+            android:textColor="#000"></TextView>  
+
+     
+    <TextView  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"  
+            android:textStyle="bold"  
+            android:typeface="serif"  
+            android:textSize="18sp"  
+            android:text="科技ZZ流"  
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"  
+            android:gravity="left"  
+            android:textColor="#000"></TextView>  
+
+
+        
+    <TextView  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"    
+            android:text="        和打人族的开局一样，前期农民探路，然后DK杀死小动物，变出2个骷髅就去对手家里骚扰。如果对手也是ZZ流就更爽了，再召唤多2个骷髅。DK的C不要省，骷髅红血也帮忙C下，2组骷髅分别打2个农民。如果对手是在外MF的，基地顾不及很大可能会被杀死1~2个农民，对后续科技的打击非常大。对手回防后DK可以闪，ZZ数量不够3个的，可以先MF小点，DK也可以选择继续3陪，黄血就闪人。科技ZZ讲求的是科技快，2本时是MF时期，尽量练黄点甚至红点，DK到3就给Lich独拿经验，lich到3优势是非常明显的。然后到3本有3种选择，ZZ毁灭，ZZ胖子棺材，ZZ棺材冰龙。前者讲求的是爆发里，见面一波把对手打退或打残，然后自己立刻买出3发狂MF。而中间的，则是讲求一个耗。不断和对手交战，把对手耗死。后者，则是人口越多越有利。因为人口少，冰龙一见面直接被网下，ZZ齐射一个N，5J DK也救不回来，但人口多的时候，冰龙的生存能力明显要强大很多，而且冰龙的强大程度也不用多说，1~2条冰龙+ZZ一起喷一个ZZ，能迅速削弱对手兵力。注意大战的时候，点射对手的ZZ，黄血的时候一个N，自己被对手点射的目标要第1时间拉后。也可以看他LICH残血，然后沉默他DK再给他LICH一个NOVA的。"  
+            android:gravity="left"  
+            android:textColor="#000"></TextView>  
+
+     
+    <TextView  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"  
+            android:textStyle="bold"  
+            android:typeface="serif"  
+            android:textSize="18sp"  
+            android:text="狗流开局"  
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"  
+            android:gravity="left"  
+            android:textColor="#000"></TextView>  
+
+
+        
+    <TextView  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"    
+            android:text="        常见于LICH首发。前期练2后，拖一波狗去对手基地屠农，这时对手大概刚升2本，碰到LICH带狗不死2个农民似乎也说不过去。这波屠农结束，无论对手有没退本，唯一的事实就是，这波赚大了。接下来LICH拖上剩余满血的狗，继续MF，最好能练到3级，然后去商店买鞋买单传（MF中尽量R骷髅把自己的魔法补满）然后继续去对手基地一A一N带走农民，他回防就单传闪人。2本后有2种思路，狗+天鬼毁灭。又或者是转ZZ。无论是哪种，先升到3本再说，通常是2发DK，也有对拼天鬼时用2发DL的。这时出个阴影，LICH继续单独行动，捉准时机去对手家继续屠农，或N他MF完拖回家的残血小G，DK继续练3。顺利的话3本就会很好打了。注意的几点是，去对手家屠农之前派个骷髅去探探路。屠农时最好分狗打农民，至于N，等他一起拖农民，农民走到一起的时候，再N，这样就能N多1~2个农民。如果对手在基地，则转而去MF小点，发现对手在MF黄点，捉MF往往比去他基地杀农民更有价值。3本后，就是MF时期。由于对手的经济被打击，所以兵力肯定不会多，狗流那方只需要憋到50人口买好道具（无敌等）然后利用阴影捉2次对手MF，一波就可以击败对手了。大战：天地鬼+毁灭打ZZ冰龙，最好是空军比狂狗慢一步冲。Lich先给他一个N，狗冲上，他ZZ就会拉后，然后你天鬼再冲上去，可以避免给他的ZZ网住再拉后打。3发如果是DL，还可以催眠他的冰龙，他A醒必然又要浪费多一番操作。"  
+            android:gravity="left"  
+            android:textColor="#000"></TextView>  
+
+     
+    <TextView  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"  
+            android:textStyle="bold"  
+            android:typeface="serif"  
+            android:textSize="18sp"  
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"  
+            android:text="内战拼lich天鬼"  
+            android:gravity="left"  
+            android:textColor="#000"></TextView>  
+
+
+        
+    <TextView  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"    
+            android:text="        以前内战的常规战术，曾经风靡一时，但现在几乎没人用了。lich的Nova配合天鬼的点射，就像先知飞龙去UD家屠农一样快速。而大战天鬼抢占的制空权，更是使亡灵的3本毁灭冰龙等强力空军无用武之地。前期BC BZ BA，拼狗，2本开始双BC天鬼MF或配合阴影捉MF。大战时尽量把自己部队拉后引他过来，然后LICH一个N，天鬼再扑回去。群防群补是必须的，在TM等图还可以偷下红龙等，Lich到5级，作用比半队天鬼要大。"  
+            android:gravity="left"  
+            android:textColor="#000"></TextView>  
+
+    
+    <TextView  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"  
+            android:textStyle="bold"  
+            android:typeface="serif"  
+            android:textSize="18sp"  
+            android:text="速冰龙"  
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"  
+            android:gravity="left"  
+            android:textColor="#000"></TextView>  
+
+
+        
+    <TextView  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"    
+            android:text="        怎么说呢，只能说是比较偷，同水平胜算不大。通常是狗流开局，M下F，杀下农民。3本时直接2BB出冰龙，升2攻。憋到4条先MF一下然后直接一波进攻。对手ZZ也打不过。不排除有高手网下你的冰龙后拉后点死，又或者是提前发现然后转天鬼或毁灭的。"  
+            android:gravity="left"  
+            android:textColor="#000"></TextView>  
+
+      
+    <TextView  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"  
+            android:textStyle="bold"  
+            android:typeface="serif"  
+            android:textSize="18sp"  
+            android:text="骷髅海"  
+            android:gravity="left"  
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"  
+            android:textColor="#000"></TextView>  
+
+
+        
+    <TextView  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"    
+            android:text="        大招之一。前期狗流开局，2本直接双BT出男巫，1BH出棺材。出到半队直接带骷髅棒拖上所有小G去对手基地。千万不要小看这招威力，去到的时候，6个骷髅法师应该能召唤2次骷髅。第1次是在对手坟场召唤出10个骷髅战士，先把对手的商店打爆，防止变毁灭（没有商店UD不能研究毁灭形态）这样对手没有驱散，赢得会比较轻松。倒下一只小G，诞生2个骷髅战士。自己部队最好往对手基地深处移动，外面骷髅挡，小G在里面杀农民+拆他正在变的红塔。这招最好是速2本，讲究的就是速度，尽量在他研究毁灭形态之前把他商店拆掉。"  
+            android:gravity="left"  
+            android:textColor="#000"></TextView>  
+     
+    <TextView  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"  
+            android:textStyle="bold"  
+            android:typeface="serif"  
+            android:textSize="18sp"  
+            android:text="2本RUSH"  
+            android:gravity="left"  
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"  
+            android:textColor="#000"></TextView>  
+
+
+        
+    <TextView  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"    
+            android:text="        同样是大招之一。前期BC BZ，出第3个和尚探路。然后就升2本了BZ升个冰塔，BC一直补G，然后造BA BZ BZ。快到2本的时候，就有8个小G左右。直接去酒馆买出FL和TK（瞬间增加兵力）压向对手家。如果对手是ZZ流，4~5个ZZ，如果是狗流，7个小G左右，面对这么庞大的军队，通常顶不住的。打意识不强的人比较有效果，如果是前期侦察到你开局，直接过来搞你农民，那么利用冰塔和小G尽量围杀他英雄，如果围不到。。那么就悲剧了。大招嘛，就是打对手一个出奇不意。"  
+            android:gravity="left"  
+            android:textColor="#000"></TextView>  
+
+      
+    <TextView  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"  
+            android:textStyle="bold"  
+            android:typeface="serif"  
+            android:textSize="18sp"  
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"  
+            android:text="小强RUSH流"  
+            android:gravity="left"  
+            android:textColor="#000"></TextView>  
+
+
+        
+    <TextView  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"    
+            android:text="        非常强势的一波进攻。前期常规ZZ流开局，CL MF为主，然后补双BC，半队小G开始转ZZ，升1攻。CL有小小强，MF还是比较快的，技能学召唤甲虫，+防这样加上去。CL一练到3，立刻买多个骷髅棒进攻对手基地。这时兵力大概是5个ZZ+半队小G+5个小小强+4个骷髅，而对手则是2~4个小G+4~5个ZZ+DK，可能LICH正在建造。如果他是科技ZZ流，ZZ可能要更少一些。对手的兵力是很难和你抗衡的，部队一火拼，他的兵力很快就被磨光。除非是立刻缩进基地里，然后变2根红塔，这样才有希望翻盘。"  
+            android:gravity="left"  
+            android:textColor="#000"></TextView>  
+     
+    <TextView  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"  
+            android:textStyle="bold"  
+            android:typeface="serif"  
+            android:textSize="18sp"  
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"  
+            android:text="混合部队"  
+            android:gravity="left"  
+            android:textColor="#000"></TextView>  
+
+
+        
+    <TextView  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"    
+            android:text="        非常考验操作。胖子ZZ毁灭冰龙法师，甚至是拖上采木的小G全家老小一波大战。这波讲求的是爆发力，第1时间点死点残对方的重要单位。但也要学会拖，边拖边打。编队够合理的话，后期的大战将会产生更强大的威力。"  
+            android:gravity="left"  
+            android:textColor="#000"></TextView>  
+
+      
+    <TextView  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"  
+            android:textStyle="bold"  
+            android:typeface="serif"  
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"  
+            android:textSize="18sp"  
+            android:text="其他战术"  
+            android:gravity="left"  
+            android:textColor="#000"></TextView>  
+
+
+        
+    <TextView  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"    
+            android:text="        还有什么野墓地开矿，1本DL 双BC狗开矿玛塔，空投投石车骚扰，单DL学蜂群屠农的，只要有创意，任何大招尽在手中。"  
+            android:gravity="left"  
+            android:textColor="#000"></TextView>  
+
+
+
+</LinearLayout>
+</ScrollView>
+</LinearLayout>

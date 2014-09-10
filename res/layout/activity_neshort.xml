@@ -1,0 +1,472 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#eee"
+        android:orientation="vertical" >
+        
+        <LinearLayout 
+  			android:layout_width="fill_parent"
+  			android:layout_height="45dp"
+  			android:id="@+id/title" 
+  			android:background="@drawable/title_bar"
+  			android:gravity="center_horizontal|center_vertical"  >  
+      		<TextView
+        		android:layout_width="wrap_content" 
+        		android:layout_height="wrap_content" 
+        		android:text="精灵族快捷键"
+        		android:textSize="20sp"		
+				android:textColor="#ffffff" />       
+			</LinearLayout>
+<ScrollView 
+
+    android:id="@+id/ScrollView01" 
+    android:layout_width="fill_parent" 
+    android:layout_height="fill_parent"
+>
+
+<LinearLayout
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin" 
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >  
+<TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"  
+            android:textStyle="bold"  
+            android:typeface="serif"  
+            android:textSize="18sp"  
+            android:text="基本快捷键（共有）"  
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:gravity="left"  
+           ></TextView>
+		<TextView android:textColor="#000"  
+			android:layout_width="wrap_content"  
+			android:layout_height="wrap_content"    
+			android:text="        A--攻击"  
+			android:gravity="left"  
+		></TextView>
+		<TextView android:textColor="#000"  
+			android:layout_width="wrap_content"  
+			android:layout_height="wrap_content"    
+			android:text="        B--建造/主基地升级背包技能"  
+			android:gravity="left"  
+		></TextView> 
+		<TextView android:textColor="#000"  
+			android:layout_width="wrap_content"  
+			android:layout_height="wrap_content"    
+			android:text="        G--攻城单位攻击指定区域/所有农民采集"  
+			android:gravity="left"  
+		></TextView> 
+		<TextView android:textColor="#000"  
+			android:layout_width="wrap_content"  
+			android:layout_height="wrap_content"    
+			android:text="        H--停止"  
+			android:gravity="left"  
+		></TextView> 
+		<TextView android:textColor="#000"  
+			android:layout_width="wrap_content"  
+			android:layout_height="wrap_content"    
+			android:text="        M--移动/各族商店魔法药水"  
+			android:gravity="left"  
+		></TextView>
+		<TextView android:textColor="#000"  
+			android:layout_width="wrap_content"  
+			android:layout_height="wrap_content"    
+			android:text="        O--英雄技能选择"  
+			android:gravity="left"  
+		></TextView> 
+		<TextView android:textColor="#000"  
+			android:layout_width="wrap_content"  
+			android:layout_height="wrap_content"    
+			android:text="        P--巡逻/各族商店生命药水"  
+			android:gravity="left"  
+		></TextView> 
+		<TextView android:textColor="#000"  
+			android:layout_width="wrap_content"  
+			android:layout_height="wrap_content"    
+			android:text="        R--修理"  
+			android:gravity="left"  
+		></TextView>  
+		<TextView android:textColor="#000"  
+			android:layout_width="wrap_content"  
+			android:layout_height="wrap_content"    
+			android:text="        S--停止(与HOLD的不同就是单位被按过STOP会待机并自动追击敌对单位)"  
+			android:gravity="left"  
+		></TextView>
+		<TextView android:textColor="#000"  
+			android:layout_width="wrap_content"  
+			android:layout_height="wrap_content"    
+			android:text="        T--各族商店传送卷轴"  
+			android:gravity="left"  
+		></TextView> 
+		<TextView android:textColor="#000"  
+			android:layout_width="wrap_content"  
+			android:layout_height="wrap_content"    
+			android:text="        U--主基升级/商店选择使用者"  
+			android:gravity="left"  
+		></TextView> 
+		<TextView android:textColor="#000"  
+			android:layout_width="wrap_content"  
+			android:layout_height="wrap_content"    
+			android:text="        Y--集结点设定"  
+			android:gravity="left"  
+		></TextView>  
+	<TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"  
+            android:textStyle="bold"  
+            android:typeface="serif"  
+            android:textSize="18sp"  
+            android:text="精灵族快捷键"  
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:gravity="left"  
+           ></TextView>
+		<TextView android:textColor="#000"  
+			android:layout_width="wrap_content"  
+			android:layout_height="wrap_content"    
+			android:text="特殊:R-古树起立，I-女性单位隐身"  
+			android:gravity="left"  
+		></TextView>
+		<TextView android:textColor="#000"  
+			android:layout_width="wrap_content"  
+			android:layout_height="wrap_content"    
+			android:text="生命之树主基地Tree of Life （BT）"  
+			android:gravity="left"  
+		></TextView>
+		<TextView android:textColor="#000"  
+			android:layout_width="wrap_content"  
+			android:layout_height="wrap_content"    
+			android:text="        W——小精灵(自爆(D)"  
+			android:gravity="left"  
+		></TextView>
+		<TextView android:textColor="#000"  
+			android:layout_width="wrap_content"  
+			android:layout_height="wrap_content"    
+			android:text="        研究自然之祝福(N)"  
+			android:gravity="left"  
+		></TextView>
+		<TextView android:textColor="#000"  
+			android:layout_width="wrap_content"  
+			android:layout_height="wrap_content"    
+			android:text="        吞噬树木(E)"  
+			android:gravity="left"  
+		></TextView>
+		<TextView android:textColor="#000"  
+			android:layout_width="wrap_content"  
+			android:layout_height="wrap_content"    
+			android:text="        缠绕金矿(G)"  
+			android:gravity="left"  
+		></TextView>
+		<TextView android:textColor="#000"  
+			android:layout_width="wrap_content"  
+			android:layout_height="wrap_content"    
+			android:text="长者祭坛Altar of Elders （BA）"  
+			android:gravity="left"  
+		></TextView>
+		<TextView android:textColor="#000"  
+			android:layout_width="wrap_content"  
+			android:layout_height="wrap_content"    
+			android:text="        D——恶魔猎手（法力燃烧(B)，激活献祭(L)，闪避(E)，变身恶魔(T)）"  
+			android:gravity="left"  
+		></TextView>
+		<TextView android:textColor="#000"  
+			android:layout_width="wrap_content"  
+			android:layout_height="wrap_content"    
+			android:text="        K——丛林守护者（纠缠根须(E)，自然之力(F)，荆棘光环(R)，宁静(T)）"  
+			android:gravity="left"  
+		></TextView>
+		<TextView android:textColor="#000"  
+			android:layout_width="wrap_content"  
+			android:layout_height="wrap_content"    
+			android:text="        P——月亮女祭司（侦察(C)，灼热之箭(R)，强击光环(T)，群星坠落(F)）"  
+			android:gravity="left"  
+		></TextView>
+		<TextView android:textColor="#000"  
+			android:layout_width="wrap_content"  
+			android:layout_height="wrap_content"    
+			android:text="        W——守望者（刀阵旋风(F)，闪烁(B)，暗影突袭(D)，复仇之魂(V)）"  
+			android:gravity="left"  
+		></TextView>
+		<TextView android:textColor="#000"  
+			android:layout_width="wrap_content"  
+			android:layout_height="wrap_content"    
+			android:text="        月井Moon Well （BM）"  
+			android:gravity="left"  
+		></TextView>
+		<TextView android:textColor="#000"  
+			android:layout_width="wrap_content"  
+			android:layout_height="wrap_content"    
+			android:text="        补充HP/MP(R)"  
+			android:gravity="left"  
+		></TextView>
+		<TextView android:textColor="#000"  
+			android:layout_width="wrap_content"  
+			android:layout_height="wrap_content"    
+			android:text="战争古树Ancient of War （BR）"  
+			android:gravity="left"  
+		></TextView>
+		<TextView android:textColor="#000"  
+			android:layout_width="wrap_content"  
+			android:layout_height="wrap_content"    
+			android:text="        A——弓箭手（骑乘角鹰兽(U)）"  
+			android:gravity="left"  
+		></TextView>
+		<TextView android:textColor="#000"  
+			android:layout_width="wrap_content"  
+			android:layout_height="wrap_content"    
+			android:text="        研究硬弓(I)"  
+			android:gravity="left"  
+		></TextView>
+		<TextView android:textColor="#000"  
+			android:layout_width="wrap_content"  
+			android:layout_height="wrap_content"    
+			android:text="        研究射击术(M)"  
+			android:gravity="left"  
+		></TextView>
+		<TextView android:textColor="#000"  
+			android:layout_width="wrap_content"  
+			android:layout_height="wrap_content"    
+			android:text="        H——女猎手（哨兵(E)）"  
+			android:gravity="left"  
+		></TextView>
+		<TextView android:textColor="#000"  
+			android:layout_width="wrap_content"  
+			android:layout_height="wrap_content"    
+			android:text="        升级月刃(G)"  
+			android:gravity="left"  
+		></TextView>
+		<TextView android:textColor="#000"  
+			android:layout_width="wrap_content"  
+			android:layout_height="wrap_content"    
+			android:text="        T——投刃车"  
+			android:gravity="left"  
+		></TextView>
+		<TextView android:textColor="#000"  
+			android:layout_width="wrap_content"  
+			android:layout_height="wrap_content"    
+			android:text="        研究穿刺剑刃(P)"  
+			android:gravity="left"  
+		></TextView>
+		<TextView android:textColor="#000"  
+			android:layout_width="wrap_content"  
+			android:layout_height="wrap_content"    
+			android:text="猎手大厅Hunter's Hall （BH ）"  
+			android:gravity="left"  
+		></TextView>
+		<TextView android:textColor="#000"  
+			android:layout_width="wrap_content"  
+			android:layout_height="wrap_content"    
+			android:text="        M——月之力量"  
+			android:gravity="left"  
+		></TextView>
+		<TextView android:textColor="#000"  
+			android:layout_width="wrap_content"  
+			android:layout_height="wrap_content"    
+			android:text="        A——月之护甲"  
+			android:gravity="left"  
+		></TextView>
+		<TextView android:textColor="#000"  
+			android:layout_width="wrap_content"  
+			android:layout_height="wrap_content"    
+			android:text="        W——野性力量"  
+			android:gravity="left"  
+		></TextView>
+		<TextView android:textColor="#000"  
+			android:layout_width="wrap_content"  
+			android:layout_height="wrap_content"    
+			android:text="        R——加强隐藏"  
+			android:gravity="left"  
+		></TextView>
+		<TextView android:textColor="#000"  
+			android:layout_width="wrap_content"  
+			android:layout_height="wrap_content"    
+			android:text="        U——夜视能力"  
+			android:gravity="left"  
+		></TextView>
+		<TextView android:textColor="#000"  
+			android:layout_width="wrap_content"  
+			android:layout_height="wrap_content"    
+			android:text="        E——月井之春"  
+			android:gravity="left"  
+		></TextView>
+		<TextView android:textColor="#000"  
+			android:layout_width="wrap_content"  
+			android:layout_height="wrap_content"    
+			android:text="        奇迹古树Ancient of Wonder （BD）"  
+			android:gravity="left"  
+		></TextView>
+		<TextView android:textColor="#000"  
+			android:layout_width="wrap_content"  
+			android:layout_height="wrap_content"    
+			android:text="        N——月亮石(N)"  
+			android:gravity="left"  
+		></TextView>
+		<TextView android:textColor="#000"  
+			android:layout_width="wrap_content"  
+			android:layout_height="wrap_content"    
+			android:text="        C——小净化药水(C)"  
+			android:gravity="left"  
+		></TextView>
+		<TextView android:textColor="#000"  
+			android:layout_width="wrap_content"  
+			android:layout_height="wrap_content"    
+			android:text="        D——尘土之影(D)"  
+			android:gravity="left"  
+		></TextView>
+		<TextView android:textColor="#000"  
+			android:layout_width="wrap_content"  
+			android:layout_height="wrap_content"    
+			android:text="        E——保存权杖(E)"  
+			android:gravity="left"  
+		></TextView>
+		<TextView android:textColor="#000"  
+			android:layout_width="wrap_content"  
+			android:layout_height="wrap_content"    
+			android:text="        V——毒液之球(V)"  
+			android:gravity="left"  
+		></TextView>
+		<TextView android:textColor="#000"  
+			android:layout_width="wrap_content"  
+			android:layout_height="wrap_content"    
+			android:text="        A——抗体药水(A)"  
+			android:gravity="left"  
+		></TextView>
+		<TextView android:textColor="#000"  
+			android:layout_width="wrap_content"  
+			android:layout_height="wrap_content"    
+			android:text="远古守护者Ancient Protector （BP）"  
+			android:gravity="left"  
+		></TextView>
+		<TextView android:textColor="#000"  
+			android:layout_width="wrap_content"  
+			android:layout_height="wrap_content"    
+			android:text="知识古树Ancient of Lore （BL ）"  
+			android:gravity="left"  
+		></TextView>
+		<TextView android:textColor="#000"  
+			android:layout_width="wrap_content"  
+			android:layout_height="wrap_content"    
+			android:text="        D——树妖（驱逐魔法(B)）"  
+			android:gravity="left"  
+		></TextView>
+		<TextView android:textColor="#000"  
+			android:layout_width="wrap_content"  
+			android:layout_height="wrap_content"    
+			android:text="        研究驱散魔法(S)"  
+			android:gravity="left"  
+		></TextView>
+		<TextView android:textColor="#000"  
+			android:layout_width="wrap_content"  
+			android:layout_height="wrap_content"    
+			android:text="        C——利爪德鲁依（咆哮(R)，生命恢复(E)，变熊(F)）"  
+			android:gravity="left"  
+		></TextView>
+		<TextView android:textColor="#000"  
+			android:layout_width="wrap_content"  
+			android:layout_height="wrap_content"    
+			android:text="        升级利爪德鲁依专家/大师级训练(L)"  
+			android:gravity="left"  
+		></TextView>
+		<TextView android:textColor="#000"  
+			android:layout_width="wrap_content"  
+			android:layout_height="wrap_content"    
+			android:text="        升级利爪之痕(M)"  
+			android:gravity="left"  
+		></TextView>
+		<TextView android:textColor="#000"  
+			android:layout_width="wrap_content"  
+			android:layout_height="wrap_content"    
+			android:text="        G——山岭巨人（嘲讽(T)，战棍(W)）"  
+			android:gravity="left"  
+		></TextView>
+		<TextView android:textColor="#000"  
+			android:layout_width="wrap_content"  
+			android:layout_height="wrap_content"    
+			android:text="        研究硬化皮肤(H)"  
+			android:gravity="left"  
+		></TextView>
+		<TextView android:textColor="#000"  
+			android:layout_width="wrap_content"  
+			android:layout_height="wrap_content"    
+			android:text="        研究抗性皮肤(T)"  
+			android:gravity="left"  
+		></TextView>
+		<TextView android:textColor="#000"  
+			android:layout_width="wrap_content"  
+			android:layout_height="wrap_content"    
+			android:text="风之古树Ancient of Wind （BW）"  
+			android:gravity="left"  
+		></TextView>
+		<TextView android:textColor="#000"  
+			android:layout_width="wrap_content"  
+			android:layout_height="wrap_content"    
+			android:text="        H——角鹰兽（搭载弓箭手(U)）"  
+			android:gravity="left"  
+		></TextView>
+		<TextView android:textColor="#000"  
+			android:layout_width="wrap_content"  
+			android:layout_height="wrap_content"    
+			android:text="        升级驯服角鹰兽(I)"  
+			android:gravity="left"  
+		></TextView>
+		<TextView android:textColor="#000"  
+			android:layout_width="wrap_content"  
+			android:layout_height="wrap_content"    
+			android:text="        T——猛禽德鲁依（精灵之火(R)，飓风(C)，风暴之鸦(F)）"  
+			android:gravity="left"  
+		></TextView>
+		<TextView android:textColor="#000"  
+			android:layout_width="wrap_content"  
+			android:layout_height="wrap_content"    
+			android:text="        升级猛禽德鲁依专家/大师训练(A)"  
+			android:gravity="left"  
+		></TextView>
+		<TextView android:textColor="#000"  
+			android:layout_width="wrap_content"  
+			android:layout_height="wrap_content"    
+			android:text="        升级猛禽之痕(M)"  
+			android:gravity="left"  
+		></TextView>
+		<TextView android:textColor="#000"  
+			android:layout_width="wrap_content"  
+			android:layout_height="wrap_content"    
+			android:text="        F——精灵龙（变相移动(E)，魔力之焰(F)）"  
+			android:gravity="left"  
+		></TextView>
+		<TextView android:textColor="#000"  
+			android:layout_width="wrap_content"  
+			android:layout_height="wrap_content"    
+			android:text="奇美拉栖木chimaera Roost （BC）"  
+			android:gravity="left"  
+		></TextView>
+		<TextView android:textColor="#000"  
+			android:layout_width="wrap_content"  
+			android:layout_height="wrap_content"    
+			android:text="        C——美拉"  
+			android:gravity="left"  
+		></TextView>
+		<TextView android:textColor="#000"  
+			android:layout_width="wrap_content"  
+			android:layout_height="wrap_content"    
+			android:text="        升级腐蚀喷吐(B)"  
+			android:gravity="left"  
+		></TextView>
+		
+		  
+		
+		
+	
+	
+
+</LinearLayout>
+</ScrollView>
+
+
+
+</LinearLayout>

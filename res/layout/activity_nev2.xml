@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#eee"
+        android:orientation="vertical" >
+        
+        <LinearLayout 
+  			android:layout_width="fill_parent"
+  			android:layout_height="45dp"
+  			android:id="@+id/title" 
+  			android:background="@drawable/title_bar"
+  			android:gravity="center_horizontal|center_vertical"  >  
+      <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="返回" 
+        android:onClick="backv2"
+        />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="精灵族VS兽族"
+        android:gravity="center|center_horizontal|center_vertical"
+        android:textColor="#ffffff"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="点我" 
+        android:onClick="clickv2"
+        />    
+			</LinearLayout>
+<ScrollView 
+
+    android:id="@+id/ScrollView01" 
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content"
+
+>
+
+<LinearLayout 
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    >
+    
+    <TextView  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"  
+            android:textStyle="bold"  
+            android:typeface="serif"  
+            android:textSize="18sp"  
+            android:text="NE打ORC"  
+            android:gravity="left"  
+            android:textColor="#000"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            ></TextView>  
+
+
+        
+    <TextView  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"    
+            android:text="        最常见的就是吹风了，使用率达到了50+。第2常用的是熊鹿，第3常用的是爆AC风德RUSH。其次还有3远，兽王HT乱矿，偷BP牵制ORC，防ORC的1本2本3本TR。2本开矿爆鹿。由于ORC很多单位都比较克制NE，所以NE对ORC的战术相对较少。"  
+            android:gravity="left"  
+            android:textColor="#000"></TextView>  
+
+    
+    <TextView  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"  
+            android:textStyle="bold"  
+            android:typeface="serif"  
+            android:textSize="18sp"  
+            android:text="1本防ORC TR"  
+            android:gravity="left"  
+            android:textColor="#000"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"></TextView>  
+
+
+        
+    <TextView  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"    
+            android:text="        几个重点。1是一直造AC不要停，2是补井，3是DH升闪避。4是立刻种个BR在他地洞或塔的旁边吸引他攻击，然后DH趁机打地洞或塔。5是入夜前，DH千万不要和BM拼血，井水不够支撑。入夜后DH直接找BM拼血，依靠井水把BM打残，他主力输出就没作为了。"  
+            android:gravity="left"  
+            android:textColor="#000"></TextView>  
+
+    
+    <TextView  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"  
+            android:textStyle="bold"  
+            android:typeface="serif"  
+            android:textSize="18sp"  
+            android:text="2本防ORC TR"  
+            android:gravity="left"  
+            android:textColor="#000"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"></TextView>  
+
+
+        
+    <TextView  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"    
+            android:text="        通常ORC会分成NAGA TR，SH TR，还有暴力狼骑TR（不出大G）。防这招，主要靠的是侦察。很多地图，ORC基地附近都有精灵藏树的盲点。在2本时，拉一个精灵过去探路，发现他没有造2本建筑，而且有磨坊的，这里很大可能会TR了。DH+兽王，尽量去ORC基地牵制，而自己基地则是迅速补起BR，造AC。这样等他TR过来的时候，NE最少有2个BR和4AC。一到白天就买月石，BR站起来后面顶几个精灵维修，AC在后排射，2个英雄都买血瓶，一到半血了就吃，顶下TR并不是很难。其实NE防TR靠的是意识，操作其次。如果意识强大，提前发现ORC的意图，那么就能做出合理的应对了。"  
+            android:gravity="left"  
+            android:textColor="#000"></TextView>  
+
+      
+    <TextView  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"  
+            android:textStyle="bold"  
+            android:typeface="serif"  
+            android:textSize="18sp"  
+            android:text="防3本小白流TR"  
+            android:gravity="left"  
+            android:textColor="#000"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"></TextView>  
+
+
+        
+    <TextView  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"    
+            android:text="        ORC前期利用FS的狼来消耗精灵限制NE的木材，干扰NE的科技进度，然后直攀3本大G+投车水泥塔TR。面对这招，前期NE可以多出些精灵和AC。反正攀3本时受到骚扰肯定要爆精灵导致缺木，所以不如前期造多点比较稳妥。基地留精灵，就不怕狼骚扰。DH最好练2，如果EI练了333后没空练2，就用4个AC双线131小点到2。TR是旁边的141。DH到2后，尽量抢鞋，然后跟着FS，不要给他骚扰的机会。2本后NE转吹风比较好，他来TR时NE就有足够多的兵力。通常ORC的组合是FS+NAGA+FL的3远程组合，也有用DR的。NE直接拖精灵爆完他们魔法，先把兽兵点红，然后无视英雄点塔，DH带血不满血就吃，防下应该不是很困难。"  
+            android:gravity="left"  
+            android:textColor="#000"></TextView>  
+
+       
+    <TextView  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"  
+            android:textStyle="bold"  
+            android:typeface="serif"  
+            android:textSize="18sp"  
+            android:text="吹风流打ORC"  
+            android:gravity="left"  
+            android:textColor="#000"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"></TextView>  
+
+
+        
+    <TextView  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"    
+            android:text="        前期：DH练完第1个点后，结合精灵带回的信息去骚扰。然后3井升本，BR走回基地封家。如果精灵探到的是BM在MF，为了科技速度也可以2井升本。如果BM是第1时间过来的，那么NE先封好家再说。前期，DH的骚扰绝对影响着之后的战局。BM几时捞装备最多？那当然是前期了。DH避免和BM拼血，就是在他MF的时候，跑过去3陪就行了。只要限制好BM的等级，之后的胜算就会高上几分（BM等级低，必须和TC一起蹭经验蹭到3级，也是拖慢了TC等级）"  
+            android:gravity="left"  
+            android:layout_marginBottom="5dp"  
+            android:textColor="#000"></TextView>  
+
+
+        
+    <TextView  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"    
+            android:text="        中期：买出兽王后，英雄的物品尽量是鞋+保存单传+1~2个属性宝+粉。拆地洞尽量是DH跑进去贴着地洞打，猪也跑进去包住地洞，减少苦工与地洞的接触面和维修速度。如果ORC是正在造2本建筑的，优先打退BE，然后再到BS。如果ORC是半封家（只有一条路口出的）那么NE 英雄就砍商店，他部队来你就闪人，最好是把对手拖在家中干扰他MF速度。NE和ORC大家英雄等级都低，绝对是吹风流的NE占据优势。尽量利用保存单传来使得前线的英雄满血，骚扰到他狼骑出来，能网了，才闪人。这时TC的等级最多刚到2，NE的3本应该接近完成了。小MF一下，尽量把兽王提升到2级（学鹰，有反隐）然后再憋一下风德（最少要6+个）才去中间买3发TK。如果他白牛出得慢的，买3发FL也是个不错的选择。然后就是进攻了。NE可以先派鹰或者猪侦察，这时ORC的TC应该是在练3，部队普遍都不健康，NE捉过去，直接能占到很大的优势。如果ORC没有练，部队比较健康，则估摸ORC的部队动态再判断如何捉MF或者是继续憋兵打。"  
+            android:gravity="left"  
+            android:layout_marginBottom="5dp"  
+            android:textColor="#000"></TextView>  
+
+
+        
+    <TextView  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"    
+            android:text="        后期：先说说应对ORC的放下分矿换家。其实可以大部队+DH守家，然后派2发和3发去骚扰。那时大概是兽王3级（学2级猪）带TP和保存单传，TK是2级。直接去到ORC分矿放工厂和2级嗜血猪，先点爆他的BO（肯定能打爆）然后就兽王保存TK回家，自己再单传走。留下工厂和猪骚扰就OK了。如果ORC来攻击NE基地，那么2个英雄就可以立刻回防，基地里DH+风德先顶住。"  
+            android:gravity="left"  
+            android:layout_marginBottom="5dp"  
+            android:textColor="#000"></TextView>  
+
+
+        
+    <TextView  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"    
+            android:text="        大战操作：DH靠近牛头，有机会就抽，带无敌。因为DH是要冲得最前，也是最容易被网围的。风德的精灵之火关闭（除非风德数量非常多）。BM和TC那是必吹的，战前先丢个工厂在前面，ORC肯定会第1时间打爆，先吹起接近工厂的近战单位，然后重复着DH抽TC，然后再吹起的步骤。注意控制好风德和TC的距离。群补不用太快使用，中一个波就用，太浪费了。3英雄最好比较接近，方便互传保命道具。只要上述步骤都做好，就能更轻易击败ORC。如果能更快吹起ORC部队呢？风德单独编队。白牛多的时候记得出精灵龙。如果群补用完，部队不健康，即使英雄没到红血也TP了。战后可以学MOON，DH立刻单传到商店的小精灵处抢群补。家里没水的话，不要犹豫直接一个群补点下去。"  
+            android:gravity="left"  
+            android:textColor="#000"></TextView>  
+     
+    <TextView  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"  
+            android:textStyle="bold"  
+            android:typeface="serif"  
+            android:textSize="18sp"  
+            android:text="熊鹿流打ORC"  
+            android:gravity="left"  
+            android:textColor="#000"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"></TextView>  
+
+
+        
+    <TextView  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"    
+            android:text="        熊鹿通常都是HT开局。因为知识古树要用到BH，所以就顺便HT了。特别是在TM图，前期DH配合DH的骚扰，能搅得ORC根本没有什么MF的机会。3陪同上，BM MF的时候再去打。2本后，2发英雄就有很多选择了。通常是KOG，也有出兽王来迷惑对手的，PD当然也是一个很好的选择。KOG：什么也别说，继续捉MF。利用保存来保存自己的单位，利用缠绕来击杀对手的部队。兽王，依然是骚扰，看到他2发SH，那就闪吧，然后自己也MF，看到TC则继续陪。PD，什么也别说了，第1技能升酒，MF矿点等黄点。由于前期BM被DH陪得没有等级，现在应该是和2发英雄一起MF的所以这就给了PD一个很好的MF机会。第1个BR也走到了黄点处，PD+HT练完第1个点配合走出来的小鹿练第2个点。这招鹿不需要太多，早点出熊。而KOG的话则是先出多点鹿，截杀对手狼骑。之后就是MF时间，尽量避开ORC。很多时候，ORC50人口万金油的时候，NE才3本没多久，40多人口的样子，那时绝对是ORC的强势时期，避免开A，最起码也要等到NE 50人口的时候。大战操作：DH抽SH，KOG缠绕狼骑或者KD。熊尽量一字排开，避免他几个单位围殴你一个熊的情况，减少受攻击面积。至于恢复，NE最好时刻准备一个够魔法放返老还童的肉熊，哪里有需要就套一个迅速趴下，然后从编队里选一个魔法多的熊F（站起，再E，再趴下），如此反复，直到熊都不够魔了。这样能提高阵地战能力。这一波过后，NE压50人口是必须的。这段时间，提升攻防，补多2口竟，人口是50/70，这时NE可以利用飞艇去ORC基地拆地洞，拆了2个地洞后，BL迅速爆熊，将人口拉大，这样下一波找ORC决战就有很大优势。至于填鸭流，是针对后期ORC爆KD的。如果是50人口打NE43人口，KD还吞了一个熊，NE就没多少兵力了。如果是后期大家都70人口，ORC3个左右的KD，1来缺乏攻击输出。2来3个都未必能吞到熊，3来即使吞了熊，NE还有很多的熊作为输出。这样打是对NE有优势的。"  
+            android:gravity="left"  
+            android:textColor="#000"></TextView>  
+      
+    <TextView  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"  
+            android:textStyle="bold"  
+            android:typeface="serif"  
+            android:textSize="18sp"  
+            android:text="AC风德RUSH"  
+            android:gravity="left"  
+            android:textColor="#000"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"></TextView>  
+
+
+        
+    <TextView  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"    
+            android:text="        常见的是小图，TR近点，ORC单BO跳科技或者无兵营跳科技。其实也没什么特别的地方，前期像吹风流打ORC一样，DH 3陪好，不买鞋，是为了节省更多的钱出AC。BR AC不断，2本时最少也有6个，通常是7个左右。买出2发NAGA带保存血瓶和粉直接压到ORC基地。注意的是保持阵型，使得没攻击的AC等单位可以迅速拖后。RUSH的时候拖3~4个精灵去前线造BR，也可以造商店。不过要留一些精灵就近采木，被SH X的时候可以用精灵爆。点跑他后，就开始点地洞，这样就能限制他2本兵走出兵营的时间了。这招由于是针对ORC的跳本，所以ORC通常大G的数量都不会多，甚至没，所以BM面对NE这么多部队也是吃不消的。如果ORC是常规开局攀本的话，那么就最好不要用这招了。不然他2本的时候吃个加速，大G BM分头砍，AC很快就顶不住的。"  
+            android:gravity="left"  
+            android:textColor="#000"></TextView>  
+
+     
+    <TextView  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"  
+            android:textStyle="bold"  
+            android:typeface="serif"  
+            android:textSize="18sp"  
+            android:text="3远"  
+            android:gravity="left"  
+            android:textColor="#000"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"></TextView>  
+
+
+        
+    <TextView  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"    
+            android:text="        TM上HT开局，入夜后偷分矿，然后造个BR在雇佣兵那里MF。2本时ORC通常都会发现NE的分矿，第1波就依靠买雇佣兵来挡，然后基地造BL BW，迅速先补充部队的数量，然后再升驱散和风德的专家级。此战术的主要恢复手段是群补，2矿NE很快就可以爆到80人口，一直和ORC换兵，可以耗死ORC。"  
+            android:gravity="left"  
+            android:textColor="#000"></TextView>  
+
+     
+    <TextView  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"  
+            android:textStyle="bold"  
+            android:typeface="serif"  
+            android:textSize="18sp"  
+            android:text="兽王HT乱矿"  
+            android:gravity="left"  
+            android:textColor="#000"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"></TextView>  
+
+
+        
+    <TextView  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"    
+            android:text="        在MV，TM等矿多的图可以使用。前期中立HT开局，迅速把生命之树种在分矿旁边（尽量隐蔽的地方）。HT数量少的时候先去ORC基地骚扰，然后有一定数量了（3~4个）就去分矿双线，兽王继续骚扰。这时NE则是继续爆HT，而不是攀科技。兵力不足根本顶不住ORC的2本一波。NE这时可以练雇佣兵，买出绿皮泥人+胖子来协助守分矿。利用分矿吸引ORC进攻，然后和ORC换兵。拖到自己2本小鹿好了，再反击。又或者一直HT，换家，乱矿。兽王的召唤物拆地洞实在是非常快。"  
+            android:gravity="left"  
+            android:textColor="#000"></TextView>  
+
+    
+    <TextView  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"  
+            android:textStyle="bold"  
+            android:typeface="serif"  
+            android:textSize="18sp"  
+            android:text="偷BP 2本牵制ORC"  
+            android:gravity="left"  
+            android:textColor="#000"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"></TextView>  
+
+
+        
+    <TextView  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"    
+            android:text="        这个Moon在TM经常用了，2本前偷一个BP在ORC基地附近，2本时配合DH和兽王的骚扰，使得这波骚扰来势更凶。也可以偷BR，参照WCG Moon vs WhO at TS，Moon就是利用那个BR搅得WhO苦不堪言。"  
+            android:gravity="left"  
+            android:textColor="#000"></TextView>  
+
+     
+    <TextView  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"  
+            android:textStyle="bold"  
+            android:typeface="serif"  
+            android:textSize="18sp"  
+            android:text="其他战术"  
+            android:gravity="left"  
+            android:textColor="#000"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"></TextView>  
+
+
+        
+    <TextView  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"    
+            android:text="        至于2本爆鹿，也是要配合偷矿的，2发KOG的3BL速换兵流，2发PD配合雇佣兵的决战流。"  
+            android:gravity="left"  
+            android:textColor="#000"></TextView>  
+
+
+
+</LinearLayout>
+</ScrollView>
+</LinearLayout>

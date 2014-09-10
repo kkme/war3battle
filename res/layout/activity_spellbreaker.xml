@@ -1,0 +1,660 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#eee"
+        android:orientation="vertical" >
+        
+        <LinearLayout 
+  			android:layout_width="fill_parent"
+  			android:layout_height="45dp"
+  			android:id="@+id/title" 
+  			android:background="@drawable/title_bar"
+  			android:gravity="center_horizontal|center_vertical"  >  
+      		<TextView 
+        		android:layout_width="wrap_content" 
+        		android:layout_height="wrap_content" 
+        		android:text="破法"
+        		android:textSize="20sp"		
+				android:textColor="#ffffff" />       
+			</LinearLayout>
+<ScrollView 
+
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#eee"
+>
+
+<LinearLayout
+            android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin" 
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+
+ <ImageView
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:layout_span="1"
+     android:layout_marginTop="10dp"
+     android:layout_marginBottom="10dp"
+     android:src="@drawable/spellbreaker" >
+
+</ImageView> 
+        <TextView android:textColor="#000"   
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"  
+            android:text="精灵族的英勇战士，精于破坏和扭曲魔法能量。这些高贵的血精灵战士还没有从失去家园的阴影之中走出来，现在他们对于处于战火之中的洛丹伦寄托着无限的希望。那里能成为他们的新家园吗？"  
+            android:gravity="left"  
+            android:layout_span="5"></TextView>
+<TableLayout  
+    android:layout_width="match_parent"  
+    android:layout_height="match_parent" 
+    android:layout_marginTop="10dp"
+     android:layout_marginBottom="10dp" 
+    android:shrinkColumns="*"  
+    android:stretchColumns="*"> 
+<TableRow
+        android:layout_height="wrap_content"  
+        android:layout_width="match_parent">        
+      <TextView android:textColor="#000"
+
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="等级: 2"  
+            android:gravity="left" 
+            android:layout_span="1" 
+           ></TextView>
+      <TextView android:textColor="#000" 
+
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="费用：215/30/3"  
+            android:gravity="left"
+            android:layout_span="1"  
+            ></TextView>
+ 
+</TableRow>
+
+<TableRow
+        android:layout_height="wrap_content"  
+        android:layout_width="match_parent">        
+      <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="单位类型: 普通 "  
+            android:gravity="left" 
+            android:layout_span="1" 
+           ></TextView>
+      <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="攻击类型: 普通 "  
+            android:gravity="left"
+            android:layout_span="1"  
+            ></TextView>
+ 
+</TableRow>
+<TableRow
+        android:layout_height="wrap_content"  
+        android:layout_width="match_parent">        
+      <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="武器类型: 远程 "  
+            android:gravity="left" 
+            android:layout_span="1" 
+           ></TextView>
+      <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="护甲类型: 中甲  "  
+            android:gravity="left"
+            android:layout_span="1"  
+            ></TextView>
+ 
+</TableRow>
+<TableRow
+        android:layout_height="wrap_content"  
+        android:layout_width="match_parent">        
+      <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="护甲: 3(9) "  
+            android:gravity="left" 
+            android:layout_span="1" 
+           ></TextView>
+      <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="对地攻击: 13-15(16-24) "  
+            android:gravity="left"
+            android:layout_span="1"  
+            ></TextView>
+ 
+</TableRow>
+<TableRow
+        android:layout_height="wrap_content"  
+        android:layout_width="match_parent">        
+      <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="对空攻击: - "  
+            android:gravity="left" 
+            android:layout_span="1" 
+           ></TextView>
+      <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="攻击间隔: 1.9  "  
+            android:gravity="left"
+            android:layout_span="1"  
+            ></TextView>
+ 
+</TableRow>
+<TableRow
+        android:layout_height="wrap_content"  
+        android:layout_width="match_parent">        
+      <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="生命值: 600"  
+            android:gravity="left" 
+            android:layout_span="1" 
+           ></TextView>
+      <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="生命恢复: 总是 "  
+            android:gravity="left"
+            android:layout_span="1"  
+            ></TextView>
+ 
+</TableRow>
+<TableRow
+        android:layout_height="wrap_content"  
+        android:layout_width="match_parent">        
+      <TextView android:textColor="#000" 
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="魔法: 250 "  
+            android:gravity="left" 
+            android:layout_span="1" 
+           ></TextView>
+      <TextView android:textColor="#000" 
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="攻击范围: 25 "  
+            android:gravity="left"
+            android:layout_span="1"  
+            ></TextView>
+ 
+</TableRow>
+<TableRow
+        android:layout_height="wrap_content"  
+        android:layout_width="match_parent">        
+      <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="白天视野: 140  "  
+            android:gravity="left" 
+            android:layout_span="1" 
+           ></TextView>
+      <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="夜晚视野: 80  "  
+            android:gravity="left"
+            android:layout_span="1"  
+            ></TextView>
+ 
+</TableRow>
+<TableRow
+        android:layout_height="wrap_content"  
+        android:layout_width="match_parent">        
+      <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="移动速度: 快(300)  "  
+            android:gravity="left" 
+            android:layout_span="1" 
+           ></TextView>
+      <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="训练时间: 28 "  
+            android:gravity="left"
+            android:layout_span="1"  
+            ></TextView>
+ 
+</TableRow>
+<TableRow
+        android:layout_height="wrap_content"  
+        android:layout_width="match_parent">        
+      <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="训练地点: 神秘圣地  "  
+            android:gravity="left" 
+            android:layout_span="1" 
+           ></TextView>
+       <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="运输占用空间: 1 "  
+            android:gravity="left" 
+            android:layout_span="1" 
+           ></TextView>
+ 
+</TableRow>
+<TableRow
+        android:layout_height="wrap_content"  
+        android:layout_width="match_parent">        
+      <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="训练热键: B   "  
+            android:gravity="left" 
+            android:layout_span="1" 
+           ></TextView>
+       <TextView android:textColor="#000" 
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="魔法恢复: 0.8 "  
+            android:gravity="left" 
+            android:layout_span="1" 
+           ></TextView>
+ 
+</TableRow>
+</TableLayout>
+
+
+
+ <TextView android:textColor="#000"
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"  
+            android:text="        破法者是魔法免疫单位，在你施放暴风雪和烈焰风暴的时候，不用担心伤害到他们。如果他们在前线站成一堵人墙，那么你可以随心所欲的施放暴风雪或者烈焰风暴而不用担心伤害到自己其它的单位。 "
+            android:layout_span="6" 
+
+ />
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_marginTop="10dp"
+    android:layout_height="wrap_content" >
+
+ <ImageView
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:src="@drawable/spellsteal" >
+
+</ImageView> 
+
+ <TextView
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:layout_gravity="center_vertical"
+     android:text="      盗法 Spell Steal(自动施放)"
+     android:textColor="#000" />
+
+</LinearLayout> 
+
+ <TextView android:textColor="#000"
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"  
+            android:text="        这个技能可以让破法者从敌军身上将有益的魔法转移到临近的我方单位身上，也可以将我军身上的有害魔法效果转移的临近的敌方单位身上。"
+            android:layout_span="5" 
+
+ />
+  
+
+
+
+ <TextView android:textColor="#000"
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"  
+            android:text="持续时间：立即；魔法消耗：50；距离：70"
+            android:layout_span="6" 
+
+ />
+   
+
+
+
+ <TextView android:textColor="#000"
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"  
+            android:text="魔法消耗：75；距离：70；使用间隔：3"
+            android:layout_span="6" 
+
+ />
+   
+
+ 
+  <TextView android:textColor="#000"
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"  
+            android:text="作用范围：单位；使用目标：天空、地面、敌人、友军、有机、自身"
+            android:layout_span="6" 
+
+ />
+     
+
+ 
+  <TextView android:textColor="#000"
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"  
+            android:text="效果：偷取魔法"
+            android:layout_span="6" 
+
+ />
+
+
+ 
+ <TextView android:textColor="#000"   
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"   
+            android:text="提示"  
+            android:gravity="left"  
+            android:layout_span="6"></TextView>
+  
+ 
+
+
+
+ <TextView android:textColor="#000"
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"  
+            android:text="        部分法术，例如说反魔法盾，邪恶狂热，飓风必须需要手动进行盗取。盗法技能只能盗取魔法单位施放的法术，无法盗取英雄法术。"
+            android:layout_span="6" 
+
+ />
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_marginTop="10dp"
+    android:layout_height="wrap_content" >
+
+ <ImageView
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:src="@drawable/controlmagic" >
+
+</ImageView> 
+
+ <TextView
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:layout_gravity="center_vertical"
+     android:text="      控魔 Control Magic"
+     android:textColor="#000" />
+
+</LinearLayout> 
+
+ <TextView android:textColor="#000"
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"  
+            android:text="        可以控制敌方的一个召唤单位，消耗魔法根据被控制单位的生命值而改变。"
+            android:layout_span="5" 
+
+ />
+  
+
+
+
+ <TextView android:textColor="#000"
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"  
+            android:text="持续时间：60 ；魔法消耗：目标单位当前生命值*0.45；距离：70"
+            android:layout_span="6" 
+
+ />
+   
+
+ 
+  <TextView android:textColor="#000"
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"  
+            android:text="作用范围：单位；使用目标：天空、地面、敌人、友军、有机、召唤、守卫"
+            android:layout_span="6" 
+
+ />
+     
+
+    <TextView android:textColor="#000"
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"  
+            android:text="使用间隔：5；效果：控制敌方一个召唤单位"
+            android:layout_span="6" 
+
+ />
+  
+  <TextView android:textColor="#000"
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"  
+            android:text="研究费用：75,75；研究地点：神秘圣地"
+             android:layout_span="6" 
+
+ />
+        
+  
+  <TextView android:textColor="#000"
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"  
+            android:text="需求：神秘藏宝室、城堡；研究时间：60"
+             android:layout_span="6" 
+
+ />
+        
+
+
+
+ 
+ <TextView android:textColor="#000"   
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"   
+            android:text="提示"  
+            android:gravity="left"  
+            android:layout_span="6"></TextView>
+  
+ 
+
+
+
+ <TextView android:textColor="#000"
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"  
+            android:text="         可以控制兽人的治疗守卫和静止陷阱。控制敌方的召唤单位时，魔法消耗为0.45魔法/1点生命例子：如果对方的3级水元素当前生命为100点的时候，魔法破坏者使用魔法控制他时消耗45魔法。魔法消耗如下:"
+ />
+  <TextView android:textColor="#000"
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"  
+            android:text="        人族 1级水元素 - 160 "
+ />
+ <TextView android:textColor="#000"
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"  
+            android:text="        人族 2级水元素 - 227"
+ />
+  <TextView android:textColor="#000"
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"  
+            android:text="        兽族 1级幽灵狼 - 85 "
+ />
+   <TextView android:textColor="#000"
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"  
+            android:text="        兽族 2级幽灵狼- 115 "
+ />
+    <TextView android:textColor="#000"
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"  
+            android:text="        兽族 3级幽灵狼 - 145 "
+ />
+     <TextView android:textColor="#000"
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"  
+            android:text="        兽族 哨岗守卫- 85 "
+ />
+      <TextView android:textColor="#000"
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"  
+            android:text="        兽族 静止陷阱 - 55 "
+ />
+       <TextView android:textColor="#000"
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"  
+            android:text="        兽族 治疗守卫 - 26"
+ />
+        <TextView android:textColor="#000"
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"  
+            android:text="        暗夜 树人 - 115"
+ />
+         <TextView android:textColor="#000"
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"  
+            android:text="        不死 1级腐尸甲虫 - 67 "
+ />
+          <TextView android:textColor="#000"
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"  
+            android:text="        不死 2级腐尸甲虫 - 107 "
+ />
+           <TextView android:textColor="#000"
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"  
+            android:text="        不死 3级腐尸甲虫 - 148 "
+ />
+            <TextView android:textColor="#000"
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"  
+            android:text="        不死 骷髅战士 - 79 "
+ />
+             <TextView android:textColor="#000"
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"  
+            android:text="        不死 骷髅法师 - 94"
+ />
+              <TextView android:textColor="#000"
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"  
+            android:text="        物品 骷髅弓箭手 - 58 "
+ />
+               <TextView android:textColor="#000"
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"  
+            android:text="        物品 地狱犬 - 250 "
+ />
+                <TextView android:textColor="#000"
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"  
+            android:text="        中立 1级熊 - 205"
+ />
+                 <TextView android:textColor="#000"
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"  
+            android:text="        中立 1级豪猪 - 152"
+ />
+                  <TextView android:textColor="#000"
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"  
+            android:text="        中立 2级豪猪 - 179 "
+ />
+                   <TextView android:textColor="#000"
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"  
+            android:text="        中立 3级豪猪 - 205 "
+ />
+                    <TextView android:textColor="#000"
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"  
+            android:text="        中立 1级鹰 - 115 "
+ />
+                     <TextView android:textColor="#000"
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"  
+            android:text="        中立 2级鹰 - 212 "
+ />
+                      <TextView android:textColor="#000"
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"  
+            android:text="        中立 1级黑暗骷髅 - 85"
+ />
+                       <TextView android:textColor="#000"
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"  
+            android:text="        中立 2级黑暗骷髅 - 103"
+ />
+                        <TextView android:textColor="#000"
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"  
+            android:text="        中立 3级黑暗骷髅 - 121"
+ />
+
+ <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_marginTop="10dp"
+    android:layout_height="wrap_content" >
+
+ <ImageView
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:src="@drawable/spellimmunity" >
+
+</ImageView> 
+
+ <TextView
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:layout_gravity="center_vertical"
+     android:text="      魔法免疫 Spell Immunity(被动技能)"
+     android:textColor="#000" />
+
+</LinearLayout>  
+
+ <TextView android:textColor="#000"
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"  
+            android:text="        对所有魔法免疫"
+            android:layout_span="5" 
+
+ />
+ <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_marginTop="10dp"
+    android:layout_height="wrap_content" >
+
+ <ImageView
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:src="@drawable/feedback" >
+
+</ImageView> 
+
+ <TextView
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:layout_gravity="center_vertical"
+     android:text="      魔法反馈 Feedback(被动技能)"
+     android:textColor="#000" />
+
+</LinearLayout>  
+
+
+ <TextView android:textColor="#000"
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"  
+            android:text="        让破法者在攻击时消耗掉目标单位20点魔法(对英雄是4点)，自燃法力，同时造成和消耗魔法同等的伤害。魔法反馈无法作用于魔法免疫单位。"
+            android:layout_span="5" 
+
+ />
+   
+ 
+
+
+</LinearLayout>
+</ScrollView>
+
+</LinearLayout>

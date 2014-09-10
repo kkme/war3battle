@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#eee"
+        android:orientation="vertical" >
+        
+        <LinearLayout 
+  			android:layout_width="fill_parent"
+  			android:layout_height="45dp"
+  			android:id="@+id/title" 
+  			android:background="@drawable/title_bar"
+  			android:gravity="center_horizontal|center_vertical"  >  
+      		<TextView 
+        		android:layout_width="wrap_content" 
+        		android:layout_height="wrap_content" 
+        		android:text="魔兽争霸3"
+        		android:textSize="20sp"		
+				android:textColor="#ffffff" />       
+			</LinearLayout>
+<ScrollView 
+
+    android:layout_width="fill_parent" 
+    android:layout_height="fill_parent"
+    android:background="#eee"
+>
+<LinearLayout 
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    >
+ 
+
+
+  
+<TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="        《魔兽争霸》（Warcraft ）是一款非常著名的即时战略游戏。制作公司是美国的暴雪娱乐。最新版本为“魔兽争霸3：冰封王座”，目前的版本号为1.26.0.6401（更新至2011年3月25号），目前是RTS游戏中非常受欢迎的游戏，除此之外，魔兽争霸还包括了游戏的同名电影。"  
+            android:gravity="left"  
+            android:layout_marginTop="10dp"
+           ></TextView>
+<TextView  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="游戏特性"  
+            android:layout_marginTop="10dp"
+            android:gravity="left"
+             android:textColor="#0000CC"
+            android:textSize="18sp"   
+            ></TextView>
+<TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="        魔兽争霸是一款非常著名的RTS即时战略游戏。制作公司是美国的暴雪公司。最新版本为“魔兽争霸3：冰封王座”，的版本号为魔兽争霸1.26.0.6401（更新至2011年3月25号），是单机游戏中非常受欢迎的游戏，除此之外，魔兽争霸还包括了游戏的同名电影。《魔兽争霸3》被证明是一款极其出色的电脑游戏，在其发行的两周内就卖出了550万套，其中有450万套是预定销售的。玩家可以选择在《魔兽争霸3》中操控四个种族，其中两个在其前作《魔兽争霸2黑潮》中就已出现，它们是人类(Human)和兽人(Orc)；另外两个是《魔兽争霸3混乱之治》中新增的种族，它们是暗夜精灵 (NightElf)和不死(Undead)。而《魔兽争霸3冰封王座》单人战役中的娜迦族(Naga)在制作时曾经设想作为第五个可操控的种族，在游戏测试的时候被删去，出现在单人任务模式和中立生物中，暴雪官方的解释是加上娜迦这一种族之后很难保证游戏的平衡性。"  
+            android:gravity="left"  
+            android:layout_marginTop="10dp"
+           ></TextView>
+ <TextView  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="即时战略"  
+            android:layout_marginTop="10dp"
+            android:gravity="left"
+             android:textColor="#0000CC"
+            android:textSize="18sp"   
+            ></TextView>
+ <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="        《魔兽争霸Ⅲ》与暴雪公司早些时候发行的游戏《星际争霸》一样，是一款成功的即时战略游戏。游戏包含了大 多数即时战略游戏所具备的要素：采集资源，建设基地和指挥战斗。游戏的操作方式也与星际争霸类似，秉承了星际争霸易于上手的优点，并对星际争霸中一些繁琐的操作进行了简化。比如，在游戏中你可以选择将一些常用的魔法设定成“自动施放”的，在战斗中它们就被电脑自动施放出来从而省去了手动操作的过程。 此外，游戏中四个种族的某些设定也能从《星际争霸》中找到类似的影子，如：暗夜精灵族就像《星际争霸》中的Terran（人类）一样可以移动自己的基地。类似于《星际争霸》中的Protoss（星灵），不死在造建筑物的时候农民可以离开建筑物（就像“召唤”建筑一样，而不是“建造”建筑）。同样与Protoss（星灵）相似的是，不死亡灵族可以生产一个专门用来侦察的隐形单位。而且可以再商店中买到探测隐形单位的物品。"  
+            android:gravity="left"  
+            android:layout_marginTop="10dp"
+           ></TextView>
+<TextView  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="发展历史"  
+            android:layout_marginTop="10dp"
+            android:gravity="left"
+             android:textColor="#0000CC"
+            android:textSize="18sp"   
+            ></TextView>
+ <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="        1.Warcraft：Orcs and Humans"  
+            android:gravity="left"  
+            android:layout_marginTop="10dp"
+           ></TextView>
+  <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="        中文名称：魔兽争霸：人类与兽人"  
+            android:gravity="left"  
+            android:layout_marginTop="10dp"
+           ></TextView>
+   <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="        1994年发行"  
+            android:gravity="left"  
+            android:layout_marginTop="10dp"
+           ></TextView>
+    <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="        魔兽争霸最早是在1994年发布的，其制作公司就是鼎鼎大名的暴雪，暗黑破坏神和星际争霸，都是出自暴雪之手。94年的最初版本英文名称是：Warcraft：Orcs and Humans。从这时开始，暴雪（Blizzard）这个名字第一次出现在游戏包装盒上。之前暴雪也以Silicon and Synapse、Chaos等名称开发过一些电视游戏平台上的游戏，影响有限。虽然此作被一些人认为是当时大红大紫的《沙丘2》的跟风之作，但是其首开先河的即时战略联网模式为此后的即时战略游戏多人模式打下了非常好的基础，竞技游戏由此有了发端，“与人斗其乐无穷”的道理在暴雪的游戏中得到了非常好的验证。大量快捷键的操作设定为以后游戏的发展指明了思路。游戏附带的随机地图生成器也是第一次在即时战略游戏中出现的东西，为玩家增添了不少游戏乐趣。最重要的一点，《魔兽争霸》初代拥有十分出色的销量，为暴雪进一步的发展积累了资金。"  
+            android:gravity="left"  
+            android:layout_marginTop="10dp"
+           ></TextView>
+     <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="        2.Warcraft 2: Tides of Darkness"  
+            android:gravity="left"  
+            android:layout_marginTop="10dp"
+           ></TextView>
+  <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="        中文名称：魔兽争霸 2：黑潮"  
+            android:gravity="left"  
+            android:layout_marginTop="10dp"
+           ></TextView>
+   <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="        1995年发行"  
+            android:gravity="left"  
+            android:layout_marginTop="10dp"
+           ></TextView>
+    <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="        3.Warcraft 2: Beyond the Dark Portal"  
+            android:gravity="left"  
+            android:layout_marginTop="10dp"
+           ></TextView>
+     <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="        中文名称：魔兽争霸 2：黑暗之门"  
+            android:gravity="left"  
+            android:layout_marginTop="10dp"
+           ></TextView>
+  <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="        1996年发行"  
+            android:gravity="left"  
+            android:layout_marginTop="10dp"
+           ></TextView>
+   <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="        4.Warcraft 2: Battle .net Edition"  
+            android:gravity="left"  
+            android:layout_marginTop="10dp"
+           ></TextView>
+    <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="        中文名称：魔兽争霸 2：战网版"  
+            android:gravity="left"  
+            android:layout_marginTop="10dp"
+           ></TextView>
+     <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="        1999年发行"  
+            android:gravity="left"  
+            android:layout_marginTop="10dp"
+           ></TextView>
+  <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="        《魔兽争霸 2》及其资料片奠定了暴雪在游戏业内的地位。如果说一代模仿的痕迹还比较明显的话，从二代开始，暴雪就逐步形成了自己的风格。从此作开始暴雪新的操作体系--右键点击移动，左键选择--得以确立。支持8个玩家的调制解调器或者局域网的对战让更多厌烦了其他战略游戏只能和电脑斗气的玩家投入到魔兽2的怀抱。“战争迷雾”的概念也第一次被暴雪引入到即时战略游戏当中，大大增加了游戏中战场形势的变化和战略战术的丰富。由于玩家仅能看得到己方部队附近的很小范围，一旦部队离开这个地方很快会被迷雾阴影笼罩。这个功能的实现彻底让战斗从人海厮杀变成了斗智斗勇，如果不能在战斗中不断揣测对方的心理，猜测部队的行进方向，那么对方的偷袭、伏击等战术马上就回让你吃尽苦头。这个创举被大量的游戏所借鉴，成为后来大部分战略游戏对地图操作的一个通用标准。1999年推出的战网版可以支持Ballte .net，为这个作品打上了一个完美的句号。"  
+            android:gravity="left"  
+            android:layout_marginTop="10dp"
+           ></TextView>
+   <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="        5.Warcraft 3: Reign of Chaos"  
+            android:gravity="left"  
+            android:layout_marginTop="10dp"
+           ></TextView>
+    <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="        中文名称：魔兽争霸 3：混乱之治"  
+            android:gravity="left"  
+            android:layout_marginTop="10dp"
+           ></TextView>
+     <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="        2002年7月发行"  
+            android:gravity="left"  
+            android:layout_marginTop="10dp"
+           ></TextView>
+  <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="        6.Warcraft 3: Frozen Throne"  
+            android:gravity="left"  
+            android:layout_marginTop="10dp"
+           ></TextView>
+   <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="        中文名称：魔兽争霸 3：冰封王座"  
+            android:gravity="left"  
+            android:layout_marginTop="10dp"
+           ></TextView>
+    <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="        2003年7月发行"  
+            android:gravity="left"  
+            android:layout_marginTop="10dp"
+           ></TextView>
+     <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="        英雄的暴雪第一次让“英雄”在一个即时战略游戏中起到了如此重要的作用，也让即时战略游戏进入到一个崭新的时期。在制作之前就广受关注的本作，即便现在流行了多年也丝毫不见衰退的痕迹，反而随着版本的更新而越来越焕发出勃勃生机。3C、TD、熊猫，暴雪驾驭游戏的能力得到了十足的体现，最大程度上给予玩家最大的可能，充分调动玩家的主动性和创造性。也许成为了一种定律，只有暴雪的游戏只有发布了资料片才能称之为“完整”，魔兽2、星际争霸、暗黑破坏神2等等无不如此，魔兽3也不例外。“冰封王座”版本的推出基本上可以说是众望所归。到至今的1.24版（截至2009年11月），随着游戏平衡性的不断调整（1.22后并未做任何平衡性改动），玩家的热情也一次次高涨。暴雪的《魔兽争霸 3》通过良好的上手性、深刻的内涵、曲折的剧情、丰富多彩的玩法，吸引了越来越多的人参与到竞技游戏之中，也在逐渐改变“竞技游戏”在国内玩家心中的形象。 “玩”游戏不仅仅是正大光明，更是表明在国内对于竞技游戏的理解归于理性。正如巴西的足球，参与的人可以很多、谈论的人可以很多，不过毕竟巴西足球国家队只能容纳那么几十人，职业运动员的数量和总体人口比起来毕竟是九牛一毛。只要我们享受到了游戏的乐趣，遇到一位新朋友能通过游戏来找到共同的话题，这比硬盘里塞满了比赛录像、每天在电脑屏幕前训练超过10个小时不是更符合大多数人的现实需求吗？我在这里不是反对玩家向更高的游戏水平努力，如果中国玩家在世界竞技场上扬眉吐气我同样会高兴万分，不过对于绝大多数普通的电子竞技爱好者而言，暴雪用《魔兽争霸 3》告诉我们：玩游戏，开心就好。"  
+            android:gravity="left"  
+            android:layout_marginTop="10dp"
+           ></TextView>
+  <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="        暴雪为竞技游戏在国内的发展究竟起到了什么作用呢？没有好的游戏作为平台，正如没有完善平等的运动项目规则，暴雪精益求精的制作理念为我们奉献了众多品质优异的游戏，搭建了玩家交流和竞争的平台。“电子竞技游戏”可以成为国家承认的一项体育运动，暴雪也是功不可没。不过国内各种各样的实际情况也提醒着人们，竞技游戏在国内的发展，任重道远（别的不说，让国内网吧中的竞技游戏一半用上正版就是一项伟大的工程，我估计那时候即便每台机器的授权费是10块钱也能让奥美笑疯了）。而且随着游戏在国内的发展一日千里，越来越多的选择摆在了玩家的面前，暴雪的玩家群也存在着分流的危险。不过相信暴雪能够把握自己前进的方向，战场上无敌的巨人，在传说中是不会倒下的。"  
+            android:gravity="left"  
+            android:layout_marginTop="10dp"
+           ></TextView>
+   <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="        魔兽争霸是目前世界上最受欢迎的即时战略游戏，它有许多其他同类游戏没有的特点，比如它的“英雄”的概念，“英雄”的出现使得这款游戏既注重团队精神又有显示个人魅力的思想，当然，前者是最重要的，任何强大的个人也不能和一支军队相提并论。另一个特点是他需要玩家有高超的操作技巧，强烈的意识，细微的洞察及智慧的头脑！"  
+            android:gravity="left"  
+            android:layout_marginTop="10dp"
+           ></TextView>
+    <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="        这个游戏可以许多的战术，可谓只有想不到，没有做不到。冰封王座已经是国际上电子竞技游戏的老大。当前魔兽争霸的世界格局是中韩欧鼎力。"  
+            android:gravity="left"  
+            android:layout_marginTop="10dp"
+           ></TextView>
+     <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="        随着魔兽争霸3的悄然而去.越来越少的人还在玩着这个游戏.war3对战的现场观看人数，还是很火爆，"  
+            android:gravity="left"  
+            android:layout_marginTop="10dp"
+           ></TextView>
+  <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="        也许还在玩war3的朋友不多了，但是关注它的朋友还是比较多的。也许只是一种缅怀。"  
+            android:gravity="left"  
+            android:layout_marginTop="10dp"
+           ></TextView>
+   <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="        另外还有许多基于冰封王座的RPG游戏也在浩方对战平台上十分流行。"  
+            android:gravity="left"  
+            android:layout_marginTop="10dp"
+           ></TextView>
+    <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="        各种族代表性人物："  
+            android:gravity="left"  
+            android:layout_marginTop="10dp"
+           ></TextView>
+     <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="        HUM(人类）：WE.GIGABYTE.Sky、Infi、TH000、Tod、Yumiko0414、insomnia、hawk"  
+            android:gravity="left"  
+            android:layout_marginTop="10dp"
+           ></TextView>
+  <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="        UD（不死族）：Lucifer、Ted、Fov、Sweet、believe、gostop、madfrog、happy、space"  
+            android:gravity="left"  
+            android:layout_marginTop="10dp"
+           ></TextView>
+   <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="        NE（暗夜精灵）：.Moon、Nicker、Remind、sonik，zhouxixi、elegant、soju"  
+            android:gravity="left"  
+            android:layout_marginTop="10dp"
+           ></TextView>
+    <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="        ORC（兽族）： Grubby、DK.Lyn、Fly100%、FoCuS、Zacard、Like、xiaot"  
+            android:gravity="left"  
+            android:layout_marginTop="10dp"
+           ></TextView>
+    
+</LinearLayout>
+</ScrollView>
+</LinearLayout>

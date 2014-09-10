@@ -1,0 +1,398 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#eee"
+        android:orientation="vertical" >
+        
+        <LinearLayout 
+  			android:layout_width="fill_parent"
+  			android:layout_height="45dp"
+  			android:id="@+id/title" 
+  			android:background="@drawable/title_bar"
+  			android:gravity="center_horizontal|center_vertical"  >  
+      		<TextView
+        		android:layout_width="wrap_content" 
+        		android:layout_height="wrap_content" 
+        		android:text="先知"
+        		android:textSize="20sp"		
+				android:textColor="#ffffff" />       
+			</LinearLayout>
+<ScrollView 
+
+	
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+     >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1" >
+
+        <TextView android:textColor="#000"
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="10dp"
+            android:text="      先知是体现最强大的萨满教力量的古老兽人，这些强大的萨满祭司是萨尔最信任的参谋并经常参与制定兽人部落的战略。先知并非只会运用土地和天空的力量，他们还拥有预知未来的能力。他们的智慧只有在战斗中通过他们的勇气和残忍才能表现出来，当敌人逼近时，先知驾驭着他们忠诚的座狼冲向战场，使用他们与生俱来的萨满力量召唤各种元素作战。" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1" >
+
+        <ImageView
+            android:id="@+id/imageViewfarseer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/farseer" 
+         />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+
+            <TextView android:textColor="#000"
+                android:id="@+id/textViewblfarseer"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="0.99"
+                android:gravity="center"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/blood"
+                android:text="475/475" />
+
+            <TextView android:textColor="#000"
+                android:id="@+id/textViewmafarseer"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/magic"
+                android:text="285/285" />
+        </LinearLayout>
+
+        <TextView android:textColor="#000"
+            android:id="@+id/textViewdjfarseer"
+            android:layout_width="46dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="right"
+            android:gravity="center"
+            android:text="1" />
+    </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal" >
+        </LinearLayout>
+
+    <TableLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:shrinkColumns="*"
+        android:layout_marginTop="10dp"
+        android:stretchColumns="*" >
+	<TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal" >
+
+		<Button
+		    android:id="@+id/button2"
+		    style="?android:attr/buttonStyleSmall"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:text="想升级就点我吧" 
+		    android:onClick="uplevelfarseer"/>
+
+		<Button
+		    android:id="@+id/button3"
+		    style="?android:attr/buttonStyleSmall"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:text="觉得等级太高了？" 
+		    android:onClick="downlevelfarseer"/>
+
+
+
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal" >
+
+            <TextView android:textColor="#000"
+                android:id="@+id/textViewgjfarseer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:text="攻击：21-27" >
+            </TextView>
+
+            <TextView android:textColor="#000"
+                android:id="@+id/textViewllfarseer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:text="力量：15(+2)" >
+            </TextView>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal" >
+
+            <TextView android:textColor="#000"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:text="攻速：2.28" >
+            </TextView>
+
+            <TextView android:textColor="#000"
+                android:id="@+id/textViewmjfarseer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:text="敏捷：18(+1)" >
+            </TextView>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal" >
+
+            <TextView android:textColor="#000"
+                android:id="@+id/textViewhjfarseer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:text="护甲：3" >
+            </TextView>
+
+            <TextView android:textColor="#000"
+                android:id="@+id/textViewzlfarseer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:text="智力：19(+3)" >
+            </TextView>
+        </TableRow>
+           <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal" >
+
+            <TextView android:textColor="#000"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:text="移动速度：320" >
+            </TextView>
+
+            <TextView android:textColor="#000"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:text="建造时间:55s" >
+            </TextView>
+        </TableRow>
+    </TableLayout>
+
+
+
+
+<LinearLayout
+     android:layout_width="fill_parent"
+     android:layout_height="wrap_content"
+     android:layout_alignParentBottom="true"
+     android:paddingBottom="2dp"            
+   >
+        	 <LinearLayout
+            	android:layout_width="wrap_content"
+            	android:layout_height="wrap_content"
+              	android:gravity="center_horizontal"
+              	android:layout_marginTop="10dp"
+              	android:orientation="vertical"
+              	android:layout_weight="1">               	
+                <ImageView
+            		android:id="@+id/img_friends"
+        			android:layout_width="wrap_content"
+        			android:layout_height="wrap_content"        	     	
+        			android:scaleType="matrix"
+        			android:clickable="true"
+        			android:onClick="jn1farseer"
+        			android:src="@drawable/farsight" />
+                <TextView
+            		android:layout_width="wrap_content"
+            		android:layout_height="wrap_content"
+            		android:text="  透视  "
+            		android:textColor="#000"
+            		android:textSize="12sp" />                
+        	 </LinearLayout>
+        	 <LinearLayout
+            	android:layout_width="wrap_content"
+            	android:layout_height="wrap_content"
+              	android:gravity="center_horizontal"
+              	android:layout_marginTop="10dp"
+              	android:orientation="vertical"
+              	android:layout_weight="1">               	
+                <ImageView
+            		android:id="@+id/img_friends"
+        			android:layout_width="wrap_content"
+        			android:layout_height="wrap_content"        	     	
+        			android:scaleType="matrix"
+        			android:onClick="jn2farseer"
+        			android:clickable="true"
+        			android:src="@drawable/chainlightning" />
+                <TextView
+            		android:layout_width="wrap_content"
+            		android:layout_height="wrap_content"
+            		android:text="  闪电链  "
+            		android:textColor="#000"
+            		android:textSize="12sp" />                
+        	 </LinearLayout>
+        	 <LinearLayout
+            	android:layout_width="wrap_content"
+            	android:layout_height="wrap_content"
+              	android:gravity="center_horizontal"
+              	android:layout_marginTop="10dp"
+              	android:orientation="vertical"
+              	android:layout_weight="1">               	
+                <ImageView
+            		android:id="@+id/img_friends"
+        			android:layout_width="wrap_content"
+        			android:layout_height="wrap_content"        	     	
+        			android:scaleType="matrix"
+        			android:clickable="true"
+        			android:onClick="jn3farseer"
+        			android:src="@drawable/feralspirit" />
+                <TextView
+            		android:layout_width="wrap_content"
+            		android:layout_height="wrap_content"
+            		android:text="野兽幽魂"
+            		android:textColor="#000"
+            		android:textSize="12sp" />                
+        	 </LinearLayout>
+        	 <LinearLayout
+            	android:layout_width="wrap_content"
+            	android:layout_height="wrap_content"
+              	android:gravity="center_horizontal"
+              	android:layout_marginTop="10dp"
+              	android:orientation="vertical"
+              	android:layout_weight="1">               	
+                <ImageView
+            		android:id="@+id/img_friends"
+        			android:layout_width="wrap_content"
+        			android:layout_height="wrap_content"        	     	
+        			android:scaleType="matrix"
+        			android:onClick="jn4farseer"
+        			android:clickable="true"
+        			android:src="@drawable/earthquake" />
+                <TextView
+            		android:layout_width="wrap_content"
+            		android:layout_height="wrap_content"
+            		android:text="    地震    "
+            		android:textColor="#000"
+            		android:textSize="12sp" />                
+        	 </LinearLayout>
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical" >
+
+           <TextView android:textColor="#0066ff"
+               android:id="@+id/textViewjn1farseer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:text="      让你可以看到地图上一定区域内所有活动，并可以显示出隐形单位，持续时间8s，魔法消耗75，距离无限(快捷键T)。" >
+            </TextView>
+            <TextView android:textColor="#0066ff"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:id="@+id/textViewjn2farseer"
+                android:text="      等级1——作用范围60，显示地图" >
+            </TextView>
+            <TextView android:textColor="#0066ff"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:id="@+id/textViewjn3farseer"
+                android:text="      等级2——作用范围180，显示地图" >
+            </TextView>
+            <TextView android:textColor="#0066ff"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:id="@+id/textViewjn4farseer"
+                android:text="      等级3——作用范围400，显示地图" >
+            </TextView>
+          <TextView android:textColor="#000"
+              	android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:text="      先知是非常受欢迎的英雄，很多的兽族玩家都使用他作为首发英雄，因为他具有很多有用的技能。" >
+            </TextView>
+     
+        <TextView android:textColor="#000"   
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"  
+            android:layout_marginTop="10dp"
+            android:text="        几乎所有的玩家都会选择幽灵狼作为先知的第一技能。因为幽灵狼可以利用于早期的猎杀野外生物，骚扰，反骚扰侦察地图等等各色各样的事情。而第二技能闪电链可以给敌方部队造成很大的伤害，并且对于那些低生命的远程部队和魔法部队相当的有效。而比较少见的就是先知的透视技能，利用这个技能可以快速的侦察地图，发现隐形单位，而在高等级时，可以一下打开非常大面积的视野。不过这个技能在组队游戏中才会有人使用。先知的终极技能地震，可以在最后的攻城战中发挥作用，特别是对于那些防御性建筑来说是非常有效的。"  
+		></TextView>      
+
+   
+
+        <TextView android:textColor="#000"   
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"  
+            android:layout_marginTop="10dp"
+            android:text="     先知也很适用与初期的骚扰，利用两头幽灵狼去攻击敌人的农民。"  
+></TextView>      
+
+ 
+        <TextView android:textColor="#000"   
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content" 
+            android:layout_marginTop="10dp" 
+            android:text="      先知可以和幽灵狼分开行动，在2级时就可以利用闪电链和幽灵狼消耗掉敌方部队大量的精力。"  
+></TextView>      
+ 
+        <TextView android:textColor="#000"   
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"   
+            android:layout_marginTop="10dp"
+            android:text="      不过先知相当的脆弱，所以最好不要让他离敌人太近。也很惧怕敌人火力齐射，或者近战部队围攻的时候。"  
+            ></TextView>             
+      </LinearLayout>
+</LinearLayout>
+
+</ScrollView>
+</LinearLayout>

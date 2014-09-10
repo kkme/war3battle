@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#eee"
+        android:orientation="vertical" >
+        
+        <LinearLayout 
+  			android:layout_width="fill_parent"
+  			android:layout_height="45dp"
+  			android:id="@+id/title" 
+  			android:background="@drawable/title_bar"
+  			android:gravity="center_horizontal|center_vertical"  >  
+      <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="返回" 
+        android:onClick="backv1"
+        />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="不死族VS人族"
+        android:gravity="center|center_horizontal|center_vertical"
+        android:textColor="#ffffff"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="点我" 
+        android:onClick="clickv1"
+        />    
+			</LinearLayout>
+<ScrollView 
+
+    android:id="@+id/ScrollView01" 
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content"
+
+    
+    
+>
+
+<LinearLayout 
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    >
+
+
+       
+    <TextView  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"  
+            android:textStyle="bold"  
+            android:typeface="serif"  
+            android:textSize="18sp"  
+            android:text="UD vs 人族"  
+            android:gravity="left"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"  
+            android:textColor="#000"></TextView>  
+
+
+        
+    <TextView  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"    
+            android:text="        人族打UD，多数都会开矿，所以UD针对人族开矿的战术分成以下几种。1本对开矿，2本速天鬼骚扰，2本强RUSH，2本ZZ+绞肉车RUSH，2本骷髅海，3本毁灭一波。而和人族后期打，大概又分成几种。混编部队，空军，女妖地面部队组合，占据流，纯毁灭等。"  
+            android:gravity="left"  
+            android:layout_marginBottom="5dp"
+            android:textColor="#000"></TextView>  
+
+
+        
+    <TextView  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"    
+            android:text="        先说下前期的骚扰。人族是AM or PAL首发的，DK一来直接去3陪。至于如何知道HUM的首发呢？前期探路的农民带回的信息。发现HUM基地的时候，农民不要傻乎乎的站那里给他走出来的FM追。发现人族基地立刻闪出他的视野，然后估摸着你DK出来的时候，快出来了，再去接近他祭坛。这样就算被他FM摸2下也不用死，也可以顺便看看他的英雄是往哪个方向跑的，方便DK捉MF。DK买上骷髅棒第1时间赶去，骚扰时抢怪为主，最好是留魔抢大怪，至于农民，留给骷髅和DK纯A就OK了。AM和PAL到了3级绝对有质的飞跃，所以阻止他们到3非常关键。然后，他们通常会选择开分矿，UD有2波拖狗时机，1是在人族练雇佣兵营地之前，他练的时候刚好杀到（大概是5个小G）尽量杀农民。2是在他开分矿的时候，也是杀农民为主。如果有2级水，黄皮绿皮很多FM都很健康，那么UD就不要硬攻了，赚点便宜就撤退。至于打MK，前期一定要爆一波狗给以他足够的压力。死光所有小G都没所谓，一定要把他打残，为2本的速天鬼作准备。一直攻他分矿，人族通常就会忽略主基地的防御，有利于你速天鬼的偷袭成功。有点像ORC打人族的速飞龙，只要你天鬼（4+）去到他基地之前塔还没好，那多数都好不起来了。人族封家的更悲剧，MK和绿皮都不能进去，绝对会郁闷而死。（3陪MK的时候骷髅先冲，开视野，然后DK再用C来抢怪。）"  
+            android:gravity="left"  
+            android:layout_marginBottom="5dp"
+            android:textColor="#000"></TextView>  
+
+        
+    <TextView  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"    
+            android:text="        至于刚2本强RUSH人族的分矿,分成大概2种。1是爆狗，2发DR强攻，先杀他脆弱的单位制造骷髅，慢慢磨下去。注意DK的走位，千万不能死。DK的C用来救DR，如果他不打你DR就用来C死他的黄皮或绿皮。狗则显得不是太重要。2是狗转ZZ，2发FL强推。"  
+            android:gravity="left"  
+            android:textColor="#000"></TextView>  
+
+      
+    <TextView  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"  
+            android:textStyle="bold"  
+            android:typeface="serif"  
+            android:textSize="18sp"  
+            android:text="2本ZZ+投石车RUSH"  
+            android:gravity="left"  
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"  
+            android:textColor="#000"></TextView>  
+
+      
+    <TextView  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"  
+            android:textStyle="bold"  
+            android:typeface="serif"  
+            android:textSize="18sp"  
+            android:text="2本骷髅海强推"  
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"  
+            android:gravity="left"  
+            android:textColor="#000"></TextView>  
+
+
+        
+    <TextView  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"    
+            android:text="        通常针对MK首发。UD用这招不需要升到3本，前期DK 3陪，然后在他MF大点或者开分矿的时候拖出基地里的大部分小G去骚扰。尽量保存自己的单位，不要死得太多，不然人族买出雇佣兵反压一波，骷髅海未成型的UD将会受到很大的打击。去进攻人族之前，造2个BT，1个BH，棺材负责给骷髅法师+蓝。这里有个小技巧，就是可以用骷髅法师瞬间在坟场里召唤出10个骷髅战士配合英雄去MF。50人口部队配置大概是半队狗，半队骷髅法师，2个绞肉车（装满尸体）1个棺材。去进攻（人族主矿）时，分别有2种情况。1是非常多塔，2是一般多塔。前者，绞肉车砸基地[主要是G（A地面）维修农民和基地的中间]，他部队来的时候，你骷髅法师（关闭自动召唤骷髅）从绞肉车里召唤出一队多骷髅挡住他部队，棺材的+蓝改成+血。如果等了大概十多秒还没见他来回防的，那么基地立刻变红塔。他一旦出现在你基地，看情况来TP。通常可以选择KL法师召唤出一队骷髅然后跑远一点，DK+狗带骷髅一起TP，留下投车继续砸基地。如果他部队少的，直接跑回去就OK了。"  
+            android:gravity="left"  
+            android:textColor="#000"></TextView>  
+
+       
+    <TextView  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"  
+            android:textStyle="bold"  
+            android:typeface="serif"  
+            android:textSize="18sp"  
+            android:text="3本毁灭一波"  
+            android:gravity="left"  
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"  
+            android:textColor="#000"></TextView>  
+
+
+        
+    <TextView  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"    
+            android:text="        现在实在是非常少人用这招。通常是Happy的那种科技ZZ转毁灭的战术。乌克兰亡灵Bly很多人都听过了，他就把这招运用得非常好。大家不用听我说了，看看他怎么打，就可以领悟这招的精粹。注意拖狗，骚扰的细节，升本造建筑的时机，2发3发英雄的选择等和大战时对英雄的保护。"  
+            android:gravity="left"  
+            android:layout_marginBottom="5dp"
+            android:textColor="#000"></TextView>  
+
+
+        
+    <TextView  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"    
+            android:text="        后期和人族交战。人族通常会有几种战术，常规3本流（74+49+飞机），双矿49+飞机，坦克WS拆家，龙鹰49，还有其他就不多描述了，下面我为大家各说说如何应对这些战术。"  
+            android:gravity="left"  
+            android:textColor="#000"></TextView>  
+
+      
+    <TextView  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"  
+            android:textStyle="bold"  
+            android:typeface="serif"  
+            android:textSize="18sp"  
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"  
+            android:text="应对常规3本流"  
+            android:gravity="left"  
+            android:textColor="#000"></TextView>  
+
+
+        
+    <TextView  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"    
+            android:text="        人族通常都会选择单矿（在TR SV等开矿不容易的地图上使用）通常都是AM首发。前期DK 3陪无话，打这招可以用科技ZZ流，当然速毁灭也不错，前提是不要被人族捉到真空期反压。其实人族兵力未成型，2发3发未练到3级的时候，威力是非常少的。人族3本不久，那段时间完全是UD的优势期，UD可以2本时可以出一个阴影，跟着人族，然后N个ZZ+棺材找人族开战。那时UD的英雄等级大概是DK3 LICH2，ZZ有网有钻地，打起来并不亏，特别是空军被网后，只能被ZZ点死，所以人族通常会转出74，那么UD只需要转出毁灭打一波就可以赢了。至于打人族的74+飞机，则要根据他飞机和74的数量来改变自己ZZ和毁灭的数量。看过infi的一场用UD来打，非常聪明。先是一直都用少量毁灭和人族交战，使得人族以为UD放弃空军，只出了半队飞机，但74却有半队多。INFI最后一波时，部队转出了大量毁灭，由于人族飞机不足，被INFI一波拿下。还有女妖占据，我记得NightEnD在SV上打人族，也有过这样打，一定要及早交战，拖到大后期女妖占据很容易被杀。"  
+            android:gravity="left"  
+            android:textColor="#000"></TextView>  
+
+     
+    <TextView  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"  
+            android:textStyle="bold"  
+            android:typeface="serif"  
+            android:textSize="18sp"  
+            android:text="应对飞机+49组合"  
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"  
+            android:gravity="left"  
+            android:textColor="#000"></TextView>  
+
+
+        
+    <TextView  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"    
+            android:text="        面对人族这种纯空军，UD出地面部队其实还是很亏的，很大的一个原因是操作不过来。不过操作好也不妨使用女妖ZZ胖子棺材的混编部队。这样的组合打人族不好是由于HUM总能捉到你没有套盾的单位来双T磨UD的部队，而49打棺材也是非常快的。所以UD可以选择纯毁灭。可能很多人看到HUM很多飞机，就不敢出空军，其实不是的，毁灭打飞机，有一个优势。3本时，UD毁灭一波冲不掉人族的矿，这时依然是UD的优势期，UD可以选择对开矿，然后继续出毁灭升攻防。毁灭打飞机的思路是，应带群补，毁灭和飞机的硬拼一波必须吸完棺材的魔，所有毁灭飞起来，掉血依靠英雄的群补（3英雄起码带2群补），把群补用完了，半血左右就开始TP了。TP回基地，毁灭应该几乎都是红血。这样依靠地皮和新出的棺材，毁灭修养几十秒就可以很快恢复满血。大家可能不知，这一波起码能杀HUM 2队飞机。没错，是2队（具体数量取决于UD毁灭的数量）。人族死很多飞机，由于战术定型肯定会继续补飞机的，其他例如49等兵不会多出。那么UD只要反复这样依靠群补来耗，就能取得胜利。（PS我就是这招打赢纱布VIVA的）"  
+            android:gravity="left"  
+            android:textColor="#000"></TextView>  
+
+       
+    <TextView  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"  
+            android:textStyle="bold"  
+            android:typeface="serif"  
+            android:textSize="18sp"  
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"  
+            android:text="应对坦克WS"  
+            android:gravity="left"  
+            android:textColor="#000"></TextView>  
+
+
+        
+    <TextView  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"    
+            android:text="        2种思路。1是2本ZZ+投车把他推了。由于他肯定玛塔，所以科技不快兵力不多，2本爆投车顺利可以推掉他的矿。2是对开分矿，然后迎接对手的进攻。UD的大部队主要是冰龙+少量ZZ胖子+阴影。而基地则是半队多狂狗（3攻）冰龙（2防+）基地外围多造几个牺牲深渊，这样应对就可以防下HUM的不断涌来的坦克。而面对5J PAL，可以出2个女妖帮采金的农民套盾配合封家来防御。只要猛杀他的坦克，而自己还剩余很多建筑，那么攻击UD耗赢了。"  
+            android:gravity="left"  
+            android:textColor="#000"></TextView>  
+
+     
+    <TextView  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"  
+            android:textStyle="bold"  
+            android:typeface="serif"  
+            android:textSize="18sp"  
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"  
+            android:text="应对龙鹰49"  
+            android:gravity="left"  
+            android:textColor="#000"></TextView>  
+
+
+        
+    <TextView  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"    
+            android:text="        可以纯毁灭，也可以女妖ZZ。反正UD最重要的就是群伤魔法。例如2发PD的酒火，LICH的NOVA，和DL的蜂群等。对空军的杀伤力非常强，练到3级后更是几招魔法出手那些空军就半血了。"  
+            android:gravity="left"  
+            android:textColor="#000"></TextView>  
+
+      
+    <TextView  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"  
+            android:textStyle="bold"  
+            android:typeface="serif"  
+            android:textSize="18sp"  
+            android:text="其他大招"  
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"  
+            android:gravity="left"  
+            android:textColor="#000"></TextView>  
+
+
+        
+    <TextView  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"    
+            android:text="        例如CL双BC爆狗1本RUSH，1本对开矿，DL+狗，练高级然后学蜂群杀农民，直爆ZZ冰龙等，我就不多说了，被对手针对的话比较容易输，但偶尔用下还是不错的。 "  
+            android:gravity="left"  
+            android:textColor="#000"></TextView>  
+
+
+
+</LinearLayout>
+</ScrollView>
+</LinearLayout>

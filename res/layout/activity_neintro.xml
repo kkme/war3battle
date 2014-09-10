@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#eee"
+        android:orientation="vertical" >
+        
+        <LinearLayout 
+  			android:layout_width="fill_parent"
+  			android:layout_height="45dp"
+  			android:id="@+id/title" 
+  			android:background="@drawable/title_bar"
+  			android:gravity="center_horizontal|center_vertical"  >  
+      		<TextView
+        		android:layout_width="wrap_content" 
+        		android:layout_height="wrap_content" 
+        		android:text="精灵族"
+        		android:textSize="20sp"		
+				android:textColor="#ffffff" />       
+			</LinearLayout>
+<ScrollView 
+
+    android:id="@+id/ScrollView01" 
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content"
+>
+
+<LinearLayout
+            android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin" 
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >  
+
+<ImageView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:layout_marginTop="10dp"
+    android:layout_marginBottom="10dp"
+    android:src="@drawable/nightelfseal" >
+
+</ImageView> 
+     
+    <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"  
+            android:textStyle="bold"  
+            android:typeface="serif"  
+            android:textSize="18sp"  
+            android:text="简介"  
+            android:layout_marginBottom="10dp"
+            android:gravity="left"  
+             ></TextView>  
+
+
+        
+    <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="        隐居的暗夜精灵是魔兽争霸的世界中诞生最早的种族。 这些神秘而不朽的生命最先学会使用魔法，并在人类和兽人的第一次战争之前的一万年就已开始用魔法改造世界了。由于暗夜精灵肆意的使用魔法最终导致燃烧军团来到了世界上，并在两个强大的种族间引发了一场灾难性的恶战。暗夜精灵用尽全力才击退了燃烧军团，可他们那神奇的大陆却突然破裂并沉没在海水之中。从那以后，暗夜精灵为了不再引来可怕的燃烧军团只能不再使用魔法。他们彻底与世隔绝藏在圣山海加尔上数千年。作为一个种族，暗夜精灵是典型的可敬与公正，在使用大自然的力量 及黑暗系的技能方面，他们拥有远远超过其他种族的造诣，但是他们非常不信任其它那些看起来弱小的种族。由于他们生来具有隐行的能力并使用神秘的魔法，其它种族也同样不信任他们。"  
+            android:gravity="left"  
+             ></TextView>  
+
+
+        
+    <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="        卡利姆多大陆的暗夜精灵是注重机动性、远程火力和施法技巧的强大种族。他们并没有其他种族那样的蛮力，但暗夜精灵使用弓和魔法的娴熟技巧令他们与任何种族相比都毫不逊色。 "  
+            android:gravity="left"  
+             ></TextView>  
+
+     
+    <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"  
+            android:textStyle="bold"  
+            android:typeface="serif"  
+            android:textSize="18sp"  
+            android:text="优势"  
+                android:layout_marginTop="10dp"
+    android:layout_marginBottom="10dp"
+            android:gravity="left"  
+             ></TextView>  
+
+     
+    <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"  
+            android:textStyle="bold"  
+            android:typeface="serif"  
+            android:textSize="16sp"  
+            android:text="古树"  
+            android:gravity="left"  
+             ></TextView>  
+
+
+        
+    <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="        暗夜精灵的一些建筑物实际上是有思想并可以移动的树。它们是生命之树、远古之树、永恒之树、远古之战、风之古树、知识古树、远古保护者和奇迹之树。这些建筑物可以通过‘起立’命令站起身来四处移动，在行走状态下它们可以攻击地面单位，但不能使用在普通状态下的能力，比如采集资源或制造部队。要回到建筑物状态，它们必须重新找一块地方扎根。古树可以从以下的能力中获益："  
+            android:gravity="left"  
+             ></TextView>  
+    
+    <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"  
+            android:textStyle="bold"  
+            android:typeface="serif"   
+            android:text="        吃树： 如果受到伤害，古树可以通过吃树来恢复生命值。"  
+            android:gravity="left"  
+             ></TextView>  
+     
+    <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"  
+            android:textStyle="bold"  
+            android:typeface="serif"   
+            android:text="        自然祝福： 这项技能可以增加古树的移动速度和护甲值。"  
+            android:gravity="left"  
+             ></TextView>  
+
+     
+    <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"  
+            android:textStyle="bold"  
+            android:typeface="serif"  
+            android:textSize="16sp"  
+            android:text="影遁"  
+            android:gravity="left"  
+             ></TextView>  
+
+        
+    <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="        女性暗夜精灵拥有影遁能力，每到夜晚，当她们静止不动时就会自动隐形。弓箭手、女猎手、守望者和月亮祭司都拥有这项能力。即使在激战中，您也可以通过[隐藏]按钮来使她们保持静止，在狂暴的敌人面前突然隐形。影遁能力只能在夜间使用。"  
+            android:gravity="left"  
+             ></TextView>  
+
+      
+    <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"  
+            android:textStyle="bold"  
+            android:typeface="serif"  
+            android:textSize="16sp"  
+            android:text="强化夜视能力"  
+            android:gravity="left"  
+             ></TextView>  
+
+
+        
+    <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="        暗夜精灵可以通过升级使得他们在夜间的视野也和白天一样广阔。这项能力被称为夜视能力，可以在猎手大厅中研究。夜视能力不能提高建筑的视野。"  
+            android:gravity="left"  
+             ></TextView>  
+    
+    <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"  
+            android:textStyle="bold"  
+            android:typeface="serif"  
+            android:textSize="16sp"  
+            android:text="月亮井"  
+            android:gravity="left"  
+             ></TextView>  
+
+        
+    <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="        暗夜精灵的月亮井可以为他们提供食物，并且储存着魔法能量，可以为暗夜精灵恢复生命值和魔法值。月亮井耗费的魔法能量会在夜间自动补充。"  
+            android:gravity="left"  
+             ></TextView>  
+
+
+        
+    <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="        暗夜精灵不会消耗树木，所以小精灵可以一直停留在你指定的地方。"  
+            android:gravity="left"  
+             ></TextView>  
+
+
+
+</LinearLayout>
+</ScrollView>
+</LinearLayout>

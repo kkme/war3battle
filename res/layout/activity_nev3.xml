@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#eee"
+        android:orientation="vertical" >
+        
+        <LinearLayout 
+  			android:layout_width="fill_parent"
+  			android:layout_height="45dp"
+  			android:id="@+id/title" 
+  			android:background="@drawable/title_bar"
+  			android:gravity="center_horizontal|center_vertical"  >  
+      <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="返回" 
+        android:onClick="backv3"
+        />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="精灵族VS精灵族"
+        android:gravity="center|center_horizontal|center_vertical"
+        android:textColor="#ffffff"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="点我" 
+        android:onClick="clickv3"
+        />    
+			</LinearLayout>
+<ScrollView 
+
+    android:id="@+id/ScrollView01" 
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content"
+
+>
+
+<LinearLayout 
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    >
+      
+    <TextView  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"  
+            android:textStyle="bold"  
+            android:typeface="serif"  
+            android:textSize="18sp"  
+            android:text="暗夜内战"  
+            android:gravity="left"  
+            android:textColor="#000"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"></TextView>  
+
+
+        
+    <TextView  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"    
+            android:text="        主流还是4种。拼熊，吹风，开矿爆鹿对点，拼HT（HT TR）。其他大招依然有种树骚扰，精灵龙海，角鹰骑士流，弩车流，HT霸王冲击波，山岭，大树流，雇佣兵流等等。"  
+            android:gravity="left"  
+            android:textColor="#000"></TextView>  
+
+      
+    <TextView  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"  
+            android:textStyle="bold"  
+            android:typeface="serif"  
+            android:textSize="18sp"  
+            android:text="拼熊"  
+            android:gravity="left"  
+            android:textColor="#000"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"></TextView>  
+
+
+        
+    <TextView  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"    
+            android:text="        使用率非常高的一种战术，绝对是老少适宜。常规的是DH MF到2，入夜买鞋，3AC过渡开始攀3本。前期利用DH，尽量追杀对手AC，2本时把BR走出基地配合MF。升3时有2种路线，1是科技优先，先3本再BL。2是兵力优先（先BL再3本）。前者，熊绝对是更早趴下，如果能在刚趴下就找对手决战，那么就能在对手大师熊还没好的时候占据一定优势。如果是兵力优先的，没有这么快开战，那么自己大师熊升好后熊的数量就会比对手多一些。3本时第1波交战后，通常都是各自MF的。尽量把NAGA练到3级，带无敌群补保存等。大战时，注意阵型，开战的时候A地，然后局部控制熊散开，排成一条线，这就是拼熊的最好阵型。操作快的把黄血接近红血的熊拉后套返老再顶上去。DH绕侧翼抽NAGA的魔法或红血的熊的魔法。而NAGA则对着对手熊群的中间放闪电叉。打完后，MF为主，把月井补到70人口，自己压50人口升攻防，然后再爆人口。也有一个茅招就是精灵探探对手在不在家，然后熊群冲到对手基地包着BT来拆，精灵修就电，拔掉基地就TP。太多经典REP了，就不找了。以前的NE很多都是拼熊的。"  
+            android:gravity="left"  
+            android:textColor="#000"></TextView>  
+
+     
+    <TextView  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"  
+            android:textStyle="bold"  
+            android:typeface="serif"  
+            android:textSize="18sp"  
+            android:text="吹风"  
+            android:gravity="left"  
+            android:textColor="#000"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"></TextView>  
+
+
+        
+    <TextView  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"    
+            android:text="        要说这招运用得非常BT的，非suhO莫属。内战无敌男，并不是说说，suhO的内战的确是有够无敌的。前期大量AC，2发NAGA后买血瓶压制，TR等图就在中间补商店控场，第1波压制结束后引怪练，引出来再用AC卡位减少MF的耗血。NAGA练3后再发动第2波进攻。特别是在对方熊还没有能趴下的时候，依靠大量远程部队的点射先把对手的BR打爆，然后再点商店--井--等等，他一冲出来也立刻点肉熊。后期决战中尽量吹起对手DH和一部分的熊，群补和无敌也是必须的。"  
+            android:gravity="left"  
+            android:textColor="#000"></TextView>  
+
+      
+    <TextView  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"  
+            android:textStyle="bold"  
+            android:typeface="serif"  
+            android:textSize="18sp"  
+            android:text="开矿爆鹿"  
+            android:gravity="left"  
+            android:textColor="#000"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"></TextView>  
+
+
+        
+    <TextView  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"    
+            android:text="        Nicker在MV上的拿手战术，曾经击败过Moon，ReMinD等。前期POM首发单BR出HT，摆出一付要RUSH的姿态，让对手不敢速科技。入夜后带HT各种突击杀精灵，又或者截杀落单的HT，千万不要和对手刚，刚不赢的。骚扰完就去配合第1个BR MF。由于是单BR，科技不会比对手慢太多，买出2发NAGA后直接清理分矿并放下生命之树，基地里造2个BL出鹿。这时应该做的就是去3陪下对手，或者自己MF。第1个BR，最好也走到自己的分矿处协助防守。如果对手发现，并来进攻的话，必须要点爆你的BR，你就可以趁他打你BR的时候从旁边突击，他失去阵型会很伤的。打退对手后自己分矿也造个商店，然后MF雇佣兵迅速扩展兵力，不用急着找对手决战，而是等对手主动求战，那么摆好个阵势等对手来就OK了。EI，TM，MV，TS等图比较适合，后期群补和无敌是很必要的，大战时先点光对手的远程部队（AC鹿）剩下的熊，就会给鹿无限操作了（没血的鹿拉后，他完全追不上的）。"  
+            android:gravity="left"  
+            android:textColor="#000"></TextView>  
+
+     
+    <TextView  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"  
+            android:textStyle="bold"  
+            android:typeface="serif"  
+            android:textSize="18sp"  
+            android:text="拼HT"  
+            android:gravity="left"  
+            android:textColor="#000"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"></TextView>  
+
+
+        
+    <TextView  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"    
+            android:text="        也算是NE的复古战术吧。这招在以前是非常流行的，曾经我见到有场职业比赛，NE首发DH，看到对手是双BR HT的打法，把DH取消了转出POM。由于当时的建筑学没有现在完善，碰到HT很容易会抵挡不住。其实在开局上，也没有什么特别需要注意的地方，第2个BR可以摆到怪点旁边。前期英雄的技能，3招都可以升，还是具体情况具体分析吧，不过通常都是升光环的。HT对拼的细节，和拼熊差不多，尽量争取最大输出，对手把红血HT拉走了，也不要追，继续留在原地输出就OK了。拉走的红血HT找野怪自杀，因为井水不够，而且红血HT太多，很快就满50人口不能出新的HT。第2天后买群防群补，或者可以转飞艇弩车，又或者偷矿2本出鹿等。"  
+            android:gravity="left"  
+            android:layout_marginBottom="5dp"  
+            android:textColor="#000"></TextView>  
+
+
+        
+    <TextView  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"    
+            android:text="        HT流打AC，讲求的是快攻。在鹿之前打一波，在熊之前TR成功。如果碰到NE是爆AC慢科技，而且基地的建筑造得很好，AC在家里等着你去攻的，那么HT一方也不用急。接近2本的时候可以隐身到酒馆那里围杀他的2英雄。又或者先偷BP，HT隐身在他基地门前，拖到BP造好，再转弩车。注意的是BP造好后走到离他月井大概600范围的地方，那么他的AC缩在里面就攻击不到你了。然后等弩车来。如果他AC走出来点你BP，那就正中下怀，HT直接可以攻击AC，使得他无路可退。"  
+            android:gravity="left"  
+            android:textColor="#000"></TextView>  
+
+    
+    <TextView  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"  
+            android:textStyle="bold"  
+            android:typeface="serif"  
+            android:textSize="18sp"  
+            android:text="其他战术"  
+            android:gravity="left"  
+            android:textColor="#000"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"></TextView>  
+
+
+        
+    <TextView  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"    
+            android:text="        大树流：爆AC的变种，2本时把BW换成BR，种在地图中间，然后向对手基地推进。研究了自然祝福后，BR就是一个强大的肉盾，可攻可守，可出兵可掩护，绝对是居家旅行，杀人放火必备。适合EI，TR等小图。前期DH MF到2，然后依靠大量AC控制酒馆，买了NAGA后开始种树，基地升祝福，再补精灵拉往前线维修BR。慎防换家，基地最好也能补1个BR。"  
+            android:gravity="left"  
+            android:layout_marginBottom="5dp"  
+            android:textColor="#000"></TextView>  
+
+
+        
+    <TextView  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"    
+            android:text="        精灵龙：配合HT，就是NE版的天地双鬼了。前期单BR HT开局，杀精灵为主，目的和天鬼一样，就是要干扰NE的木材，拖慢他的3本科技，2本后开始爆精灵龙。注意的是精灵龙先藏在树林上面，不要被他看到。他看到你双BW，以为你会走吹风路线，于是走熊鹿流可能会多出一些鹿（+上缺乏木材）然后精灵龙一方爆到50人口，买好群补就可以去进攻了。由于瞬间消失，精灵龙的伤害肯定会摊得非常平均，鹿绝对不是精灵龙的对手。等点完鹿，然后打NAGA，然后……！"  
+            android:gravity="left"  
+            android:layout_marginBottom="5dp"  
+            android:textColor="#000"></TextView>  
+
+
+        
+    <TextView  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"    
+            android:text="        角鹰骑士流：什么都不用说。"  
+            android:gravity="left"  
+            android:layout_marginBottom="5dp"  
+            android:textColor="#000"></TextView>  
+
+
+        
+    <TextView  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"    
+            android:text="        弩车流：也就投车流，纯弩车打法绝对是非常暴力。前期双BR开局，先出HT过度，练了实验室后直接买飞艇A树玩投车，也有开局直接出弩车的。"  
+            android:gravity="left"  
+            android:layout_marginBottom="5dp"  
+            android:textColor="#000"></TextView>  
+
+
+        
+    <TextView  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"    
+            android:text="        HT拆家。就是利用HT的弹射，直接拔掉对方基地的生命之树，使维修的精灵被弹死。用这招有2点要注意的，1是对手的建筑布局，2是对手要不在家。去到对手家拆基地，对手立刻TP，那么就撤吧，下次再拆。也可以利用飞艇空投HT到金盖后面拆，他精灵也是修不来的，他TP，你就运走就是了。常见于NE内战。REP：各种HT换家，不解释。"  
+            android:gravity="left"  
+            android:layout_marginBottom="5dp"  
+            android:textColor="#000"></TextView>  
+
+
+        
+    <TextView  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"    
+            android:text="        山岭：这个嘛，很少有人净出山岭来构成成熟的战术体系，至于买雇佣兵，常见于3远，TM等图偷了个矿，可以MF雇佣兵迅速将钱转换成兵力。 "  
+            android:gravity="left"  
+            android:layout_marginBottom="5dp"  
+            android:textColor="#000"></TextView>  
+
+
+        
+    <TextView  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"    
+            android:text="        至于买雇佣兵，常见于3远，TM等图偷了个矿，可以MF雇佣兵迅速将钱转换成兵力。 "  
+            android:gravity="left"  
+            android:textColor="#000"></TextView>  
+
+
+
+</LinearLayout>
+</ScrollView>
+</LinearLayout>

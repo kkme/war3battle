@@ -1,0 +1,1692 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#eee"
+        android:orientation="vertical" >
+        
+        <LinearLayout 
+  			android:layout_width="fill_parent"
+  			android:layout_height="45dp"
+  			android:id="@+id/title" 
+  			android:background="@drawable/title_bar"
+  			android:gravity="center_horizontal|center_vertical"  >  
+      		<TextView 
+        		android:layout_width="wrap_content" 
+        		android:layout_height="wrap_content" 
+        		android:text="消耗性物品"
+        		android:textSize="20sp"		
+				android:textColor="#ffffff" />       
+			</LinearLayout>
+<ScrollView 
+
+    android:id="@+id/ScrollView01" 
+    android:layout_width="fill_parent" 
+    android:layout_height="fill_parent"
+        >
+
+<LinearLayout
+    android:paddingBottom="@dimen/activity_vertical_margin"
+
+    android:paddingRight="@dimen/activity_horizontal_margin" 
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center"
+    >
+
+
+<TableLayout android:layout_marginTop="10dp"   
+    android:layout_width="fill_parent"  
+    android:layout_height="fill_parent"  
+        android:shrinkColumns="*"  
+    android:stretchColumns="*"  
+> 
+<TableRow   
+        android:layout_height="wrap_content"  
+        android:layout_width="wrap_content"  
+        android:gravity="center_horizontal">  
+ <ImageView
+           android:layout_width="wrap_content" 
+         android:layout_height="wrap_content" 
+           android:gravity="left"
+           android:layout_span="1"
+            android:src="@drawable/healing"
+           >
+      </ImageView>
+      
+      <TextView
+                  android:layout_width="wrap_content" 
+         android:layout_height="wrap_content"   
+            android:gravity="left"
+            android:textColor="#000099"
+            android:layout_span="8"
+            android:text="生命药水 Potion of Healing恢复250生命。" >        </TextView>
+
+        </TableRow>
+        </TableLayout>
+<TableLayout android:layout_marginTop="10dp"   
+    android:layout_width="fill_parent"  
+    android:layout_height="fill_parent"  
+        android:shrinkColumns="*"  
+    android:stretchColumns="*"  
+> 
+<TableRow   
+        android:layout_height="wrap_content"  
+        android:layout_width="wrap_content"  
+        android:gravity="center_horizontal">  
+ <ImageView
+           android:layout_width="wrap_content" 
+         android:layout_height="wrap_content" 
+           android:gravity="left"
+           android:layout_span="1"
+            android:src="@drawable/greaterhealing"
+           >
+      </ImageView>
+      
+      <TextView
+                  android:layout_width="wrap_content" 
+         android:layout_height="wrap_content"   
+            android:gravity="left"
+            android:textColor="#000099"
+            android:layout_span="8"
+            android:text="大生命药水 Potion of Greater Healing恢复500生命。" >
+        </TextView>
+
+        </TableRow>
+        </TableLayout>
+<TableLayout android:layout_marginTop="10dp"   
+    android:layout_width="fill_parent"  
+    android:layout_height="fill_parent"  
+        android:shrinkColumns="*"  
+    android:stretchColumns="*"  
+> 
+<TableRow   
+        android:layout_height="wrap_content"  
+        android:layout_width="wrap_content"  
+        android:gravity="center_horizontal">  
+ <ImageView
+           android:layout_width="wrap_content" 
+         android:layout_height="wrap_content" 
+           android:gravity="left"
+           android:layout_span="1"
+            android:src="@drawable/healthstone"
+           >
+      </ImageView>
+      
+      <TextView
+                  android:layout_width="wrap_content" 
+         android:layout_height="wrap_content"   
+            android:gravity="left"
+            android:textColor="#000099"
+            android:layout_span="8"
+            android:text="健康之石 Health Stone生命恢复速度增加1生命/秒，或者可用掉它立刻为自己加500生命。" >
+        </TextView>
+
+        </TableRow>
+        </TableLayout>
+        <TableLayout android:layout_marginTop="10dp"   
+    android:layout_width="fill_parent"  
+    android:layout_height="fill_parent"  
+        android:shrinkColumns="*"  
+    android:stretchColumns="*"  
+> 
+<TableRow   
+        android:layout_height="wrap_content"  
+        android:layout_width="wrap_content"  
+        android:gravity="center_horizontal">  
+ <ImageView
+           android:layout_width="wrap_content" 
+         android:layout_height="wrap_content" 
+           android:gravity="left"
+           android:layout_span="1"
+            android:src="@drawable/healingsalve"
+           >
+      </ImageView>
+      
+      <TextView
+                  android:layout_width="match_parent" 
+         android:layout_height="match_parent"   
+            android:gravity="left"
+            android:textColor="#000099"
+            android:layout_span="8"
+            android:text="医疗剂 Healing Salve45秒内恢复400生命，非战斗使用型。" >
+        </TextView>
+
+        </TableRow>
+        </TableLayout>
+   
+<TableLayout android:layout_marginTop="10dp"   
+    android:layout_width="fill_parent"  
+    android:layout_height="fill_parent"  
+        android:shrinkColumns="*"  
+    android:stretchColumns="*"  
+> 
+<TableRow   
+        android:layout_height="wrap_content"  
+        android:layout_width="wrap_content"  
+        android:gravity="center_horizontal">  
+ <ImageView
+           android:layout_width="wrap_content" 
+         android:layout_height="wrap_content" 
+           android:gravity="left"
+           android:layout_span="1"
+            android:src="@drawable/scrollofhealing"
+           >
+      </ImageView>
+      
+      <TextView
+                  android:layout_width="wrap_content" 
+         android:layout_height="wrap_content"   
+            android:gravity="left"
+            android:textColor="#000099"
+            android:layout_span="8"
+            android:text="治疗卷轴 Scroll of Healing恢复友/己方非机械单位150生命。 " >
+        </TextView>
+
+        </TableRow>
+        </TableLayout>
+        <TableLayout android:layout_marginTop="10dp"   
+    android:layout_width="fill_parent"  
+    android:layout_height="fill_parent"  
+        android:shrinkColumns="*"  
+    android:stretchColumns="*"  
+> 
+<TableRow   
+        android:layout_height="wrap_content"  
+        android:layout_width="wrap_content"  
+        android:gravity="center_horizontal">  
+ <ImageView
+           android:layout_width="wrap_content" 
+         android:layout_height="wrap_content" 
+           android:gravity="left"
+           android:layout_span="1"
+            android:src="@drawable/healingward"
+           >
+      </ImageView>
+      
+      <TextView
+                  android:layout_width="wrap_content" 
+         android:layout_height="wrap_content"   
+            android:gravity="left"
+            android:textColor="#000099"
+            android:layout_span="8"
+            android:text="治疗守卫 Healing Wards每秒+2%的生命，持续20秒。" >
+        </TextView>
+
+        </TableRow>
+        </TableLayout>
+        <TableLayout android:layout_marginTop="10dp"   
+    android:layout_width="fill_parent"  
+    android:layout_height="fill_parent"  
+        android:shrinkColumns="*"  
+    android:stretchColumns="*"  
+> 
+<TableRow   
+        android:layout_height="wrap_content"  
+        android:layout_width="wrap_content"  
+        android:gravity="center_horizontal">  
+ <ImageView
+           android:layout_width="wrap_content" 
+         android:layout_height="wrap_content" 
+           android:gravity="left"
+           android:layout_span="1"
+            android:src="@drawable/lesserclaritypotion"
+           >
+      </ImageView>
+      
+      <TextView
+                  android:layout_width="wrap_content" 
+         android:layout_height="wrap_content"   
+            android:gravity="left"
+            android:textColor="#000099"
+            android:layout_span="8"
+            android:text="小净化药水 Lesser Clarity Potion在30秒内恢复100魔法，非战斗使用型。" >
+        </TextView>
+
+        </TableRow>
+        </TableLayout>
+        <TableLayout android:layout_marginTop="10dp"   
+    android:layout_width="fill_parent"  
+    android:layout_height="fill_parent"  
+        android:shrinkColumns="*"  
+    android:stretchColumns="*"  
+> 
+<TableRow   
+        android:layout_height="wrap_content"  
+        android:layout_width="wrap_content"  
+        android:gravity="center_horizontal">  
+ <ImageView
+           android:layout_width="wrap_content" 
+         android:layout_height="wrap_content" 
+           android:gravity="left"
+           android:layout_span="1"
+            android:src="@drawable/potionofclarity"
+           >
+      </ImageView>
+      
+      <TextView
+                  android:layout_width="wrap_content" 
+         android:layout_height="wrap_content"   
+            android:gravity="left"
+            android:textColor="#000099"
+            android:layout_span="8"
+            android:text="净化药水 Clarity Potion在45秒内恢复200魔法，非战斗使用型。" >
+        </TextView>
+
+        </TableRow>
+        </TableLayout>
+        <TableLayout android:layout_marginTop="10dp"   
+    android:layout_width="fill_parent"  
+    android:layout_height="fill_parent"  
+        android:shrinkColumns="*"  
+    android:stretchColumns="*"  
+> 
+<TableRow   
+        android:layout_height="wrap_content"  
+        android:layout_width="wrap_content"  
+        android:gravity="center_horizontal">  
+ <ImageView
+           android:layout_width="wrap_content" 
+         android:layout_height="wrap_content" 
+           android:gravity="left"
+           android:layout_span="1"
+            android:src="@drawable/mana"
+           >
+      </ImageView>
+      
+      <TextView
+                  android:layout_width="wrap_content" 
+         android:layout_height="wrap_content"   
+            android:gravity="left"
+            android:textColor="#000099"
+            android:layout_span="8"
+            android:text="魔法药水 Potion of Mana恢复150点魔法。" >
+        </TextView>
+
+        </TableRow>
+        </TableLayout>
+        <TableLayout android:layout_marginTop="10dp"   
+    android:layout_width="fill_parent"  
+    android:layout_height="fill_parent"  
+        android:shrinkColumns="*"  
+    android:stretchColumns="*"  
+> 
+<TableRow   
+        android:layout_height="wrap_content"  
+        android:layout_width="wrap_content"  
+        android:gravity="center_horizontal">  
+ <ImageView
+           android:layout_width="wrap_content" 
+         android:layout_height="wrap_content" 
+           android:gravity="left"
+           android:layout_span="1"
+            android:src="@drawable/greatermana"
+           >
+      </ImageView>
+      
+      <TextView
+                  android:layout_width="wrap_content" 
+         android:layout_height="wrap_content"   
+            android:gravity="left"
+            android:textColor="#000099"
+            android:layout_span="8"
+            android:text="大魔法药水 Potion of Greater Mana恢复300点魔法。" >
+        </TextView>
+
+        </TableRow>
+        </TableLayout>
+        <TableLayout android:layout_marginTop="10dp"   
+    android:layout_width="fill_parent"  
+    android:layout_height="fill_parent"  
+        android:shrinkColumns="*"  
+    android:stretchColumns="*"  
+> 
+<TableRow   
+        android:layout_height="wrap_content"  
+        android:layout_width="wrap_content"  
+        android:gravity="center_horizontal">  
+ <ImageView
+           android:layout_width="wrap_content" 
+         android:layout_height="wrap_content" 
+           android:gravity="left"
+           android:layout_span="1"
+            android:src="@drawable/manastone"
+           >
+      </ImageView>
+      
+      <TextView
+                  android:layout_width="wrap_content" 
+         android:layout_height="wrap_content"   
+            android:gravity="left"
+            android:textColor="#000099"
+            android:layout_span="8"
+            android:text="魔法之石 Mana Stone魔法恢复速度增加25%，或者可用掉它立刻为自己加300魔法，可在战斗中使用。" >
+        </TextView>
+
+        </TableRow>
+        </TableLayout>
+        <TableLayout android:layout_marginTop="10dp"   
+    android:layout_width="fill_parent"  
+    android:layout_height="fill_parent"  
+        android:shrinkColumns="*"  
+    android:stretchColumns="*"  
+> 
+<TableRow   
+        android:layout_height="wrap_content"  
+        android:layout_width="wrap_content"  
+        android:gravity="center_horizontal">  
+ <ImageView
+           android:layout_width="wrap_content" 
+         android:layout_height="wrap_content" 
+           android:gravity="left"
+           android:layout_span="1"
+            android:src="@drawable/scrollofmana"
+           >
+      </ImageView>
+      
+      <TextView
+                  android:layout_width="wrap_content" 
+         android:layout_height="wrap_content"   
+            android:gravity="left"
+            android:textColor="#000099"
+            android:layout_span="8"
+            android:text="魔法卷轴 Scroll of Mana恢复友/己方非机械单位100魔法。 " >
+        </TextView>
+
+        </TableRow>
+        </TableLayout>
+        <TableLayout android:layout_marginTop="10dp"   
+    android:layout_width="fill_parent"  
+    android:layout_height="fill_parent"  
+        android:shrinkColumns="*"  
+    android:stretchColumns="*"  
+> 
+<TableRow   
+        android:layout_height="wrap_content"  
+        android:layout_width="wrap_content"  
+        android:gravity="center_horizontal">  
+ <ImageView
+           android:layout_width="wrap_content" 
+         android:layout_height="wrap_content" 
+           android:gravity="left"
+           android:layout_span="1"
+            android:src="@drawable/minorrejuvpotion"
+           >
+      </ImageView>
+      
+      <TextView
+                  android:layout_width="wrap_content" 
+         android:layout_height="wrap_content"   
+            android:gravity="left"
+            android:textColor="#000099"
+            android:layout_span="8"
+            android:text="微恢复药水 Minor Rejuvenation Potion30秒内加100生命和25魔法，非战斗使用型。" >
+        </TextView>
+
+        </TableRow>
+        </TableLayout>
+        <TableLayout android:layout_marginTop="10dp"   
+    android:layout_width="fill_parent"  
+    android:layout_height="fill_parent"  
+        android:shrinkColumns="*"  
+    android:stretchColumns="*"  
+> 
+<TableRow   
+        android:layout_height="wrap_content"  
+        android:layout_width="wrap_content"  
+        android:gravity="center_horizontal">  
+ <ImageView
+           android:layout_width="wrap_content" 
+         android:layout_height="wrap_content" 
+           android:gravity="left"
+           android:layout_span="1"
+            android:src="@drawable/lesserrejuvpotion"
+           >
+      </ImageView>
+      
+      <TextView
+                  android:layout_width="wrap_content" 
+         android:layout_height="wrap_content"   
+            android:gravity="left"
+            android:textColor="#000099"
+            android:layout_span="8"
+            android:text="小恢复药水 Lesser Rejuvenation Potion30秒内加150生命和50魔法，非战斗使用型。" >
+        </TextView>
+
+        </TableRow>
+        </TableLayout>
+        <TableLayout android:layout_marginTop="10dp"   
+    android:layout_width="fill_parent"  
+    android:layout_height="fill_parent"  
+        android:shrinkColumns="*"  
+    android:stretchColumns="*"  
+> 
+<TableRow   
+        android:layout_height="wrap_content"  
+        android:layout_width="wrap_content"  
+        android:gravity="center_horizontal">  
+ <ImageView
+           android:layout_width="wrap_content" 
+         android:layout_height="wrap_content" 
+           android:gravity="left"
+           android:layout_span="1"
+            android:src="@drawable/rejuvpotion"
+           >
+      </ImageView>
+      
+      <TextView
+                  android:layout_width="wrap_content" 
+         android:layout_height="wrap_content"   
+            android:gravity="left"
+            android:textColor="#000099"
+            android:layout_span="8"
+            android:text="恢复药水 Rejuvenation Potion30秒内加200生命和75魔法，非战斗使用型。" >
+        </TextView>
+
+        </TableRow>
+        </TableLayout>
+        <TableLayout android:layout_marginTop="10dp"   
+    android:layout_width="fill_parent"  
+    android:layout_height="fill_parent"  
+        android:shrinkColumns="*"  
+    android:stretchColumns="*"  
+> 
+<TableRow   
+        android:layout_height="wrap_content"  
+        android:layout_width="wrap_content"  
+        android:gravity="center_horizontal">  
+ <ImageView
+           android:layout_width="wrap_content" 
+         android:layout_height="wrap_content" 
+           android:gravity="left"
+           android:layout_span="1"
+            android:src="@drawable/greaterrejuvpotion"
+           >
+      </ImageView>
+      
+      <TextView
+                  android:layout_width="wrap_content" 
+         android:layout_height="wrap_content"   
+            android:gravity="left"
+            android:textColor="#000099"
+            android:layout_span="8"
+            android:text="大恢复药水 Greater Rejuvenation Potion30秒内加400生命和125魔法，非战斗使用型" >
+        </TextView>
+
+        </TableRow>
+        </TableLayout>
+        <TableLayout android:layout_marginTop="10dp"   
+    android:layout_width="fill_parent"  
+    android:layout_height="fill_parent"  
+        android:shrinkColumns="*"  
+    android:stretchColumns="*"  
+> 
+<TableRow   
+        android:layout_height="wrap_content"  
+        android:layout_width="wrap_content"  
+        android:gravity="center_horizontal">  
+ <ImageView
+           android:layout_width="wrap_content" 
+         android:layout_height="wrap_content" 
+           android:gravity="left"
+           android:layout_span="1"
+            android:src="@drawable/potionofrestoration"
+           >
+      </ImageView>
+      
+      <TextView
+                  android:layout_width="wrap_content" 
+         android:layout_height="wrap_content"   
+            android:gravity="left"
+            android:textColor="#000099"
+            android:layout_span="8"
+            android:text="恢复药水 Potion of Restoration恢复500生命，200魔法。 " >
+        </TextView>
+
+        </TableRow>
+        </TableLayout>
+        <TableLayout android:layout_marginTop="10dp"   
+    android:layout_width="fill_parent"  
+    android:layout_height="fill_parent"  
+        android:shrinkColumns="*"  
+    android:stretchColumns="*"  
+> 
+<TableRow   
+        android:layout_height="wrap_content"  
+        android:layout_width="wrap_content"  
+        android:gravity="center_horizontal">  
+ <ImageView
+           android:layout_width="wrap_content" 
+         android:layout_height="wrap_content" 
+           android:gravity="left"
+           android:layout_span="1"
+            android:src="@drawable/scrollofrestoration"
+           >
+      </ImageView>
+      
+      <TextView
+                  android:layout_width="wrap_content" 
+         android:layout_height="wrap_content"   
+            android:gravity="left"
+            android:textColor="#000099"
+            android:layout_span="8"
+            android:text="回复卷轴 Scroll of Restoration恢复友/己方非机械单位300生命，150魔法。" >
+        </TextView>
+
+        </TableRow>
+        </TableLayout>
+        <TableLayout android:layout_marginTop="10dp"   
+    android:layout_width="fill_parent"  
+    android:layout_height="fill_parent"  
+        android:shrinkColumns="*"  
+    android:stretchColumns="*"  
+> 
+<TableRow   
+        android:layout_height="wrap_content"  
+        android:layout_width="wrap_content"  
+        android:gravity="center_horizontal">  
+ <ImageView
+           android:layout_width="wrap_content" 
+         android:layout_height="wrap_content" 
+           android:gravity="left"
+           android:layout_span="1"
+            android:src="@drawable/lesserrejuvscroll"
+           >
+      </ImageView>
+      
+      <TextView
+                  android:layout_width="wrap_content" 
+         android:layout_height="wrap_content"   
+            android:gravity="left"
+            android:textColor="#000099"
+            android:layout_span="8"
+            android:text="小回复卷轴 Lesser Scroll of Replenishment45秒内友/己方非机械单位250生命和100魔法，非战斗使用型。" >
+        </TextView>
+
+        </TableRow>
+        </TableLayout>
+        <TableLayout android:layout_marginTop="10dp"   
+    android:layout_width="fill_parent"  
+    android:layout_height="fill_parent"  
+        android:shrinkColumns="*"  
+    android:stretchColumns="*"  
+> 
+<TableRow   
+        android:layout_height="wrap_content"  
+        android:layout_width="wrap_content"  
+        android:gravity="center_horizontal">  
+ <ImageView
+           android:layout_width="wrap_content" 
+         android:layout_height="wrap_content" 
+           android:gravity="left"
+           android:layout_span="1"
+            android:src="@drawable/greaterrejuvscroll"
+           >
+      </ImageView>
+      
+      <TextView
+                  android:layout_width="wrap_content" 
+         android:layout_height="wrap_content"   
+            android:gravity="left"
+            android:textColor="#000099"
+            android:layout_span="8"
+            android:text="大回复卷轴 Greater Scroll of Replenishment45秒内友/己方非机械单位450生命和150魔法，非战斗使用型。" >
+        </TextView>
+
+        </TableRow>
+        </TableLayout>
+        <TableLayout android:layout_marginTop="10dp"   
+    android:layout_width="fill_parent"  
+    android:layout_height="fill_parent"  
+        android:shrinkColumns="*"  
+    android:stretchColumns="*"  
+> 
+<TableRow   
+        android:layout_height="wrap_content"  
+        android:layout_width="wrap_content"  
+        android:gravity="center_horizontal">  
+ <ImageView
+           android:layout_width="wrap_content" 
+         android:layout_height="wrap_content" 
+           android:gravity="left"
+           android:layout_span="1"
+            android:src="@drawable/bookofthedead"
+           >
+      </ImageView>
+      
+      <TextView
+                  android:layout_width="wrap_content" 
+         android:layout_height="wrap_content"   
+            android:gravity="left"
+            android:textColor="#000099"
+            android:layout_span="8"
+            android:text="死亡之书 Book of the Dead召唤4个骷髅战士和4个骷髅弓箭手为自己战斗，持续120秒。" >
+        </TextView>
+
+        </TableRow>
+        </TableLayout>
+        <TableLayout android:layout_marginTop="10dp"   
+    android:layout_width="fill_parent"  
+    android:layout_height="fill_parent"  
+        android:shrinkColumns="*"  
+    android:stretchColumns="*"  
+> 
+<TableRow   
+        android:layout_height="wrap_content"  
+        android:layout_width="wrap_content"  
+        android:gravity="center_horizontal">  
+ <ImageView
+           android:layout_width="wrap_content" 
+         android:layout_height="wrap_content" 
+           android:gravity="left"
+           android:layout_span="1"
+            android:src="@drawable/reddrakeegg"
+           >
+      </ImageView>
+      
+      <TextView
+                  android:layout_width="wrap_content" 
+         android:layout_height="wrap_content"   
+            android:gravity="left"
+            android:textColor="#000099"
+            android:layout_span="8"
+            android:text="红龙之卵 Red Drake Egg召唤一条6级的红浮游为自己战斗，持续180秒。" >
+        </TextView>
+
+        </TableRow>
+        </TableLayout>
+        <TableLayout android:layout_marginTop="10dp"   
+    android:layout_width="fill_parent"  
+    android:layout_height="fill_parent"  
+        android:shrinkColumns="*"  
+    android:stretchColumns="*"  
+> 
+<TableRow   
+        android:layout_height="wrap_content"  
+        android:layout_width="wrap_content"  
+        android:gravity="center_horizontal">  
+ <ImageView
+           android:layout_width="wrap_content" 
+         android:layout_height="wrap_content" 
+           android:gravity="left"
+           android:layout_span="1"
+            android:src="@drawable/stone"
+           >
+      </ImageView>
+      
+      <TextView
+                  android:layout_width="wrap_content" 
+         android:layout_height="wrap_content"   
+            android:gravity="left"
+            android:textColor="#000099"
+            android:layout_span="8"
+            android:text="野性护符 Talisman of the Wild召唤一只4级的熊怪为自己战斗，持续180秒。可使用三次。 " >
+        </TextView>
+
+        </TableRow>
+        </TableLayout>
+        <TableLayout android:layout_marginTop="10dp"   
+    android:layout_width="fill_parent"  
+    android:layout_height="fill_parent"  
+        android:shrinkColumns="*"  
+    android:stretchColumns="*"  
+> 
+<TableRow   
+        android:layout_height="wrap_content"  
+        android:layout_width="wrap_content"  
+        android:gravity="center_horizontal">  
+ <ImageView
+           android:layout_width="wrap_content" 
+         android:layout_height="wrap_content" 
+           android:gravity="left"
+           android:layout_span="1"
+            android:src="@drawable/felhound"
+           >
+      </ImageView>
+      
+      <TextView
+                  android:layout_width="wrap_content" 
+         android:layout_height="wrap_content"   
+            android:gravity="left"
+            android:textColor="#000099"
+            android:layout_span="8"
+            android:text="长钉衣领 Spiked Collar召唤一只5级的邪恶漫步者为自己战斗，持续180秒。" >
+        </TextView>
+
+        </TableRow>
+        </TableLayout>
+        <TableLayout android:layout_marginTop="10dp"   
+    android:layout_width="fill_parent"  
+    android:layout_height="fill_parent"  
+        android:shrinkColumns="*"  
+    android:stretchColumns="*"  
+> 
+<TableRow   
+        android:layout_height="wrap_content"  
+        android:layout_width="wrap_content"  
+        android:gravity="center_horizontal">  
+ <ImageView
+           android:layout_width="wrap_content" 
+         android:layout_height="wrap_content" 
+           android:gravity="left"
+           android:layout_span="1"
+            android:src="@drawable/stonetoken"
+           >
+      </ImageView>
+      
+      <TextView
+                  android:layout_width="wrap_content" 
+         android:layout_height="wrap_content"   
+            android:gravity="left"
+            android:textColor="#000099"
+            android:layout_span="8"
+            android:text="岩石印记 Stone Token召唤一个6级的岩石傀儡为自己战斗，持续180秒。" >
+        </TextView>
+
+        </TableRow>
+        </TableLayout>
+        <TableLayout android:layout_marginTop="10dp"   
+    android:layout_width="fill_parent"  
+    android:layout_height="fill_parent"  
+        android:shrinkColumns="*"  
+    android:stretchColumns="*"  
+> 
+<TableRow   
+        android:layout_height="wrap_content"  
+        android:layout_width="wrap_content"  
+        android:gravity="center_horizontal">  
+ <ImageView
+           android:layout_width="wrap_content" 
+         android:layout_height="wrap_content" 
+           android:gravity="left"
+           android:layout_span="1"
+            android:src="@drawable/demonicfigurine"
+           >
+      </ImageView>
+      
+      <TextView
+                  android:layout_width="wrap_content" 
+         android:layout_height="wrap_content"   
+            android:gravity="left"
+            android:textColor="#000099"
+            android:layout_span="8"
+            android:text="恶魔雕像 Demonic Figurine召唤一个8级的毁灭守卫为自己战斗，持续180秒。" >
+        </TextView>
+
+        </TableRow>
+        </TableLayout>
+        <TableLayout android:layout_marginTop="10dp"   
+    android:layout_width="fill_parent"  
+    android:layout_height="fill_parent"  
+        android:shrinkColumns="*"  
+    android:stretchColumns="*"  
+> 
+<TableRow   
+        android:layout_height="wrap_content"  
+        android:layout_width="wrap_content"  
+        android:gravity="center_horizontal">  
+ <ImageView
+           android:layout_width="wrap_content" 
+         android:layout_height="wrap_content" 
+           android:gravity="left"
+           android:layout_span="1"
+            android:src="@drawable/iceshard"
+           >
+      </ImageView>
+      
+      <TextView
+                  android:layout_width="wrap_content" 
+         android:layout_height="wrap_content"   
+            android:gravity="left"
+            android:textColor="#000099"
+            android:layout_span="8"
+            android:text="寒冰碎片 Ice Shard召唤一个8级的冰之幽魂为自己战斗，持续180秒。" >
+        </TextView>
+
+        </TableRow>
+        </TableLayout>
+        <TableLayout android:layout_marginTop="10dp"   
+    android:layout_width="fill_parent"  
+    android:layout_height="fill_parent"  
+        android:shrinkColumns="*"  
+    android:stretchColumns="*"  
+> 
+<TableRow   
+        android:layout_height="wrap_content"  
+        android:layout_width="wrap_content"  
+        android:gravity="center_horizontal">  
+ <ImageView
+           android:layout_width="wrap_content" 
+         android:layout_height="wrap_content" 
+           android:gravity="left"
+           android:layout_span="1"
+            android:src="@drawable/infernalstone"
+           >
+      </ImageView>
+      
+      <TextView
+                  android:layout_width="wrap_content" 
+         android:layout_height="wrap_content"   
+            android:gravity="left"
+            android:textColor="#000099"
+            android:layout_span="8"
+            android:text="地狱火之石 Infernal Stone召唤一个8级的地狱火从天而降，砸伤一定范围内的敌方地面单位50生命，并使他们眩晕4秒钟，持续180秒。" >
+        </TextView>
+
+        </TableRow>
+        </TableLayout>
+        <TableLayout android:layout_marginTop="10dp"   
+    android:layout_width="fill_parent"  
+    android:layout_height="fill_parent"  
+        android:shrinkColumns="*"  
+    android:stretchColumns="*"  
+> 
+<TableRow   
+        android:layout_height="wrap_content"  
+        android:layout_width="wrap_content"  
+        android:gravity="center_horizontal">  
+ <ImageView
+           android:layout_width="wrap_content" 
+         android:layout_height="wrap_content" 
+           android:gravity="left"
+           android:layout_span="1"
+            android:src="@drawable/amuletofthewild"
+           >
+      </ImageView>
+      
+      <TextView
+                  android:layout_width="wrap_content" 
+         android:layout_height="wrap_content"   
+            android:gravity="left"
+            android:textColor="#000099"
+            android:layout_span="8"
+            android:text="野性护身符 Amulet of the Wild召唤一个8级的熊怪乌萨战士为自己战斗，持续180秒。" >
+        </TextView>
+
+        </TableRow>
+        </TableLayout>
+        <TableLayout android:layout_marginTop="10dp"   
+    android:layout_width="fill_parent"  
+    android:layout_height="fill_parent"  
+        android:shrinkColumns="*"  
+    android:stretchColumns="*"  
+> 
+<TableRow   
+        android:layout_height="wrap_content"  
+        android:layout_width="wrap_content"  
+        android:gravity="center_horizontal">  
+ <ImageView
+           android:layout_width="wrap_content" 
+         android:layout_height="wrap_content" 
+           android:gravity="left"
+           android:layout_span="1"
+            android:src="@drawable/scrollofanimatedead"
+           >
+      </ImageView>
+      
+      <TextView
+                  android:layout_width="wrap_content" 
+         android:layout_height="wrap_content"   
+            android:gravity="left"
+            android:textColor="#000099"
+            android:layout_span="8"
+            android:text="操纵死尸卷轴 Scroll of Animate Dead召唤范围内6个最强的死尸为自己战斗40秒，这些死尸可以被驱散。 " >
+        </TextView>
+
+        </TableRow>
+        </TableLayout>
+        <TableLayout android:layout_marginTop="10dp"   
+    android:layout_width="fill_parent"  
+    android:layout_height="fill_parent"  
+        android:shrinkColumns="*"  
+    android:stretchColumns="*"  
+> 
+<TableRow   
+        android:layout_height="wrap_content"  
+        android:layout_width="wrap_content"  
+        android:gravity="center_horizontal">  
+ <ImageView
+           android:layout_width="wrap_content" 
+         android:layout_height="wrap_content" 
+           android:gravity="left"
+           android:layout_span="1"
+            android:src="@drawable/scrollofresurrection"
+           >
+      </ImageView>
+      
+      <TextView
+                  android:layout_width="wrap_content" 
+         android:layout_height="wrap_content"   
+            android:gravity="left"
+            android:textColor="#000099"
+            android:layout_span="8"
+            android:text="复活卷轴 Scroll of Resurrection复活范围内6个最强的友军地面单位。" >
+        </TextView>
+
+        </TableRow>
+        </TableLayout>
+        <TableLayout android:layout_marginTop="10dp"   
+    android:layout_width="fill_parent"  
+    android:layout_height="fill_parent"  
+        android:shrinkColumns="*"  
+    android:stretchColumns="*"  
+> 
+<TableRow   
+        android:layout_height="wrap_content"  
+        android:layout_width="wrap_content"  
+        android:gravity="center_horizontal">  
+ <ImageView
+           android:layout_width="wrap_content" 
+         android:layout_height="wrap_content" 
+           android:gravity="left"
+           android:layout_span="1"
+            android:src="@drawable/potionofvampirism"
+           >
+      </ImageView>
+      
+      <TextView
+                  android:layout_width="wrap_content" 
+         android:layout_height="wrap_content"   
+            android:gravity="left"
+            android:textColor="#000099"
+            android:layout_span="8"
+            android:text="吸血药水 Vampiric Potion增加12点伤害，并有吸血攻击，持续20秒。" >
+        </TextView>
+
+        </TableRow>
+        </TableLayout>
+        <TableLayout android:layout_marginTop="10dp"   
+    android:layout_width="fill_parent"  
+    android:layout_height="fill_parent"  
+        android:shrinkColumns="*"  
+    android:stretchColumns="*"  
+> 
+<TableRow   
+        android:layout_height="wrap_content"  
+        android:layout_width="wrap_content"  
+        android:gravity="center_horizontal">  
+ <ImageView
+           android:layout_width="wrap_content" 
+         android:layout_height="wrap_content" 
+           android:gravity="left"
+           android:layout_span="1"
+            android:src="@drawable/antibodypotion"
+           >
+      </ImageView>
+      
+      <TextView
+                  android:layout_width="wrap_content" 
+         android:layout_height="wrap_content"   
+            android:gravity="left"
+            android:textColor="#000099"
+            android:layout_span="8"
+            android:text="抗体药水 Anti-magic Potion使英雄不受魔法攻击，持续时间15秒。" >
+        </TextView>
+
+        </TableRow>
+        </TableLayout>
+        <TableLayout android:layout_marginTop="10dp"   
+    android:layout_width="fill_parent"  
+    android:layout_height="fill_parent"  
+        android:shrinkColumns="*"  
+    android:stretchColumns="*"  
+> 
+<TableRow   
+        android:layout_height="wrap_content"  
+        android:layout_width="wrap_content"  
+        android:gravity="center_horizontal">  
+ <ImageView
+           android:layout_width="wrap_content" 
+         android:layout_height="wrap_content" 
+           android:gravity="left"
+           android:layout_span="1"
+            android:src="@drawable/scrollofspeed"
+           >
+      </ImageView>
+      
+      <TextView
+                  android:layout_width="wrap_content" 
+         android:layout_height="wrap_content"   
+            android:gravity="left"
+            android:textColor="#000099"
+            android:layout_span="8"
+            android:text="速度卷轴 Scroll of Speed增加附近单位的移动速度。" >
+        </TextView>
+
+        </TableRow>
+        </TableLayout>
+        <TableLayout android:layout_marginTop="10dp"   
+    android:layout_width="fill_parent"  
+    android:layout_height="fill_parent"  
+        android:shrinkColumns="*"  
+    android:stretchColumns="*"  
+> 
+<TableRow   
+        android:layout_height="wrap_content"  
+        android:layout_width="wrap_content"  
+        android:gravity="center_horizontal">  
+ <ImageView
+           android:layout_width="wrap_content" 
+         android:layout_height="wrap_content" 
+           android:gravity="left"
+           android:layout_span="1"
+            android:src="@drawable/dustofappearance"
+           >
+      </ImageView>
+      
+      <TextView
+                  android:layout_width="wrap_content" 
+         android:layout_height="wrap_content"   
+            android:gravity="left"
+            android:textColor="#000099"
+            android:layout_span="8"
+            android:text="尘土之影 Dust of Appearance可查看到隐形单位，持续20秒。 " >
+        </TextView>
+
+        </TableRow>
+        </TableLayout>
+        <TableLayout android:layout_marginTop="10dp"   
+    android:layout_width="fill_parent"  
+    android:layout_height="fill_parent"  
+        android:shrinkColumns="*"  
+    android:stretchColumns="*"  
+> 
+<TableRow   
+        android:layout_height="wrap_content"  
+        android:layout_width="wrap_content"  
+        android:gravity="center_horizontal">  
+ <ImageView
+           android:layout_width="wrap_content" 
+         android:layout_height="wrap_content" 
+           android:gravity="left"
+           android:layout_span="1"
+            android:src="@drawable/ivorytower"
+           >
+      </ImageView>
+      
+      <TextView
+                  android:layout_width="wrap_content" 
+         android:layout_height="wrap_content"   
+            android:gravity="left"
+            android:textColor="#000099"
+            android:layout_span="8"
+            android:text="象牙塔 Ivory Tower在指定范围内立刻建造一座侦察塔。" >
+        </TextView>
+
+        </TableRow>
+        </TableLayout>
+        <TableLayout android:layout_marginTop="10dp"   
+    android:layout_width="fill_parent"  
+    android:layout_height="fill_parent"  
+        android:shrinkColumns="*"  
+    android:stretchColumns="*"  
+> 
+<TableRow   
+        android:layout_height="wrap_content"  
+        android:layout_width="wrap_content"  
+        android:gravity="center_horizontal">  
+ <ImageView
+           android:layout_width="wrap_content" 
+         android:layout_height="wrap_content" 
+           android:gravity="left"
+           android:layout_span="1"
+            android:src="@drawable/sacrificialskull"
+           >
+      </ImageView>
+      
+      <TextView
+                  android:layout_width="wrap_content" 
+         android:layout_height="wrap_content"   
+            android:gravity="left"
+            android:textColor="#000099"
+            android:layout_span="8"
+            android:text="牺牲头骨 Sacrificial Skull创造一块荒芜，荒芜范围：35。 " >
+        </TextView>
+
+        </TableRow>
+        </TableLayout>
+        <TableLayout android:layout_marginTop="10dp"   
+    android:layout_width="fill_parent"  
+    android:layout_height="fill_parent"  
+        android:shrinkColumns="*"  
+    android:stretchColumns="*"  
+> 
+<TableRow   
+        android:layout_height="wrap_content"  
+        android:layout_width="wrap_content"  
+        android:gravity="center_horizontal">  
+ <ImageView
+           android:layout_width="wrap_content" 
+         android:layout_height="wrap_content" 
+           android:gravity="left"
+           android:layout_span="1"
+            android:src="@drawable/mechanicalcritter"
+           >
+      </ImageView>
+      
+      <TextView
+                  android:layout_width="wrap_content" 
+         android:layout_height="wrap_content"   
+            android:gravity="left"
+            android:textColor="#000099"
+            android:layout_span="8"
+            android:text="机械生物 Mechanical Critter施放一只和普通小生物一样的机械生物为自己侦察。" >
+        </TextView>
+
+        </TableRow>
+        </TableLayout>
+        <TableLayout android:layout_marginTop="10dp"   
+    android:layout_width="fill_parent"  
+    android:layout_height="fill_parent"  
+        android:shrinkColumns="*"  
+    android:stretchColumns="*"  
+> 
+<TableRow   
+        android:layout_height="wrap_content"  
+        android:layout_width="wrap_content"  
+        android:gravity="center_horizontal">  
+ <ImageView
+           android:layout_width="wrap_content" 
+         android:layout_height="wrap_content" 
+           android:gravity="left"
+           android:layout_span="1"
+            android:src="@drawable/moonstone"
+           >
+      </ImageView>
+      
+      <TextView
+                  android:layout_width="wrap_content" 
+         android:layout_height="wrap_content"   
+            android:gravity="left"
+            android:textColor="#000099"
+            android:layout_span="8"
+            android:text="月亮石 Moonstone制造一个长30秒的假夜晚，时间在这个夜晚中是停止的。" >
+        </TextView>
+
+        </TableRow>
+        </TableLayout>
+        <TableLayout android:layout_marginTop="10dp"   
+    android:layout_width="fill_parent"  
+    android:layout_height="fill_parent"  
+        android:shrinkColumns="*"  
+    android:stretchColumns="*"  
+> 
+<TableRow   
+        android:layout_height="wrap_content"  
+        android:layout_width="wrap_content"  
+        android:gravity="center_horizontal">  
+ <ImageView
+           android:layout_width="wrap_content" 
+         android:layout_height="wrap_content" 
+           android:gravity="left"
+           android:layout_span="1"
+            android:src="@drawable/scrollofprotection"
+           >
+      </ImageView>
+      
+      <TextView
+                  android:layout_width="wrap_content" 
+         android:layout_height="wrap_content"   
+            android:gravity="left"
+            android:textColor="#000099"
+            android:layout_span="8"
+            android:text="保护卷轴 Scroll of Protection增加英雄和周围单位的护甲，持续30秒。" >
+        </TextView>
+
+        </TableRow>
+        </TableLayout>
+        <TableLayout android:layout_marginTop="10dp"   
+    android:layout_width="fill_parent"  
+    android:layout_height="fill_parent"  
+        android:shrinkColumns="*"  
+    android:stretchColumns="*"  
+> 
+<TableRow   
+        android:layout_height="wrap_content"  
+        android:layout_width="wrap_content"  
+        android:gravity="center_horizontal">  
+ <ImageView
+           android:layout_width="wrap_content" 
+         android:layout_height="wrap_content" 
+           android:gravity="left"
+           android:layout_span="1"
+            android:src="@drawable/invisibe"
+           >
+      </ImageView>
+      
+      <TextView
+                  android:layout_width="wrap_content" 
+         android:layout_height="wrap_content"   
+            android:gravity="left"
+            android:textColor="#000099"
+            android:layout_span="8"
+            android:text="隐形药水 Potion of Invisibility使英雄隐形120秒。但如果英雄攻击、使用技能的话，就会显形。" >
+        </TextView>
+
+        </TableRow>
+        </TableLayout>
+        <TableLayout android:layout_marginTop="10dp"   
+    android:layout_width="fill_parent"  
+    android:layout_height="fill_parent"  
+        android:shrinkColumns="*"  
+    android:stretchColumns="*"  
+> 
+<TableRow   
+        android:layout_height="wrap_content"  
+        android:layout_width="wrap_content"  
+        android:gravity="center_horizontal">  
+ <ImageView
+           android:layout_width="wrap_content" 
+         android:layout_height="wrap_content" 
+           android:gravity="left"
+           android:layout_span="1"
+            android:src="@drawable/lesserinvulneralbility"
+           >
+      </ImageView>
+      
+      <TextView
+                  android:layout_width="wrap_content" 
+         android:layout_height="wrap_content"   
+            android:gravity="left"
+            android:textColor="#000099"
+            android:layout_span="8"
+            android:text="小无敌药水 Potion of Lesser Invulnerability保持无敌状态7秒，可以在战斗中使用，被驱散将缩短无敌时间。" >
+        </TextView>
+
+        </TableRow>
+        </TableLayout>
+        <TableLayout android:layout_marginTop="10dp"   
+    android:layout_width="fill_parent"  
+    android:layout_height="fill_parent"  
+        android:shrinkColumns="*"  
+    android:stretchColumns="*"  
+> 
+<TableRow   
+        android:layout_height="wrap_content"  
+        android:layout_width="wrap_content"  
+        android:gravity="center_horizontal">  
+ <ImageView
+           android:layout_width="wrap_content" 
+         android:layout_height="wrap_content" 
+           android:gravity="left"
+           android:layout_span="1"
+            android:src="@drawable/townportal"
+           >
+      </ImageView>
+      
+      <TextView
+                  android:layout_width="wrap_content" 
+         android:layout_height="wrap_content"   
+            android:gravity="left"
+            android:textColor="#000099"
+            android:layout_span="8"
+            android:text="回城卷轴 Scroll of Town Portal把英雄和友军送到目标主基地。" >
+        </TextView>
+
+        </TableRow>
+        </TableLayout>
+        <TableLayout android:layout_marginTop="10dp"   
+    android:layout_width="fill_parent"  
+    android:layout_height="fill_parent"  
+        android:shrinkColumns="*"  
+    android:stretchColumns="*"  
+> 
+<TableRow   
+        android:layout_height="wrap_content"  
+        android:layout_width="wrap_content"  
+        android:gravity="center_horizontal">  
+ <ImageView
+           android:layout_width="wrap_content" 
+         android:layout_height="wrap_content" 
+           android:gravity="left"
+           android:layout_span="1"
+            android:src="@drawable/sentryward"
+           >
+      </ImageView>
+      
+      <TextView
+                  android:layout_width="wrap_content" 
+         android:layout_height="wrap_content"   
+            android:gravity="left"
+            android:textColor="#000099"
+            android:layout_span="8"
+            android:text="岗哨守卫 Sentry Wards放置一个守卫来侦察一块区域。可以发现隐形单位。持续时间5分钟。" >
+        </TextView>
+
+        </TableRow>
+        </TableLayout>
+        <TableLayout android:layout_marginTop="10dp"   
+    android:layout_width="fill_parent"  
+    android:layout_height="fill_parent"  
+        android:shrinkColumns="*"  
+    android:stretchColumns="*"  
+> 
+<TableRow   
+        android:layout_height="wrap_content"  
+        android:layout_width="wrap_content"  
+        android:gravity="center_horizontal">  
+ <ImageView
+           android:layout_width="wrap_content" 
+         android:layout_height="wrap_content" 
+           android:gravity="left"
+           android:layout_span="1"
+            android:src="@drawable/wand"
+           >
+      </ImageView>
+      
+      <TextView
+                  android:layout_width="wrap_content" 
+         android:layout_height="wrap_content"   
+            android:gravity="left"
+            android:textColor="#000099"
+            android:layout_span="8"
+            android:text="幻象权杖 Wand of Illusion制造一个指定地面单位的假象，该假象拥有和本象同样的数据但没有攻击力，并且承受2倍的伤害，在60秒后或假象的生命到0时，假象会消失 。" >
+        </TextView>
+
+        </TableRow>
+        </TableLayout>
+        <TableLayout android:layout_marginTop="10dp"   
+    android:layout_width="fill_parent"  
+    android:layout_height="fill_parent"  
+        android:shrinkColumns="*"  
+    android:stretchColumns="*"  
+> 
+<TableRow   
+        android:layout_height="wrap_content"  
+        android:layout_width="wrap_content"  
+        android:gravity="center_horizontal">  
+ <ImageView
+           android:layout_width="wrap_content" 
+         android:layout_height="wrap_content" 
+           android:gravity="left"
+           android:layout_span="1"
+            android:src="@drawable/wandoflightningshield"
+           >
+      </ImageView>
+      
+      <TextView
+                  android:layout_width="wrap_content" 
+         android:layout_height="wrap_content"   
+            android:gravity="left"
+            android:textColor="#000099"
+            android:layout_span="8"
+            android:text="闪电权杖 Wand of Lightning Shield对单位使用闪电护盾。对周围的单位造成伤害。 20秒使用间隔, 持续20秒, 15伤害/秒150" >
+        </TextView>
+
+        </TableRow>
+        </TableLayout>
+        <TableLayout android:layout_marginTop="10dp"   
+    android:layout_width="fill_parent"  
+    android:layout_height="fill_parent"  
+        android:shrinkColumns="*"  
+    android:stretchColumns="*"  
+> 
+<TableRow   
+        android:layout_height="wrap_content"  
+        android:layout_width="wrap_content"  
+        android:gravity="center_horizontal">  
+ <ImageView
+           android:layout_width="wrap_content" 
+         android:layout_height="wrap_content" 
+           android:gravity="left"
+           android:layout_span="1"
+            android:src="@drawable/wandofneutralization"
+           >
+      </ImageView>
+      
+      <TextView
+                  android:layout_width="wrap_content" 
+         android:layout_height="wrap_content"   
+            android:gravity="left"
+            android:textColor="#000099"
+            android:layout_span="8"
+            android:text="中和权杖 Wand of Neutralization驱散魔法效果，但不能驱散召唤单位。对于敌人，只能驱散正面魔法；对于友军，只能驱散负面魔法。" >
+        </TextView>
+
+        </TableRow>
+        </TableLayout>
+        <TableLayout android:layout_marginTop="10dp"   
+    android:layout_width="fill_parent"  
+    android:layout_height="fill_parent"  
+        android:shrinkColumns="*"  
+    android:stretchColumns="*"  
+> 
+<TableRow   
+        android:layout_height="wrap_content"  
+        android:layout_width="wrap_content"  
+        android:gravity="center_horizontal">  
+ <ImageView
+           android:layout_width="wrap_content" 
+         android:layout_height="wrap_content" 
+           android:gravity="left"
+           android:layout_span="1"
+            android:src="@drawable/wandofmanasteal"
+           >
+      </ImageView>
+      
+      <TextView
+                  android:layout_width="wrap_content" 
+         android:layout_height="wrap_content"   
+            android:gravity="left"
+            android:textColor="#000099"
+            android:layout_span="8"
+            android:text="魔法盗取权杖 Wand of Mana Stealing 偷取敌方一非魔免单位的法力，一次偷取50点魔，并补充给自己。10秒使用间隔钱400" >
+        </TextView>
+
+        </TableRow>
+        </TableLayout>
+        <TableLayout android:layout_marginTop="10dp"   
+    android:layout_width="fill_parent"  
+    android:layout_height="fill_parent"  
+        android:shrinkColumns="*"  
+    android:stretchColumns="*"  
+> 
+<TableRow   
+        android:layout_height="wrap_content"  
+        android:layout_width="wrap_content"  
+        android:gravity="center_horizontal">  
+ <ImageView
+           android:layout_width="wrap_content" 
+         android:layout_height="wrap_content" 
+           android:gravity="left"
+           android:layout_span="1"
+            android:src="@drawable/tomeofretraining"
+           >
+      </ImageView>
+      
+      <TextView
+                  android:layout_width="wrap_content" 
+         android:layout_height="wrap_content"   
+            android:gravity="left"
+            android:textColor="#000099"
+            android:layout_span="8"
+            android:text="重修之书 Tome of Retraining 可以让英雄重新分配所学技能" >
+        </TextView>
+
+        </TableRow>
+        </TableLayout>
+        <TableLayout android:layout_marginTop="10dp"   
+    android:layout_width="fill_parent"  
+    android:layout_height="fill_parent"  
+        android:shrinkColumns="*"  
+    android:stretchColumns="*"  
+> 
+<TableRow   
+        android:layout_height="wrap_content"  
+        android:layout_width="wrap_content"  
+        android:gravity="center_horizontal">  
+ <ImageView
+           android:layout_width="wrap_content" 
+         android:layout_height="wrap_content" 
+           android:gravity="left"
+           android:layout_span="1"
+            android:src="@drawable/tinygreathall"
+           >
+      </ImageView>
+      
+      <TextView
+                  android:layout_width="wrap_content" 
+         android:layout_height="wrap_content"   
+            android:gravity="left"
+            android:textColor="#000099"
+            android:layout_span="8"
+            android:text="微型大厅 Tiny Great Hall 在指定位置立刻建造一座一级主基地。" >
+        </TextView>
+
+        </TableRow>
+        </TableLayout>
+        <TableLayout android:layout_marginTop="10dp"   
+    android:layout_width="fill_parent"  
+    android:layout_height="fill_parent"  
+        android:shrinkColumns="*"  
+    android:stretchColumns="*"  
+> 
+<TableRow   
+        android:layout_height="wrap_content"  
+        android:layout_width="wrap_content"  
+        android:gravity="center_horizontal">  
+ <ImageView
+           android:layout_width="wrap_content" 
+         android:layout_height="wrap_content" 
+           android:gravity="left"
+           android:layout_span="1"
+            android:src="@drawable/vialfull"
+           >
+      </ImageView>
+      
+      <TextView
+                  android:layout_width="wrap_content" 
+         android:layout_height="wrap_content"   
+            android:gravity="left"
+            android:textColor="#000099"
+            android:layout_span="8"
+            android:text="无敌药水 Potion of Invulnerability 保持无敌状态15秒，可以在战斗中使用，被驱散将缩短无敌时间。" >
+        </TextView>
+
+        </TableRow>
+        </TableLayout>
+        <TableLayout android:layout_marginTop="10dp"   
+    android:layout_width="fill_parent"  
+    android:layout_height="fill_parent"  
+        android:shrinkColumns="*"  
+    android:stretchColumns="*"  
+> 
+<TableRow   
+        android:layout_height="wrap_content"  
+        android:layout_width="wrap_content"  
+        android:gravity="center_horizontal">  
+ <ImageView
+           android:layout_width="wrap_content" 
+         android:layout_height="wrap_content" 
+           android:gravity="left"
+           android:layout_span="1"
+            android:src="@drawable/scrollofthebeast"
+           >
+      </ImageView>
+      
+      <TextView
+                  android:layout_width="wrap_content" 
+         android:layout_height="wrap_content"   
+            android:gravity="left"
+            android:textColor="#000099"
+            android:layout_span="8"
+            android:text="野兽卷轴 Scroll of the Beast 让自己周围的友军攻击力上升25%，持续20秒，可在战斗中使用。" >
+        </TextView>
+
+        </TableRow>
+        </TableLayout>
+        <TableLayout android:layout_marginTop="10dp"   
+    android:layout_width="fill_parent"  
+    android:layout_height="fill_parent"  
+        android:shrinkColumns="*"  
+    android:stretchColumns="*"  
+> 
+<TableRow   
+        android:layout_height="wrap_content"  
+        android:layout_width="wrap_content"  
+        android:gravity="center_horizontal">  
+ <ImageView
+           android:layout_width="wrap_content" 
+         android:layout_height="wrap_content" 
+           android:gravity="left"
+           android:layout_span="1"
+            android:src="@drawable/wandofthewind"
+           >
+      </ImageView>
+      
+      <TextView
+                  android:layout_width="wrap_content" 
+         android:layout_height="wrap_content"   
+            android:gravity="left"
+            android:textColor="#000099"
+            android:layout_span="8"
+            android:text="飓风权杖 Wand of the Wind施放龙卷风，将敌方一非魔免地面单位（包括英雄）卷上天。持续10 (5.6) 秒钱450" >
+        </TextView>
+
+        </TableRow>
+        </TableLayout>
+        <TableLayout android:layout_marginTop="10dp"   
+    android:layout_width="fill_parent"  
+    android:layout_height="fill_parent"  
+        android:shrinkColumns="*"  
+    android:stretchColumns="*"  
+> 
+<TableRow   
+        android:layout_height="wrap_content"  
+        android:layout_width="wrap_content"  
+        android:gravity="center_horizontal">  
+ <ImageView
+           android:layout_width="wrap_content" 
+         android:layout_height="wrap_content" 
+           android:gravity="left"
+           android:layout_span="1"
+            android:src="@drawable/ankh"
+           >
+      </ImageView>
+      
+      <TextView
+                  android:layout_width="wrap_content" 
+         android:layout_height="wrap_content"   
+            android:gravity="left"
+            android:textColor="#000099"
+            android:layout_span="8"
+            android:text="复活十字 Ankh of Reincarnation 死亡后可在7秒后复活，复活后的英雄只有500生命，没有魔法。" >
+        </TextView>
+
+        </TableRow>
+        </TableLayout>
+        <TableLayout android:layout_marginTop="10dp"   
+    android:layout_width="fill_parent"  
+    android:layout_height="fill_parent"  
+        android:shrinkColumns="*"  
+    android:stretchColumns="*"  
+> 
+<TableRow   
+        android:layout_height="wrap_content"  
+        android:layout_width="wrap_content"  
+        android:gravity="center_horizontal">  
+ <ImageView
+           android:layout_width="wrap_content" 
+         android:layout_height="wrap_content" 
+           android:gravity="left"
+           android:layout_span="1"
+            android:src="@drawable/potionofdivinity"
+           >
+      </ImageView>
+      
+      <TextView
+                  android:layout_width="wrap_content" 
+         android:layout_height="wrap_content"   
+            android:gravity="left"
+            android:textColor="#000099"
+            android:layout_span="8"
+            android:text="神圣药水 Potion of Divinity保持无敌状态25秒，可以在战斗中使用，被驱散将缩短无敌时间。" >
+        </TextView>
+
+        </TableRow>
+        </TableLayout>
+    </LinearLayout>
+</ScrollView>
+    </LinearLayout>

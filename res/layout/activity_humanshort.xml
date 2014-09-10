@@ -1,0 +1,394 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#eee"
+        android:orientation="vertical" >
+        
+        <LinearLayout 
+  			android:layout_width="fill_parent"
+  			android:layout_height="45dp"
+  			android:id="@+id/title" 
+  			android:background="@drawable/title_bar"
+  			android:gravity="center_horizontal|center_vertical"  >  
+      		<TextView
+        		android:layout_width="wrap_content" 
+        		android:layout_height="wrap_content" 
+        		android:text="人族快捷键"
+        		android:textSize="20sp"		
+				android:textColor="#ffffff" />       
+			</LinearLayout>
+<ScrollView 
+
+    android:id="@+id/ScrollView01" 
+    android:layout_width="fill_parent" 
+    android:layout_height="fill_parent"
+>
+
+<LinearLayout
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin" 
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >  
+<TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"  
+            android:textStyle="bold"  
+            android:typeface="serif"  
+            android:textSize="18sp"  
+            android:text="基本快捷键（共有）"  
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:gravity="left"  
+           ></TextView>
+		<TextView android:textColor="#000"  
+			android:layout_width="wrap_content"  
+			android:layout_height="wrap_content"    
+			android:text="        A--攻击"  
+			android:gravity="left"  
+		></TextView>
+		<TextView android:textColor="#000"  
+			android:layout_width="wrap_content"  
+			android:layout_height="wrap_content"    
+			android:text="        B--建造/主基地升级背包技能"  
+			android:gravity="left"  
+		></TextView> 
+		<TextView android:textColor="#000"  
+			android:layout_width="wrap_content"  
+			android:layout_height="wrap_content"    
+			android:text="        G--攻城单位攻击指定区域/所有农民采集"  
+			android:gravity="left"  
+		></TextView> 
+		<TextView android:textColor="#000"  
+			android:layout_width="wrap_content"  
+			android:layout_height="wrap_content"    
+			android:text="        H--停止"  
+			android:gravity="left"  
+		></TextView> 
+		<TextView android:textColor="#000"  
+			android:layout_width="wrap_content"  
+			android:layout_height="wrap_content"    
+			android:text="        M--移动/各族商店魔法药水"  
+			android:gravity="left"  
+		></TextView>
+		<TextView android:textColor="#000"  
+			android:layout_width="wrap_content"  
+			android:layout_height="wrap_content"    
+			android:text="        O--英雄技能选择"  
+			android:gravity="left"  
+		></TextView> 
+		<TextView android:textColor="#000"  
+			android:layout_width="wrap_content"  
+			android:layout_height="wrap_content"    
+			android:text="        P--巡逻/各族商店生命药水"  
+			android:gravity="left"  
+		></TextView> 
+		<TextView android:textColor="#000"  
+			android:layout_width="wrap_content"  
+			android:layout_height="wrap_content"    
+			android:text="        R--修理"  
+			android:gravity="left"  
+		></TextView>  
+		<TextView android:textColor="#000"  
+			android:layout_width="wrap_content"  
+			android:layout_height="wrap_content"    
+			android:text="        S--停止(与HOLD的不同就是单位被按过STOP会待机并自动追击敌对单位)"  
+			android:gravity="left"  
+		></TextView>
+		<TextView android:textColor="#000"  
+			android:layout_width="wrap_content"  
+			android:layout_height="wrap_content"    
+			android:text="        T--各族商店传送卷轴"  
+			android:gravity="left"  
+		></TextView> 
+		<TextView android:textColor="#000"  
+			android:layout_width="wrap_content"  
+			android:layout_height="wrap_content"    
+			android:text="        U--主基升级/商店选择使用者"  
+			android:gravity="left"  
+		></TextView> 
+		<TextView android:textColor="#000"  
+			android:layout_width="wrap_content"  
+			android:layout_height="wrap_content"    
+			android:text="        Y--集结点设定"  
+			android:gravity="left"  
+		></TextView>  
+	<TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"  
+            android:textStyle="bold"  
+            android:typeface="serif"  
+            android:textSize="18sp"  
+            android:text="人族快捷键"  
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:gravity="left"  
+           ></TextView>
+		<TextView android:textColor="#000"  
+			android:layout_width="wrap_content"  
+			android:layout_height="wrap_content"    
+			android:text="城镇大厅主基地Town Hall（BH）："  
+			android:gravity="left"  
+		></TextView>
+		<TextView android:textColor="#000"  
+			android:layout_width="wrap_content"  
+			android:layout_height="wrap_content"    
+			android:text="        主基地是用来造农民（P），背包（B），C召唤附近的农民变成民兵，W民兵返回工作，同时也可以升级到二、三级主本（U）。"  
+			android:gravity="left"  
+		></TextView>
+		<TextView android:textColor="#000"  
+			android:layout_width="wrap_content"  
+			android:layout_height="wrap_content"    
+			android:text="        说明：背包——除了英雄以外的单位可以带额外的物品。"  
+			android:gravity="left"  
+		></TextView>
+		<TextView android:textColor="#000"  
+			android:layout_width="wrap_content"  
+			android:layout_height="wrap_content"    
+			android:text="农场Farm（BF）"  
+			android:gravity="left"  
+		></TextView>
+		<TextView android:textColor="#000"  
+			android:layout_width="wrap_content"  
+			android:layout_height="wrap_content"    
+			android:text="        增加人口"  
+			android:gravity="left"  
+		></TextView>
+		<TextView android:textColor="#000"  
+			android:layout_width="wrap_content"  
+			android:layout_height="wrap_content"    
+			android:text="国王祭坛Altar of King（BA）："  
+			android:gravity="left"  
+		></TextView>
+		<TextView android:textColor="#000"  
+			android:layout_width="wrap_content"  
+			android:layout_height="wrap_content"    
+			android:text="        L——圣骑士（T.神圣之光，D.圣神护甲, V.专注光环，R.复活（附近死亡友军复活，无时间限制））。"  
+			android:gravity="left"  
+		></TextView> 
+		<TextView android:textColor="#000"  
+			android:layout_width="wrap_content"  
+			android:layout_height="wrap_content"    
+			android:text="        M——山丘之王（T.风暴之锤，C.雷霆一击，B.重击（一定的概率使对方处于眩晕状态），V.天神下凡）。"  
+			android:gravity="left"  
+		></TextView>
+		<TextView android:textColor="#000"  
+			android:layout_width="wrap_content"  
+			android:layout_height="wrap_content"    
+			android:text="        A——大法师（B.暴风雪，W.水元素，R.辉煌光环，T.传送（将部队传送到有友军或建筑物的地方））。"  
+			android:gravity="left"  
+		></TextView>
+		<TextView android:textColor="#000"  
+			android:layout_width="wrap_content"  
+			android:layout_height="wrap_content"    
+			android:text="        B——血法师（F.烈焰风暴，B.驱散，N.魔法吸收，X.火凤凰）。"  
+			android:gravity="left"  
+		></TextView> 
+		<TextView android:textColor="#000"  
+			android:layout_width="wrap_content"  
+			android:layout_height="wrap_content"    
+			android:text="兵营Barracks（BB）"  
+			android:gravity="left"  
+		></TextView>
+		<TextView android:textColor="#000"  
+			android:layout_width="wrap_content"  
+			android:layout_height="wrap_content"    
+			android:text="        F-步兵（D升级防御盾），D打开防御盾"  
+			android:gravity="left"  
+		></TextView>
+		<TextView android:textColor="#000"  
+			android:layout_width="wrap_content"  
+			android:layout_height="wrap_content"    
+			android:text="        R-火枪兵（L升级火枪距离）"  
+			android:gravity="left"  
+		></TextView> 
+		<TextView android:textColor="#000"  
+			android:layout_width="wrap_content"  
+			android:layout_height="wrap_content"    
+			android:text="        K-骑士（A增加骑士、龙鹰骑士、狮鹫的生命150点）"  
+			android:gravity="left"  
+		></TextView>
+		<TextView android:textColor="#000"  
+			android:layout_width="wrap_content"  
+			android:layout_height="wrap_content"    
+			android:text="伐木场Lumber Mill（BL）"  
+			android:gravity="left"  
+		></TextView>
+		<TextView android:textColor="#000"  
+			android:layout_width="wrap_content"  
+			android:layout_height="wrap_content"    
+			android:text="        L——采伐木材量增加"  
+			android:gravity="left"  
+		></TextView> 
+		<TextView android:textColor="#000"  
+			android:layout_width="wrap_content"  
+			android:layout_height="wrap_content"    
+			android:text="        M——建筑物的生命和护甲增加"  
+			android:gravity="left"  
+		></TextView>
+
+		<TextView android:textColor="#000"  
+			android:layout_width="wrap_content"  
+			android:layout_height="wrap_content"    
+			android:text="铁匠铺Blacksmith（BS）"  
+			android:gravity="left"  
+		></TextView> 
+		<TextView android:textColor="#000"  
+			android:layout_width="wrap_content"  
+			android:layout_height="wrap_content"    
+			android:text="        S——剑术（除下述外兵种的攻击）"  
+			android:gravity="left"  
+		></TextView>
+		<TextView android:textColor="#000"  
+			android:layout_width="wrap_content"  
+			android:layout_height="wrap_content"    
+			android:text="        P——护甲（除下述外兵种的防御）"  
+			android:gravity="left"  
+		></TextView>
+		<TextView android:textColor="#000"  
+			android:layout_width="wrap_content"  
+			android:layout_height="wrap_content"    
+			android:text="        G——火药（增加火枪、迫击炮、飞机、火车的攻击）"  
+			android:gravity="left"  
+		></TextView> 
+		<TextView android:textColor="#000"  
+			android:layout_width="wrap_content"  
+			android:layout_height="wrap_content"    
+			android:text="        A——皮甲（增加火枪、迫击炮、飞机、火车的防御）"  
+			android:gravity="left"  
+		></TextView>
+		<TextView android:textColor="#000"  
+			android:layout_width="wrap_content"  
+			android:layout_height="wrap_content"    
+			android:text="哨塔Scout Tower（BT）"  
+			android:gravity="left"  
+		></TextView>
+		<TextView android:textColor="#000"  
+			android:layout_width="wrap_content"  
+			android:layout_height="wrap_content"    
+			android:text="        G-升级成为箭塔（二级主本）"  
+			android:gravity="left"  
+		></TextView>
+		<TextView android:textColor="#000"  
+			android:layout_width="wrap_content"  
+			android:layout_height="wrap_content"    
+			android:text="        C-升级成为炮塔（三级主本）"  
+			android:gravity="left"  
+		></TextView>
+		<TextView android:textColor="#000"  
+			android:layout_width="wrap_content"  
+			android:layout_height="wrap_content"    
+			android:text="        N-升级成为魔法塔（一级主本）"  
+			android:gravity="left"  
+		></TextView>
+		<TextView android:textColor="#000"  
+			android:layout_width="wrap_content"  
+			android:layout_height="wrap_content"    
+			android:text="神秘宝藏室Arcane Vault（BV）"  
+			android:gravity="left"  
+		></TextView>  
+		<TextView android:textColor="#000"  
+			android:layout_width="wrap_content"  
+			android:layout_height="wrap_content"    
+			android:text="        初期（主本一级）：R-医疗药剂（群加效果，挨打消失）；C-小药水（30秒内恢复100点魔法值）；E-小玩艺（探路用的小东西，一般没有什么用）"  
+			android:gravity="left"  
+		></TextView>
+		<TextView android:textColor="#000"  
+			android:layout_width="wrap_content"  
+			android:layout_height="wrap_content"    
+			android:text="        中期（主本二级）：P-生命水（恢复250点生命）；M-魔法药水（恢复200点魔法值）；T-回城卷轴，V-象牙塔（防御性的自动建造的塔）"  
+			android:gravity="left"  
+		></TextView>
+		<TextView android:textColor="#000"  
+			android:layout_width="wrap_content"  
+			android:layout_height="wrap_content"    
+			android:text="        末期（主本三级）：F-火焰之球（攻击空中单位变成远程攻击，火焰伤害，一定的溅射效果）；N-避难权杖（将单位传送到最高主基地上，15s恢复其生命）"  
+			android:gravity="left"  
+		></TextView>  
+		<TextView android:textColor="#000"  
+			android:layout_width="wrap_content"  
+			android:layout_height="wrap_content"    
+			android:text="神秘圣地Arcane Sanctum（BR）"  
+			android:gravity="left"  
+		></TextView>
+		<TextView android:textColor="#000"  
+			android:layout_width="wrap_content"  
+			android:layout_height="wrap_content"    
+			android:text="        S-女妖（O升级女妖技能），W减速（自动），I隐形，O变形术"  
+			android:gravity="left"  
+		></TextView>
+		<TextView android:textColor="#000"  
+			android:layout_width="wrap_content"  
+			android:layout_height="wrap_content"    
+			android:text="        P-牧师（T升级牧师技能），E医疗（自动），D驱魔，F心灵之火（加防）"  
+			android:gravity="left"  
+		></TextView>  
+		<TextView android:textColor="#000"  
+			android:layout_width="wrap_content"  
+			android:layout_height="wrap_content"    
+			android:text="        B-破法者（G利用敌人召唤的单位），T魔法盗取（自动），C控制魔法（控制对方的召唤单位）"  
+			android:gravity="left"  
+		></TextView>
+		<TextView android:textColor="#000"  
+			android:layout_width="wrap_content"  
+			android:layout_height="wrap_content"    
+			android:text="        M-升级探测隐形（箭塔）"  
+			android:gravity="left"  
+		></TextView>
+		<TextView android:textColor="#000"  
+			android:layout_width="wrap_content"  
+			android:layout_height="wrap_content"    
+			android:text="车间Workshop（BW）"  
+			android:gravity="left"  
+		></TextView>  
+		<TextView android:textColor="#000"  
+			android:layout_width="wrap_content"  
+			android:layout_height="wrap_content"    
+			android:text="        F-飞行机器（C高射炮（升级对空的区域攻击），B对地攻击（使其能对地攻击））"  
+			android:gravity="left"  
+		></TextView>
+		<TextView android:textColor="#000"  
+			android:layout_width="wrap_content"  
+			android:layout_height="wrap_content"    
+			android:text="        M-迫击炮小队，S碎片攻击（升级区域攻击），R照明弹（升级探隐形，无使用限制），F（使用照明弹）"  
+			android:gravity="left"  
+		></TextView>
+		<TextView android:textColor="#000"  
+			android:layout_width="wrap_content"  
+			android:layout_height="wrap_content"    
+			android:text="        E-蒸气机车，G弹幕攻击（能打空中单位）"  
+			android:gravity="left"  
+		></TextView>
+		<TextView android:textColor="#000"  
+			android:layout_width="wrap_content"  
+			android:layout_height="wrap_content"    
+			android:text="狮鹫笼Gryphon Aviary（BG）"  
+			android:gravity="left"  
+		></TextView>  
+		<TextView android:textColor="#000"  
+			android:layout_width="wrap_content"  
+			android:layout_height="wrap_content"    
+			android:text="        D-龙鹰（C乌云（使防御性建筑物失效）），E空中锁链（锁住空中单位使其不能攻击，手动），C（使用乌云）"  
+			android:gravity="left"  
+		></TextView>  
+		<TextView android:textColor="#000"  
+			android:layout_width="wrap_content"  
+			android:layout_height="wrap_content"    
+			android:text="        G-狮鹫（H升级战锤）"  
+			android:gravity="left"  
+		></TextView>    
+		  
+		
+		
+	
+	
+
+</LinearLayout>
+</ScrollView>
+
+
+
+</LinearLayout>

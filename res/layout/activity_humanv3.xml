@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#eee"
+        android:orientation="vertical" >
+        
+        <LinearLayout 
+  			android:layout_width="fill_parent"
+  			android:layout_height="45dp"
+  			android:id="@+id/title" 
+  			android:background="@drawable/title_bar"
+  			android:gravity="center_horizontal|center_vertical"  >  
+      <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="返回" 
+        android:onClick="backv3"
+        />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="人族VS精灵族"
+        android:gravity="center|center_horizontal|center_vertical"
+        android:textColor="#ffffff"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="点我" 
+        android:onClick="clickv3"
+        />    
+			</LinearLayout>
+<ScrollView 
+
+    android:id="@+id/ScrollView01" 
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content"
+
+>
+
+<LinearLayout
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin" 
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+<TableLayout  
+   
+    android:id="@+id/tableLayout1"  
+    android:layout_width="match_parent"  
+    android:layout_height="match_parent"  
+    android:shrinkColumns="*"  
+    android:stretchColumns="*">
+    <TableRow
+        android:layout_height="wrap_content"  
+        android:layout_width="match_parent">        
+    <TextView  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"  
+            android:textStyle="bold"  
+            android:typeface="serif"  
+            android:textSize="18sp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"  
+            android:text="TR"  
+            android:gravity="left"  
+            android:textColor="#000"></TextView>  
+
+</TableRow>  
+<TableRow
+        android:layout_height="wrap_content"  
+        android:layout_width="match_parent">
+        
+    <TextView  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"    
+            android:text="      TR！很多人说高等级女王IMBA，PD IMBA，熊IMBA，鹿IMBA。我说，你一本TR掉他不就完了吗？的确，人族的1本，非常强势。民兵，盾步，2种塔。使得TR NE的可能性大大增加。下面我为大家说说几种TR方式。"  
+            android:gravity="left"  
+            android:textColor="#000"
+            android:layout_marginBottom="5dp"></TextView>  
+
+</TableRow>
+<TableRow
+        android:layout_height="wrap_content"  
+        android:layout_width="match_parent">
+        
+    <TextView  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"    
+            android:text="1.速战速决，1来3民兵造塔。适合EI地图，这是一种赌博，就看NE是否会针对。当然，会针对也未必就能100%防下了。前期，一开局就CALL 3个民兵过去，1个农民采金1个农民造BL。那3个民兵去到NE基地，还有一点点时间变回农民，边敲井边向NE基地深处移动，然后迅速2个农民敲1个塔，1个农民敲一个，然后拿BF堵住路口，这样2根塔就在NE金矿后面诡异地立起来了。这时有2点注意的，1是继续拖农民往前线，2是基地要造塔胚（先不变塔，发现他放弃基地了再变，也是为了节省资源）基地用2个BF封家（很简单的，就是在基地的对角处造2个农场就能封家了），接下来爱咋咋的，我就不多说了。注意造好的箭塔点AC，魔塔点英雄。"  
+            android:gravity="left" 
+            android:layout_marginBottom="5dp"
+            android:textColor="#000"></TextView>  
+
+</TableRow>
+<TableRow
+        android:layout_height="wrap_content"  
+        android:layout_width="match_parent">
+        
+    <TextView  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"    
+            android:text="2.一来就TR。常见于TR近点，EI，TS等图。你说啥？我不小心勾怪把你BR给退了？我不TR你对得住我自己吗？常见的首发英雄是AM，偶尔也会有些非主流选择NAGA啊，MK啊，TK啊等等。去的时候，部队要集中，民兵FM等尽量走在一起。EI图要从市场上走，防止被DH引怪网你的兵。碰到DH的时候立刻群殴，AM拉开，被抽一下没关系，被抽2下关系就大了，就不能放2个水人了。快去到NE基地，水人拉开，农民一次敲4根塔和4个人敲1根塔，我推荐后着，这样更方便维修和塔更早立好，前者是为慢TR来设计的。反正FM千万不要被他引入树林里，近什么就摸什么，而刚造的塔也不要太接近BR，也不要太接近他的基地，步步为营。塔也不要太靠近，防止他2发PL来落煤渣。至于NAGA，就是和DH拼血的过程，不能怂，一怂就悲剧了。通常是野祭坛，方便NAGA死了后更快走到战场。MK，依靠围DH。TK，前期更多战力，但T不下的话后面就只能玩WS了。"  
+            android:gravity="left"  
+            android:layout_marginBottom="5dp"
+            android:textColor="#000"></TextView>  
+
+</TableRow>
+<TableRow
+        android:layout_height="wrap_content"  
+        android:layout_width="match_parent">
+        
+    <TextView  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"    
+            android:text="3.入夜后的盾步TR（慢TR）前期AM MF到2，然后暴露出开矿的意图，那么如果是AC开局的对手，就会毫不设防地攀升2本。这时HUM兵力的大概配置是7~8个FM，先出FM，快去TR的时候再升盾。AM去商店卖TP买鞋买粉，拖7+个民兵就去TR了。去的的时候，流程也是相对简单，FM接近AC，然后顶盾，AM撒粉，再控制农民BTBTBTBTBTBT造个6 7个塔。AC在MF的攻击下，疲于拉扯，能否点塔都已经成为了问题。有几点要注意的。塔的位置不要靠得太密，在一个区域地分散排开。FM最好分开2~3线来攻击AC，模仿小G RUSH NE。"  
+            android:gravity="left"  
+            
+            android:textColor="#000"></TextView>  
+
+</TableRow>
+    <TableRow
+        android:layout_height="wrap_content"  
+        android:layout_width="match_parent">        
+    <TextView  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"  
+            android:textStyle="bold"  
+            android:typeface="serif"  
+            android:textSize="18sp"  
+            android:text="ToD流"  
+            android:gravity="left"  
+            android:textColor="#000"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"  ></TextView>  
+
+</TableRow>  
+<TableRow
+        android:layout_height="wrap_content"  
+        android:layout_width="match_parent">
+        
+    <TextView  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"    
+            android:text="      俗称3法小炮，处理好阵型，带上群补，打NE非常强大。前期开矿无话，要注意NE的2种RUSH。第一种是HT弩车RUSH，多见于NE首发WD，也有写非主流NE用TK，PD，兽王等英雄。人族来说，硬刚是非常亏的，虽然前2波冲击的确能赚到一些东西，但是随着时间的增多人族就会逐渐顶不住。打这招，大概有3种办法。"  
+            android:gravity="left"  
+            android:textColor="#000"
+            android:layout_marginBottom="5dp"></TextView>  
+
+</TableRow>
+<TableRow
+        android:layout_height="wrap_content"  
+        android:layout_width="match_parent">
+        
+    <TextView  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"    
+            android:text="1.速2本出小炮。开了分矿后看他是RUSH你哪个矿，然后另一个矿攀2本。塔不要造太多，主矿就在基地的正后方补2箭1圣，而不是在BF后面补，这样容易被NE打爆。2本时在另一个没被NE RUSH的矿N敲 BW，BR，甚至放弃采金，然后TP到主矿防守。详细请参照这场REP，迅速升到2本，AM下雪配合法师小炮的反击。"  
+            android:gravity="left"  
+            android:textColor="#000"
+            android:layout_marginBottom="5dp"></TextView>  
+
+</TableRow>
+<TableRow
+        android:layout_height="wrap_content"  
+        android:layout_width="match_parent">
+        
+    <TextView  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"    
+            android:text="2.全家老小一波冲出去拼命。不要留兵，一定要全家老小，尽量杀HT，攻击离自己单位最近的东西，把DPS瞬间爆发出来。甚至是配合雇佣兵。这样NE的HT就会很快抗不住，剩下快造好的BP，也是顶不住多久了。详细请参考这场REP。大量民兵反击。"  
+            android:gravity="left"  
+            android:textColor="#000"
+            android:layout_marginBottom="5dp"></TextView>  
+
+</TableRow>
+<TableRow
+        android:layout_height="wrap_content"  
+        android:layout_width="match_parent">
+        
+    <TextView  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"    
+            android:text="3.换家。大量FM配合雇佣兵，如果你发现对手的时候他3个BP已经立好了，那么换家就是最好的选择。FM直接包着BT来拆，他精灵修就打精灵，这样他很快就没资源了。NE肯定要回防，他回防的话。。。你一个潇洒的TP，立刻回到了自己的基地配合民兵把他的BP拆了，然后贴药膏一个潇洒的离开，这波攻势就化解了。参考这场REP，虽然和这个有点出入，但还是值得参考的。"  
+            android:gravity="left"  
+            android:textColor="#000"
+            android:layout_marginBottom="5dp"></TextView>  
+
+</TableRow>
+<TableRow
+        android:layout_height="wrap_content"  
+        android:layout_width="match_parent">
+        
+    <TextView  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"    
+            android:text="      之后：防下对手的TR，2本开始2BR 1BW爆兵。注意兵力没成型的时候可以先偷练分矿附近的点，可以用小炮引怪，详情请参考人族置顶贴的5大主流地图MF的上篇。接下来就是抢群补和隐跑偷NE分矿。50人口可以先压一下，不出破法然后出女巫和少量牧师，隐身小炮去NE分矿偷树换TP，也可以隐去NE主矿偷月井，这时升攻防，压钱，补人口，然后爆到80人口直接一波就OK了。大战时注意阵型，很多地图都有无敌位（狭窄的位置）分一部分破法点PD，MK也T PD。被PD酒火后牧师立刻驱散被喷了的单位。至于阵型，破法+英雄1队点到最前，法师2队点到中间，小炮3队点到最后，这样就很立体了。注意使用群补的时机，没群补了，部队也不太健康了必须果断TP。"  
+            android:gravity="left"  
+            android:textColor="#000"></TextView>  
+
+</TableRow>
+<TableRow
+        android:layout_height="wrap_content"  
+        android:layout_width="match_parent">        
+    <TextView  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"  
+            android:textStyle="bold"  
+            android:typeface="serif"  
+            android:textSize="18sp"  
+            android:text="3本49+小炮"  
+            android:gravity="left"  
+            android:textColor="#000"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"  ></TextView>  
+
+</TableRow>
+<TableRow
+        android:layout_height="wrap_content"  
+        android:layout_width="match_parent">
+        
+    <TextView  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"    
+            android:text="      前面和ToD流差不多，就是玛更多的塔，在49和碎甲小炮没成型之前3英雄单独MF。至于如何脱身呢？例如AM MK PAL是ABC，那么B带单传避难，C带避难，A带TP，那么C避难A，B避难C，B单传走。08年PGL 3蛋打MOON在MV那个很帅的场面大家应该记得吧？同样是压50人口，先提升攻防。可以用小炮，英雄和49分2线来骚扰。英雄+49骚扰主矿，小炮先照明弹照下NE分矿再突击，这样能取到很好的效果。然后就是买群疗群补群防打一波。大战时，人族几乎没有肉盾（只有水和少量74）所以要充分利用树林。49在树林上方突击，小跑在树林的转角处或者树林后面开炮。群补用完果断TP。尽量保证自己少死兵，耗下去人族就很有优势了。NE转大量角鹰怎么办？龙鹰并不是好选择。1来出得比角鹰慢，2来同人口数量少，在PD的酒火下站不主阵脚。当然也可以迅速爆龙鹰趁角鹰没成型时诱到树林或海面上方诱杀了。打大量角鹰，人族直接放弃空军，走地面74小炮组合。嘿嘿，你傻眼了吧？就算有49，也留在基地，让角鹰无从发挥。参考lucifer打ReMinD在TR图，lucifer压50人口天鬼骗ReMinD出了大量角鹰，然后lucifer转出胖子打地面的，大战时天鬼全部F在地面上。。。只有少量熊的ReMinD傻眼了。"  
+            android:gravity="left"  
+            android:textColor="#000"
+            ></TextView>  
+
+</TableRow>
+<TableRow
+        android:layout_height="wrap_content"  
+        android:layout_width="match_parent">        
+    <TextView  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"  
+            android:textStyle="bold"  
+            android:typeface="serif"  
+            android:textSize="18sp"  
+            android:text="WS"  
+            android:gravity="left"  
+            android:textColor="#000"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"  ></TextView>  
+
+</TableRow>
+<TableRow
+        android:layout_height="wrap_content"  
+        android:layout_width="match_parent">
+        
+    <TextView  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"    
+            android:text="      玛一圈塔，攀3本出坦克隐炮等，以拆家为主。在坦克或小炮进攻的时候开出更多的分矿。精粹就是，进攻的时候就是我开矿的时候。技术含量不高，适合娱乐，但对提高操作几乎没有帮助，甚至引来对手反感。由于本人不喜欢WS，这个自动忽略。"  
+            android:gravity="left"  
+            android:textColor="#000"
+            ></TextView>  
+
+</TableRow>
+<TableRow
+        android:layout_height="wrap_content"  
+        android:layout_width="match_parent">        
+    <TextView  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"  
+            android:textStyle="bold"  
+            android:typeface="serif"  
+            android:textSize="18sp"  
+            android:text="其他大招"  
+            android:gravity="left"  
+            android:textColor="#000"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"  ></TextView>  
+
+</TableRow>
+<TableRow
+        android:layout_height="wrap_content"  
+        android:layout_width="match_parent">
+        
+    <TextView  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"    
+            android:text="      这个就多了，偷塔，投小炮，TK流，3本74+小炮，霸王冲击波...只有你想不到，没有你做不到。毕竟人族没有板凳兵种，可以随便发挥。"  
+            android:gravity="left"  
+            android:textColor="#000"
+            android:layout_marginBottom="5dp"></TextView>  
+
+</TableRow>
+<TableRow
+        android:layout_height="wrap_content"  
+        android:layout_width="match_parent">
+        
+    <TextView  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"    
+            android:text="      另外补充一下人族2本RUSH NE。常见于人族难开矿的图。3FM转RM（火枪）然后2发NAGA单BR出法师，先出男女，再转少量破法。用这招时，AM练到2级最好买鞋买粉去NE家杀一波精灵。杀死2个也是大赚，直接影响到NE攀3本的快慢。2本时，带血瓶和群疗还有MINI塔，注意好阵型，没血的兵往后拖。从NE基地没有BR坐下的另一条路进攻。"  
+            android:gravity="left"  
+            android:textColor="#000"
+            android:layout_marginBottom="5dp"></TextView>  
+
+</TableRow>
+<TableRow
+        android:layout_height="wrap_content"  
+        android:layout_width="match_parent">
+        
+    <TextView  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"    
+            android:text="      再补充一点：人族防NE AC 2本爆风德RUSH。先依靠雇佣兵和民兵来反击，一波必须要强势反击，然后再缩回去贴药膏。用这样的办法来拖延到自己2本完成，然后买出2发NAGA出破法+小炮。打这招，不要太指望塔，没兵的话还是很难守的。除非塔的数量非常多（但面对这招压制似乎塔也多不起来）。还有一种是直接3BB爆火枪来打。再高难度点的就学3蛋农民海淹没对手。"  
+            android:gravity="left"  
+            android:textColor="#000"></TextView>  
+
+</TableRow>
+
+</TableLayout>
+
+</LinearLayout>
+</ScrollView>
+</LinearLayout>

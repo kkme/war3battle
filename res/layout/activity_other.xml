@@ -1,0 +1,84 @@
+<LinearLayout  
+   xmlns:android="http://schemas.android.com/apk/res/android"  
+   android:layout_height="fill_parent" 
+   android:layout_width="fill_parent" 
+   android:orientation="vertical"
+   
+   android:background="@drawable/mainimage"
+  
+   >
+
+	<LinearLayout
+	    android:layout_width="fill_parent"
+	    android:layout_height="match_parent"
+	    android:gravity="center|center_horizontal|center_vertical"
+	    android:orientation="vertical" >
+
+
+		<Button
+		    android:id="@+id/button1"
+		    android:layout_width="160dp"
+	        android:textSize="20sp"
+		    android:layout_height="wrap_content"
+		    android:layout_marginTop="120dp"
+		    android:onClick="war3information"
+		    android:textColor="#ffea17"
+		    android:layout_marginLeft="80dp"
+	        android:background="@drawable/buttonbg"
+		    android:text="War3简介" 
+		    />
+
+		<Button
+				    android:id="@+id/enter"
+				    android:layout_width="160dp"
+	        android:textSize="20sp"
+	        android:layout_marginLeft="80dp"
+				    android:layout_height="wrap_content"
+				    android:onClick="gameaction"
+				    android:textColor="#ffea17"
+	        android:background="@drawable/buttonbg"
+				    android:layout_marginTop="20dp"
+				    android:text="游戏操作" 
+				    >
+		</Button>
+		<Button
+				    android:id="@+id/enter"
+				    android:layout_width="160dp"
+	        android:textSize="20sp"
+				    android:layout_height="wrap_content"
+				   android:onClick="wcg"
+				   android:layout_marginLeft="80dp"
+				    android:textColor="#ffea17"
+	        android:background="@drawable/buttonbg"
+				    android:layout_marginTop="20dp"
+				    android:text="WCG概况" 
+				    >
+		</Button>
+		<Button
+	        android:id="@+id/enter"
+	        android:layout_marginLeft="80dp"
+	        android:layout_height="wrap_content"
+	        android:layout_gravity="center"
+	        android:layout_marginTop="20dp"
+	        android:onClick="war3v7"
+	        android:layout_width="160dp"
+	        android:textSize="20sp"
+	        android:textColor="#ffea17"
+	        android:background="@drawable/buttonbg"
+	        android:text="日夜循环" >
+	    </Button>
+	    <Button
+	        android:id="@+id/enter"
+	        android:layout_marginLeft="80dp"
+	        android:layout_height="wrap_content"
+	        android:layout_gravity="center"
+	        android:layout_marginTop="20dp"
+	        android:onClick="maps"
+	        android:layout_width="160dp"
+	        android:textSize="20sp"
+	        android:textColor="#ffea17"
+	        android:background="@drawable/buttonbg"
+	        android:text="常用地图" >
+	    </Button>
+	</LinearLayout>  
+</LinearLayout> 

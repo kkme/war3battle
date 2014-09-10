@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#eee"
+        android:orientation="vertical" >
+        
+        <LinearLayout 
+  			android:layout_width="fill_parent"
+  			android:layout_height="45dp"
+  			android:id="@+id/title" 
+  			android:background="@drawable/title_bar"
+  			android:gravity="center_horizontal|center_vertical"  >  
+      		<TextView
+        		android:layout_width="wrap_content" 
+        		android:layout_height="wrap_content" 
+        		android:text="人族"
+        		android:textSize="20sp"		
+				android:textColor="#ffffff" />       
+			</LinearLayout>
+<ScrollView 
+
+    android:id="@+id/ScrollView01" 
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content"
+>
+
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin" >
+
+
+
+<ImageView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:layout_marginTop="10dp"
+    android:layout_marginBottom="10dp"
+    android:src="@drawable/humanseal" >
+
+</ImageView> 
+      
+    <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"  
+            android:textStyle="bold"  
+            android:typeface="serif"  
+            android:textSize="18sp"  
+            android:text="简介"  
+            android:layout_marginBottom="10dp"
+            android:gravity="left"  
+            ></TextView>  
+
+
+
+        
+    <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="        强壮有力的部队和神奇的魔法部队组成了高贵的人类联盟军队，这样的部队捍卫着属于他们的人类帝国的荣誉。身披重甲的骑士和掌握着神奇魔法的巫师们在战场上肩并肩的与那些威胁着圣洁的人类联盟的安全的邪恶力量抗衡。虽然人类的联盟军队在不停的战争中几乎损失殆尽，但当威胁再次来临时，无数坚强的艾泽拉斯和洛丹伦人民再度联合起来抵御外敌的入侵。"  
+            android:gravity="left"  
+            ></TextView>  
+
+
+        
+    <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="        人类联盟由人类、 高等精灵、矮人组成。他们是魔兽3中最多才多艺的军队，有着良好的地面和空中部队，卓越的袭击能力和强大的法师部队。"  
+            android:gravity="left"  
+           ></TextView>  
+
+       
+    <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"  
+            android:textStyle="bold"  
+            android:typeface="serif"  
+            android:textSize="18sp"  
+            android:text="优势"  
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:gravity="left"  
+           ></TextView>  
+
+      
+    <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"  
+            android:textStyle="bold"  
+            android:typeface="serif"  
+            android:textSize="16sp"  
+            android:text="民兵"  
+            android:gravity="left"  
+            ></TextView>  
+
+        
+    <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="        人类联盟的农民可以在需要时变成民兵。您可以使用单个农民的命令面板上的[紧急动员]按钮将他变成民兵，或通过敲响城镇大厅中的钟将附近的所有农民都变成民兵。农民将会跑向城镇大厅，装备护甲和剑以抗击入侵者。在一段时间后民兵将自动变回农民，您也可以通过点击城镇大厅中的返回工作按钮让他们立刻变回农民。"  
+            android:gravity="left"  
+           ></TextView>  
+
+      
+    <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"  
+            android:textStyle="bold"  
+            android:typeface="serif"  
+            android:textSize="16sp"  
+            android:text="协同建造"  
+            android:gravity="left"  
+            ></TextView>  
+
+
+        
+    <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="        人类可以通过增派额外的农民来加速一栋建筑物的建造速度。当建筑物正在建造时，每增加一个农民来建造都可以让建筑物更早完工。 "  
+            android:gravity="left"  
+            ></TextView>  
+
+       
+    <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"  
+            android:textStyle="bold"  
+            android:typeface="serif"  
+            android:textSize="16sp"  
+            android:text="强化建筑"  
+            android:gravity="left"  
+            ></TextView>  
+
+
+        
+    <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="        人类可以通过在伐木场中研究石工技术来增强建筑物的护甲。每次升级石工建筑都可以提高联盟建筑物的护甲和生命值。 "  
+            android:gravity="left"  
+            ></TextView>  
+
+       
+    <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"  
+            android:textStyle="bold"  
+            android:typeface="serif"  
+            android:textSize="16sp"  
+            android:text="提高伐木效率"  
+            android:gravity="left"  
+           ></TextView>  
+
+
+        
+    <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="        人类联盟可以通过在伐木场中进行两次伐木技术的升级来提高农民的伐木效率。每次升级伐木技术都可以让农民携带更多的木材。"  
+            android:gravity="left"  
+            ></TextView>  
+
+        
+    <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="        人类在隐形的研究上有着相当的造诣。"  
+            android:gravity="left"  
+           ></TextView>  
+
+
+        
+    <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="        人族能够复活他们的部队。"  
+            android:gravity="left"  
+            ></TextView>  
+
+
+        
+    <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="        人类的防御技能在对抗射击类兵种是有着非常好的效果。 "  
+            android:gravity="left"  
+           ></TextView>  
+
+
+        
+    <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="        人类的防御塔在完全升级后是最强的。 "  
+            android:gravity="left"  
+            ></TextView>  
+
+        
+    <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="        人类可以6级的大法师的传送技能和女巫的隐形技能来突袭对手。 "  
+            android:gravity="left"  
+            ></TextView>  
+
+
+
+</LinearLayout>
+</ScrollView>
+</LinearLayout>

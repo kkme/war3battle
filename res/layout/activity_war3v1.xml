@@ -1,0 +1,1472 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#eee"
+        android:orientation="vertical" >
+        
+        <LinearLayout 
+  			android:layout_width="fill_parent"
+  			android:layout_height="45dp"
+  			android:id="@+id/title" 
+  			android:background="@drawable/title_bar"
+  			android:gravity="center_horizontal|center_vertical"  >  
+      		<TextView 
+        		android:layout_width="wrap_content" 
+        		android:layout_height="wrap_content" 
+        		android:text="英雄基础"
+        		android:textSize="20sp"		
+				android:textColor="#ffffff" />       
+			</LinearLayout>
+
+<ScrollView 
+    android:background="#eee"
+    android:id="@+id/ScrollView01" 
+    android:layout_width="fill_parent" 
+    android:layout_height="fill_parent"
+   
+>
+<LinearLayout
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin" 
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center"
+    >
+         
+     <TextView 
+                  android:layout_width="match_parent" 
+         android:layout_height="match_parent"   
+            android:gravity="left"
+            android:layout_marginTop="10dp"
+            android:textColor="#0000FF"
+            android:layout_marginBottom="5dp"
+            android:text="英雄魔法抗性 Hero Magic Resistance" >
+        </TextView>
+             <TextView android:textColor="#000"
+                  android:layout_width="match_parent" 
+         android:layout_height="match_parent"   
+            android:gravity="left"
+            
+            android:text="        作为特殊的单位，英雄可以享受到对敌人魔法的抗性。" >
+        </TextView>
+             <TextView 
+                  android:layout_width="match_parent" 
+         android:layout_height="match_parent"   
+            android:gravity="left"
+            android:textColor="#0000FF"
+            android:text="        更少的持续时间 Shorter Spell Duration" >
+        </TextView>
+             <TextView android:textColor="#000"
+                  android:layout_width="match_parent" 
+         android:layout_height="match_parent"   
+            android:gravity="left"
+            
+            android:text="        许多技能对英雄作用的时间比一般单位短。" >
+        </TextView>
+                     <TextView 
+                  android:layout_width="match_parent" 
+         android:layout_height="match_parent"   
+            android:gravity="left"
+            android:textColor="#0000FF"
+            android:text="        更少的伤害 Reduced Spell Damage" >
+        </TextView>
+             <TextView android:textColor="#000"
+                  android:layout_width="match_parent" 
+         android:layout_height="match_parent"   
+            android:gravity="left"
+            
+            android:text="        来自技能的伤害，英雄只受到70%。" >
+        </TextView>
+                     <TextView android:textColor="#000"
+                  android:layout_width="match_parent" 
+         android:layout_height="match_parent"   
+            android:gravity="left"
+            
+            android:text="        神秘腰带能增加魔法抗性。" >
+        </TextView>
+                 <TextView android:textColor="#000"
+                  android:layout_width="wrap_content" 
+         android:layout_height="wrap_content"   
+            android:gravity="center"
+            android:textSize="20sp"
+            android:text="英雄能力" 
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:textStyle="bold">
+        </TextView>
+     <TextView 
+                  android:layout_width="match_parent" 
+         android:layout_height="match_parent"   
+            android:gravity="left"
+            android:textColor="#FF6600"
+            android:layout_marginBottom="5dp"
+            android:text="经验槽" >
+        </TextView>
+             <TextView android:textColor="#000"
+                  android:layout_width="match_parent" 
+         android:layout_height="match_parent"   
+            android:gravity="left"
+            
+            android:text="        英雄通过他或者他“指挥”的部队杀死敌对的单位来获得经验。敌对的单位包括敌对玩家和野生单位。" >
+        </TextView>
+             <TextView android:textColor="#000"
+                  android:layout_width="match_parent" 
+         android:layout_height="match_parent"   
+            android:gravity="left"
+          
+            android:text="        杀死单位时没有英雄在附近，那么你的英雄同样可以得到经验（这是为了鼓励使用空军来骚扰对手）；在团队游戏中，你的盟友同样可以得到经验。如果有一个英雄在附近，那么只有他能得到经验。" >
+        </TextView>
+             <TextView android:textColor="#000"
+                  android:layout_width="match_parent" 
+         android:layout_height="match_parent"   
+            android:gravity="left"
+            
+            android:text="        如果有2个英雄在附近，那么经验就平摊给2个英雄。" >
+        </TextView>
+                     <TextView android:textColor="#000"
+                  android:layout_width="match_parent" 
+         android:layout_height="match_parent"   
+            android:gravity="left"
+
+            android:text="        英雄可以通过摧毁攻击性建筑来获得经验，但不能从攻击性建筑杀死的单位那里获得经验。" >
+        </TextView>
+             <TextView android:textColor="#000"
+                  android:layout_width="match_parent" 
+         android:layout_height="match_parent"   
+            android:gravity="left"
+            
+            android:text="        你可以通过杀死掉线玩家的单位来获得经验。这在FFA游戏中十分有用。但是你不能通过摧毁他们的攻击性建筑来获得经验。如果你的英雄超过5级，就不能得到经验了，同野生单位一样。" >
+        </TextView>
+                     <TextView android:textColor="#000"
+                  android:layout_width="match_parent" 
+         android:layout_height="match_parent"   
+            android:gravity="left"
+            
+            android:text="        如果玩家只有1个英雄（包括死掉的），那么在他的基地处于2、3级时可以得到经验的加成。2级时是15%，3级时是35%。这对敌对玩家和野生单位都有用。" >
+        </TextView>
+             <TextView 
+                  android:layout_width="match_parent" 
+         android:layout_height="match_parent"   
+            android:gravity="left"
+            android:textColor="#FF6600"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            android:text="经验值获得" >
+        </TextView>
+             <TextView android:textColor="#000"
+                  android:layout_width="match_parent" 
+         android:layout_height="match_parent"   
+            android:gravity="left"
+            
+            android:text="下表列出了你的英雄升级需要的经验值。" >
+        </TextView>
+<TableLayout   
+    android:layout_width="fill_parent"  
+    android:layout_height="fill_parent"  
+        android:shrinkColumns="*"  
+    android:stretchColumns="*"  
+>  
+<TableRow   
+        android:layout_height="wrap_content"  
+        android:layout_width="wrap_content"  
+        android:gravity="center_horizontal">  
+ <TextView android:textColor="#000"
+                  android:layout_width="match_parent" 
+         android:layout_height="match_parent"   
+            android:gravity="center"
+            
+            android:text="等级" >
+        </TextView>
+ <TextView android:textColor="#000"
+                  android:layout_width="match_parent" 
+         android:layout_height="match_parent"   
+            android:gravity="center"
+            
+            android:text="1" >
+        </TextView>
+ <TextView android:textColor="#000"
+                  android:layout_width="match_parent" 
+         android:layout_height="match_parent"   
+            android:gravity="center"
+            
+            android:text="2" >
+        </TextView>
+         <TextView android:textColor="#000"
+                  android:layout_width="match_parent" 
+         android:layout_height="match_parent"   
+            android:gravity="center"
+            
+            android:text="3" >
+        </TextView>
+         <TextView android:textColor="#000"
+                  android:layout_width="match_parent" 
+         android:layout_height="match_parent"   
+            android:gravity="center"
+            
+            android:text="4" >
+        </TextView>
+         <TextView android:textColor="#000"
+                  android:layout_width="match_parent" 
+         android:layout_height="match_parent"   
+           android:gravity="center"
+            
+            android:text="5" >
+        </TextView>
+
+    </TableRow>
+<TableRow   
+        android:layout_height="wrap_content"  
+        android:layout_width="wrap_content"  
+        android:gravity="center_horizontal">  
+ <TextView android:textColor="#000"
+                  android:layout_width="match_parent" 
+         android:layout_height="match_parent"   
+            android:gravity="center"
+            
+            android:text="经验" >
+        </TextView>
+ <TextView android:textColor="#000"
+                  android:layout_width="match_parent" 
+         android:layout_height="match_parent"   
+            android:gravity="center"
+            
+            android:text="0" >
+        </TextView> 
+ <TextView android:textColor="#000"
+                  android:layout_width="match_parent" 
+         android:layout_height="match_parent"   
+            android:gravity="center"
+            
+            android:text="200" >
+        </TextView>
+         <TextView android:textColor="#000"
+                  android:layout_width="match_parent" 
+         android:layout_height="match_parent"   
+            android:gravity="center"
+            
+            android:text="500" >
+        </TextView>
+         <TextView android:textColor="#000"
+                  android:layout_width="match_parent" 
+         android:layout_height="match_parent"   
+            android:gravity="center"
+            
+            android:text="900" >
+        </TextView>
+         <TextView android:textColor="#000"
+                  android:layout_width="match_parent" 
+         android:layout_height="match_parent"   
+           android:gravity="center"
+            
+            android:text="1400" >
+        </TextView>
+
+    </TableRow>
+
+    <TableRow   
+        android:layout_height="wrap_content"  
+        android:layout_width="wrap_content"  
+        android:gravity="center_horizontal">  
+ <TextView android:textColor="#000"
+                  android:layout_width="match_parent" 
+         android:layout_height="match_parent"   
+            android:gravity="center"
+            
+            android:text="等级" >
+        </TextView>
+         <TextView android:textColor="#000"
+                  android:layout_width="match_parent" 
+         android:layout_height="match_parent"   
+            android:gravity="center"
+            
+            android:text="6" >
+        </TextView>
+         <TextView android:textColor="#000"
+                  android:layout_width="match_parent" 
+         android:layout_height="match_parent"   
+            android:gravity="center"
+            
+            android:text="7" >
+        </TextView>
+         <TextView android:textColor="#000"
+                  android:layout_width="match_parent" 
+         android:layout_height="match_parent"   
+           android:gravity="center"
+            
+            android:text="8" >
+        </TextView>
+         <TextView android:textColor="#000"
+                  android:layout_width="match_parent" 
+         android:layout_height="match_parent"   
+            android:gravity="center"
+            
+            android:text="9" >
+        </TextView>
+         <TextView android:textColor="#000"
+                  android:layout_width="match_parent" 
+         android:layout_height="match_parent"   
+            android:gravity="center"
+            
+            android:text="10" >
+        </TextView>
+
+    </TableRow>
+<TableRow   
+        android:layout_height="wrap_content"  
+        android:layout_width="wrap_content"  
+        android:gravity="center_horizontal">  
+ <TextView android:textColor="#000"
+                  android:layout_width="match_parent" 
+         android:layout_height="match_parent"   
+            android:gravity="center"
+            
+            android:text="经验" >
+        </TextView>
+         <TextView android:textColor="#000"
+                  android:layout_width="match_parent" 
+         android:layout_height="match_parent"   
+            android:gravity="center"
+            
+            android:text="2000" >
+        </TextView>
+         <TextView android:textColor="#000"
+                  android:layout_width="match_parent" 
+         android:layout_height="match_parent"   
+            android:gravity="center"
+            
+            android:text="2700" >
+        </TextView>
+         <TextView android:textColor="#000"
+                  android:layout_width="match_parent" 
+         android:layout_height="match_parent"   
+           android:gravity="center"
+            
+            android:text="3500" >
+        </TextView>
+         <TextView android:textColor="#000"
+                  android:layout_width="match_parent" 
+         android:layout_height="match_parent"   
+            android:gravity="center"
+            
+            android:text="4400" >
+        </TextView>
+         <TextView android:textColor="#000"
+                  android:layout_width="match_parent" 
+         android:layout_height="match_parent"   
+            android:gravity="center"
+            
+            android:text="5400" >
+        </TextView>
+
+    </TableRow>
+</TableLayout>
+             <TextView android:textColor="#000"
+                  android:layout_width="match_parent" 
+         android:layout_height="match_parent"   
+            android:gravity="left"
+            
+            android:text="下表列出了通过杀死敌人英雄可以获得的经验值。" >
+        </TextView> 
+<TableLayout   
+    android:layout_width="fill_parent"  
+    android:layout_height="fill_parent"  
+        android:shrinkColumns="*"  
+    android:stretchColumns="*"  
+>  
+<TableRow   
+        android:layout_height="wrap_content"  
+        android:layout_width="wrap_content"  
+        android:gravity="center_horizontal">  
+ <TextView android:textColor="#000"
+                  android:layout_width="match_parent" 
+         android:layout_height="match_parent"   
+            android:gravity="center"
+            
+            android:text="等级" >
+        </TextView>
+ <TextView android:textColor="#000"
+                  android:layout_width="match_parent" 
+         android:layout_height="match_parent"   
+            android:gravity="center"
+            
+            android:text="1" >
+        </TextView>
+ <TextView android:textColor="#000"
+                  android:layout_width="match_parent" 
+         android:layout_height="match_parent"   
+            android:gravity="center"
+            
+            android:text="2" >
+        </TextView>
+         <TextView android:textColor="#000"
+                  android:layout_width="match_parent" 
+         android:layout_height="match_parent"   
+            android:gravity="center"
+            
+            android:text="3" >
+        </TextView>
+         <TextView android:textColor="#000"
+                  android:layout_width="match_parent" 
+         android:layout_height="match_parent"   
+            android:gravity="center"
+            
+            android:text="4" >
+        </TextView>
+         <TextView android:textColor="#000"
+                  android:layout_width="match_parent" 
+         android:layout_height="match_parent"   
+           android:gravity="center"
+            
+            android:text="5" >
+        </TextView>
+
+
+    </TableRow>
+<TableRow   
+        android:layout_height="wrap_content"  
+        android:layout_width="wrap_content"  
+        android:gravity="center_horizontal">  
+ <TextView android:textColor="#000"
+                  android:layout_width="match_parent" 
+         android:layout_height="match_parent"   
+            android:gravity="center"
+            
+            android:text="经验" >
+        </TextView>
+     <TextView android:textColor="#000"
+                  android:layout_width="match_parent" 
+         android:layout_height="match_parent"   
+            android:gravity="center"
+            
+            android:text="100" >
+        </TextView>
+ <TextView android:textColor="#000"
+                  android:layout_width="match_parent" 
+         android:layout_height="match_parent"   
+            android:gravity="center"
+            
+            android:text="120" >
+        </TextView>
+         <TextView android:textColor="#000"
+                  android:layout_width="match_parent" 
+         android:layout_height="match_parent"   
+            android:gravity="center"
+            
+            android:text="160" >
+        </TextView>
+         <TextView android:textColor="#000"
+                  android:layout_width="match_parent" 
+         android:layout_height="match_parent"   
+            android:gravity="center"
+            
+            android:text="220" >
+        </TextView>
+         <TextView android:textColor="#000"
+                  android:layout_width="match_parent" 
+         android:layout_height="match_parent"   
+           android:gravity="center"
+            
+            android:text="300" >
+        </TextView>
+
+    </TableRow>
+<TableRow   
+        android:layout_height="wrap_content"  
+        android:layout_width="wrap_content"  
+        android:gravity="center_horizontal">  
+ <TextView android:textColor="#000"
+                  android:layout_width="match_parent" 
+         android:layout_height="match_parent"   
+            android:gravity="center"
+            
+            android:text="等级" >
+        </TextView>
+ 
+         <TextView android:textColor="#000"
+                  android:layout_width="match_parent" 
+         android:layout_height="match_parent"   
+            android:gravity="center"
+            
+            android:text="6" >
+        </TextView>
+         <TextView android:textColor="#000"
+                  android:layout_width="match_parent" 
+         android:layout_height="match_parent"   
+            android:gravity="center"
+            
+            android:text="7" >
+        </TextView>
+         <TextView android:textColor="#000"
+                  android:layout_width="match_parent" 
+         android:layout_height="match_parent"   
+           android:gravity="center"
+            
+            android:text="8" >
+        </TextView>
+         <TextView android:textColor="#000"
+                  android:layout_width="match_parent" 
+         android:layout_height="match_parent"   
+            android:gravity="center"
+            
+            android:text="9" >
+        </TextView>
+         <TextView android:textColor="#000"
+                  android:layout_width="match_parent" 
+         android:layout_height="match_parent"   
+            android:gravity="center"
+            
+            android:text="10" >
+        </TextView>
+
+    </TableRow>
+<TableRow   
+        android:layout_height="wrap_content"  
+        android:layout_width="wrap_content"  
+        android:gravity="center_horizontal">  
+ <TextView android:textColor="#000"
+                  android:layout_width="match_parent" 
+         android:layout_height="match_parent"   
+            android:gravity="center"
+            
+            android:text="经验" >
+        </TextView>
+
+
+         <TextView android:textColor="#000"
+                  android:layout_width="match_parent" 
+         android:layout_height="match_parent"   
+            android:gravity="center"
+            
+            android:text="400" >
+        </TextView>
+         <TextView android:textColor="#000"
+                  android:layout_width="match_parent" 
+         android:layout_height="match_parent"   
+            android:gravity="center"
+            
+            android:text="500" >
+        </TextView>
+         <TextView android:textColor="#000"
+                  android:layout_width="match_parent" 
+         android:layout_height="match_parent"   
+           android:gravity="center"
+            
+            android:text="600" >
+        </TextView>
+         <TextView android:textColor="#000"
+                  android:layout_width="match_parent" 
+         android:layout_height="match_parent"   
+            android:gravity="center"
+            
+            android:text="700" >
+        </TextView>
+         <TextView android:textColor="#000"
+                  android:layout_width="match_parent" 
+         android:layout_height="match_parent"   
+            android:gravity="center"
+            
+            android:text="800" >
+        </TextView>
+
+    </TableRow>
+</TableLayout>
+             <TextView 
+                  android:layout_width="match_parent" 
+         android:layout_height="match_parent"   
+            android:gravity="left"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            android:textColor="#FF6600"
+            android:text="野生单位的百分比经验值" >
+        </TextView>
+                     <TextView android:textColor="#000"
+                  android:layout_width="match_parent" 
+         android:layout_height="match_parent"   
+            android:gravity="left"
+            
+            android:text="野生单位的经验值取决于你英雄的等级。" >
+        </TextView> 
+<TableLayout   
+    android:layout_width="fill_parent"  
+    android:layout_height="fill_parent"  
+        android:shrinkColumns="*"  
+    android:stretchColumns="*"  
+>  
+<TableRow   
+        android:layout_height="wrap_content"  
+        android:layout_width="wrap_content"  
+        android:gravity="center_horizontal">  
+ <TextView android:textColor="#000"
+                  android:layout_width="match_parent" 
+         android:layout_height="match_parent"   
+            android:gravity="center"
+            
+            android:text="等级" >
+        </TextView>
+ <TextView android:textColor="#000"
+                  android:layout_width="match_parent" 
+         android:layout_height="match_parent"   
+            android:gravity="center"
+            
+            android:text="1" >
+        </TextView>
+ <TextView android:textColor="#000"
+                  android:layout_width="match_parent" 
+         android:layout_height="match_parent"   
+            android:gravity="center"
+            
+            android:text="2" >
+        </TextView>
+         <TextView android:textColor="#000"
+                  android:layout_width="match_parent" 
+         android:layout_height="match_parent"   
+            android:gravity="center"
+            
+            android:text="3" >
+        </TextView>
+         <TextView android:textColor="#000"
+                  android:layout_width="match_parent" 
+         android:layout_height="match_parent"   
+            android:gravity="center"
+            
+            android:text="4" >
+        </TextView>
+         <TextView android:textColor="#000"
+                  android:layout_width="match_parent" 
+         android:layout_height="match_parent"   
+           android:gravity="center"
+            
+            android:text="5+" >
+        </TextView>
+         
+
+    </TableRow>
+<TableRow   
+        android:layout_height="wrap_content"  
+        android:layout_width="wrap_content"  
+        android:gravity="center_horizontal">  
+ <TextView android:textColor="#000"
+                  android:layout_width="match_parent" 
+         android:layout_height="match_parent"   
+            android:gravity="center"
+            
+            android:text="经验" >
+        </TextView>
+     <TextView android:textColor="#000"
+                  android:layout_width="match_parent" 
+         android:layout_height="match_parent"   
+            android:gravity="center"
+            
+            android:text="80%" >
+        </TextView>
+ <TextView android:textColor="#000"
+                  android:layout_width="match_parent" 
+         android:layout_height="match_parent"   
+            android:gravity="center"
+            
+            android:text="70%" >
+        </TextView>
+         <TextView android:textColor="#000"
+                  android:layout_width="match_parent" 
+         android:layout_height="match_parent"   
+            android:gravity="center"
+            
+            android:text="62%" >
+        </TextView>
+         <TextView android:textColor="#000"
+                  android:layout_width="match_parent" 
+         android:layout_height="match_parent"   
+            android:gravity="center"
+            
+            android:text="55%" >
+        </TextView>
+         <TextView android:textColor="#000"
+                  android:layout_width="match_parent" 
+         android:layout_height="match_parent"   
+           android:gravity="center"
+            
+            android:text="0%" >
+        </TextView>
+         
+    </TableRow>
+</TableLayout>
+  <TextView 
+                  android:layout_width="match_parent" 
+         android:layout_height="match_parent"   
+            android:gravity="left"
+            android:textColor="#FF6600"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            android:text="普通单位的经验值" >
+        </TextView>
+                     <TextView android:textColor="#000"
+                  android:layout_width="match_parent" 
+         android:layout_height="match_parent"   
+            android:gravity="left"
+            
+            android:text="英雄杀死一个非野生单位获得的经验：" >
+        </TextView>
+ <TableLayout   
+    android:layout_width="fill_parent"  
+    android:layout_height="fill_parent"  
+        android:shrinkColumns="*"  
+    android:stretchColumns="*"  
+>  
+<TableRow   
+        android:layout_height="wrap_content"  
+        android:layout_width="wrap_content"  
+        android:gravity="center_horizontal">  
+ <TextView android:textColor="#000"
+                  android:layout_width="match_parent" 
+         android:layout_height="match_parent"   
+            android:gravity="center"
+            
+            android:text="F(X)" >
+        </TextView>
+ <TextView android:textColor="#000"
+                  android:layout_width="match_parent" 
+         android:layout_height="match_parent"   
+            android:gravity="center"
+            
+            android:text="F(1)" >
+        </TextView>
+ <TextView android:textColor="#000"
+                  android:layout_width="match_parent" 
+         android:layout_height="match_parent"   
+            android:gravity="center"
+            
+            android:text="F(2)" >
+        </TextView>
+         <TextView android:textColor="#000"
+                  android:layout_width="match_parent" 
+         android:layout_height="match_parent"   
+            android:gravity="center"
+            
+            android:text="F(3)" >
+        </TextView>
+         <TextView android:textColor="#000"
+                  android:layout_width="match_parent" 
+         android:layout_height="match_parent"   
+            android:gravity="center"
+            
+            android:text="F(4)" >
+        </TextView>
+         <TextView android:textColor="#000"
+                  android:layout_width="match_parent" 
+         android:layout_height="match_parent"   
+           android:gravity="center"
+            
+            android:text="F(5)" >
+        </TextView>
+
+    </TableRow>
+<TableRow   
+        android:layout_height="wrap_content"  
+        android:layout_width="wrap_content"  
+        android:gravity="center_horizontal"
+        >  
+ <TextView android:textColor="#000"
+                  android:layout_width="match_parent" 
+         android:layout_height="match_parent"   
+            android:gravity="center"
+            
+            android:text="经验" >
+        </TextView>
+     <TextView android:textColor="#000"
+                  android:layout_width="match_parent" 
+         android:layout_height="match_parent"   
+            android:gravity="center"
+            
+            android:text="25" >
+        </TextView>
+ <TextView android:textColor="#000"
+                  android:layout_width="match_parent" 
+         android:layout_height="match_parent"   
+            android:gravity="center"
+            
+            android:text="40" >
+        </TextView>
+         <TextView android:textColor="#000"
+                  android:layout_width="match_parent" 
+         android:layout_height="match_parent"   
+            android:gravity="center"
+            
+            android:text="60" >
+        </TextView>
+         <TextView android:textColor="#000"
+                  android:layout_width="match_parent" 
+         android:layout_height="match_parent"   
+            android:gravity="center"
+            
+            android:text="85" >
+        </TextView>
+         <TextView android:textColor="#000"
+                  android:layout_width="match_parent" 
+         android:layout_height="match_parent"   
+           android:gravity="center"
+            
+            android:text="115" >
+        </TextView>
+
+    </TableRow>
+<TableRow   
+        android:layout_height="wrap_content"  
+        android:layout_width="wrap_content"  
+        android:gravity="center_horizontal">  
+ <TextView android:textColor="#000"
+                  android:layout_width="match_parent" 
+         android:layout_height="match_parent"   
+            android:gravity="center"
+            
+            android:text="F(X)" >
+        </TextView>
+
+         <TextView android:textColor="#000"
+                  android:layout_width="match_parent" 
+         android:layout_height="match_parent"   
+            android:gravity="center"
+            
+            android:text="F(6)" >
+        </TextView>
+         <TextView android:textColor="#000"
+                  android:layout_width="match_parent" 
+         android:layout_height="match_parent"   
+            android:gravity="center"
+            
+            android:text="F(7)" >
+        </TextView>
+         <TextView android:textColor="#000"
+                  android:layout_width="match_parent" 
+         android:layout_height="match_parent"   
+           android:gravity="center"
+            
+            android:text="F(8)" >
+        </TextView>
+         <TextView android:textColor="#000"
+                  android:layout_width="match_parent" 
+         android:layout_height="match_parent"   
+            android:gravity="center"
+            
+            android:text="F(9)" >
+        </TextView>
+         <TextView android:textColor="#000"
+                  android:layout_width="match_parent" 
+         android:layout_height="match_parent"   
+            android:gravity="center"
+            
+            android:text="F(10)" >
+        </TextView>
+
+    </TableRow>
+<TableRow   
+        android:layout_height="wrap_content"  
+        android:layout_width="wrap_content"  
+        android:gravity="center_horizontal"
+        >  
+ <TextView android:textColor="#000"
+                  android:layout_width="match_parent" 
+         android:layout_height="match_parent"   
+            android:gravity="center"
+            
+            android:text="经验" >
+        </TextView>
+
+         <TextView android:textColor="#000"
+                  android:layout_width="match_parent" 
+         android:layout_height="match_parent"   
+            android:gravity="center"
+            
+            android:text="150" >
+        </TextView>
+         <TextView android:textColor="#000"
+                  android:layout_width="match_parent" 
+         android:layout_height="match_parent"   
+            android:gravity="center"
+            
+            android:text="190" >
+        </TextView>
+         <TextView android:textColor="#000"
+                  android:layout_width="match_parent" 
+         android:layout_height="match_parent"   
+           android:gravity="center"
+            
+            android:text="235" >
+        </TextView>
+         <TextView android:textColor="#000"
+                  android:layout_width="match_parent" 
+         android:layout_height="match_parent"   
+            android:gravity="center"
+            
+            android:text="285" >
+        </TextView>
+         <TextView android:textColor="#000"
+                  android:layout_width="match_parent" 
+         android:layout_height="match_parent"   
+            android:gravity="center"
+            
+            android:text="340" >
+        </TextView>
+
+    </TableRow>
+</TableLayout>
+                     <TextView android:textColor="#000"
+                  android:layout_width="match_parent" 
+         android:layout_height="match_parent"   
+            android:gravity="left"
+            
+            android:text="表中X代表你杀死的单位（敌对的普通单位和野生单位）的等级，如果是敌对的普通单位，就获得相对应的经验，如果是野生单位，还要乘以百分比。" >
+        </TextView>
+             <TextView
+                  android:layout_width="match_parent" 
+         android:layout_height="match_parent"   
+            android:gravity="left"
+            android:textColor="#FF6600"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            android:text="英雄复活" >
+        </TextView>
+                     <TextView android:textColor="#000"
+                  android:layout_width="match_parent" 
+         android:layout_height="match_parent"   
+            android:gravity="left"
+            
+            android:text="尽管英雄有传奇色彩的身份，但是他们同样会在战场上死去。当英雄死掉时，不会留下尸体。当他的身体消失时，灵魂就回到了祭坛。每个种族都有祭坛来召唤和复活他们的英雄。复活英雄不需要木材，只要黄金。黄金的费用和英雄的等级有关：等级越高，花费越多。复活英雄同样需要时间。" >
+        </TextView>
+                     <TextView android:textColor="#000"
+                  android:layout_width="match_parent" 
+         android:layout_height="match_parent"   
+            android:gravity="left"
+            
+            android:text="        1.鼠标停在需要复活的英雄的按钮上会显示名字，等级，英雄类型和费用。 " >
+        </TextView> 
+                     <TextView android:textColor="#000"
+                  android:layout_width="match_parent" 
+         android:layout_height="match_parent"   
+            android:gravity="left"
+            
+            android:text="       2.祭坛复活的英雄拥有100%的生命值和100魔法值，而酒馆唤醒的英雄只有50%的生命值和0魔法值。" >
+        </TextView>         
+<TableLayout   
+    android:layout_width="fill_parent"  
+    android:layout_height="fill_parent"  
+        android:shrinkColumns="*"  
+    android:stretchColumns="*"  
+>  
+<TableRow   
+        android:layout_height="wrap_content"  
+        android:layout_width="wrap_content"  
+        android:gravity="center_horizontal">  
+ <TextView android:textColor="#000"
+                  android:layout_width="match_parent" 
+         android:layout_height="match_parent"   
+            android:gravity="center"
+            
+            android:text="等级" >
+        </TextView>
+ <TextView android:textColor="#000"
+                  android:layout_width="match_parent" 
+         android:layout_height="match_parent"   
+            android:gravity="center"
+            
+            android:text="1" >
+        </TextView>
+ <TextView android:textColor="#000"
+                  android:layout_width="match_parent" 
+         android:layout_height="match_parent"   
+            android:gravity="center"
+            
+            android:text="2" >
+        </TextView>
+         <TextView android:textColor="#000"
+                  android:layout_width="match_parent" 
+         android:layout_height="match_parent"   
+            android:gravity="center"
+            
+            android:text="3" >
+        </TextView>
+         <TextView android:textColor="#000"
+                  android:layout_width="match_parent" 
+         android:layout_height="match_parent"   
+            android:gravity="center"
+            
+            android:text="4" >
+        </TextView>
+         
+
+    </TableRow>
+ 
+<TableRow   
+        android:layout_height="wrap_content"  
+        android:layout_width="wrap_content"  
+        android:gravity="center_horizontal">  
+ <TextView android:textColor="#000"
+                  android:layout_width="match_parent" 
+         android:layout_height="match_parent"   
+            android:gravity="center"
+            
+            android:text="钱/时(祭)" >
+        </TextView>
+     <TextView android:textColor="#000"
+                  android:layout_width="match_parent" 
+         android:layout_height="match_parent"   
+            android:gravity="center"
+            
+            android:text="170/35" >
+        </TextView>
+ <TextView android:textColor="#000"
+                  android:layout_width="match_parent" 
+         android:layout_height="match_parent"   
+            android:gravity="center"
+            
+            android:text="210/70" >
+        </TextView>
+         <TextView android:textColor="#000"
+                  android:layout_width="match_parent" 
+         android:layout_height="match_parent"   
+            android:gravity="center"
+            
+            android:text="255/105" >
+        </TextView>
+         <TextView android:textColor="#000"
+                  android:layout_width="match_parent" 
+         android:layout_height="match_parent"   
+            android:gravity="center"
+            
+            android:text="295/110" >
+        </TextView>
+         
+    </TableRow>
+<TableRow   
+        android:layout_height="wrap_content"  
+        android:layout_width="wrap_content"  
+        android:gravity="center_horizontal">  
+ <TextView android:textColor="#000"
+                  android:layout_width="match_parent" 
+         android:layout_height="match_parent"   
+            android:gravity="center"
+            
+            android:text="钱/木(酒)" >
+        </TextView>
+     <TextView android:textColor="#000"
+                  android:layout_width="match_parent" 
+         android:layout_height="match_parent"   
+            android:gravity="center"
+            
+            android:text="340/80" >
+        </TextView>
+ <TextView android:textColor="#000"
+                  android:layout_width="match_parent" 
+         android:layout_height="match_parent"   
+            android:gravity="center"
+            
+            android:text="425/100" >
+        </TextView>
+         <TextView android:textColor="#000"
+                  android:layout_width="match_parent" 
+         android:layout_height="match_parent"   
+            android:gravity="center"
+            
+            android:text="510/120" >
+        </TextView>
+         <TextView android:textColor="#000"
+                  android:layout_width="match_parent" 
+         android:layout_height="match_parent"   
+            android:gravity="center"
+            
+            android:text="595/140" >
+        </TextView>
+         
+    </TableRow>
+<TableRow   
+        android:layout_height="wrap_content"  
+        android:layout_width="wrap_content"  
+        android:gravity="center_horizontal">  
+ <TextView android:textColor="#000"
+                  android:layout_width="match_parent" 
+         android:layout_height="match_parent"   
+            android:gravity="center"
+            
+            android:text="等级" >
+        </TextView>
+         <TextView android:textColor="#000"
+                  android:layout_width="match_parent" 
+         android:layout_height="match_parent"   
+           android:gravity="center"
+            
+            android:text="5" >
+        </TextView>
+ <TextView android:textColor="#000"
+                  android:layout_width="match_parent" 
+         android:layout_height="match_parent"   
+            android:gravity="center"
+            
+            android:text="6" >
+        </TextView>
+ <TextView android:textColor="#000"
+                  android:layout_width="match_parent" 
+         android:layout_height="match_parent"   
+            android:gravity="center"
+            
+            android:text="7" >
+        </TextView>
+         <TextView android:textColor="#000"
+                  android:layout_width="match_parent" 
+         android:layout_height="match_parent"   
+            android:gravity="center"
+            
+            android:text="8" >
+        </TextView>  
+
+    </TableRow>
+ 
+<TableRow   
+        android:layout_height="wrap_content"  
+        android:layout_width="wrap_content"  
+        android:gravity="center_horizontal">  
+ <TextView android:textColor="#000"
+                  android:layout_width="match_parent" 
+         android:layout_height="match_parent"   
+            android:gravity="center"
+            
+            android:text="钱/时(祭)" >
+        </TextView>
+         <TextView android:textColor="#000"
+                  android:layout_width="match_parent" 
+         android:layout_height="match_parent"   
+           android:gravity="center"
+            
+            android:text="340/110" >
+        </TextView>
+<TextView android:textColor="#000"
+                  android:layout_width="match_parent" 
+         android:layout_height="match_parent"   
+            android:gravity="center"
+            
+            android:text="425/110" >
+        </TextView>
+         <TextView android:textColor="#000"
+                  android:layout_width="match_parent" 
+         android:layout_height="match_parent"   
+            android:gravity="center"
+            
+            android:text="470/110" >
+        </TextView>
+         <TextView android:textColor="#000"
+                  android:layout_width="match_parent" 
+         android:layout_height="match_parent"   
+            android:gravity="center"
+            
+            android:text="510/110" >
+        </TextView>  
+    </TableRow>
+<TableRow   
+        android:layout_height="wrap_content"  
+        android:layout_width="wrap_content"  
+        android:gravity="center_horizontal">  
+ <TextView android:textColor="#000"
+                  android:layout_width="match_parent" 
+         android:layout_height="match_parent"   
+            android:gravity="center"
+            
+            android:text="钱/木(酒)" >
+        </TextView>
+         <TextView android:textColor="#000"
+                  android:layout_width="match_parent" 
+         android:layout_height="match_parent"   
+           android:gravity="center"
+            
+            android:text="680/160" >
+        </TextView>
+     <TextView android:textColor="#000"
+                  android:layout_width="match_parent" 
+         android:layout_height="match_parent"   
+            android:gravity="center"
+            
+            android:text="765/180" >
+        </TextView>
+ <TextView android:textColor="#000"
+                  android:layout_width="match_parent" 
+         android:layout_height="match_parent"   
+            android:gravity="center"
+            
+            android:text="850/200" >
+        </TextView>
+         <TextView android:textColor="#000"
+                  android:layout_width="match_parent" 
+         android:layout_height="match_parent"   
+            android:gravity="center"
+            
+            android:text="935/220" >
+        </TextView>    
+    </TableRow>
+    </TableLayout>
+<TableLayout   
+    android:layout_width="fill_parent"  
+    android:layout_height="fill_parent"  
+        android:shrinkColumns="*"  
+    android:stretchColumns="*"  
+>  
+<TableRow   
+        android:layout_height="wrap_content"  
+        android:layout_width="wrap_content"  
+        android:gravity="center_horizontal">  
+ <TextView android:textColor="#000"
+                  android:layout_width="match_parent" 
+         android:layout_height="match_parent"   
+            android:gravity="center"
+            
+            android:text="等级" >
+        </TextView>
+         <TextView android:textColor="#000"
+                  android:layout_width="match_parent" 
+         android:layout_height="match_parent"   
+            android:gravity="center"
+            
+            android:text="9" >
+        </TextView>
+         <TextView android:textColor="#000"
+                  android:layout_width="match_parent" 
+         android:layout_height="match_parent"   
+           android:gravity="center"
+            
+            android:text="10" >
+        </TextView>
+         
+
+    </TableRow>
+<TableRow   
+        android:layout_height="wrap_content"  
+        android:layout_width="wrap_content"  
+        android:gravity="center_horizontal">  
+ <TextView android:textColor="#000"
+                  android:layout_width="match_parent" 
+         android:layout_height="match_parent"   
+            android:gravity="center"
+            
+            android:text="钱/时(祭)" >
+        </TextView>
+         <TextView android:textColor="#000"
+                  android:layout_width="match_parent" 
+         android:layout_height="match_parent"   
+            android:gravity="center"
+            
+            android:text="510/110" >
+        </TextView>
+         <TextView android:textColor="#000"
+                  android:layout_width="match_parent" 
+         android:layout_height="match_parent"   
+           android:gravity="center"
+            
+            android:text="550/110" >
+        </TextView>
+         
+    </TableRow>
+<TableRow   
+        android:layout_height="wrap_content"  
+        android:layout_width="wrap_content"  
+        android:gravity="center_horizontal">  
+ <TextView android:textColor="#000"
+                  android:layout_width="match_parent" 
+         android:layout_height="match_parent"   
+            android:gravity="center"
+            
+            android:text="钱/木(酒)" >
+        </TextView>
+         <TextView android:textColor="#000"
+                  android:layout_width="match_parent" 
+         android:layout_height="match_parent"   
+            android:gravity="center"
+            
+            android:text="1020/240" >
+        </TextView>
+         <TextView android:textColor="#000"
+                  android:layout_width="match_parent" 
+         android:layout_height="match_parent"   
+           android:gravity="center"
+            
+            android:text="1105/260" >
+        </TextView>
+         
+    </TableRow>
+</TableLayout>         
+         <TextView android:textColor="#000"
+                  android:layout_width="wrap_content" 
+         android:layout_height="wrap_content"   
+            android:gravity="center"
+            android:textSize="20sp"
+            android:text="英雄属性" 
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:textStyle="bold">
+        </TextView>
+     <TextView 
+                  android:layout_width="match_parent" 
+         android:layout_height="match_parent"   
+            android:gravity="left"
+            android:textColor="#0000ff"
+            android:layout_marginBottom="5dp"
+            android:text="介绍" >
+        </TextView>
+             <TextView android:textColor="#000"
+                  android:layout_width="match_parent" 
+         android:layout_height="match_parent"   
+            android:gravity="left"
+            android:text="      英雄与普通单位的另一个区别在于英雄有属性。这3个值会随着英雄的等级而变化。它们直接影响英雄的移动，攻击等能力。英雄升级时，属性会自动提升，使得英雄更加强大。英雄也可以通过物品来提升属性。" >
+        </TextView>
+ <TextView 
+                  android:layout_width="match_parent" 
+         android:layout_height="match_parent"   
+            android:gravity="left"
+            android:textColor="#0000ff"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            android:text="属性增加" >
+        </TextView>
+             <TextView android:textColor="#000"
+                  android:layout_width="match_parent" 
+         android:layout_height="match_parent"   
+            android:gravity="left"
+            android:text="      当英雄升级时，属性点数会自动增加。" >
+        </TextView> 
+             <TextView android:textColor="#000"
+                  android:layout_width="match_parent" 
+         android:layout_height="match_parent"   
+            android:gravity="left"
+            android:text="      每种英雄类型的英雄在属性提升上是不同的，即使同类型的也是有差别的。" >
+        </TextView>
+             <TextView android:textColor="#000"
+                  android:layout_width="match_parent" 
+         android:layout_height="match_parent"   
+            android:gravity="left"
+            android:text="      注意英雄的属性增加总点数，你会发现英雄一般都是6点，但也有不是的，火焰领主6.1、地精炼金术士6.3、巫妖6.4，知道我想说什么了吧！" >
+        </TextView>
+ <TextView 
+                  android:layout_width="match_parent" 
+         android:layout_height="match_parent"   
+            android:gravity="left"
+            android:textColor="#0000ff"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            android:text="主要属性" >
+        </TextView>
+             <TextView android:textColor="#000"
+                  android:layout_width="match_parent" 
+         android:layout_height="match_parent"   
+            android:gravity="left"
+            android:text="      按照英雄的类型，每个英雄都有一个主属性。每提升英雄的一点主属性，都会增加他一点攻击。" >
+        </TextView>
+         <TextView 
+                  android:layout_width="match_parent" 
+         android:layout_height="match_parent"   
+            android:gravity="left"
+            android:textColor="#0000ff"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            android:text="力量" >
+ </TextView>  
+             <TextView android:textColor="#000"
+                  android:layout_width="match_parent" 
+         android:layout_height="match_parent"   
+            android:gravity="left"
+            android:text="       力量是物理能力的量度。" >
+       
+        </TextView>
+             <TextView android:textColor="#000"
+                  android:layout_width="match_parent" 
+         android:layout_height="match_parent"   
+            android:gravity="left"
+            android:text="        生命值：1点力量 = 25点生命值。" >
+        </TextView>
+             <TextView android:textColor="#000"
+                  android:layout_width="match_parent" 
+         android:layout_height="match_parent"   
+            android:gravity="left"
+            android:text="        总生命值 = 100 + 25 * 英雄的力量" >
+        </TextView>
+             <TextView android:textColor="#000"
+                  android:layout_width="match_parent" 
+         android:layout_height="match_parent"   
+            android:gravity="left"
+            android:text="        生命恢复速度：1点力量 = .05生命恢复/秒" >
+        </TextView>  
+         <TextView 
+                  android:layout_width="match_parent" 
+         android:layout_height="match_parent"   
+            android:gravity="left"
+            android:textColor="#0000ff"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            android:text="智力" >
+        </TextView>
+                     <TextView android:textColor="#000"
+                  android:layout_width="match_parent" 
+         android:layout_height="match_parent"   
+            android:gravity="left"
+            android:text="       智力涉及到英雄控制魔法力的能力。" >
+        </TextView>  
+             <TextView android:textColor="#000"
+                  android:layout_width="match_parent" 
+         android:layout_height="match_parent"   
+            android:gravity="left"
+            android:text="        魔法值：1点智力 = 15魔法值" >
+        </TextView>
+             <TextView android:textColor="#000"
+                  android:layout_width="match_parent" 
+         android:layout_height="match_parent"   
+            android:gravity="left"
+            android:text="        总魔法值 = 15 * 英雄的智力" >
+        </TextView>
+             <TextView android:textColor="#000"
+                  android:layout_width="match_parent" 
+         android:layout_height="match_parent"   
+            android:gravity="left"
+            android:text="        魔法恢复速度：1点智力 = .05魔法恢复/秒" >
+        </TextView>
+         <TextView 
+                  android:layout_width="match_parent" 
+         android:layout_height="match_parent"   
+            android:gravity="left"
+            android:textColor="#0000ff"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            android:text="敏捷" >
+              </TextView>  
+                     <TextView android:textColor="#000"
+                  android:layout_width="match_parent" 
+         android:layout_height="match_parent"   
+            android:gravity="left"
+            android:text="       敏捷决定了英雄护甲值和攻击速度。" >
+       
+        </TextView>
+             <TextView android:textColor="#000"
+                  android:layout_width="match_parent" 
+         android:layout_height="match_parent"   
+            android:gravity="left"
+            android:text="        1点敏捷 = 0.3点护甲值" >
+        </TextView>
+             <TextView android:textColor="#000"
+                  android:layout_width="match_parent" 
+         android:layout_height="match_parent"   
+            android:gravity="left"
+            android:text="        总护甲值 = -2(基础护甲) + 0.3 * 英雄的敏捷" >
+        </TextView>
+             <TextView android:textColor="#000"
+                  android:layout_width="match_parent" 
+         android:layout_height="match_parent"   
+            android:gravity="left"
+            android:text="        攻击间隔：1点敏捷 = 提高 2% 攻击间隔" >
+        </TextView>
+             <TextView android:textColor="#000"
+                  android:layout_width="match_parent" 
+         android:layout_height="match_parent"   
+            android:gravity="left"
+            android:text="        {攻击间隔 = 攻击间隔（初始）- 0.2 * 英雄的敏捷}" >
+        </TextView>    
+                                               
+</LinearLayout>
+</ScrollView>
+</LinearLayout>

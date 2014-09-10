@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#eee"
+        android:orientation="vertical" >
+        
+        <LinearLayout 
+  			android:layout_width="fill_parent"
+  			android:layout_height="45dp"
+  			android:id="@+id/title" 
+  			android:background="@drawable/title_bar"
+  			android:gravity="center_horizontal|center_vertical"  >  
+      		<TextView 
+        		android:layout_width="wrap_content" 
+        		android:layout_height="wrap_content" 
+        		android:text="地图预览"
+        		android:textSize="20sp"		
+				android:textColor="#ffffff" />       
+			</LinearLayout>
+<ScrollView 
+
+    android:layout_width="fill_parent" 
+    android:layout_height="fill_parent"
+    android:background="#eee"
+>
+<LinearLayout 
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    >
+ <TextView  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="PlunderIsle(1v1)"  
+            android:gravity="left"
+            android:layout_marginTop="10dp"
+             android:textColor="#0000CC"
+            android:textSize="18sp"   
+            ></TextView> 
+ <ImageView
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:layout_gravity="center"
+     android:layout_marginBottom="10dp"
+     android:layout_marginTop="10dp"
+     android:gravity="left"
+     android:src="@drawable/plunderisle" >
+
+      </ImageView>
+ <TextView  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="GlacialThaw(1v1)"  
+            android:gravity="left"
+            android:layout_marginTop="10dp"
+             android:textColor="#0000CC"
+            android:textSize="18sp"   
+            ></TextView> 
+ <ImageView
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:layout_gravity="center"
+     android:layout_marginBottom="10dp"
+     android:layout_marginTop="10dp"
+     android:gravity="left"
+     android:src="@drawable/glacialthaw" >
+
+      </ImageView>
+       <TextView  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="TheTwoRivers(1v1)"  
+            android:gravity="left"
+            android:layout_marginTop="10dp"
+             android:textColor="#0000CC"
+            android:textSize="18sp"   
+            ></TextView> 
+ <ImageView
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:layout_gravity="center"
+     android:layout_marginBottom="10dp"
+     android:layout_marginTop="10dp"
+     android:gravity="left"
+     android:src="@drawable/thetworivers" >
+
+      </ImageView>
+       <TextView  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="GnollWood(1v1,2v2,3v3)"  
+            android:gravity="left"
+            android:layout_marginTop="10dp"
+             android:textColor="#0000CC"
+            android:textSize="18sp"   
+            ></TextView> 
+ <ImageView
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:layout_gravity="center"
+     android:layout_marginBottom="10dp"
+     android:layout_marginTop="10dp"
+     android:gravity="left"
+     android:src="@drawable/gnollwood" >
+
+      </ImageView>
+       <TextView  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="LostTemple(1v1,2v2)"  
+            android:gravity="left"
+            android:layout_marginTop="10dp"
+             android:textColor="#0000CC"
+            android:textSize="18sp"   
+            ></TextView> 
+ <ImageView
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:layout_gravity="center"
+     android:layout_marginBottom="10dp"
+     android:layout_marginTop="10dp"
+     android:gravity="left"
+     android:src="@drawable/losttemple" >
+
+      </ImageView>
+       <TextView  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="TirisfalGlades(1v1)"  
+            android:gravity="left"
+            android:layout_marginTop="10dp"
+             android:textColor="#0000CC"
+            android:textSize="18sp"   
+            ></TextView> 
+ <ImageView
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:layout_gravity="center"
+     android:layout_marginBottom="10dp"
+     android:layout_marginTop="10dp"
+     android:gravity="left"
+     android:src="@drawable/tirisfalglades" >
+
+      </ImageView>
+       <TextView  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="TurtleRock(1v1,2v2)"  
+            android:gravity="left"
+            android:layout_marginTop="10dp"
+             android:textColor="#0000CC"
+            android:textSize="18sp"   
+            ></TextView> 
+ <ImageView
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:layout_gravity="center"
+     android:layout_marginBottom="10dp"
+     android:layout_marginTop="10dp"
+     android:gravity="left"
+     android:src="@drawable/turtlerock" >
+
+      </ImageView>
+       <TextView  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="TwistedMeadows(1v1,2v2)"  
+            android:gravity="left"
+            android:layout_marginTop="10dp"
+             android:textColor="#0000CC"
+            android:textSize="18sp"   
+            ></TextView> 
+ <ImageView
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:layout_gravity="center"
+     android:layout_marginBottom="10dp"
+     android:layout_marginTop="10dp"
+     android:gravity="left"
+     android:src="@drawable/twistedmeadows" >
+
+      </ImageView>
+       <TextView  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="Avalanche(1v1,2v2)"  
+            android:gravity="left"
+            android:layout_marginTop="10dp"
+             android:textColor="#0000CC"
+            android:textSize="18sp"   
+            ></TextView> 
+ <ImageView
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:layout_gravity="center"
+     android:layout_marginBottom="10dp"
+     android:layout_marginTop="10dp"
+     android:gravity="left"
+     android:src="@drawable/avalanche" >
+
+      </ImageView>
+             <TextView  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="BridgeToonear(1v1,2v2)"  
+            android:gravity="left"
+            android:layout_marginTop="10dp"
+             android:textColor="#0000CC"
+            android:textSize="18sp"   
+            ></TextView> 
+ <ImageView
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:layout_gravity="center"
+     android:layout_marginBottom="10dp"
+     android:layout_marginTop="10dp"
+     android:gravity="left"
+     android:src="@drawable/bridgetoonear" >
+
+      </ImageView>
+             <TextView  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="BrokenShard(1v1,2v2)"  
+            android:gravity="left"
+            android:layout_marginTop="10dp"
+             android:textColor="#0000CC"
+            android:textSize="18sp"   
+            ></TextView> 
+ <ImageView
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:layout_gravity="center"
+     android:layout_marginBottom="10dp"
+     android:layout_marginTop="10dp"
+     android:gravity="left"
+     android:src="@drawable/brokenshard" >
+
+      </ImageView>
+             <TextView  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="WetLands(1v1,2v2)"  
+            android:gravity="left"
+            android:layout_marginTop="10dp"
+             android:textColor="#0000CC"
+            android:textSize="18sp"   
+            ></TextView> 
+ <ImageView
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:layout_gravity="center"
+     android:layout_marginBottom="10dp"
+     android:layout_marginTop="10dp"
+     android:gravity="left"
+     android:src="@drawable/wetlands" >
+
+      </ImageView>
+             <TextView  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="ScorchedBasin(1v1,2v2)"  
+            android:gravity="left"
+            android:layout_marginTop="10dp"
+             android:textColor="#0000CC"
+            android:textSize="18sp"   
+            ></TextView> 
+ <ImageView
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:layout_gravity="center"
+     android:layout_marginBottom="10dp"
+     android:layout_marginTop="10dp"
+     android:gravity="left"
+     android:src="@drawable/scorchedbasin" >
+
+      </ImageView>
+             <TextView  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="FrostSabre(1v1,2v2)"  
+            android:gravity="left"
+            android:layout_marginTop="10dp"
+             android:textColor="#0000CC"
+            android:textSize="18sp"   
+            ></TextView> 
+ <ImageView
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:layout_gravity="center"
+     android:layout_marginBottom="10dp"
+     android:layout_marginTop="10dp"
+     android:gravity="left"
+     android:src="@drawable/frostsabre" >
+
+      </ImageView>
+
+
+</LinearLayout>
+</ScrollView>
+</LinearLayout>

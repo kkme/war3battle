@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#eee"
+        android:orientation="vertical" >
+        
+        <LinearLayout 
+  			android:layout_width="fill_parent"
+  			android:layout_height="45dp"
+  			android:id="@+id/title" 
+  			android:background="@drawable/title_bar"
+  			android:gravity="center_horizontal|center_vertical"  >  
+      <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="返回" 
+        android:onClick="backv2"
+        />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="不死族VS兽族"
+        android:gravity="center|center_horizontal|center_vertical"
+        android:textColor="#ffffff"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="点我" 
+        android:onClick="clickv2"
+        />    
+			</LinearLayout>
+<ScrollView 
+
+    android:id="@+id/ScrollView01" 
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content"
+
+>
+
+<LinearLayout 
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    >
+     
+    <TextView  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"  
+            android:textStyle="bold"  
+            android:typeface="serif"  
+            android:textSize="18sp"  
+            android:text="UD VS ORC"  
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"  
+            android:gravity="left"  
+            android:textColor="#000"></TextView>  
+
+
+        
+    <TextView  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"    
+            android:text="        UD的痛。ORC引以为豪的是什么？很多人都会说，我能赢XX级UD。的确，ORC打UD存在一定的优势，这就是BM了。"  
+            android:gravity="left"  
+            android:layout_marginBottom="5dp"
+            android:textColor="#000"></TextView>  
+
+
+        
+    <TextView  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"    
+            android:text="        UD打ORC，有几种战术。1本lich冰甲ZZ TR，2本冰甲ZZ或配合女妖TR，2本暴力ZZ压制，3本常规战术，狂狗ZZ对抗ORC毒龙，女妖占据流，混合兵种打后期等。至于大招就比较多了。xixi大讲堂有个FL双BC狗RUSH ORC的，还有天鬼拖肥流，攀冰龙，等等。"  
+            android:gravity="left"  
+            android:textColor="#000"></TextView>  
+
+     
+    <TextView  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"  
+            android:textStyle="bold"  
+            android:typeface="serif"  
+            android:textSize="18sp"  
+            android:text="常规ZZ流"  
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"  
+            android:gravity="left"  
+            android:textColor="#000"></TextView>  
+
+
+        
+    <TextView  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"    
+            android:text="        封家，是必须的，估计个个都会的吧？ZZ出来后，可以先引一下怪，引怪时机在DK快出来的时候，那么就可以更快能打到怪了。特别是TR，EI等图。但有一点千万要注意不要引得太远，不然怪跑回去容易被BM补刀。MF第1个小点，DK都是用C抢怪的（省粉，提高效率，DK满魔）。然后可以根据探路的骷髅收回来的信息决定DK是继续练还是骷髅和ZZ双线，DK去3陪，通常都是选择继续练。MF路线尽量诡异，练黄点比较好，最好是有网的怪，UD引出来他不会网，但他大G来捉就会网大G，UD就可以全身而退。例如TR商店，UD拿一个骷髅接近商店开视野，然后ZZ隔着树林打怪，EI的市场同理。MF尽量走诡异路线，虽然你跑远一点，但ORC也跑一段路来3陪你，但却找不到你，那么UD就赚了。ZZ流MF，前期会有3种结果。1是DK顺利到3，那么立刻去ORC基地压制。他SH出来后果断TP。2是他BM陪得你很凶，那么大家都没等级，UD可以选择2本TR。3是他陪得很好，BM也顺利到3，那么UD必须要在基地里挂机，等到LICH出来后再继续练。否则UD会很亏的。"  
+            android:gravity="left"  
+            android:textColor="#000"></TextView>  
+
+      
+    <TextView  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"  
+            android:textStyle="bold"  
+            android:typeface="serif"  
+            android:textSize="18sp"  
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"  
+            android:text="然后到狗流开局的前期"  
+            android:gravity="left"  
+            android:textColor="#000"></TextView>  
+
+
+        
+    <TextView  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"    
+            android:text="        狗流前期相对于ZZ流来说，优势是MF速度快，MF路线能更诡异，而且围杀大G也方便。缺点就是小G太脆弱，容易被BM各种手起刀落，而且拉不好MF也容易死，所以小G在操作好的人的手中更强大。小G的MF，很多人都知道，和大G一样先A远程怪，然后再打近战，把损失降到最小。EI为例，探路的农民侦察到BM练333，DK可以带5个小G练雇佣兵，或者一来练分矿，然后到出书鱼人，再到另一边鱼人，那么ORC捉起MF上来将会非常有难度。前期细节：和BM大G纠缠时，有BM在场千万不能围大G，会被破口或1个大G换2个小G（BM DPS太高了）。G流，也可以利用小G来双线，单DK骚扰。MF成红血的小G躲到BZ封家的里面采木，防止被BM偷袭。通常ORC打G流都会用飞龙，所以UD接近2本时就可以开始转ZZ了，稳一点的金盖子后面补根红塔，防止飞龙骚扰。"  
+            android:gravity="left"  
+            android:textColor="#000"></TextView>  
+
+      
+    <TextView  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"  
+            android:textStyle="bold"  
+            android:typeface="serif"  
+            android:textSize="18sp"  
+            android:text="1本lich冰甲ZZ TR"  
+            android:gravity="left"  
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"  
+            android:textColor="#000"></TextView>  
+
+
+        
+    <TextView  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"    
+            android:text="        TeD在大赛里用过几次，虽然都落败，但不能掩饰这招对抗兽族的威力。前期常规ZZ开局，不过把DK换成了Lich。英雄走出祭坛后买出骷髅棒地皮和粉，卖TP，拖上采金的2个农民，2个小G，打死动物召唤2个骷髅。这时UD的兵力配置是：Lich+2ZZ+2小G+2骷髅+2农民。lich先帮自己套个甲，然后帮农民套，快去到他基地的时候帮ZZ套。至于基地，墓地先出农民把5个采金的填满，然后BC出1个小G采木，然后就补ZZ来前线。之后就是放地皮放塔。注意不要在他地洞的攻击范围内，但一定要能打到他的兵营，甚至是基地和兵营都能打到。被他砍的单位，Lich撒粉，然后那个单位绕着部队转。第1个造好的塔升冰塔，然后再到红塔。只要点掉他兵营，再点掉他商店，就可以在前线造个BC出ZZ（避免基地出，走到前线的时候被BM拦截）。前线塔好后，ORC不见来打你，那么自己基地一定要补红塔（Fly就是这样换家翻盘的）。做好上述，问题不大了。"  
+            android:gravity="left"  
+            android:textColor="#000"></TextView>  
+
+    
+    <TextView  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"  
+            android:textStyle="bold"  
+            android:typeface="serif"  
+            android:textSize="18sp"  
+            android:text="2本ZZ+小G的TR"  
+            android:gravity="left"  
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"  
+            android:textColor="#000"></TextView>  
+
+
+        
+    <TextView  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"    
+            android:text="        常见于小图，例如EI，TR近点等。最好是大家都没等级。DK卖TP，带血带蓝带地皮带骷髅棒，拖上所有ZZ和3只狗（只前出到4个采木）带1个农民直接杀到ORC基地。这波，ORC的2发英雄TC或SH通常都是1级（最多2J冒头）所以UD还是占据一定优势。注意的是不要让ZZ承受伤害。为什么要拖狗呢？1是能对他的狼骑和BM造成很大的伤害，2来小G是专门吸收伤害的。UD的部队尽量抱团，不要让ORC同时能砍到你2个ZZ，不然的话DK的C很难照顾到。ORC防这波TR都是以快速削弱ZZ的数量为主，不太会秒英雄（除非他是无脑砍英雄类型或者你英雄的走位不好）。第1个塔，最好放在路口，自己部队在前面掩护，快造好的时候就可以退到塔旁边，利用狭窄的地形使ORC部队不好施展。慢慢耗下去，就可以磨死ORC。注意的是ORC拖出苦工贴加速冲过来决战，UD应该先拉后，不要让苦工堵截UD的单位。"  
+            android:gravity="left"  
+            android:textColor="#000"></TextView>  
+
+     
+    <TextView  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"  
+            android:textStyle="bold"  
+            android:typeface="serif"  
+            android:textSize="18sp"  
+            android:text="2本暴力ZZ压制"  
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"  
+            android:gravity="left"  
+            android:textColor="#000"></TextView>  
+
+
+        
+    <TextView  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"    
+            android:text="        暴力ZZ流，顾名思义，就是非常暴力。至于暴力到什么程度呢？40人口才升2本，然后升ZZ的1攻。这样做的好处是前期MF的时候有更多ZZ，防骚扰能力更强。2本2发Lich出来后直接买物品冰甲一波攻到ORC基地。不求一波打赢ORC只求能给ORC造成很大的威胁。8个ZZ 2英雄VS 4大G 1狼骑1白牛，只要阵型把握得好UD很容易占优势。（PS这招采木小G数量为2）"  
+            android:gravity="left"  
+            android:textColor="#000"></TextView>  
+
+      
+    <TextView  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"  
+            android:textStyle="bold"  
+            android:typeface="serif"  
+            android:textSize="18sp"  
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"  
+            android:text="3本常规流"  
+            android:gravity="left"  
+            android:textColor="#000"></TextView>  
+
+
+        
+    <TextView  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"    
+            android:text="        前期2~3ZZ升本，2本是5~6ZZ，压一下是必要的，然后2发Lich练2，造个BH，出2个棺材3本买球拖2个狗买出3发找ORC一波，讲究的是科技快。至于3发中立英雄的选择（为什么要买中立呢？快嘛）针对2发TC就出DR，针对ORC单BE 3本纯物理流可以出PL，至于TED的TK，Happy的GA，都没有前者好用。打FS还可以用NAGA，其他则用处不大了。先冲到ORC基地，变2个毁灭点地洞，这时基地补小G，开始造BB（埋骨地），这波拆了ORC 2个地洞，然后根据局势来判断该不该打。主要的依据还是他的2发英雄有没到达3级。先点掉他的狼骑，然后就可以且战且退了。大战时注意保护英雄，DK GG = UD GG这句话不是假的。这波退后再来一波带一条冰龙的，ORC就顶不住了。"  
+            android:gravity="left"  
+            android:textColor="#000"></TextView>  
+
+      
+    <TextView  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"  
+            android:textStyle="bold"  
+            android:typeface="serif"  
+            android:textSize="18sp"  
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"  
+            android:text="狂狗ZZ打ORC毒龙"  
+            android:gravity="left"  
+            android:textColor="#000"></TextView>  
+
+        
+    <TextView  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"    
+            android:text="        这招欧洲亡灵比较喜欢使用。亚洲的喜欢用蜘蛛流（当然Fov是狗王了）。就像欧洲的VortiX，Bly4eg，DowaQ，XlorD等等，用狗流非常猛。通常有一个惯性，就是很多ORC看到UD用狗流，都会出3本毒龙，似乎狗不能对空，所以飞龙打狗稳赢似的，所以UD就要转出狂狗ZZ这一招来打ORC。这招打ORC正面是有优势的，有一点要注意的就是不能太早交战，你40人口的时候ORC已经50人口了，你那时才2个ZZ，被他变一个，点射一个，UD就难打了。所以通常UD是憋到50人口4个ZZ的时候再打的。如果ORC是单矿的话则更不用心急，单矿飞龙成型慢，打阵地战弱，绝对是UD完胜。如果ORC开分，那么UD基地变2根红塔，在ORC刚放下分矿的时候带大部队过去进攻，这样就能逼迫ORC大部队和你交战了。大战时注意使用群防群补，注意不要被秒英雄。DK到4升E，无敌给LICH，DK带血瓶。参考REP：去w3g.replays.net 里搜索以上亡灵的ID（空格）ORC例如Bly4eg ORC 就可以搜索出一串列表了。"  
+            android:gravity="left"  
+            android:textColor="#000"></TextView>  
+
+      
+    <TextView  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"  
+            android:textStyle="bold"  
+            android:typeface="serif"  
+            android:textSize="18sp"  
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"  
+            android:text="女妖占据流"  
+            android:gravity="left"  
+            android:textColor="#000"></TextView>  
+
+
+        
+    <TextView  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"    
+            android:text="        TeD完善的强力战术，阵地战能力堪比HUM的法师流。前期中期相对弱势，前期补够4小G采木，2本时开始双BT转女妖，英雄+部队尽量在自己基地附近活动，一遭遇到ORC立刻把基地采木的狗拖出来助战，形势不对立刻TP。3本时买出TK，为什么要TK呢？TED解答过，TK的工厂，1是起肉盾作用，2是如果ORC不操作，就会主动攻击小地精，所以TK是在逼迫ORC操作。值得注意的是女妖流和ORC交手时选取的位置，可开阔可狭窄（前者占据用，后者打阵地战用）。虽然这对操作的要求很高（女妖分散占据），但多练就好了。先占据对手的科多，狼骑，然后才是大G。当然满血优先了。3本出去一波时先用阴影探路，女妖在基地利用棺材回蓝。"  
+            android:gravity="left"  
+            android:textColor="#000"></TextView>  
+
+     
+    <TextView  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"  
+            android:textStyle="bold"  
+            android:typeface="serif"  
+            android:textSize="18sp"  
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"  
+            android:text="3本混合部队"  
+            android:gravity="left"  
+            android:textColor="#000"></TextView>  
+
+
+        
+    <TextView  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"    
+            android:text="        ZZ棺材毁灭冰龙胖子。适合中期一波亏损，ORC开矿，然后UD直接憋到80人口全家老小变卖家产有前无后破釜沉舟一波流，输了就GG了。当然，快矿干时可以考虑卖一些建筑给英雄买群补血瓶等。说一说大战操作。先攻击他靠前的单位，可以一来一个NC给他一点压力，反正英雄满魔。毁灭要留1个，随时D 你被变动物的英雄防止被X杀。打ORC部队主要是靠逐个逐个点射，不要给他的治疗波发挥太大的作用。至于TC，可以先沉默然后狂NC他，骗了他第1个无敌就好很多了，部队可以先拖后再打，他还冲上来第2轮就可以把他点死。注意冰龙不要多出，冰龙只能算是一个辅助单位。而真正的主力是ZZ，他有白牛，UD也可以考虑多出1~2个毁灭。"  
+            android:gravity="left"  
+            android:textColor="#000"></TextView>  
+
+     
+    <TextView  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"  
+            android:textStyle="bold"  
+            android:typeface="serif"  
+            android:textSize="18sp"  
+            android:text="其他大招"  
+            android:gravity="left"  
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"  
+            android:textColor="#000"></TextView>  
+
+
+        
+    <TextView  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"    
+            android:text="        FL双BC爆狗"  
+            android:gravity="left"  
+            android:layout_marginBottom="5dp"
+            android:textColor="#000"></TextView>  
+
+
+        
+    <TextView  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"    
+            android:text="        天鬼拖肥流"  
+            android:gravity="left"  
+            android:layout_marginBottom="5dp"
+            android:textColor="#000"></TextView>  
+
+
+        
+    <TextView  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"    
+            android:text="        3本攀冰龙"  
+            android:gravity="left"  
+            android:layout_marginBottom="5dp"
+            android:textColor="#000"></TextView>  
+
+
+
+</LinearLayout>
+</ScrollView>
+</LinearLayout>

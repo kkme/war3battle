@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#eee"
+        android:orientation="vertical" >
+        
+        <LinearLayout 
+  			android:layout_width="fill_parent"
+  			android:layout_height="45dp"
+  			android:id="@+id/title" 
+  			android:background="@drawable/title_bar"
+  			android:gravity="center_horizontal|center_vertical"  >  
+      		<TextView
+        		android:layout_width="wrap_content" 
+        		android:layout_height="wrap_content" 
+        		android:text="兽族"
+        		android:textSize="20sp"		
+				android:textColor="#ffffff" />       
+			</LinearLayout>
+<ScrollView 
+
+    android:id="@+id/ScrollView01" 
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content">
+
+<LinearLayout
+            android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin" 
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >  
+
+<ImageView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:layout_marginTop="10dp"
+    android:layout_marginBottom="10dp"
+    android:src="@drawable/orcseal" >
+
+</ImageView> 
+    
+    <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"  
+            android:textStyle="bold"  
+            android:typeface="serif"  
+            android:textSize="18sp"  
+            android:text="简介"  
+           
+    android:layout_marginBottom="10dp"
+            android:gravity="left"  
+             ></TextView>  
+
+
+        
+    <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="        在德拉诺的世界里，兽人一度创造了一个高贵而信仰萨满教的社会，但是被燃烧军团引诱而堕落，成为贪婪，狂暴的部落，并通过黑暗传送门来到了艾泽拉斯并被迫和人类作战。为了让兽人征服艾泽拉斯的人类军队，燃烧军团为这最后的入侵作了充分的准备。直到最近的这些年，在萨尔的领导下，兽人摆脱了恶魔的引诱，重新回到了他们高贵的传统之中。"  
+            android:gravity="left"  
+             ></TextView>  
+
+
+        
+    <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="        兽人有着一系列的独特兵种，主要擅长于近战攻击，有迹象表明，兽人在体格条件和近战格斗方面将胜于其他种族。"  
+            android:gravity="left"  
+             ></TextView>  
+
+      
+    <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"  
+            android:textStyle="bold"  
+            android:typeface="serif"  
+            android:textSize="18sp"  
+            android:text="优势"  
+            android:layout_marginTop="10dp"
+    android:layout_marginBottom="10dp"
+            android:gravity="left"  
+             ></TextView>  
+
+     
+    <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"  
+            android:textStyle="bold"  
+            android:typeface="serif"  
+            android:textSize="16sp"  
+            android:text="长钉路障"  
+            android:gravity="left"  
+             ></TextView>  
+
+
+        
+    <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="        兽族能够为他们的建筑物提供长钉路障，任何近战兵种在攻击这些建筑物的时候都将受到一定的伤害，这项升级使得兽族在被攻击中受益匪浅。"  
+            android:gravity="left"  
+             ></TextView>  
+
+      
+    <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"  
+            android:textStyle="bold"  
+            android:typeface="serif"  
+            android:textSize="16sp"  
+            android:text="掠夺"  
+            android:gravity="left"  
+             ></TextView>  
+
+
+        
+    <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="        当攻击敌人的建筑物时，一些兽族的单位可以抢夺到木材和黄金。经过一次训练后，一些近战单位就会在每次攻击的时候为你抢夺到黄金。"  
+            android:gravity="left"  
+             ></TextView>  
+
+      
+    <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"  
+            android:textStyle="bold"  
+            android:typeface="serif"  
+            android:textSize="16sp"  
+            android:text="兽族地洞"  
+            android:gravity="left"  
+             ></TextView>  
+
+        
+    <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="        这是兽族用来储存食物的场所，同时也是强有力的防御单位，拥有加倍的防御效果，当苦力进入后，可以以远距离攻击的形式抵御地面和空中的敌人。"  
+            android:gravity="left"  
+             ></TextView>  
+
+
+        
+    <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="        兽族的狼骑士在攻击建筑物方面有着相当强的能力。"  
+            android:gravity="left"  
+             ></TextView>  
+
+
+
+  
+            
+
+</LinearLayout>
+</ScrollView></LinearLayout>

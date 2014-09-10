@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#eee"
+        android:orientation="vertical" >
+        
+        <LinearLayout 
+  			android:layout_width="fill_parent"
+  			android:layout_height="45dp"
+  			android:id="@+id/title" 
+  			android:background="@drawable/title_bar"
+  			android:gravity="center_horizontal|center_vertical"  >  
+      <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="返回" 
+        android:onClick="backv1"
+        />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="精灵族VS人族"
+        android:gravity="center|center_horizontal|center_vertical"
+        android:textColor="#ffffff"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="点我" 
+        android:onClick="clickv1"
+        />    
+			</LinearLayout>
+<ScrollView 
+  
+    android:id="@+id/ScrollView01" 
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content"
+
+    
+>
+
+<LinearLayout 
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    >
+     
+    <TextView  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"  
+            android:textStyle="bold"  
+            android:typeface="serif"  
+            android:textSize="18sp"  
+            android:text="NE打人族"  
+            android:gravity="left"  
+            android:textColor="#000"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            ></TextView>  
+
+
+        
+    <TextView  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"    
+            android:text="        分成防TR，TR人族。这是前期的。2本时RUSH人族，防人族RUSH。3本后的后期大战和其他大招。"  
+            android:gravity="left"  
+            android:textColor="#000"></TextView>  
+
+     
+    <TextView  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"  
+            android:textStyle="bold"  
+            android:typeface="serif"  
+            android:textSize="18sp"  
+            android:text="1本TR人族"  
+            android:gravity="left"  
+            android:textColor="#000"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"></TextView>  
+
+        
+    <TextView  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"    
+            android:text="        通常都是HT配合BP来TR的，不过首发英雄就有很多选择了：DH（比较少见，很少配合这招）WD（比较常见）KOG，（适中）PD（可以当大招）TK（也是不错的选择，最好配点雇佣）POM（对部队有辅助，不过不如前面的好用）兽王（比较少配合这招）。先是AC开局，再转HT，中立英雄当然是练3为主了。如果骚扰为主，够刚的话也可以在他刚修基地的时候强行打退。或者NE可以派个AC隐在他放基地的地方，然后英雄把粉抢了，这样就能耽误他放基地的时间或者距离。这时NE要做的就是双BR转HT，尽量把英雄等级提升到3级。如果他把大量注意力都放在分矿的，那么你就可以去他的主矿偷造BP。如果是在野外纠缠过几次，他只有少量FM，而你的HT数量比较多的，那么你就可以在他的分矿当着他的面造BP了。通常本族英雄比较针对AM，而中立首发则是比较针对MK。特别是PD，喷火配合HT，直接打得MK没有语言。"  
+            android:gravity="left"
+            android:layout_marginBottom="5dp"  
+            android:textColor="#000"></TextView>  
+
+
+        
+    <TextView  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"    
+            android:text="        BP完成后，就开始转弩车了。NE有一点必须要防范的就是HUM直接买出大量雇佣兵来换家，这也是最烦的。他带兵压到你基地，你要就TP回防，要么就直接跑回去。前者，这波攻势就化解了。后者，你回到家，他一个TP，你前线的塔也要被拆了。所以针对这种情况，NE应该把他的部队限制在他的半场里。TR时，尽量拖着他的部队来防守，而不是换家。前线稳固后，基地里应该补个BR来协助防守。可以单英雄带少量部队回防，买单传，他TP你英雄再传回前线。"  
+            android:gravity="left"  
+            android:textColor="#000"></TextView>  
+
+       
+    <TextView  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"  
+            android:textStyle="bold"  
+            android:typeface="serif"  
+            android:textSize="18sp"  
+            android:text="2本RUSH人族"  
+            android:gravity="left"  
+            android:textColor="#000"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"></TextView>  
+
+
+        
+    <TextView  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"    
+            android:text="        通常是DH首发，2发NAGA爆AC风德RUSH。也有像xixi这样，直接KOG首发爆AC，2发DR RUSH的。前者，也是尽量利用AC的隐身卡矿来拖延他的开分，然后DH买粉，尽量抽干他的AM。不要拼血，骚扰就好了。BR的AC不要停，2本时起码有6个AC。然后直接把双BW放在地图中间，方便新出的风德更快加入战场。DH买血瓶带单传，NAGA带保存。NE摆出一付意欲点HUM塔的阵势，HUM的部队肯定冲出来防御，然后NE直接转移目标点射FM。由于有风德，盾步就形同虚设。只要DH顶住，HUM不超过4根塔还是很容易点爆的，特别是在1。22之后。DH被磨成红血，保存单传。如果人族全民皆兵，那么NE就一直退，反正双方速度一样，他也追不上你。等他退的时候NE再反扑。如果AC风德RUSH不下人族分矿，那就利用前期的BR走到分矿那里开出分矿转熊鹿吧。RUSH不下通常是由于人族的塔开始多了，NE的补给跟不上了，但是在野外依然是属于NE的强势时期。"  
+            android:gravity="left"  
+            android:textColor="#000"></TextView>  
+
+       
+    <TextView  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"  
+            android:textStyle="bold"  
+            android:typeface="serif"  
+            android:textSize="18sp"  
+            android:text="后期的熊鹿vs人族80人口ToD流"  
+            android:gravity="left"  
+            android:textColor="#000"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"></TextView>  
+
+
+        
+    <TextView  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"    
+            android:text="        RUSH不下人族分矿后，NE自己也开个分矿。如果开不出分矿，那面对2矿人族就接近GG了。NE通常是2发PD，趁着2本后的优势时期，PD带着部队狂MF。而DH则是领着2~3个小鹿去截击人族单位，又或者吃隐身药水去跟人族部队，方便PD带部队去捉MF。人族50人口时，通常都会压一下人口，然后选择隐炮来偷NE的分矿。这时，防隐炮也成为了NE的一门必修课。之后NE也压50人口，然后爆兵。注意的是NE的部队构成。熊多点，鹿不用这么多，关闭自动驱散，手动驱散水人。精灵龙出到2~3个，交战时飞到2军中间变蛋。PD绕侧翼绕到法师和小炮旁边酒火，最好是顶着魔免。DH对准HUM的2发英雄来抽。尽量避免在无敌位（地形狭窄的位）和HUM交战。前排熊不满血，而人族吃了群补部队还是非常健康的时候，就应该果断TP了。也可以是PD带鹿绕到HUM后方，和DH+熊形成前后夹攻的局面。还有一个细节是熊和破法拼的时候把魔法吼光，这样就不会受到魔法燃烧的伤害，被集体缓慢后拿精灵一爆就OK了。也可以利用人族对空力量差的特点采用角鹰+奇美拉配合少量熊鹿来对抗人族。经典REP太多，就不找了，相信没谁是没看过的。"  
+            android:gravity="left"  
+            android:textColor="#000"></TextView>  
+
+     
+    <TextView  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"  
+            android:textStyle="bold"  
+            android:typeface="serif"  
+            android:textSize="18sp"  
+            android:text="其他大招"  
+            android:gravity="left"  
+            android:textColor="#000"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"></TextView>  
+
+
+        
+    <TextView  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"    
+            android:text="        角鹰骑士流：前期BR开局速2本，一直出AC。首发最好采用KOG，第2招学树人。前期利用缠绕多赚人族农民，然后爆AC 2本双BW出角鹰合体成角鹰骑士。这招和ORC的飞龙流差不多，只要角鹰骑士有一定数量，而人族主矿或分矿（哪个矿少塔就打哪个矿）的塔还没造好，那么这个矿就一辈子造不好塔了。如果人族的塔多，则可以利用角鹰骑士的射程（本来是400，研究了硬弓后变成600）来点基地。至于维修的农民可以用KOG的2级缠绕来慢慢消耗。如果人族来换家的，角鹰骑士高机动性，回防也非常快。推掉人族的矿就不是问题了。注意的是控场后记得开出分矿，角鹰骑士升攻。"  
+            android:gravity="left" 
+            android:layout_marginBottom="5dp"   
+            android:textColor="#000"></TextView>  
+
+
+        
+    <TextView  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"    
+            android:text="        火山流。PD+PL，打inso那种万金油，阵地战能力非常强。前期HT过度，开分矿，2本2发PL双BL爆鹿，有经济了3BL。利用双火使RM（火枪）站不住阵脚，后撤的时候受到DY的追击。当然PD+PL可以换成DR+兽王了。DR的点射配合兽王的召唤物，同样也能取得很好的效果。"  
+            android:gravity="left"  
+            android:layout_marginBottom="5dp"  
+            android:textColor="#000"></TextView>  
+
+
+        
+    <TextView  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"    
+            android:text="        山岭弩车，成型后非常IMBA。最好是有双矿经济支撑，适合打阵地战。山岭一定要把防啊，和那些能升的技能都升了，至于弩车，升攻已经不用解释了。玉蝴蝶流，和角鹰骑士差不多，不过打人族兵较少的时候阵地战比较强。由于瞬间消失，精灵龙受到的伤害也是差不多，配合群补就可以使得精灵龙的存活率更高。"  
+            android:gravity="left"  
+            android:layout_marginBottom="5dp"  
+            android:textColor="#000"></TextView>  
+
+
+        
+    <TextView  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"    
+            android:text="        乱矿流：Moon的拿手战术。在TM上Moon的胜率非常高也不是没道理的。中后期，各种开矿各种换家各种骚扰。人族在拆你一个分矿的同时，自己的经济也会遭受到打击，而NE却趁此机会又开出更多的分矿。用这招，必须要具有良好的多线操作能力。最好就是每个分矿点都放一个精灵，觉得安全了，再放下基地。"  
+            android:gravity="left"  
+            android:textColor="#000"></TextView>  
+
+
+
+
+
+
+
+</LinearLayout>
+</ScrollView>
+</LinearLayout>

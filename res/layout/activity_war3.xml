@@ -1,0 +1,102 @@
+<LinearLayout  
+   xmlns:android="http://schemas.android.com/apk/res/android"  
+   android:layout_height="fill_parent" 
+   android:layout_width="fill_parent" 
+   android:orientation="vertical"
+   android:background="@drawable/mainimage"
+  
+   >
+
+	<LinearLayout
+	    android:layout_width="fill_parent"
+	    android:layout_height="match_parent"
+	    android:gravity="right|center_horizontal|center_vertical"
+	    android:orientation="vertical" >
+
+	    <Button
+	        android:id="@+id/enter"
+	        android:layout_width="160dp"
+	        android:textSize="20sp"
+	        android:layout_height="wrap_content"
+	        android:layout_gravity="center"
+	        android:layout_marginTop="120dp"
+			android:layout_marginLeft="80dp"
+	        android:textColor="#ffea17"
+	        android:background="@drawable/buttonbg"
+	        android:onClick="war3v1"
+	        android:text="英雄基础"
+	         >
+
+	    </Button>
+
+	    <Button
+	        android:id="@+id/enter"
+	        android:layout_width="160dp"
+	        android:layout_marginLeft="80dp"
+	        android:layout_height="wrap_content"
+	        android:layout_gravity="center"
+	        android:layout_marginTop="20dp"
+	        android:onClick="war3v2"
+	        android:textSize="20sp"
+	        android:textColor="#ffea17"
+	        android:background="@drawable/buttonbg"
+	        android:text="英雄杀手" >
+	    </Button>
+
+	    <Button
+	        android:id="@+id/enter"
+	      android:layout_marginLeft="80dp"
+	        android:layout_height="wrap_content"
+	        android:layout_gravity="center"
+	        android:layout_marginTop="20dp"
+	        android:onClick="war3v3"
+	        android:textColor="#ffea17"
+	        android:layout_width="160dp"
+	        android:textSize="20sp"
+	        android:background="@drawable/buttonbg"
+	        android:text="英雄物品" >
+	    </Button>
+
+	    <Button
+	        android:id="@+id/enter"
+	        android:layout_marginLeft="80dp"
+	        android:layout_height="wrap_content"
+	        android:layout_gravity="center"
+	        android:layout_marginTop="20dp"
+	        android:onClick="war3v4"
+	        android:layout_width="160dp"
+	        android:textSize="20sp"
+	        android:textColor="#ffea17"
+	        android:background="@drawable/buttonbg"
+	        android:text="攻击与护甲" >
+	    </Button>
+	    <Button
+	        android:id="@+id/enter"
+	        android:layout_marginLeft="80dp"
+	        android:layout_height="wrap_content"
+	        android:layout_gravity="center"
+	        android:layout_marginTop="20dp"
+	        android:onClick="war3v5"
+	        android:layout_width="160dp"
+	        android:textSize="20sp"
+	        android:textColor="#ffea17"
+	        android:background="@drawable/buttonbg"
+	        android:text="技能基础" >
+	    </Button>
+	     <Button
+	        android:id="@+id/enter"
+	        android:layout_marginLeft="80dp"
+	        android:layout_height="wrap_content"
+	        android:layout_gravity="center"
+	        android:layout_marginTop="20dp"
+	        android:onClick="war3v6"
+	        android:layout_width="160dp"
+	        android:textSize="20sp"
+	        android:textColor="#ffea17"
+	        android:background="@drawable/buttonbg"
+	        android:text="隐形" >
+	    </Button>
+	    
+	</LinearLayout>
+  
+</LinearLayout> 

@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#eee"
+        android:orientation="vertical" >
+
+<LinearLayout 
+  			android:layout_width="fill_parent"
+  			android:layout_height="45dp"
+  			android:id="@+id/title" 
+  			android:background="@drawable/title_bar"
+  			android:gravity="center_horizontal|center_vertical"  >  
+      		<TextView
+        		android:layout_width="wrap_content" 
+        		android:layout_height="wrap_content" 
+        		android:text="中立单位"
+        		android:textSize="20sp"		
+				android:textColor="#ffffff" />       
+			</LinearLayout>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<TableLayout  
+    android:layout_width="fill_parent"  
+    android:layout_height="fill_parent"  
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:shrinkColumns="*"  
+    android:stretchColumns="*">    
+   <TableRow  
+        android:layout_height="wrap_content"  
+        android:layout_width="match_parent"  
+        android:gravity="center_horizontal">  
+        <TextView  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"  
+            android:textStyle="bold"  
+            android:typeface="serif"  
+            android:textSize="18sp"  
+            android:text="英雄"  
+            android:textColor="#000"
+            android:gravity="left"  
+            android:layout_span="4"></TextView>  
+    </TableRow> 
+    <TableRow
+        android:layout_height="wrap_content"  
+        android:layout_width="match_parent">        
+   <Button   
+        android:id="@+id/button_demonhunter"  
+        android:text="娜迦女海巫"
+        android:drawableTop="@drawable/nagaseawitch_n"
+		android:onClick="nagaseawitch"
+        android:background="#eee"
+     /> 
+      <Button   
+        android:id="@+id/button_keepergrove"   
+        android:text="  黑暗游侠  "
+        android:drawableTop="@drawable/darkranger_n"
+		android:onClick="darkranger"
+        android:background="#eee"
+     />
+
+     <Button   
+        android:id="@+id/button_priestess"  
+        android:text="    熊猫酒仙    "
+        android:drawableTop="@drawable/pandarenbrewmaster_n"
+		android:onClick="pandarenbrewmaster"
+        android:background="#eee"
+     /> 
+        <Button   
+        android:id="@+id/button_warden"  
+        android:text="    驯兽师    "
+        android:drawableTop="@drawable/beastmaster_n"
+		android:onClick="beastmaster"
+        android:background="#eee"
+     />  
+
+</TableRow>
+    <TableRow
+        android:layout_height="wrap_content"  
+        android:layout_width="match_parent">        
+   <Button   
+        android:id="@+id/button_demonhunter"  
+        android:text="  深渊领主  "
+        android:drawableTop="@drawable/pitlord_n"
+		android:onClick="pitlord"
+        android:background="#eee"
+     /> 
+      <Button   
+        android:id="@+id/button_keepergrove"   
+        android:text="地精修补匠"
+        android:drawableTop="@drawable/goblintinker_n"
+		android:onClick="goblintinker"
+        android:background="#eee"
+     />
+
+     <Button   
+        android:id="@+id/button_priestess"  
+        android:text="  火焰领主  "
+        android:drawableTop="@drawable/firelord_n"
+		android:onClick="firelord"
+        android:background="#eee"
+     /> 
+        <Button   
+        android:id="@+id/button_warden"  
+        android:text="  炼金术士  "
+        android:drawableTop="@drawable/goblinalchemist_n"
+		android:onClick="goblinalchemist"
+        android:background="#eee"
+     />  
+
+</TableRow>
+   <TableRow  
+        android:layout_height="wrap_content"  
+        android:layout_width="match_parent"  
+        android:gravity="center_horizontal">  
+        <TextView  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"  
+            android:textStyle="bold"  
+            android:typeface="serif"  
+            android:textSize="18sp"  
+            android:text="野生单位"  
+            android:textColor="#000"
+            android:gravity="left"  
+            android:layout_span="4"></TextView>  
+    </TableRow> 
+    <TableRow
+        android:layout_height="wrap_content"  
+        android:layout_width="match_parent">        
+   <Button   
+        android:id="@+id/button_demonhunter"  
+        android:text="  森林巨魔  "
+		android:onClick="foresttrolls"
+		android:background="#eee"
+       android:drawableTop="@drawable/foresttroll"
+     /> 
+      <Button   
+        android:id="@+id/button_keepergrove"   
+        android:text="  黑暗巨魔  "
+		android:onClick="icetroll"
+        android:background="#eee"
+        android:drawableTop="@drawable/icetroll0"
+     />
+
+     <Button   
+        android:id="@+id/button_priestess"  
+        android:text="      傀儡      "
+		android:onClick="mudgolem"
+        android:background="#eee"
+        android:drawableTop="@drawable/mudgolem0"
+     /> 
+        <Button   
+        android:id="@+id/button_warden"  
+        android:text="      熊怪      "
+        android:drawableTop="@drawable/furbolgshaman0"
+		android:onClick="furbolgshaman"
+        android:background="#eee"
+     />  
+
+</TableRow>
+    <TableRow
+        android:layout_height="wrap_content"  
+        android:layout_width="match_parent">        
+   <Button   
+        android:id="@+id/button_demonhunter"  
+        android:text="        龙        "
+        android:drawableTop="@drawable/bluedragon"
+		android:onClick="bluedragon"
+        android:background="#eee"
+     /> 
+      <Button   
+        android:id="@+id/button_keepergrove"   
+        android:text="  雷霆蜥蜴  "
+        android:drawableTop="@drawable/thunderlizard0"
+		android:onClick="thunderlizard"
+        android:background="#eee"
+     />
+
+     <Button   
+        android:id="@+id/button_priestess"  
+        android:text="    半人马    "
+        android:drawableTop="@drawable/centaur"
+		android:onClick="centaur"
+        android:background="#eee"
+     /> 
+        <Button   
+        android:id="@+id/button_warden"  
+        android:text="  鹰身女妖  "
+        android:drawableTop="@drawable/harpy0"
+		android:onClick="harpy"
+        android:background="#eee"
+     />  
+
+</TableRow> 
+</TableLayout>
+</ScrollView>
+</LinearLayout>

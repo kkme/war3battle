@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#eee"
+        android:orientation="vertical" >
+        
+        <LinearLayout 
+  			android:layout_width="fill_parent"
+  			android:layout_height="45dp"
+  			android:id="@+id/title" 
+  			android:background="@drawable/title_bar"
+  			android:gravity="center_horizontal|center_vertical"  >  
+      		<TextView 
+        		android:layout_width="wrap_content" 
+        		android:layout_height="wrap_content" 
+        		android:text="软件说明"
+        		android:textSize="20sp"		
+				android:textColor="#ffffff" />       
+			</LinearLayout>
+<ScrollView 
+
+    android:id="@+id/ScrollView01" 
+    android:layout_width="fill_parent" 
+    android:layout_height="fill_parent"
+>
+
+<LinearLayout
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin" 
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+   
+    >
+
+        <TextView android:textColor="#000"   
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"  
+            android:textStyle="bold"  
+            android:typeface="serif"  
+          
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/btn_style_white"  
+            android:text="版本说明"  
+            android:gravity="center" > 
+</TextView>      
+
+     <TextView android:textColor="#000"
+         android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"  
+            android:gravity="left"
+            
+            android:text="        作者发现市场上没有手机上的介绍魔兽争霸3的软件，于是决定自己动手做一个，经过苦心研究若干天，终于用简单粗暴的方式做出了一个关于魔兽争霸的小百科" >
+        </TextView>
+
+
+     
+
+
+     <TextView android:textColor="#000"
+         android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"  
+            android:gravity="left"
+            android:layout_marginTop="5dp"
+           
+            android:text="        本版本包含魔兽争霸3各个种族的介绍及其数据，数据内容是基于1.20魔兽版本的" >
+        </TextView>
+
+
+     <TextView android:textColor="#000"
+         android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"  
+            android:gravity="left"
+           
+           android:layout_marginTop="5dp"
+            android:text="        如果对软件有什么更好的想法或者发现软件有什么bug欢迎随时联系我，我的邮箱是laiqn@126.com" >
+        </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/btn_style_white"
+            android:gravity="center"
+            android:text="更新日志"
+            android:textColor="#000"
+           
+            android:textStyle="bold"
+            android:typeface="serif" >
+ 
+</TextView>      
+
+         <TextView android:textColor="#000"
+             android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"  
+            android:gravity="left"
+            android:text="        2013.4.4  有了制作一个war3百科应用的想法，并且开始建立工程" >
+        </TextView> 
+
+         <TextView android:textColor="#000"
+             android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"  
+            android:gravity="left"
+            android:layout_marginTop="5dp"
+            android:text="        2013.4.7  第一个war3百科app发布，只有人族介绍，包括人族英雄、建筑、兵种的数据" >
+        </TextView> 
+
+         <TextView android:textColor="#000"
+             android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"  
+            android:gravity="left"
+            android:layout_marginTop="5dp"
+            android:text="        2013.5.11  增加了其他3个种族和兵种的介绍，算是一个半成品的war3百科了" >
+        </TextView> 
+
+         <TextView android:textColor="#000"
+             android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"  
+            android:gravity="left"
+            android:layout_marginTop="5dp"
+            android:text="        2013.5.19  增加了一个载入界面；增加了退出窗口；增加了一个记事本功能；增加了一个英雄攻击力对比界面；能够在界面通过按钮增加和降低英雄等级" >
+        </TextView> 
+		<TextView android:textColor="#000"
+             android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"  
+            android:gravity="left"
+            android:layout_marginTop="5dp"
+            android:text="        2013.11.01  重新对war3百科进行界面和内容设计，并且发布第一个版本war3battle1.0.0，里面只有各个种族战术" >
+        </TextView> 
+        <TextView android:textColor="#000"
+             android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"  
+            android:gravity="left"
+            android:layout_marginTop="5dp"
+            android:text="        2013.11.07  增加各个种族英雄介绍，优化界面，发布第二个版本war3battle1.1.0" >
+        </TextView> 
+        <TextView android:textColor="#000"
+             android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"  
+            android:gravity="left"
+            android:layout_marginTop="5dp"
+            android:text="        2013.11.11  增加魔兽争霸3基础知识，发布第三个版本war3battle1.2.0" >
+        </TextView>
+        <TextView android:textColor="#000"
+             android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"  
+            android:gravity="left"
+            android:layout_marginTop="5dp"
+            android:text="        2013.11.17  增加魔兽争霸3各种族兵种介绍以及人族部分建筑介绍，发布第三个版本war3battle1.3.0" >
+        </TextView>
+        <TextView android:textColor="#000"
+             android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"  
+            android:gravity="left"
+            android:layout_marginTop="5dp"
+            android:text="        2013.12.13  增加魔兽争霸3其他种族建筑介绍，增加中立英雄介绍，发布第四个版本war3battle1.4.0" >
+        </TextView>
+        <TextView android:textColor="#000"
+             android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"  
+            android:gravity="left"
+            android:layout_marginTop="5dp"
+            android:text="        2014.2.25  时隔2个多月，war3百科又更新了，修个了页面背景，增加了魔兽历史和魔兽操作快捷键，修复兽族步兵介绍的错误，发布第五个版本war3battle1.5.0." >
+        </TextView>
+        <TextView android:textColor="#000"
+             android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"  
+            android:gravity="left"
+            android:layout_marginTop="5dp"
+            android:text="        2014.3.2  修复随机战术乱码问题，恢复原背景，发布第六个版本war3battle1.6.0." >
+        </TextView>
+        <TextView android:textColor="#000"
+             android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"  
+            android:gravity="left"
+            android:layout_marginTop="5dp"
+            android:text="        2014.3.4  增加在线报名系统，发布第七个版本war3battle1.7.0." >
+        </TextView>
+        <TextView android:textColor="#000"
+             android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"  
+            android:gravity="left"
+            android:layout_marginTop="5dp"
+            android:text="        2014.3.13  去掉在线报名，重新为群内在线报名开发个app，调整布局和背景，去掉声音，增加地图预览、职业选手介绍、日夜循环、wcg战况、war3简介内容，增加部分野怪资料，发布第八个版本war3battle1.8.0." >
+        </TextView>
+        <TextView android:textColor="#000"
+             android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"  
+            android:gravity="left"
+            android:layout_marginTop="5dp"
+            android:text="        软件仍在更新中.......如果你是一个war3爱好者或者对软件有什么意见可以加群374511332讨论" >
+        </TextView>   
+</LinearLayout>
+</ScrollView>
+
+
+
+</LinearLayout>

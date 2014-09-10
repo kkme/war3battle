@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#eee"
+        android:orientation="vertical" >
+        
+        <LinearLayout 
+  			android:layout_width="fill_parent"
+  			android:layout_height="45dp"
+  			android:id="@+id/title" 
+  			android:background="@drawable/title_bar"
+  			android:gravity="center_horizontal|center_vertical"  >  
+      		<TextView
+        		android:layout_width="wrap_content" 
+        		android:layout_height="wrap_content" 
+        		android:text="野生单位"
+        		android:textSize="20sp"		
+				android:textColor="#ffffff" />       
+			</LinearLayout>
+<ScrollView 
+
+    android:id="@+id/ScrollView01" 
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content"
+>
+
+<LinearLayout
+            android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin" 
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >  
+
+
+        
+    <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="          洛丹伦大陆并不安全。即使是野外的普通生物也会对疏于防范的流浪者构成威胁。大量野生单位[Creep]把守着地图上的战略要地。野生单位--并不像地图上无威胁的绵羊和小野猪--是有智慧的生物，并且会凶狠地攻击所有玩家。野生单位各具特色，并且和英雄一样有等级。低等级的野生单位是头脑简单的野兽，即使是少量的人类步兵都可以轻易打发他们。然而，强大的野生单位才是可怕的对手，可以轻易杀死低等级的英雄，有的还对魔法免疫。如此强大的怪物不容小觑。幸运的是，它们的数量十分稀少。"  
+            android:gravity="left"  
+            android:layout_marginTop="10dp"
+             ></TextView> 
+      <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="          所有的野生单位都是具有恶意的，会攻击视野内的任何玩家。但是，这些怪物只会在一定范围内追击你的部队。你如果不与它们面对面的话，通常可以避开它们。大多数野生单位都守在金矿或中立建筑物的门口。你可以这样认为，野生单位始终会守着金矿和中立建筑物，如果玩家不去消灭它们的话。在一些地方有强大的怪物防守，这是由地图所决定的。野生单位在游戏中有些象RPG的成分，使得地图更加生动，也使游戏在早期和后期增加了不同的选择和战略成分。也使玩家多了一个方法，即通过杀死野生单位来获得物品和升级，从而胜过其他的玩家。"  
+            android:gravity="left"  
+            android:layout_marginTop="10dp"
+             ></TextView> 
+    <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="          野生单位身上有着不同的经验点和钱，也有一定的机会掉下物品，还很有可能掉下好东西。总的来说，越是强大的怪物得到的奖赏就越好。"  
+            android:gravity="left"  
+            android:layout_marginTop="10dp"
+             ></TextView> 
+     
+     
+<TextView android:textColor="#f00"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"  
+            android:typeface="serif"  
+            android:text="野生单位的行为"  
+            android:layout_marginTop="10dp"
+            android:gravity="left"  
+             ></TextView>            
+
+    <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="          野生单位的行为如同你的单位。当一个攻击时，其他的也会攻击。想要将野生单位分开是不可能的。所有的野生单位会一起攻击当其中一个受攻击时。不在战斗的野生单位不会攻击空中单位。这就意味着当你使用[移动]而不是[攻击移动]移动空中单位时，野生单位不会攻击他们。 野生单位不会通过持续攻击被拖拉；他们最终会回到他们的初始地。微缩地图有显示野生单位的特殊能力。"  
+            android:gravity="left"  
+             ></TextView>    
+
+    <TextView android:textColor="#f00"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"  
+            android:typeface="serif"  
+            android:text="6级以上的野生单位具有英雄的魔法抗性"  
+            android:layout_marginTop="10dp"
+            android:gravity="left"  
+             ></TextView> 
+    <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="          作为特别的单位，6级以上的野生单位和英雄享有魔法抗性。施放在6级以上的野生单位身上的负面效果魔法的时间比施放在一个低级野生单位要短的多。"  
+            android:gravity="left"  
+             ></TextView>
+  
+         
+    <TextView android:textColor="#f00"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"  
+            android:typeface="serif"  
+            android:text="7级以上的野生单位"  
+            android:layout_marginTop="10dp"
+            android:gravity="left"  
+             ></TextView> 
+    <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="          7级以上的野生单位比1-6级的野生单位聪明得多。这个聪明的野生单位表现得像具有AI的近战单位。具体表现在："  
+            android:gravity="left"  
+             ></TextView>
+    <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="          1.倾向于攻击受伤的单位。"  
+            android:gravity="left"  
+             ></TextView>
+    <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="          2.由攻击范围聪明地区分英雄的优先次序。（Intelligently prioritize Heroes in attack range. ）"  
+            android:gravity="left"  
+             ></TextView>
+    <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="          3.攻击正在建造的建筑。"  
+            android:gravity="left"  
+             ></TextView>
+    <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="          7级以上的野生单位全是混乱攻击。"  
+            android:gravity="left"  
+             ></TextView>
+    <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="          7级以上的野生单位会逃离防御塔的射程当他们的生命值少于60%。7级以上的野生单位非常喜欢攻击防御塔。"  
+            android:gravity="left"  
+             ></TextView>
+
+            
+    <TextView android:textColor="#f00"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"  
+            android:typeface="serif"  
+            android:text="睡觉的野生单位"  
+            android:layout_marginTop="10dp"
+            android:gravity="left"  
+             ></TextView> 
+    <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="          野生单位的存在，使得在白天探地图和早期攻击其他玩家变的困难了。但几乎所有的野生单位在夜间都会睡觉，在这段时间里可以很轻松地避开它们，趁着夜色的掩护进行侦察活动是明智的行为。你可以通过野生动物睡觉时发出的鼾声和他们头上的Z形动画来确认它们在睡觉。睡着的野生单位在受到攻击时会醒来并保护自己。"  
+            android:gravity="left"  
+             ></TextView>
+    <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="          他们有时对你是中立的，当一个野生单位正在睡觉，而你不主动去招惹他们的话。因此在晚上你可以去自由的侦察地图。"  
+            android:gravity="left"  
+             ></TextView>
+    <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="          有些野生单位并不睡觉。他们头上没有Z形动画。当你接近他们时千万小心，因为他们会叫醒其他正在睡觉的野生单位。"  
+            android:gravity="left"  
+             ></TextView>
+
+          
+    <TextView android:textColor="#f00"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"  
+            android:typeface="serif"  
+            android:text="财宝"  
+            android:layout_marginTop="10dp"
+            android:gravity="left"  
+             ></TextView> 
+    <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="          虽然野生单位会攻击甚至杀死您的部队，但它们对任何玩家来说都是很丰厚的奖赏。您每杀死一只野生单位都可以获得一些黄金，当它们被杀死的一瞬间，一个金色的数字会从它们头上冒出来，这就是您杀死它们所得到黄金的数目。某些野生单位还会留下宝箱。在宝箱中装着魔法物品，只有英雄和升级背包技能的单位能够捡起它们。虽然游戏中有地精商店，但杀死野生单位，仍然是英雄获得物品的捷径。掉出的宝物是随机的，但宝物的等级与野生单位的等级有关，一个一级的野生单位掉出高级物品的几率要远远低于一个九级的野生单位。野生单位死后留下的尸体对亡灵指挥官们来说也是一笔不可多得的财富。"  
+            android:gravity="left"  
+             ></TextView>
+
+  
+    <TextView android:textColor="#f00"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"  
+            android:typeface="serif"  
+            android:text="经验值"  
+            android:layout_marginTop="10dp"
+            android:gravity="left"  
+             ></TextView> 
+    <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="          野生单位的好处不只是财宝，它们也同样会给你英雄经验值。每一个被身边英雄杀死的野生单位都会给那个英雄一定数量的经验值。因此。在多人游戏里，通过杀死野生单位来使英雄升级是个好方法，而不用与其他玩家发生冲突。杀死低级怪物（像豺狼），得到的经验值要比高级怪物（ 像龙）要少。虽然与其他玩家战斗会让你的英雄得到更多的经验值，但是，在游戏早期通过杀死野生单位，是让你英雄快速升级的最好方法。当英雄达到5级时，他不能通过杀死野生单位获得任何经验值。"  
+            android:gravity="left"  
+             ></TextView>
+    
+ 
+    <TextView android:textColor="#f00"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"  
+            android:typeface="serif"  
+            android:text="野生单位的信息"  
+            android:layout_marginTop="10dp"
+            android:gravity="left"  
+             ></TextView> 
+    <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="          野生单位的等级从1-10。有一些魔法和物品对等级6及6级以上的野生单位不起作用。点击一个野生单位可以在下面的信息面板中看到它的等级。野生单位不会升级。它们的等级是固定的。"  
+            android:gravity="left"  
+             ></TextView>
+    <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="          这些单位是在制作地图的时候被放置上去的， 同样的野生单位总会在每个地图的相同地方出现。野生单位不会死后再生。某些野生单位如果具有复活的能力，他们会重新出现。一旦他们被杀，就永远不存在了。"  
+            android:gravity="left"  
+             ></TextView>
+    <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="          野生单位将会攻击建筑物，如果你想建在他们旁边的话。但是，他们不会寻找或者摧毁已经建成的建筑物，如果它们遇到这些建筑物。"  
+            android:gravity="left"  
+             ></TextView>
+    <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="          使用女妖的占据或是黑暗游侠的符咒，野生单位可以被控制。"  
+            android:gravity="left"  
+             ></TextView>
+    <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="          一些野生单位可以在佣兵营地被雇佣。野生单位或可雇的佣兵是随地图设置而变化的。"  
+            android:gravity="left"  
+             ></TextView>
+    <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="          野生单位不会攻击其他野生单位。"  
+            android:gravity="left"  
+             ></TextView>
+    <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="          如果你的鼠标指向一个野生单位，将显示这个单位的名字和等级，以便你更加清楚地了解它们的能力。"  
+            android:gravity="left"  
+             ></TextView>
+    <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="          野生单位是被分开的，通过游戏设置的分配。（Creeps are divided up by the tilesets they are allowed on. ）"  
+            android:gravity="left"  
+             ></TextView>
+    
+
+           
+    <TextView android:textColor="#f00"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"  
+            android:typeface="serif"  
+            android:text="野生单位的能力"  
+            android:layout_marginTop="10dp"
+            android:gravity="left"  
+             ></TextView> 
+    <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="          有些野生单位可能对你使用魔法和特性。通过查看野生单位列表，可知道那些是有这个能力的。"  
+            android:gravity="left"  
+             ></TextView>
+
+            
+    <TextView android:textColor="#f00"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"  
+            android:typeface="serif"  
+            android:text="逃跑"  
+            android:layout_marginTop="10dp"
+            android:gravity="left"  
+             ></TextView> 
+    <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="          野生单位是仅仅从他们的营地，跟随你一定的距离就离开了。如果你不想和一大群野生单位战斗的话，就跑得远点。最后它们将会停止追击并返回营地。"  
+            android:gravity="left"  
+             ></TextView>
+
+    <TextView android:textColor="#f00"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"  
+            android:typeface="serif"  
+            android:text="中立建筑物"  
+            android:layout_marginTop="10dp"
+            android:gravity="left"  
+             ></TextView> 
+    <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="          有时候你想用中立建筑物，但又不想消灭野生单位。你可以让英雄在使用中立建筑物的时候，好好控制，然后跑开。你也可以在晚上使用中立建筑物避免野生单位的防卫。"  
+            android:gravity="left"  
+             ></TextView>
+
+    
+   
+</LinearLayout>
+</ScrollView>
+</LinearLayout>

@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#eee"
+        android:orientation="vertical" >
+        
+        <LinearLayout 
+  			android:layout_width="fill_parent"
+  			android:layout_height="45dp"
+  			android:id="@+id/title" 
+  			android:background="@drawable/title_bar"
+  			android:gravity="center_horizontal|center_vertical"  >  
+      		<TextView 
+        		android:layout_width="wrap_content" 
+        		android:layout_height="wrap_content" 
+        		android:text="隐形"
+        		android:textSize="20sp"		
+				android:textColor="#ffffff" />       
+			</LinearLayout>
+<ScrollView 
+
+    android:id="@+id/ScrollView01" 
+    android:layout_width="fill_parent" 
+    android:background="#eee"
+    android:layout_height="fill_parent"
+>
+<LinearLayout
+            android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin" 
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center"
+    >
+             <TextView android:textColor="#000"
+                  android:layout_width="match_parent" 
+         android:layout_height="match_parent"   
+            android:gravity="left"
+            android:layout_marginTop="10dp"
+            android:text="        比起魔兽争霸II，隐形在魔兽争霸III中扮演了更加重要的角色。而且不同于魔兽争霸II，魔兽争霸III可以通过各种途径来探测隐形单位。隐形的代表性作用是隐藏、侦查和发动偷袭。" >
+        </TextView>
+                     <TextView android:textColor="#000"
+                  android:layout_width="match_parent" 
+         android:layout_height="match_parent"   
+            android:gravity="left"
+            
+            android:text="        隐形不是星际争霸中的cloaking。在星际争霸中，cloaking允许单位在隐形的状态下攻击，并且不会暴露自己。在魔兽争霸III中，隐形单位做任何动作（除了移动，但是影遁的单位移动也会暴露自己）都会暴露自己。隐形单位是完全的隐形，除非使用探测隐形的方法。" >
+        </TextView>
+                     <TextView android:textColor="#000"
+                  android:layout_width="match_parent" 
+         android:layout_height="match_parent"   
+            android:gravity="left"
+            
+            android:text="        许多玩家完全忽视探测隐形的重要性。隐形往往可以决定一场游戏的胜负。所以不能忽视隐形。" >
+        </TextView> 
+     
+             <TextView 
+                  android:layout_width="match_parent" 
+         android:layout_height="match_parent"   
+            android:gravity="left"
+            android:textColor="#CC0000"
+            android:text="可以隐形的" >
+        </TextView>
+                     <TextView 
+                  android:layout_width="match_parent" 
+         android:layout_height="match_parent"   
+            android:gravity="left"
+            android:textColor="#CC0000"
+            android:text="    英雄物品" >
+        </TextView>
+             <TextView android:textColor="#000"
+                  android:layout_width="match_parent" 
+         android:layout_height="match_parent"   
+            android:gravity="left"
+            android:text="        隐形药水 - 你可以在地精商店购买。" >
+        </TextView>
+                     <TextView android:textColor="#000"
+                  android:layout_width="match_parent" 
+         android:layout_height="match_parent"   
+            android:gravity="left"
+            android:text="        影子风衣 - 这个物品可以让英雄拥有影遁的能力。" >
+        </TextView>
+                             <TextView 
+                  android:layout_width="match_parent" 
+         android:layout_height="match_parent"   
+            android:gravity="left"
+            android:textColor="#CC0000"
+            android:text="    人族" >
+        </TextView>
+             <TextView android:textColor="#000"
+                  android:layout_width="match_parent" 
+         android:layout_height="match_parent"   
+            android:gravity="left"
+            android:text="        女巫 - 隐身术。人族是隐形的王者。他们可以通过女巫来隐形。" >
+        </TextView>
+                             <TextView 
+                  android:layout_width="match_parent" 
+         android:layout_height="match_parent"   
+            android:gravity="left"
+            android:textColor="#CC0000"
+            android:text="    兽族" >
+        </TextView>
+             <TextView android:textColor="#000"
+                  android:layout_width="match_parent" 
+         android:layout_height="match_parent"   
+            android:gravity="left"
+            android:text="        剑圣 - 疾风步。剑圣可以使用疾风步来发动偷袭、侦查或者逃跑。" >
+        </TextView>
+      <TextView 
+                  android:layout_width="match_parent" 
+         android:layout_height="match_parent"   
+            android:gravity="left"
+            android:textColor="#CC0000"
+            android:text="    不死族" >
+        </TextView>
+             <TextView android:textColor="#000"
+                  android:layout_width="match_parent" 
+         android:layout_height="match_parent"   
+            android:gravity="left"
+            android:text="        腐尸甲虫/地穴恶魔 - 钻地" >
+        </TextView>
+                     <TextView android:textColor="#000"
+                  android:layout_width="match_parent" 
+         android:layout_height="match_parent"   
+            android:gravity="left"
+            android:text="        阴影 - 阴影是在Observers（星际争霸中Protoss的兵种）的基础上设计的永久隐形的地面侦查单位。他不能攻击。一般玩家会把他放置在敌方的家中来进行侦查，或者跟随着敌方的部队。" >
+        </TextView>
+    <TextView 
+                  android:layout_width="match_parent" 
+         android:layout_height="match_parent"   
+            android:gravity="left"
+            android:textColor="#CC0000"
+            android:text="    暗夜精灵族" >
+        </TextView>
+             <TextView android:textColor="#000"
+                  android:layout_width="match_parent" 
+         android:layout_height="match_parent"   
+            android:gravity="left"
+            android:text="        影遁。弓箭手、女猎手、守望者和月之女祭司在晚上不移动的时候她们是隐形的。" >
+        </TextView>
+     <TextView 
+                  android:layout_width="match_parent" 
+         android:layout_height="match_parent"   
+            android:gravity="left"
+            android:textColor="#CC0000"
+            android:text="    探测隐形" >
+        </TextView>
+             <TextView android:textColor="#000"
+                  android:layout_width="match_parent" 
+         android:layout_height="match_parent"   
+            android:gravity="left"
+            android:text="        记住：隐形只是你不能看见他们，这不意味着你就不能攻击他们了！如果你感觉到隐形或者影遁的单位在附近，使用范围魔法，比如暴风雪、流星雨或烈焰风暴等等，他们同样会受到伤害。你也可以用攻城单位通过攻击地面来伤害他们。" >
+        </TextView>
+      <TextView 
+                  android:layout_width="match_parent" 
+         android:layout_height="match_parent"   
+            android:gravity="left"
+            android:textColor="#CC0000"
+            android:text="    英雄物品" >
+        </TextView>
+             <TextView android:textColor="#000"
+                  android:layout_width="match_parent" 
+         android:layout_height="match_parent"   
+            android:gravity="left"
+            android:text="        尘土之影 - 在玩家的商店可以买到，也能在地精商店购买。" >
+        </TextView>
+                     <TextView android:textColor="#000"
+                  android:layout_width="match_parent" 
+         android:layout_height="match_parent"   
+            android:gravity="left"
+            android:text="        水晶球 - 显示目标区域。隐形单位也会被显示。" >
+        </TextView>
+                     <TextView android:textColor="#000"
+                  android:layout_width="match_parent" 
+         android:layout_height="match_parent"   
+            android:gravity="left"
+            android:text="        岗哨守卫 - 放置岗哨守卫来侦查一个区域，隐形单位也会被显示。" >
+        </TextView>
+      <TextView 
+                  android:layout_width="match_parent" 
+         android:layout_height="match_parent"   
+            android:gravity="left"
+            android:textColor="#CC0000"
+            android:text="    人族" >
+        </TextView>
+             <TextView android:textColor="#000"
+                  android:layout_width="match_parent" 
+         android:layout_height="match_parent"   
+            android:gravity="left"
+            android:text="        矮人直升机" >
+        </TextView>
+                     <TextView android:textColor="#000"
+                  android:layout_width="match_parent" 
+         android:layout_height="match_parent"   
+            android:gravity="left"
+            android:text="        破击炮小队 - 闪光弹" >
+        </TextView>
+                     <TextView android:textColor="#000"
+                  android:layout_width="match_parent" 
+         android:layout_height="match_parent"   
+            android:gravity="left"
+            android:text="        塔 - 魔法岗哨。这个技能在神秘圣地研究，可以让你的塔来发现隐形单位。人族拥有最容易的探测隐形。" >
+        </TextView>
+      <TextView 
+                  android:layout_width="match_parent" 
+         android:layout_height="match_parent"   
+            android:gravity="left"
+            android:textColor="#CC0000"
+            android:text="    兽族" >
+        </TextView>
+             <TextView android:textColor="#000"
+                  android:layout_width="match_parent" 
+         android:layout_height="match_parent"   
+            android:gravity="left"
+            android:text="        先知 - 透视" >
+        </TextView>
+                     <TextView android:textColor="#000"
+                  android:layout_width="match_parent" 
+         android:layout_height="match_parent"   
+            android:gravity="left"
+            android:text="        巫医 - 岗哨守卫" >
+        </TextView>
+      <TextView 
+                  android:layout_width="match_parent" 
+         android:layout_height="match_parent"   
+            android:gravity="left"
+            android:textColor="#CC0000"
+            android:text="    不死族" >
+        </TextView>
+             <TextView android:textColor="#000"
+                  android:layout_width="match_parent" 
+         android:layout_height="match_parent"   
+            android:gravity="left"
+            android:text="        阴影 - 阴影可以看到隐形单位。" >
+        </TextView>
+      <TextView 
+                  android:layout_width="match_parent" 
+         android:layout_height="match_parent"   
+            android:gravity="left"
+            android:textColor="#CC0000"
+            android:text="    暗夜精灵族" >
+        </TextView>
+             <TextView android:textColor="#000"
+                  android:layout_width="match_parent" 
+         android:layout_height="match_parent"   
+            android:gravity="left"
+            android:text="        女猎手 - 哨兵" >
+        </TextView>
+                     <TextView android:textColor="#000"
+                  android:layout_width="match_parent" 
+         android:layout_height="match_parent"   
+            android:gravity="left"
+            android:text="        月之女祭司 - 猫头鹰" >
+        </TextView>
+ <TextView 
+                  android:layout_width="match_parent" 
+         android:layout_height="match_parent"   
+            android:gravity="left"
+            android:textColor="#CC0000"
+            android:text="    中立" >
+        </TextView>
+             <TextView android:textColor="#000"
+                  android:layout_width="match_parent" 
+         android:layout_height="match_parent"   
+            android:gravity="left"
+            android:text="        驯兽师 - 战鹰" >
+        </TextView>
+
+        </LinearLayout>
+</ScrollView>
+</LinearLayout>

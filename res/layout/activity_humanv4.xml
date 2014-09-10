@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#eee"
+        android:orientation="vertical" >
+        
+        <LinearLayout 
+  			android:layout_width="fill_parent"
+  			android:layout_height="45dp"
+  			android:id="@+id/title" 
+  			android:background="@drawable/title_bar"
+  			android:gravity="center_horizontal|center_vertical"  >  
+      <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="返回" 
+        android:onClick="backv4"
+        />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="人族VS不死族"
+        android:gravity="center|center_horizontal|center_vertical"
+        android:textColor="#ffffff"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="点我" 
+        android:onClick="clickv4"
+        />    
+			</LinearLayout>
+<ScrollView 
+    android:id="@+id/ScrollView01" 
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content"
+
+>
+
+<LinearLayout 
+            android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+<TableLayout  
+   
+    android:id="@+id/tableLayout1"  
+    android:layout_width="match_parent"  
+    android:layout_height="match_parent"  
+    android:shrinkColumns="*"  
+    android:stretchColumns="*">
+    <TableRow
+        android:layout_height="wrap_content"  
+        android:layout_width="match_parent">        
+    <TextView  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"  
+            android:textStyle="bold"  
+            android:typeface="serif"  
+            android:textSize="18sp"  
+            android:text="常规战术"  
+            android:gravity="left"  
+            android:textColor="#000"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"></TextView>  
+
+</TableRow>  
+<TableRow
+        android:layout_height="wrap_content"  
+        android:layout_width="match_parent">
+        
+    <TextView  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"    
+            android:text="      这个嘛，太笼统了，战术实在是非常多，我举例一些使用率最高的。"  
+            android:gravity="left"  
+            android:textColor="#000"
+            android:layout_marginBottom="5dp"></TextView>  
+
+</TableRow>
+<TableRow
+        android:layout_height="wrap_content"  
+        android:layout_width="match_parent">
+        
+    <TextView  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"    
+            android:text="常规3本流"  
+            android:gravity="left"  
+            android:textColor="#000"
+            android:layout_marginBottom="5dp"></TextView>  
+
+</TableRow>
+<TableRow
+        android:layout_height="wrap_content"  
+        android:layout_width="match_parent">
+        
+    <TextView  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"    
+            android:text="      分成74+飞机，74+49+龙鹰，49+龙鹰等。主要是针对于小地图，HUM开矿难的特点，单矿攀3本，然后利用人族的科技单位配合避难权仗不容易死兵的特性，再+上MK和PAL犀利的双T连杀，使得人族的正面交战不处于下风。当然，英雄等级非常关键。"  
+            android:gravity="left"  
+            android:textColor="#000"
+            android:layout_marginBottom="5dp"></TextView>  
+
+</TableRow>
+<TableRow
+        android:layout_height="wrap_content"  
+        android:layout_width="match_parent">
+        
+    <TextView  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"    
+            android:text="      前期，MF为主。单矿3本，通常是AM+MK+PAL的组合，也可以是MK+PAL+BMG的组合。前期由于是常规科技，所以基地里的防御还是比开矿流要好，依旧是数个采木农民编队，骷髅一来立刻C（变民兵）而英雄的MF上，能偷练最好偷练，反正他单DK骚扰没负担，可以全力C你的怪，避开DK MF是最好的选择。很多地图，有的点是可以利用民兵双线的如果AM被他跟着，可以仿效很多职业选手的做法，AM召唤个水人，然后引DK走开，水人再配合民兵双线练，这样AM绝对能安稳提升等级。关于他过狗来你基地屠农：没什么好说的，立刻全民皆兵。如果他还不走，AM再TP（主要根据他小G的数量来定）2发MK，继续MF。如果AM到3，可以去他基地骚扰杀狗。因为UD，就难免要用小G来双线，所以基地里应该会有一些不健康的小G在采木。所以，尽量屠杀小G，也能打击他后期的经济。FM死了就死了没所谓，反正FM不就是用来死的吗？接下来，根据UD的科技走势来转型。人族3本流，通常会造1个兵营，1个49笼，1个车间。UD打人族，通常会分成RUSH，2本天鬼和3本兵种。而面对单矿人族，UD通常会选择3本。所以AM练3去UD基地骚扰的时候，就要留意UD基地的建筑。双BH，没什么好说的，飞机之。要注意的是飞机没1队半不要和他打。而且他毁灭满魔那波，也不要和他打。即使他吸满魔去到你主基地屠杀农民，你也不要打，等他毁灭之球快没了，你再突击。死几个农民，也比死飞机要好。飞机一死，后面就一直拼不过毁灭了，死几个农民也就是几百块钱而已。打退UD，UD可能会转成ZZ+胖子，那么人族也要立刻转型了。盲目继续爆飞机，迎来的将会是失败。"  
+            android:gravity="left"  
+            android:textColor="#000"
+            android:layout_marginBottom="5dp"></TextView>  
+
+</TableRow>
+<TableRow
+        android:layout_height="wrap_content"  
+        android:layout_width="match_parent">
+        
+    <TextView  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"    
+            android:text="      细节方面：刚3本的时候，先出个74，召唤3个PAL，买避难，出1个49，这都是必须的。然后疯狂MF，这时UD大概也在MF，但是效率上要低于人族。因为这个阶段暂时是和平时期（UD大概也是3本刚好，毁灭不可能成型）。人族MF的时候，有几点要注意的：1是留意MK的经验，快到3，AM和PAL走开。2：商店必须要练，AM一定要买个无敌。3：有机会的话尽量练个矿点，为之后的偷矿作准备。（矿点最后远离UD的基地）这样就方便后面的换家。通常第1波交战的理想英雄等级是（3~4J AM，3J MK，2J PAL）如果对手是毁灭+ZZ的，你也不急着立刻转飞机。飞机群是针对双BH毁灭的。如果UD毁灭不多，人族可以将重点攻击转移到他的ZZ上。少量的毁灭，并不能给人族的部队构成威胁，而人族的MK的T，74，PAL的T，对ZZ的杀伤都是非常大的。交战数次，磨光他的ZZ，自己避难+换手避难尽量保存单位，UD就会转毁灭。而这个，恰好跌进了HUM的陷阱。人族立刻转龙鹰，MK买个火球，击败UD将会比较轻松。有一个细节就是：人族偷矿的时候，就是人族部队去UD家屠杀农民交换TP的时候。"  
+            android:gravity="left"  
+            android:textColor="#000"></TextView>  
+
+</TableRow>
+    <TableRow
+        android:layout_height="wrap_content"  
+        android:layout_width="match_parent">        
+    <TextView  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"  
+            android:textStyle="bold"  
+            android:typeface="serif"  
+            android:textSize="18sp"  
+            android:text="2本火枪+法师的万金油组合"  
+            android:gravity="left"  
+            android:textColor="#000"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"></TextView>  
+
+</TableRow> 
+<TableRow
+        android:layout_height="wrap_content"  
+        android:layout_width="match_parent">
+        
+    <TextView  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"    
+            android:text="      这招以前可是非常流行的啊。前期常规开局，常规科技，通常是AM首发。造圣塔够资源升2本。1本升2本时造个铁匠铺，然后2本造1个BR，并开始转火枪。这时人族要做的是什么呢？前期UD看人族不开矿，肯定会减少小G的生产。即使2本全部兵力来一波，充其量也只是7个小G。在3个RM 3个FM AM+MK和水人面前也是赚不到什么便宜的。人族要做的事，就是买快塔开矿。这里不推荐玛塔。2~3根塔，就能化解UD 2本的攻势。然后人族依靠上矿经济，迅速爆兵。最终的兵力配置大概是半队多的火枪，少量破法，男女巫占半队左右。重点是群补的数量。初期毁灭（泛指第1波毁灭）那时人族虽然没有这么多部队，但还是能打退的。为什么UD的速毁灭只能依靠战略优势来赢呢？那是因为欺负人族没有对空兵种。RM（火枪）虽然性价比不高，非常怕群杀魔法，但初期毁灭一波，UD缺乏的恰好就是群杀魔法。LICH的那1级NOVA，也造不成多大的伤害。火枪点射毁灭，毁灭很快就站不住阵脚。大概6~8个火枪，就打退3~4个毁灭了。接下来，眼看着双矿人族，UD当然是很着急，想推了人族。而人族，则可以不紧不慢了，MF提高英雄等级，买群补，升火枪的攻防。UD来进攻人族分矿的时候，人族再TP。（人族分矿不需要玛塔，造1圣就OK了）少量的塔是干嘛用的？是骗毁灭的毁灭之球的。UD来攻，DK肯定来砍农民的，人族一TP，刚好TP在DK那里，这样UD又要TP了。而人族的分矿，只是死了几个农民，毛毛雨。一补农民，1维修，又一个印钞机。接下来人族再MF，再TP，反复，可获胜。注意：可以女巫隐身AM去买群补无敌（必须品）也要经常隐身FM去UD分矿，防止UD开矿。人族不够80人口，尽量不要主动找UD决战，除非是UD进攻人族基地。"  
+            android:gravity="left"  
+            android:textColor="#000"></TextView>  
+
+</TableRow>
+   <TableRow
+        android:layout_height="wrap_content"  
+        android:layout_width="match_parent">        
+    <TextView  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"  
+            android:textStyle="bold"  
+            android:typeface="serif"  
+            android:textSize="18sp"  
+            android:text="人族的RUSH型打法"  
+            android:gravity="left"  
+            android:textColor="#000"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"></TextView>  
+
+</TableRow> 
+<TableRow
+        android:layout_height="wrap_content"  
+        android:layout_width="match_parent">
+        
+    <TextView  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"    
+            android:text="      暴力兽族大家听得多了，暴力人族呢？针对UD的科技ZZ，或者是速DK的G流跳毁灭，人族可以选择FL TR。而TR近点，人族也可以选择一来派民兵敲通灵塔（参考SKY），也可以MK首发，MF了141后，等UD开始升2本了，拖出7个民兵配合5个FM去杀侍憎。最少杀2个，然后TP。这样UD就要退2本，科技和经济上都会受到很大的打击。也可以选择AM练3，然后买出一票雇佣兵配合FM去速科技的UD基地骚扰，效果绝对好。还有就是TR近点人族2本火枪+法师 TR UD，同样是针对UD的攀科技。"  
+            android:gravity="left"  
+            android:textColor="#000"></TextView>  
+
+</TableRow>
+   <TableRow
+        android:layout_height="wrap_content"  
+        android:layout_width="match_parent">        
+    <TextView  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"  
+            android:textStyle="bold"  
+            android:typeface="serif"  
+            android:textSize="18sp"  
+            android:text="纯火枪"  
+            android:gravity="left"  
+            android:textColor="#000"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"></TextView>  
+
+</TableRow> 
+<TableRow
+        android:layout_height="wrap_content"  
+        android:layout_width="match_parent">
+        
+    <TextView  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"    
+            android:text="      MK速矿+爆火枪打毁灭。效果非常好的一招，大家别说火枪怎么怎么垃圾，其实当你拥有半队多火枪，就可以轻松击败第1波来进攻的毁灭了。前期MK常规练3开矿，然后立3根塔（不需要多，避免资源浪费）兵营一直出FM，然后配合MK换家。面对来骚扰的DK怎么办？我那个人族MF贴里也有介绍这个技巧，就是一来MK+FM藏到树林后面埋伏来骚扰的DK，一T一围绝对准。开矿时再次碰到DK骚扰？继续一T一围啊。就算第1次被反卡，围多几次总围到吧。这样立好3根塔（防小G）主基地也立3根（防天鬼），就可以开始升2本。在1本升2本的过程中放下BS和第2个兵营开始量产火枪升攻防。UD面对HUM的多塔少兵，就2本ZZ投车RUSH。如果碰到人族的多兵少塔，就3本毁灭来打。而这个战术，恰好也是属于多兵少塔的行列（主要是一直出FM和火枪）那么，面对毁灭，2本时出到半队以上的火枪配合2发PAL就可以轻松把UD击退了。细节补充：分矿塔好后，MK不要忘记带FM去UD家杀农民，那时UD大概是2本升3本ing。主矿和分矿各1个商店，火枪升攻防。第1波屠农结束后MK+FM练商店，MK买隐身单传无敌继续T死2个农民，这样能很大程度减少毁灭数量。面对UD的科技ZZ+投车RUSH，MK一T一围，用FM来换ZZ。双BB就继续出盾步了。"  
+            android:gravity="left"  
+            android:textColor="#000"></TextView>  
+
+</TableRow>
+   <TableRow
+        android:layout_height="wrap_content"  
+        android:layout_width="match_parent">        
+    <TextView  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"  
+            android:textStyle="bold"  
+            android:typeface="serif"  
+            android:textSize="18sp"  
+            android:text="其他战术"  
+            android:gravity="left"  
+            android:textColor="#000"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"></TextView>  
+
+</TableRow> 
+<TableRow
+        android:layout_height="wrap_content"  
+        android:layout_width="match_parent">
+        
+    <TextView  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"    
+            android:text="      TK流：前期单TK偷练配合民兵双线小点，把TK的等级练3，然后配合偷塔等打击UD经济，再爆出大量3本部队一波推平UD;BMG首发：前期练3（最起码练2）然后抽干DK，BMG利用烧树藏自己+动物的卡位练3，2本出女巫隐身到UD基地放火，2级火能一次放到5个农民。打击UD经济后再爆出大量的3本部队来获胜。飞机坦克等：开矿－>玛塔－>拆家纯龙鹰：开矿后科技不快不慢，塔又不够，立刻敲3个BG爆龙鹰对抗毁灭也是不错的选择。至于玛塔和开坦克的流程，SOR本人不喜欢WS，所以就算了。"  
+            android:gravity="left"  
+            android:textColor="#000"></TextView>  
+
+</TableRow>
+</TableLayout>
+
+</LinearLayout>
+</ScrollView>
+</LinearLayout>

@@ -1,0 +1,34 @@
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android"
+    android:oneshot="false">
+    <item android:drawable="@drawable/archmage1" android:duration="150" />
+    <item android:drawable="@drawable/archmage2" android:duration="150" />
+    <item android:drawable="@drawable/archmage3" android:duration="150" />
+    <item android:drawable="@drawable/archmage4" android:duration="150" />
+    <item android:drawable="@drawable/archmage5" android:duration="150" />
+    <item android:drawable="@drawable/archmage6" android:duration="150" />
+    <item android:drawable="@drawable/archmage7" android:duration="150" />
+    <item android:drawable="@drawable/archmage8" android:duration="150" />
+    <item android:drawable="@drawable/archmage9" android:duration="150" />
+    <item android:drawable="@drawable/archmage10" android:duration="150" />
+    <item android:drawable="@drawable/archmage11" android:duration="150" />
+    <item android:drawable="@drawable/archmage12" android:duration="150" />
+    <item android:drawable="@drawable/archmage13" android:duration="150" />
+    <item android:drawable="@drawable/archmage14" android:duration="150" />
+    <item android:drawable="@drawable/archmage15" android:duration="150" />
+    <item android:drawable="@drawable/archmage16" android:duration="150" />
+    <item android:drawable="@drawable/archmage17" android:duration="150" />
+    <item android:drawable="@drawable/archmage18" android:duration="150" />
+    <item android:drawable="@drawable/archmage19" android:duration="150" />
+    <item android:drawable="@drawable/archmage20" android:duration="150" />
+    <item android:drawable="@drawable/archmage21" android:duration="150" />
+    <item android:drawable="@drawable/archmage22" android:duration="150" />
+    <item android:drawable="@drawable/archmage23" android:duration="150" />
+    <item android:drawable="@drawable/archmage24" android:duration="150" />
+    <item android:drawable="@drawable/archmage25" android:duration="150" />
+    <item android:drawable="@drawable/archmage26" android:duration="150" />
+    <item android:drawable="@drawable/archmage27" android:duration="150" />
+    <item android:drawable="@drawable/archmage28" android:duration="150" />
+    <item android:drawable="@drawable/archmage29" android:duration="150" />
+    <item android:drawable="@drawable/archmage30" android:duration="150" />
+    <item android:drawable="@drawable/archmage31" android:duration="150" />
+ </animation-list>

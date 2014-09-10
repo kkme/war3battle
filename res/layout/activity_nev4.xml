@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#eee"
+        android:orientation="vertical" >
+        
+        <LinearLayout 
+  			android:layout_width="fill_parent"
+  			android:layout_height="45dp"
+  			android:id="@+id/title" 
+  			android:background="@drawable/title_bar"
+  			android:gravity="center_horizontal|center_vertical"  >  
+      <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="返回" 
+        android:onClick="backv4"
+        />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="精灵族VS不死族"
+        android:gravity="center|center_horizontal|center_vertical"
+        android:textColor="#ffffff"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="点我" 
+        android:onClick="clickv4"
+        />    
+			</LinearLayout>
+<ScrollView 
+
+    android:id="@+id/ScrollView01" 
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content"
+
+>
+
+<LinearLayout 
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    >
+     
+    <TextView  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"  
+            android:textStyle="bold"  
+            android:typeface="serif"  
+            android:textSize="18sp"  
+            android:text="NE VS UD"  
+            android:gravity="left"  
+            android:textColor="#000"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"></TextView>  
+
+
+        
+    <TextView  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"    
+            android:text="        NE打UD，同样是前期防RUSH，2本防骚扰。熊鹿打天地鬼，纯鹿，熊鹿+角鹰，角鹰+QML，AC风德的吹风流，乱矿换家，大招等等等等……"  
+            android:gravity="left"  
+            android:textColor="#000"></TextView>  
+
+     
+    <TextView  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"  
+            android:textStyle="bold"  
+            android:typeface="serif"  
+            android:textSize="18sp"  
+            android:text="防小G RUSH"  
+            android:gravity="left"  
+            android:textColor="#000"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"></TextView>  
+
+
+        
+    <TextView  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"    
+            android:text="        这个靠侦察，前期探路的精灵藏在UD基地附近一个诡异的角落，时不时拉出去看一看。如果看到UD是单BC，那就常规升本。如果UD是双BC，则对手不升本自己也不升本。如果是中立首发的话，单BR爆AC就足够了，不过要迅速补到4口井。如果是本族英雄首发，则应该补多个BR。通常厉害点的UD，会把小G分成几线来攻击NE的AC或精灵，那么NE就把被攻击的单位往野外拖出，这样就能引着几个小G往外跑，舒缓基地的压力。注意防TR时有2个骷髅聚在一起的时候立刻用精灵炸掉，DH留点。DK升C DH就升B，DK升U，DH就升L。打的时候尽量跑到基地后面，吸引小G被基地攻击，基地的攻击也是不容小视的。反正，只要提前侦察好，基地的建筑布局合理，再配合上合理的操作，双BC小G的RUSH并不难挡。"  
+            android:gravity="left"  
+            android:textColor="#000"></TextView>  
+
+      
+    <TextView  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"  
+            android:textStyle="bold"  
+            android:typeface="serif"  
+            android:textSize="18sp"  
+            android:text="防天鬼"  
+            android:gravity="left"  
+            android:textColor="#000"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"></TextView>  
+
+        
+    <TextView  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"    
+            android:text="        分成以下几个方法。1是补BP，一定要提前补，如果他天鬼来到你还没补，但又想补，不妨造到基地中间，再走到接近树林。2是把精灵藏一部分到地图的角落里。相信没什么人会把天鬼飞到这么偏僻的地方的。3是保存PD或者保存DH（带毒球）回家。4是基地里留几个AC或者小鹿防守。有一点要注意的是NE一定要在天鬼骚扰的这段时间里把2发PD MF到3级，而自己尽量少损失一些精灵。这样3本一波炕天地鬼或者天鬼冰龙的时候就不至于太劣势了。"  
+            android:gravity="left"  
+            android:textColor="#000"></TextView>  
+
+     
+    <TextView  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"  
+            android:textStyle="bold"  
+            android:typeface="serif"  
+            android:textSize="18sp"  
+            android:text="纯鹿流"  
+            android:gravity="left"  
+            android:textColor="#000"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"></TextView>  
+
+
+        
+    <TextView  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"    
+            android:text="        通常用于中立英雄的开局配合乱矿来使用。最常用的是兽王，DR。偶尔也有些非主流职业选手用PD，Xman等来作为首发的。前期常规升本，出到8AC左右就不出了。前期MF为主，在基地里种下BT（TR图）然后2本时直接走到分矿开分。由于AC数量比较多，不太怕UD的RUSH。2本可以算是UD的真空期，不太会来骚扰，只有等3本一波。而NE要做的，则是在这段时间里尽量扩展兵力。面对天地鬼，可以造防御建筑来防守，而对于3本混合部队的，造防御建筑的效果非常不明显，只能用兵来填。只要抗过这波，后面就好打多了。之后，继续练矿点，然后放下分矿的同时去UD基地换家。单英雄，升到5级不是很困难，再杀几个兵就到6了，然后……"  
+            android:gravity="left"  
+            android:textColor="#000"></TextView>  
+
+    
+    <TextView  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"  
+            android:textStyle="bold"  
+            android:typeface="serif"  
+            android:textSize="18sp"  
+            android:text="熊鹿+角鹰"  
+            android:gravity="left"  
+            android:textColor="#000"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"></TextView>  
+
+
+        
+    <TextView  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"    
+            android:text="        ReMinD就经常使用这招了。通常是用来对抗天地鬼的，在2本UD兵力比较缺乏的时候开出分矿，然后放下双BL单BW。有钱就花光，不用压人口了。貌似这招现在很多WD首发的NE都非常喜欢使用。"  
+            android:gravity="left"  
+            android:textColor="#000"></TextView>  
+
+      
+    <TextView  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"  
+            android:textStyle="bold"  
+            android:typeface="serif"  
+            android:textSize="18sp"  
+            android:text="打UD的混合部队"  
+            android:gravity="left"  
+            android:textColor="#000"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"></TextView>  
+
+
+        
+    <TextView  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"    
+            android:text="        则是先熊鹿，后转角鹰。熊鹿的数量也有讲究。NE打UD，熊鹿流主要的输出是鹿，熊只是吸收伤害的肉盾，等被UD空军和ZZ的点射打成红血后，保存回基地，熊的使命就完成了。鹿先点毁灭，然后点ZZ。如果UD有NAGA，则可以先秒下NAGA。点完毁灭点ZZ，先削弱UD的兵力。自己的英雄要多带保命道具，防止被秒杀。双保存啊，魔免啊，无敌等还是必须的。"  
+            android:gravity="left"  
+            android:textColor="#000"></TextView>  
+
+       
+    <TextView  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"  
+            android:textStyle="bold"  
+            android:typeface="serif"  
+            android:textSize="18sp"  
+            android:text="对抗TED流"  
+            android:gravity="left"  
+            android:textColor="#000"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"></TextView>  
+
+
+        
+    <TextView  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"    
+            android:text="        科技一定要快，如果他3本一波的时候你熊还没能趴，那就输一大半了。肉熊直接被一个NC+ZZ点射带走。或者NE可以选择先缩一下。"  
+            android:gravity="left"  
+            android:textColor="#000"></TextView>  
+
+     
+    <TextView  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"  
+            android:textStyle="bold"  
+            android:typeface="serif"  
+            android:textSize="18sp"  
+            android:text="角鹰+QML"  
+            android:gravity="left"  
+            android:textColor="#000"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"></TextView>  
+
+
+        
+    <TextView  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"    
+            android:text="        也可以当作是大招使用吧。前期WD首发牵制UD，基地双BP无兵营升2本，升本后多造几口井。然后直跳3本攀QML，先出1~2个角鹰侦察，猎手大厅一直升攻。3本后QMK没成型前先MF，WD很快到5级，然后QML升腐蚀可以去UD家拆建筑，又或者继续憋在家里。此战术只有2大缺陷。1是怕2本UD双BH出投石车来进攻。2是怕UD暴力ZZ，在QML没成型的时候来进攻。至于其他战术，例如他爆天鬼，你就爆角鹰。虽然攻击略低，但造价便宜，升2攻，专门对空，打天鬼还是很有优势的。"  
+            android:gravity="left"  
+            android:textColor="#000"></TextView>  
+
+     
+    <TextView  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"  
+            android:textStyle="bold"  
+            android:typeface="serif"  
+            android:textSize="18sp"  
+            android:text="吹风流或爆AC RUSH"  
+            android:gravity="left"  
+            android:textColor="#000"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"></TextView>  
+
+
+        
+    <TextView  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"    
+            android:text="        常见的是DR首发。前者：2发NAGA爆AC开矿攀3本双BW出大师吹风。虽然部队脆弱，但火力输出非常猛。如果他毁灭出多了，绝对不是AC的对手。如果毁灭出少了，他的主要输出和肉盾也会被吹起，纠结啊。双矿后最好一直找UD换兵，自己70+人口打UD 50人口有优势，但80人口打UD70+人口就没优势了，所以要趁着自己的优势期找UD换兵，这样就能把自己的经济优势体现出来。群补是必须要买的，对练比较没前途，UD 3小强DK+LICH+CL，一个地刺一个NOVA，NE的远程部队就比较疼。后者：打天地鬼比较好，前期爆AC强势MF，2本后2发FL直接压到UD家中，他天鬼流，小G的数量肯定不多，在NE的大量远程部队面前，小G很快就变成NE的骷髅。即使出了天鬼，依然是比较难抗。NE直接在UD家门前重BR推进就OK了。但是碰到UD用ZZ流，就不要用这招了。ZZ+投车比较克制这招。"  
+            android:gravity="left"  
+            android:textColor="#000"></TextView>  
+
+     
+    <TextView  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"  
+            android:textStyle="bold"  
+            android:typeface="serif"  
+            android:textSize="18sp"  
+            android:text="其他大招"  
+            android:gravity="left"  
+            android:textColor="#000"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"></TextView>  
+
+
+        
+    <TextView  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"    
+            android:text="        还有山岭拆家流；角鹰骑士流（骚扰为主，碰到天鬼角鹰骑士立刻分体）；屠农流，用PD或WD，狂买装备，专为屠农准备，打击对手的经济自己爆出后期兵种一波取胜。"  
+            android:gravity="left"  
+            android:layout_marginBottom="5dp"  
+            android:textColor="#000"></TextView>  
+
+
+        
+    <TextView  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"    
+            android:text="        补充一下NE对抗UD骷髅海。要趁UD的真空期开分矿，然后熊鹿流，少熊多鹿，DH带熊和PD带鹿分开。半队以上精灵分散在基地四周采木，然后集中编队。他召唤了KL肯定往前冲，DH直接带熊去突击他车子，PD+鹿拉后，拖精灵去爆他的巫师。爆光他巫师法师的魔，立刻控制鹿驱散KL"  
+            android:gravity="left"  
+            android:textColor="#000"></TextView>  
+
+
+
+</LinearLayout>
+</ScrollView>
+</LinearLayout>

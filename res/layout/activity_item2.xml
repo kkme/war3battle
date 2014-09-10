@@ -1,0 +1,760 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#eee"
+        android:orientation="vertical" >
+
+<LinearLayout 
+  			android:layout_width="fill_parent"
+  			android:layout_height="45dp"
+  			android:id="@+id/title" 
+  			android:background="@drawable/title_bar"
+  			android:gravity="center_horizontal|center_vertical"  >  
+      		<TextView
+        		android:layout_width="wrap_content" 
+        		android:layout_height="wrap_content" 
+        		android:text="能力提升型物品"
+        		android:textSize="20sp"		
+				android:textColor="#ffffff" />       
+			</LinearLayout>
+<ScrollView 
+
+    android:id="@+id/ScrollView01" 
+    android:layout_width="fill_parent" 
+    android:layout_height="fill_parent"
+>
+
+<LinearLayout
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin" 
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center"
+    >
+             <TextView
+                  android:layout_width="wrap_content" 
+         android:layout_height="wrap_content"   
+            android:gravity="left"
+			android:paddingLeft="15dp"
+			android:textColor="#000"
+			android:layout_marginTop="10dp"
+            android:text="        当英雄点击此类物品，就直接使用了。确定你要使用再去点击它们。" 
+>
+        </TextView>
+   <TextView
+                  android:layout_width="wrap_content" 
+         android:layout_height="wrap_content"   
+            android:gravity="left"
+android:textSize="20sp"
+android:layout_marginTop="10dp"
+android:textColor="#FF3300"
+            android:text="神符" 
+>
+        </TextView>
+<TableLayout android:layout_marginTop="10dp"  
+    android:layout_width="fill_parent"  
+    android:layout_height="fill_parent"  
+        android:shrinkColumns="*"  
+    android:stretchColumns="*"  
+> 
+<TableRow   
+        android:layout_height="wrap_content"  
+        android:layout_width="wrap_content"  
+        android:gravity="center_horizontal">  
+ <ImageView
+           android:layout_width="wrap_content" 
+         android:layout_height="wrap_content" 
+           android:gravity="left"
+           android:layout_span="1"
+            android:src="@drawable/glyph"
+           >
+      </ImageView>
+      
+      <TextView
+                  android:layout_width="wrap_content" 
+         android:layout_height="wrap_content"   
+            android:gravity="left"
+            android:textColor="#000099"
+            android:layout_span="8"
+            android:text="全知浮雕 Glyph of Omniscience显示整个地图。" >
+        </TextView>
+
+        </TableRow>
+        </TableLayout>
+<TableLayout android:layout_marginTop="10dp"  
+    android:layout_width="fill_parent"  
+    android:layout_height="fill_parent"  
+        android:shrinkColumns="*"  
+    android:stretchColumns="*"  
+> 
+<TableRow   
+        android:layout_height="wrap_content"  
+        android:layout_width="wrap_content"  
+        android:gravity="center_horizontal">  
+ <ImageView
+           android:layout_width="wrap_content" 
+         android:layout_height="wrap_content" 
+           android:gravity="left"
+           android:layout_span="1"
+            android:src="@drawable/rune"
+           >
+      </ImageView>
+      
+      <TextView
+                  android:layout_width="wrap_content" 
+         android:layout_height="wrap_content"   
+            android:gravity="left"
+            android:textColor="#000099"
+            android:layout_span="8"
+            android:text="驱魔神符 Rune of Dispel Magic驱散范围内所有魔法。" >
+        </TextView>
+
+        </TableRow>
+        </TableLayout>
+        <TableLayout android:layout_marginTop="10dp"  
+    android:layout_width="fill_parent"  
+    android:layout_height="fill_parent"  
+        android:shrinkColumns="*"  
+    android:stretchColumns="*"  
+> 
+<TableRow   
+        android:layout_height="wrap_content"  
+        android:layout_width="wrap_content"  
+        android:gravity="center_horizontal">  
+ <ImageView
+           android:layout_width="wrap_content" 
+         android:layout_height="wrap_content" 
+           android:gravity="left"
+           android:layout_span="1"
+            android:src="@drawable/rune"
+           >
+      </ImageView>
+      
+      <TextView
+                  android:layout_width="wrap_content" 
+         android:layout_height="wrap_content"   
+            android:gravity="left"
+            android:textColor="#000099"
+            android:layout_span="8"
+            android:text="小治疗神符 Rune of Lesser Healing恢复范围内友军单位125生命。" >
+        </TextView>
+
+        </TableRow>
+        </TableLayout>
+        <TableLayout android:layout_marginTop="10dp"  
+    android:layout_width="fill_parent"  
+    android:layout_height="fill_parent"  
+        android:shrinkColumns="*"  
+    android:stretchColumns="*"  
+> 
+<TableRow   
+        android:layout_height="wrap_content"  
+        android:layout_width="wrap_content"  
+        android:gravity="center_horizontal">  
+ <ImageView
+           android:layout_width="wrap_content" 
+         android:layout_height="wrap_content" 
+           android:gravity="left"
+           android:layout_span="1"
+            android:src="@drawable/rune"
+           >
+      </ImageView>
+      
+      <TextView
+                  android:layout_width="wrap_content" 
+         android:layout_height="wrap_content"   
+            android:gravity="left"
+            android:textColor="#000099"
+            android:layout_span="8"
+            android:text="治疗神符 Rune of Healing恢复范围内友军单位250生命。" >
+        </TextView>
+
+        </TableRow>
+        </TableLayout>
+        <TableLayout android:layout_marginTop="10dp"  
+    android:layout_width="fill_parent"  
+    android:layout_height="fill_parent"  
+        android:shrinkColumns="*"  
+    android:stretchColumns="*"  
+> 
+<TableRow   
+        android:layout_height="wrap_content"  
+        android:layout_width="wrap_content"  
+        android:gravity="center_horizontal">  
+ <ImageView
+           android:layout_width="wrap_content" 
+         android:layout_height="wrap_content" 
+           android:gravity="left"
+           android:layout_span="1"
+            android:src="@drawable/rune"
+           >
+      </ImageView>
+      
+      <TextView
+                  android:layout_width="wrap_content" 
+         android:layout_height="wrap_content"   
+            android:gravity="left"
+            android:textColor="#000099"
+            android:layout_span="8"
+            android:text="大治疗神符 Rune of Greater Healing恢复范围内友军单位400生命。" >
+        </TextView>
+
+        </TableRow>
+        </TableLayout>
+        <TableLayout android:layout_marginTop="10dp"  
+    android:layout_width="fill_parent"  
+    android:layout_height="fill_parent"  
+        android:shrinkColumns="*"  
+    android:stretchColumns="*"  
+> 
+<TableRow   
+        android:layout_height="wrap_content"  
+        android:layout_width="wrap_content"  
+        android:gravity="center_horizontal">  
+ <ImageView
+           android:layout_width="wrap_content" 
+         android:layout_height="wrap_content" 
+           android:gravity="left"
+           android:layout_span="1"
+            android:src="@drawable/rune"
+           >
+      </ImageView>
+      
+      <TextView
+                  android:layout_width="wrap_content" 
+         android:layout_height="wrap_content"   
+            android:gravity="left"
+            android:textColor="#000099"
+            android:layout_span="8"
+            android:text="小魔法神符 Rune of Mana (Lesser)恢复范围内友军单位125魔法。" >
+        </TextView>
+
+        </TableRow>
+        </TableLayout>
+        <TableLayout android:layout_marginTop="10dp"  
+    android:layout_width="fill_parent"  
+    android:layout_height="fill_parent"  
+        android:shrinkColumns="*"  
+    android:stretchColumns="*"  
+> 
+<TableRow   
+        android:layout_height="wrap_content"  
+        android:layout_width="wrap_content"  
+        android:gravity="center_horizontal">  
+ <ImageView
+           android:layout_width="wrap_content" 
+         android:layout_height="wrap_content" 
+           android:gravity="left"
+           android:layout_span="1"
+            android:src="@drawable/rune"
+           >
+      </ImageView>
+      
+      <TextView
+                  android:layout_width="wrap_content" 
+         android:layout_height="wrap_content"   
+            android:gravity="left"
+            android:textColor="#000099"
+            android:layout_span="8"
+            android:text="大魔法神符 Rune of Mana (Greater)恢复范围内友军单位300魔法。" >
+        </TextView>
+
+        </TableRow>
+        </TableLayout>
+        <TableLayout android:layout_marginTop="10dp"  
+    android:layout_width="fill_parent"  
+    android:layout_height="fill_parent"  
+        android:shrinkColumns="*"  
+    android:stretchColumns="*"  
+> 
+<TableRow   
+        android:layout_height="wrap_content"  
+        android:layout_width="wrap_content"  
+        android:gravity="center_horizontal">  
+ <ImageView
+           android:layout_width="wrap_content" 
+         android:layout_height="wrap_content" 
+           android:gravity="left"
+           android:layout_span="1"
+            android:src="@drawable/rune"
+           >
+      </ImageView>
+      
+      <TextView
+                  android:layout_width="wrap_content" 
+         android:layout_height="wrap_content"   
+            android:gravity="left"
+            android:textColor="#000099"
+            android:layout_span="8"
+            android:text="回复神符 Rune of Restoration恢复范围内友军单位300生命和150魔法。" >
+        </TextView>
+
+        </TableRow>
+        </TableLayout>
+        <TableLayout android:layout_marginTop="10dp"  
+    android:layout_width="fill_parent"  
+    android:layout_height="fill_parent"  
+        android:shrinkColumns="*"  
+    android:stretchColumns="*"  
+> 
+<TableRow   
+        android:layout_height="wrap_content"  
+        android:layout_width="wrap_content"  
+        android:gravity="center_horizontal">  
+ <ImageView
+           android:layout_width="wrap_content" 
+         android:layout_height="wrap_content" 
+           android:gravity="left"
+           android:layout_span="1"
+            android:src="@drawable/rune"
+           >
+      </ImageView>
+      
+      <TextView
+                  android:layout_width="wrap_content" 
+         android:layout_height="wrap_content"   
+            android:gravity="left"
+            android:textColor="#000099"
+            android:layout_span="8"
+            android:text="小复活神符 Rune of Lesser Resurrection复活你死去的单位。" >
+        </TextView>
+
+        </TableRow>
+        </TableLayout>
+        <TableLayout android:layout_marginTop="10dp"  
+    android:layout_width="fill_parent"  
+    android:layout_height="fill_parent"  
+        android:shrinkColumns="*"  
+    android:stretchColumns="*"  
+> 
+<TableRow   
+        android:layout_height="wrap_content"  
+        android:layout_width="wrap_content"  
+        android:gravity="center_horizontal">  
+ <ImageView
+           android:layout_width="wrap_content" 
+         android:layout_height="wrap_content" 
+           android:gravity="left"
+           android:layout_span="1"
+            android:src="@drawable/rune"
+           >
+      </ImageView>
+      
+      <TextView
+                  android:layout_width="wrap_content" 
+         android:layout_height="wrap_content"   
+            android:gravity="left"
+            android:textColor="#000099"
+            android:layout_span="8"
+            android:text="大复活神符 Rune of Greater Resurrection复活你死去的单位。" >
+        </TextView>
+
+        </TableRow>
+        </TableLayout>
+        <TableLayout android:layout_marginTop="10dp"  
+    android:layout_width="fill_parent"  
+    android:layout_height="fill_parent"  
+        android:shrinkColumns="*"  
+    android:stretchColumns="*"  
+> 
+<TableRow   
+        android:layout_height="wrap_content"  
+        android:layout_width="wrap_content"  
+        android:gravity="center_horizontal">  
+ <ImageView
+           android:layout_width="wrap_content" 
+         android:layout_height="wrap_content" 
+           android:gravity="left"
+           android:layout_span="1"
+            android:src="@drawable/rune"
+           >
+      </ImageView>
+      
+      <TextView
+                  android:layout_width="wrap_content" 
+         android:layout_height="wrap_content"   
+            android:gravity="left"
+            android:textColor="#000099"
+            android:layout_span="8"
+            android:text="护盾神符 Rune of Shielding让范围内的友军对魔法免疫。 " >
+        </TextView>
+
+        </TableRow>
+        </TableLayout>
+        <TableLayout android:layout_marginTop="10dp"  
+    android:layout_width="fill_parent"  
+    android:layout_height="fill_parent"  
+        android:shrinkColumns="*"  
+    android:stretchColumns="*"  
+> 
+<TableRow   
+        android:layout_height="wrap_content"  
+        android:layout_width="wrap_content"  
+        android:gravity="center_horizontal">  
+ <ImageView
+           android:layout_width="wrap_content" 
+         android:layout_height="wrap_content" 
+           android:gravity="left"
+           android:layout_span="1"
+            android:src="@drawable/rune"
+           >
+      </ImageView>
+      
+      <TextView
+                  android:layout_width="wrap_content" 
+         android:layout_height="wrap_content"   
+            android:gravity="left"
+            android:textColor="#000099"
+            android:layout_span="8"
+            android:text="速度神符 Rune of Speed增加单位移动速度。" >
+        </TextView>
+
+        </TableRow>
+        </TableLayout>
+        <TableLayout android:layout_marginTop="10dp"  
+    android:layout_width="fill_parent"  
+    android:layout_height="fill_parent"  
+        android:shrinkColumns="*"  
+    android:stretchColumns="*"  
+> 
+<TableRow   
+        android:layout_height="wrap_content"  
+        android:layout_width="wrap_content"  
+        android:gravity="center_horizontal">  
+ <ImageView
+           android:layout_width="wrap_content" 
+         android:layout_height="wrap_content" 
+           android:gravity="left"
+           android:layout_span="1"
+            android:src="@drawable/rune"
+           >
+      </ImageView>
+      
+      <TextView
+                  android:layout_width="wrap_content" 
+         android:layout_height="wrap_content"   
+            android:gravity="left"
+            android:textColor="#000099"
+            android:layout_span="8"
+            android:text="岗哨神符 Rune of the Watcher在原地创造一个岗哨守卫（同兽族的岗哨守卫）。持续时间无限。" >
+        </TextView>
+
+        </TableRow>
+        </TableLayout>
+   <TextView
+                  android:layout_width="wrap_content" 
+         android:layout_height="wrap_content"   
+            android:gravity="left"
+android:textSize="20sp"
+android:layout_marginTop="10dp"
+
+android:textColor="#FF3300"
+            android:text="书" 
+>
+        </TextView>
+<TableLayout android:layout_marginTop="10dp"  
+    android:layout_width="fill_parent"  
+    android:layout_height="fill_parent"  
+        android:shrinkColumns="*"  
+    android:stretchColumns="*"  
+> 
+<TableRow   
+        android:layout_height="wrap_content"  
+        android:layout_width="wrap_content"  
+        android:gravity="center_horizontal">  
+ <ImageView
+           android:layout_width="wrap_content" 
+         android:layout_height="wrap_content" 
+           android:gravity="left"
+           android:layout_span="1"
+            android:src="@drawable/manual"
+           >
+      </ImageView>
+      
+      <TextView
+                  android:layout_width="wrap_content" 
+         android:layout_height="wrap_content"   
+            android:gravity="left"
+            android:textColor="#000099"
+            android:layout_span="8"
+            android:text="生命手册 Manual of Health永久增加英雄50生命。" >
+        </TextView>
+
+        </TableRow>
+        </TableLayout>
+<TableLayout android:layout_marginTop="10dp"  
+    android:layout_width="fill_parent"  
+    android:layout_height="fill_parent"  
+        android:shrinkColumns="*"  
+    android:stretchColumns="*"  
+> 
+<TableRow   
+        android:layout_height="wrap_content"  
+        android:layout_width="wrap_content"  
+        android:gravity="center_horizontal">  
+ <ImageView
+           android:layout_width="wrap_content" 
+         android:layout_height="wrap_content" 
+           android:gravity="left"
+           android:layout_span="1"
+            android:src="@drawable/tomered"
+           >
+      </ImageView>
+      
+      <TextView
+                  android:layout_width="wrap_content" 
+         android:layout_height="wrap_content"   
+            android:gravity="left"
+            android:textColor="#000099"
+            android:layout_span="8"
+            android:text="知识之书 Tome of Knowledge永久增加英雄力量、敏捷、智慧各1点。" >
+        </TextView>
+
+        </TableRow>
+        </TableLayout>
+        <TableLayout android:layout_marginTop="10dp"  
+    android:layout_width="fill_parent"  
+    android:layout_height="fill_parent"  
+        android:shrinkColumns="*"  
+    android:stretchColumns="*"  
+> 
+<TableRow   
+        android:layout_height="wrap_content"  
+        android:layout_width="wrap_content"  
+        android:gravity="center_horizontal">  
+ <ImageView
+           android:layout_width="wrap_content" 
+         android:layout_height="wrap_content" 
+           android:gravity="left"
+           android:layout_span="1"
+            android:src="@drawable/tomeblue"
+           >
+      </ImageView>
+      
+      <TextView
+                  android:layout_width="wrap_content" 
+         android:layout_height="wrap_content"   
+            android:gravity="left"
+            android:textColor="#000099"
+            android:layout_span="8"
+            android:text="敏捷之书 Tome of Agility永久增加英雄敏捷1点。" >
+        </TextView>
+
+        </TableRow>
+        </TableLayout>
+        <TableLayout android:layout_marginTop="10dp"  
+    android:layout_width="fill_parent"  
+    android:layout_height="fill_parent"  
+        android:shrinkColumns="*"  
+    android:stretchColumns="*"  
+> 
+<TableRow   
+        android:layout_height="wrap_content"  
+        android:layout_width="wrap_content"  
+        android:gravity="center_horizontal">  
+ <ImageView
+           android:layout_width="wrap_content" 
+         android:layout_height="wrap_content" 
+           android:gravity="left"
+           android:layout_span="1"
+            android:src="@drawable/tomeblue"
+           >
+      </ImageView>
+      
+      <TextView
+                  android:layout_width="wrap_content" 
+         android:layout_height="wrap_content"   
+            android:gravity="left"
+            android:textColor="#000099"
+            android:layout_span="8"
+            android:text="敏捷之书 Tome of Agility +2永久增加英雄敏捷2点。 " >
+        </TextView>
+
+        </TableRow>
+        </TableLayout>
+        <TableLayout android:layout_marginTop="10dp"  
+    android:layout_width="fill_parent"  
+    android:layout_height="fill_parent"  
+        android:shrinkColumns="*"  
+    android:stretchColumns="*"  
+> 
+<TableRow   
+        android:layout_height="wrap_content"  
+        android:layout_width="wrap_content"  
+        android:gravity="center_horizontal">  
+ <ImageView
+           android:layout_width="wrap_content" 
+         android:layout_height="wrap_content" 
+           android:gravity="left"
+           android:layout_span="1"
+            android:src="@drawable/tomebrown"
+           >
+      </ImageView>
+      
+      <TextView
+                  android:layout_width="wrap_content" 
+         android:layout_height="wrap_content"   
+            android:gravity="left"
+            android:textColor="#000099"
+            android:layout_span="8"
+            android:text="经验之书 Tome of Experience给予英雄150经验值。" >
+        </TextView>
+
+        </TableRow>
+        </TableLayout>
+        <TableLayout android:layout_marginTop="10dp"  
+    android:layout_width="fill_parent"  
+    android:layout_height="fill_parent"  
+        android:shrinkColumns="*"  
+    android:stretchColumns="*"  
+> 
+<TableRow   
+        android:layout_height="wrap_content"  
+        android:layout_width="wrap_content"  
+        android:gravity="center_horizontal">  
+ <ImageView
+           android:layout_width="wrap_content" 
+         android:layout_height="wrap_content" 
+           android:gravity="left"
+           android:layout_span="1"
+            android:src="@drawable/tomeblue"
+           >
+      </ImageView>
+      
+      <TextView
+                  android:layout_width="wrap_content" 
+         android:layout_height="wrap_content"   
+            android:gravity="left"
+            android:textColor="#000099"
+            android:layout_span="8"
+            android:text="智慧之书 Tome of Intelligence永久增加英雄智慧1点。" >
+        </TextView>
+
+        </TableRow>
+        </TableLayout>
+        <TableLayout android:layout_marginTop="10dp"  
+    android:layout_width="fill_parent"  
+    android:layout_height="fill_parent"  
+        android:shrinkColumns="*"  
+    android:stretchColumns="*"  
+> 
+<TableRow   
+        android:layout_height="wrap_content"  
+        android:layout_width="wrap_content"  
+        android:gravity="center_horizontal">  
+ <ImageView
+           android:layout_width="wrap_content" 
+         android:layout_height="wrap_content" 
+           android:gravity="left"
+           android:layout_span="1"
+            android:src="@drawable/tomeblue"
+           >
+      </ImageView>
+      
+      <TextView
+                  android:layout_width="wrap_content" 
+         android:layout_height="wrap_content"   
+            android:gravity="left"
+            android:textColor="#000099"
+            android:layout_span="8"
+            android:text="智慧之书 Tome of Intelligence +2永久增加英雄智慧2点。" >
+        </TextView>
+
+        </TableRow>
+        </TableLayout>
+        <TableLayout android:layout_marginTop="10dp"  
+    android:layout_width="fill_parent"  
+    android:layout_height="fill_parent"  
+        android:shrinkColumns="*"  
+    android:stretchColumns="*"  
+> 
+<TableRow   
+        android:layout_height="wrap_content"  
+        android:layout_width="wrap_content"  
+        android:gravity="center_horizontal">  
+ <ImageView
+           android:layout_width="wrap_content" 
+         android:layout_height="wrap_content" 
+           android:gravity="left"
+           android:layout_span="1"
+            android:src="@drawable/tomered"
+           >
+      </ImageView>
+      
+      <TextView
+                  android:layout_width="wrap_content" 
+         android:layout_height="wrap_content"   
+            android:gravity="left"
+            android:textColor="#000099"
+            android:layout_span="8"
+            android:text="能量之书 Tome of Power提升英雄一个等级。" >
+        </TextView>
+
+        </TableRow>
+        </TableLayout>
+        <TableLayout android:layout_marginTop="10dp"  
+    android:layout_width="fill_parent"  
+    android:layout_height="fill_parent"  
+        android:shrinkColumns="*"  
+    android:stretchColumns="*"  
+> 
+<TableRow   
+        android:layout_height="wrap_content"  
+        android:layout_width="wrap_content"  
+        android:gravity="center_horizontal">  
+ <ImageView
+           android:layout_width="wrap_content" 
+         android:layout_height="wrap_content" 
+           android:gravity="left"
+           android:layout_span="1"
+            android:src="@drawable/tomeblue"
+           >
+      </ImageView>
+      
+      <TextView
+                  android:layout_width="wrap_content" 
+         android:layout_height="wrap_content"   
+            android:gravity="left"
+            android:textColor="#000099"
+            android:layout_span="8"
+            android:text="力量之书 Tome of Strength永久增加英雄力量1点。" >
+        </TextView>
+
+        </TableRow>
+        </TableLayout>
+        <TableLayout android:layout_marginTop="10dp"  
+    android:layout_width="fill_parent"  
+    android:layout_height="fill_parent"  
+        android:shrinkColumns="*"  
+    android:stretchColumns="*"  
+> 
+<TableRow   
+        android:layout_height="wrap_content"  
+        android:layout_width="wrap_content"  
+        android:gravity="center_horizontal">  
+ <ImageView
+           android:layout_width="wrap_content" 
+         android:layout_height="wrap_content" 
+           android:gravity="left"
+           android:layout_span="1"
+            android:src="@drawable/tomeblue"
+           >
+      </ImageView>
+      
+      <TextView
+                  android:layout_width="wrap_content" 
+         android:layout_height="wrap_content"   
+            android:gravity="left"
+            android:textColor="#000099"
+            android:layout_span="8"
+            android:text="力量之书 Tome of Strength +2永久增加英雄力量2点。" >
+        </TextView>
+
+        </TableRow>
+        </TableLayout>
+
+    </LinearLayout>
+</ScrollView>
+</LinearLayout>

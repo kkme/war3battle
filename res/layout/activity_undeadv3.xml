@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#eee"
+        android:orientation="vertical" >
+        
+        <LinearLayout 
+  			android:layout_width="fill_parent"
+  			android:layout_height="45dp"
+  			android:id="@+id/title" 
+  			android:background="@drawable/title_bar"
+  			android:gravity="center_horizontal|center_vertical"  >  
+      <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="返回" 
+        android:onClick="backv3"
+        />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="不死族VS精灵族"
+        android:gravity="center|center_horizontal|center_vertical"
+        android:textColor="#ffffff"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="点我" 
+        android:onClick="clickv3"
+        />    
+			</LinearLayout>
+<ScrollView 
+
+    android:id="@+id/ScrollView01" 
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content"
+
+>
+
+<LinearLayout 
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    >
+      
+    <TextView  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"  
+            android:textStyle="bold"  
+            android:typeface="serif"  
+            android:textSize="18sp"  
+            android:text="UD VS NE"  
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"  
+            android:gravity="left"  
+            android:textColor="#000"></TextView>  
+
+
+        
+    <TextView  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"    
+            android:text="        现在最流行的就是天地鬼，天鬼冰龙，TeD流，RUSH，后期混合部队大战，胖子+投车等。还有其他霸王冲击波，直接狗+投车2本压制，Bly的2本TR，对开矿，骷髅海等大招。"  
+            android:gravity="left"  
+            android:textColor="#000"></TextView>  
+
+    
+    <TextView  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"  
+            android:textStyle="bold"  
+            android:typeface="serif"  
+            android:textSize="18sp"  
+            android:text="1本RUSH NE"  
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"  
+            android:gravity="left"  
+            android:textColor="#000"></TextView>  
+
+
+        
+    <TextView  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"    
+            android:text="        首先要做的就是隐藏自己RUSH的意图。就是等他精灵来探了路之后再补第2个BC，且DK走出祭坛最好把他探路的精灵杀掉。去进攻的时候碰到DH拖延时间，前2次如果围不到，就尽量不要围了，他接近就A下他，他跑就无视，再接近再A……然后去到他基地，小G分成2~3个部分，分别攻击AC，使他频于拉扯缺乏DPS。骷髅记住分散，不要让小精灵一下爆完。"  
+            android:gravity="left"  
+            android:textColor="#000"></TextView>  
+
+     
+    <TextView  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"  
+            android:textStyle="bold"  
+            android:typeface="serif"  
+            android:textSize="18sp"  
+            android:text="UD狗流开局前期对抗NE"  
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"  
+            android:gravity="left"  
+            android:textColor="#000"></TextView>  
+
+
+        
+    <TextView  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"    
+            android:text="        现在比较流行的开局是BC BA BZ，DK出来后拖3个小G练基地旁边的小点。TR是141，EI是131。练完后召2个骷髅，DK带骷髅骚扰，而小G则是跑回基地采木。也可以DK骚扰，升了本后再拖小G双线小点的。反正DK前期的任务就是要避开DH，2个骷髅最好分开，分一个去NE最喜欢藏精灵的点（EI是酒馆右侧的树林凹位，TR是地图中间等等），DK和另一个骷髅去NE家。例如EI图，练完131DK绕到地图中间再去NE家，而不是走市场。而TR图，NE出生在10点，UD出生在4点，则UD可以先去12点的基地，然后再绕去10点位。1个骷髅，精灵肯定不会爆的，这里有个精灵喝不及水的方法，就是骷髅砍1刀的同时DK一个C。具体的步骤是骷髅快A到的时候DK 补C。如果他爆了，那就当是1发C骗他一个精灵吧。这时应该是晚上，他要就DH回防要就DH买鞋买单传回防，这时DK都是必须走的。这个时候UD应该也出到半队左右小G了，可以双线第2个小点（TR是邻位141，EI是333）这时DK到2级应该没问题了。DK的任务就是跟着他部队，他练大点，立刻拖一波狗去捉，他不练，就跟着他。自己接近2本的时候也可以拖狗去他基地退他的2本建筑。通常针对他2发PD，你就出NAGA。他出NAGA，你就出LICH。至于面对他中立首发，他前期肯定也是MF为主。DK前期练了一个小点后，就拖3~4个小G去他基地杀精灵，他基地没精灵就打月井。反正他的大部队肯定要回防的，这样中断他MF，也等于变相骚扰他的练级速度了。他回防，你立刻撤，他去MF，再骚扰，如此反复。反正UDTeD流和天地鬼，前期对DK等级的要求非常低，2J就够了。你没有等级，他也没有等级，对手NE中立首发来说无疑是最好的结果。中立首发升到3级，就会有质变。"  
+            android:gravity="left"  
+            android:layout_marginBottom="5dp"
+            android:textColor="#000"></TextView>  
+
+
+        
+    <TextView  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"    
+            android:text="        狗流对抗NE中期。分成3种情况。1是NE中立首发，2本爆鹿开矿。2是DH+PD MF。第3是DH+NAGA MF。"  
+            android:gravity="left"  
+            android:layout_marginBottom="5dp"
+            android:textColor="#000"></TextView>  
+
+
+        
+    <TextView  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"    
+            android:text="        1.这个比较难搞，充分利用了UD的真空期，在接近2本的时候在基地里种BT（生命之树），2本时走到分矿配合MF并开出。由于中立首发前期AC非常多，不怕RUSH，所以2本时当然也不怕UD阻挠自己开分矿了。之后就是茫茫多小鹿，如果UD前几波打不赢NE，就会被拖死了。面对这，有几种应对的办法。1是ZZ流。参照WCG2008 TED对MOON在TR那场，无限攻击他分矿迫使MOON不得不战斗，从而逐渐点死小鹿。在鹿的数量不多的时候是打不过ZZ的。2是天地鬼。迅速到3，大半队天鬼大半队地鬼买群防群补强势一波，如果打退NE的话就可以直接把他分矿拔掉。3是胖子+投石车+棺材憋到70人口直接一波把他打沉。此组合打纯鹿无敌，不解释。"  
+            android:gravity="left"  
+            android:layout_marginBottom="5dp"
+            android:textColor="#000"></TextView>  
+
+
+        
+    <TextView  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"    
+            android:text="        2.DH+PD，他PD到3是关键，所以对于UD来说，阻止他PD到3同样是关键。打这个组合，UD通常会选择TeD流或者天地鬼。前者，DH+NAGA就在他部队附近3陪。如果他DH也在，DK就把鞋给NAGA，DK放完C打到他的部队身上，然后时不时去点一下，特别是磨AC。NE AC少，MF效率就会有所降低。UD这时3陪的任务并不是要赚什么，而是给NE压力，陪到自己ZZ和棺材出来就可以去MF了。尽量把NAGA升到2级，这样就能凑够UD 3连杀。等3发LICH和毁灭研究好后买1个群补拖上所有狗直接去他基地一波。这时要NE的科技和他的熊是否有趴下。如果前期UD骚扰到位，杀2~3个精灵，一般NE这个时候熊都是没能趴的。UD什么都不用说，飞起毁灭配合狗打熊。PD如果是1J火，无视，2口再吃群补。如果是2级火立刻吃，点死他的熊后小G中了第2口火全部撤退。然后这时第2个棺材应该会加入战场，场上就留下3英雄ZZ 毁灭棺材。如果他没有新出的熊，部队的恢复将成为很大的问题，如果他套返老你毁灭立刻吸，拖下UD可以赢。如果TED一波的时候他的熊数量有3~4个，而且能趴了，那么UD最好选择撤退，然后狂MF。这时野外交战依然是UD强势，避免在NE家里打就OK了。至于天地鬼，3本前骚扰精灵，3本后出阴影，捉MF为主。一旦捉到NE MF大点，NE很多时都要交TP的。然后不断杀精灵（8个天鬼后一轮点1个精灵，单BP可以无视），压50人口补BZ，补埋骨地，然后憋到1千+钱开始爆天鬼和冰龙一波拿下NE。注意的是阴影不断游走他附近的矿，天鬼骚扰的同时也不要忘记DK带LICH去MF。憋到70人口2条冰龙就是买群防群补一波。"  
+            android:gravity="left"  
+            android:layout_marginBottom="5dp"
+            android:textColor="#000"></TextView>  
+
+
+        
+    <TextView  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"    
+            android:text="        2队是满编的天鬼。1队是小G天鬼冰龙的混合部队。"  
+            android:gravity="left"  
+            android:layout_marginBottom="5dp"
+            android:textColor="#000"></TextView>  
+
+
+        
+    <TextView  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"    
+            android:text="        3.打2发NAGA，如果你也出NAGA，会非常容易被对手杀死。所以要出LICH，依然是3陪，然后3本一波。可以不买3发英雄，省点钱给DK补个蓝瓶，补个无敌等。这波也上TeD流，一见面给他DH一个NC，尽量点射NE的单位，例如熊或鹿。又或者趁机秒NAGA等。NE刚3本的时候是比较弱势的，UD如果能捉住这个机会给予NE沉重的一波，就能迅速占据场面上的优势。"  
+            android:gravity="left"  
+            android:layout_marginBottom="5dp"
+            android:textColor="#000"></TextView>  
+       
+    <TextView  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"  
+            android:textStyle="bold"  
+            android:typeface="serif"  
+            android:textSize="18sp"  
+            android:text="其他大招"  
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"  
+            android:gravity="left"  
+            android:textColor="#000"></TextView>  
+
+
+        
+    <TextView  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"    
+            android:text="        霸王冲击波。不要和TC扯上关系。大概流程是，有2种。1种是常规狗流开局，常规升本，但一直爆狗不要停。接下来在NE2本前选个诡异的时间走一条诡异的路线绕到NE家中直接用大量小G来包着基地拆。这时大概是8~9个小G+2个骷髅+1DK。如果NE维修不及时基地很容易被打爆。还有种就是类似TM等大地图，BC BZ开局直攀2本，2本后一次买出2个英雄最好的选择是FL和TK，带8个小G去NE家，放个工厂堵住一边，然后全力拆，也有异曲同工之秒。"  
+            android:gravity="left"  
+            android:textColor="#000"></TextView>  
+
+    
+    <TextView  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"  
+            android:textStyle="bold"  
+            android:typeface="serif"  
+            android:textSize="18sp"  
+            android:text="2本TR"  
+            android:gravity="left"  
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"  
+            android:textColor="#000"></TextView>  
+
+
+        
+    <TextView  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"    
+            android:text="        UD选手来说，我暂时是看过bly4eg用得最多。就是针对速3本的NE，2本时的真空期，直接拖上所有部队带地皮去TR。攻击时不要被他引入树林，就近攻击，部队开始转ZZ，前线造个BH出投石车和棺材。"  
+            android:gravity="left"  
+            android:textColor="#000"></TextView>  
+
+    
+    <TextView  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"  
+            android:textStyle="bold"  
+            android:typeface="serif"  
+            android:textSize="18sp"  
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"  
+            android:text="对开矿"  
+            android:gravity="left"  
+            android:textColor="#000"></TextView>  
+
+
+        
+    <TextView  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"    
+            android:text="        要说到UD对抗NE，开矿开得最凶最猛的，当然是Hasu了。单线开，双线开，造塔开，各种开。可以DK骚扰的时候拖7~8个小G双线EI分矿或MV分矿，也可以直接开，然后造塔+双BC爆狗顶住，再转天鬼。也可以先野墓地，再开。"  
+            android:gravity="left"  
+            android:textColor="#000"></TextView>  
+
+     
+    <TextView  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"  
+            android:textStyle="bold"  
+            android:typeface="serif"  
+            android:textSize="18sp"  
+            android:text="骷髅海"  
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"  
+            android:gravity="left"  
+            android:textColor="#000"></TextView>  
+
+
+        
+    <TextView  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"    
+            android:text="        要说到骷髅海，肯定很多人都会想到bosuhe。前期该干嘛干嘛，2本后开始造双BT单BH（前期尽量少拖狗MF，不然2本不够木了）。开始出男巫和棺材，先从坟场里召唤些骷髅探路配合英雄MF。2本后研究男巫大师级和骷髅法师，买好装备直接进攻到NE基地。注意的是进攻前最好把双英雄练到3，在大量骷髅的配合下应该不难的。去的时候先召唤好骷髅，第1波尽量分散，配合英雄的NC骗他的精灵，接下来再召唤第2波 ，投石车法师等直接拉后远离他的PD。之后想怎么打就怎么打。"  
+            android:gravity="left"  
+            android:layout_marginBottom="5dp"
+            android:textColor="#000"></TextView>  
+
+
+        
+    <TextView  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"    
+            android:text="        UD打NE来说，还是具有一定优势的，具体就是看UD的一波能对NE造成多打的打击。 "  
+            android:gravity="left"  
+            android:textColor="#000"></TextView>  
+
+
+</LinearLayout>
+</ScrollView>
+</LinearLayout>

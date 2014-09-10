@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#eee"
+        android:orientation="vertical" >
+        
+        <LinearLayout 
+  			android:layout_width="fill_parent"
+  			android:layout_height="45dp"
+  			android:id="@+id/title" 
+  			android:background="@drawable/title_bar"
+  			android:gravity="center_horizontal|center_vertical"  >  
+      		<TextView 
+        		android:layout_width="wrap_content" 
+        		android:layout_height="wrap_content" 
+        		android:text="月亮井"
+        		android:textSize="20sp"		
+				android:textColor="#ffffff" />       
+			</LinearLayout>
+<ScrollView 
+
+    android:layout_width="fill_parent" 
+    android:layout_height="fill_parent"
+    android:background="#eee"
+>
+<LinearLayout 
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    >
+ 
+ <ImageView
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:layout_gravity="center"
+     android:layout_marginBottom="10dp"
+     android:layout_marginTop="10dp"
+     android:gravity="left"
+     android:src="@drawable/moonwell" >
+
+      </ImageView>
+
+<TextView  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="介绍"  
+            android:gravity="left"
+             android:textColor="#0000CC"
+            android:textSize="18sp"   
+            ></TextView>  
+<TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="        月亮井提供食物，而且还可以恢复友军的生命和魔法。在夜晚，月亮井的魔法会自动恢复。 "  
+            android:gravity="left"  
+           ></TextView>  
+<TextView  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="数据"  
+            android:gravity="left"
+            android:textColor="#0000CC"
+            android:layout_marginTop="10dp"
+            android:textSize="18sp"  
+         ></TextView>  
+       
+      <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="费用:180/40 "  
+            android:gravity="left" 
+            android:layout_span="1" 
+           ></TextView>
+
+    
+      <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="生命值:600"  
+            android:gravity="left" 
+            android:layout_span="1" 
+           ></TextView>
+     
+      <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="护甲:5"  
+            android:gravity="left" 
+            android:layout_span="1" 
+           ></TextView>
+
+     
+      <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="护甲类型:城甲 "  
+            android:gravity="left" 
+            android:layout_span="1" 
+           ></TextView>
+
+ 
+      
+      <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="视野：90/60 "  
+            android:gravity="left" 
+            android:layout_span="1" 
+           ></TextView>
+
+ 
+     
+      <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="食物：10"  
+            android:gravity="left" 
+            android:layout_span="1" 
+           ></TextView>
+
+		<TextView android:textColor="#000"  
+		            android:layout_width="wrap_content"  
+		            android:layout_height="wrap_content"    
+		            android:text="魔法：600/300"  
+		            android:gravity="left" 
+		            android:layout_span="1" 
+		           ></TextView>
+	
+		  
+      <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="建造时间：50"  
+            android:gravity="left" 
+            android:layout_span="1" 
+           ></TextView>
+
+
+
+
+
+<TextView   
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="技能"
+            android:layout_marginTop="10dp"
+                        android:textColor="#0000CC"
+            android:textSize="18sp"    
+            android:gravity="left"  
+         >
+</TextView>
+<LinearLayout
+     android:layout_width="fill_parent"
+     android:layout_height="wrap_content"
+     android:layout_alignParentBottom="true"
+     android:paddingBottom="2dp"            
+   >
+<LinearLayout
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:gravity="center_horizontal"
+      android:layout_marginTop="10dp"
+      android:orientation="vertical"
+      android:layout_weight="1">               	
+      <ImageView
+           android:id="@+id/img_friends"
+           android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"        	     	
+        	android:scaleType="matrix"
+        	android:clickable="true"
+        	android:src="@drawable/manarecharge" />
+      <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="补充魔法和生命"
+            android:textColor="#000"
+            android:textSize="12sp" />                
+ </LinearLayout>
+</LinearLayout> 
+
+
+</LinearLayout>
+</ScrollView>
+</LinearLayout>

@@ -1,0 +1,968 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#eee"
+        android:orientation="vertical" >
+        
+        <LinearLayout 
+  			android:layout_width="fill_parent"
+  			android:layout_height="45dp"
+  			android:id="@+id/title" 
+  			android:background="@drawable/title_bar"
+  			android:gravity="center_horizontal|center_vertical"  >  
+      		<TextView 
+        		android:layout_width="wrap_content" 
+        		android:layout_height="wrap_content" 
+        		android:text="技能基础"
+        		android:textSize="20sp"		
+				android:textColor="#ffffff" />       
+			</LinearLayout>
+<ScrollView 
+
+
+    android:layout_width="fill_parent" 
+    android:background="#eee"
+    android:layout_height="fill_parent">
+
+<LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:layout_marginTop="10dp"
+        android:text="        魔兽争霸III中的英雄和一些单位拥有技能。有些技能能够增强友军或者削弱敌人。有些技能对敌人直接造成伤害或者对治疗友军。所有的技能消耗一定的魔法值。物理技能不需要魔法。大部分高耗魔的技能需要手动施放。"
+        android:textColor="#000" >
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:gravity="left"
+        android:text="技能种类"
+        android:textColor="#0033CC" >
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:gravity="left"
+        android:text="技能分为三类：物理的，魔法的和通用的。"
+        android:textColor="#000" >
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:gravity="left"
+        android:text="物理技能 - Physical Spells "
+        android:textColor="#0033CC" >
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:gravity="left"
+        android:text="        物理技能不会被驱散，能对魔免单位和普通单位使用，不能对虚无单位使用。     "
+        android:textColor="#000" >
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:gravity="left"
+        android:text="        例如
+        - 多种类型的毒（不包括暗影突袭）
+        - 诱捕和蛛网
+        - 致命一击/重击/其他攻击效果
+        - 疾病 
+        - 类似不需要魔法的技能（耗魔技能不会是物理技能） "
+        android:textColor="#000" >
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:gravity="left"
+        android:text="魔法技能 - Magical Spells "
+        android:textColor="#0033CC" >
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:text="        魔法技能可以被驱散，不能对魔免单位使用，可以对虚无单位和普通单位使用。魔法技能不能对建筑和机械单位使用。（令人最郁闷的，女巫的减速为什么可以对攻城机械单位使用？？？） "
+        android:textColor="#000" >
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:gravity="left"
+        android:text="        例如
+        - 风暴之锤 
+        - 腐臭蜂群
+        - 嗜血术
+        - 变形术                                 "
+        android:textColor="#000" >
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:gravity="left"
+        android:text="通用技能 - Universal Spells   "
+        android:textColor="#0033CC" >
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:text="        通用技能在任何情况下都起作用，不会被驱散。包括终极技能，治疗技能。某些通用技能对机械单位不起作用。     "
+        android:textColor="#000" >
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:gravity="left"
+        android:text="        例如
+         - 治疗
+         - 终极 
+         - 光环                         "
+        android:textColor="#000" >
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:gravity="left"
+        android:text="吟唱时间 - Cast Time     "
+        android:textColor="#0033CC" >
+
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:text="        吟唱时间是从开始施放技能到技能起作用或者是技能结束的总时间。吟唱时间越长，施放时间也越长。（Cast Time is the amount of time it takes from the start of casting until the spell is activated or finished casting. The longer the Cast Time, the longer it takes to cast a spell. ）（这段话不怎么理解）   "
+        android:textColor="#000" >
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:gravity="left"
+        android:text="持续时间 - Duration"
+        android:textColor="#0033CC" >
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:gravity="left"
+        android:text="        持续时间是技能起作用的时间。"
+        android:textColor="#000" >
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:gravity="left"
+        android:text="使用间隔（冷却时间） - Cooldown"
+        android:textColor="#0033CC" >
+
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:gravity="left"
+        android:text="        通用技能在任何情况下都起作用，不会被驱散。包括终极技能，治疗技能。某些通用技能对机械单位不起作用。"
+        android:textColor="#000" >
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:text="        冷却时间是2次使用相同技能间的时间。也可以理解为吟唱延迟（Casting Delay）。冷却时间是固定的，不受魔法值和魔法恢复的影响。物理技能不需要魔法，但是它们都有冷却时间。 "
+        android:textColor="#000" >
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:gravity="left"
+        android:text="智力 - Intelligence"
+        android:textColor="#0033CC" >
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:text="        英雄的智力决定了魔法值的总量。增加智力可以增加魔法值的总量，同时也略微提升魔法恢复速度。"
+        android:textColor="#000" >
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:gravity="left"
+        android:text="魔法恢复 - Mana Regeneration"
+        android:textColor="#0033CC" >
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:gravity="left"
+        android:text="        魔法恢复决定了魔法恢复的速度。"
+        android:textColor="#000" >
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:gravity="left"
+        android:text="研究时间 - Researching Spells "
+        android:textColor="#0033CC" >
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:gravity="left"
+        android:text="         许多技能需要研究。英雄需要提升等级来获得技能点来学习新技能。"
+        android:textColor="#000" >
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:gravity="left"
+        android:text="技能引导（槽） - Spell Channeling  "
+        android:textColor="#0033CC" >
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:text="        某些技能必须“维持”来达到全部效果。主要应用在范围型高伤害魔法上面。例如，你想要对敌人基地使用地震，你的先知保持施放技能直到地震结束。如果你给他一个新的命令，先知就会停止施放地震。 "
+        android:textColor="#000" >
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:gravity="left"
+        android:text="受此影响的技能：   "
+        android:textColor="#000" >
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:gravity="left"
+        android:text="        人族：大法师 - 暴风雪"
+        android:textColor="#000" >
+    </TextView>
+	<TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:gravity="left"
+        android:text="        人族：大法师 - 群体传送"
+        android:textColor="#000" >
+    </TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:gravity="left"
+        android:text="        人族：血魔法师 - 烈焰风暴（前2秒）  "
+        android:textColor="#000" >
+    </TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:gravity="left"
+        android:text="        人族：血魔法师 - 魔法吮吸  "
+        android:textColor="#000" >
+    </TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:gravity="left"
+        android:text="        人族：龙鹰 - 云雾  "
+        android:textColor="#000" >
+    </TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:gravity="left"
+        android:text="        人族：龙鹰 - 空中枷锁  "
+        android:textColor="#000" >
+    </TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:gravity="left"
+        android:text="        兽族：先知 - 地震  "
+        android:textColor="#000" >
+    </TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:gravity="left"
+        android:text="        兽族：暗影猎手 - 巫毒  "
+        android:textColor="#000" >
+    </TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:gravity="left"
+        android:text="        暗夜精灵族：丛林守护者 - 宁静  "
+        android:textColor="#000" >
+    </TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:gravity="left"
+        android:text="        暗夜精灵族：月之女祭司 - 流星雨  "
+        android:textColor="#000" >
+    </TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:gravity="left"
+        android:text="        不死族：巫妖 - 死亡凋零  "
+        android:textColor="#000" >
+    </TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:gravity="left"
+        android:text="        不死族：女妖 - 占据  "
+        android:textColor="#000" >
+    </TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:gravity="left"
+        android:text="        中立：黑暗游侠 - 生命吸取  "
+        android:textColor="#000" >
+    </TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:gravity="left"
+        android:text="        中立：深渊领主 - 火焰雨"
+        android:textColor="#000" >
+    </TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:gravity="left"
+        android:text="        中立：娜迦女海巫 - 龙卷风  "
+        android:textColor="#000" >
+    </TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:gravity="left"
+        android:text="        中立：驯兽师 - 惊吓  "
+        android:textColor="#000" >
+    </TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:gravity="left"
+        android:text="        中立：火焰领主 - 火山  "
+        android:textColor="#000" >
+    </TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:gravity="left"
+        android:text="你可以用下面的技能来打断以上这些技能：  "
+        android:textColor="#000" >
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:gravity="left"
+        android:text="        人族：女巫 - 变羊术（对英雄无效）"
+        android:textColor="#000" >
+    </TextView>
+	<TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:gravity="left"
+        android:text="        人族：龙鹰 - 空中枷锁（对地面部队无效）  "
+        android:textColor="#000" >
+    </TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:gravity="left"
+        android:text="        人族：山丘之王 - 风暴之锤  "
+        android:textColor="#000" >
+    </TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:gravity="left"
+        android:text="        人族：山丘之王 - 重击（对空军无效）  "
+        android:textColor="#000" >
+    </TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:gravity="left"
+        android:text="        兽族：狼骑兵 - 诱捕"
+        android:textColor="#000" >
+    </TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:gravity="left"
+        android:text="        兽族：牛头人酋长 - 战争践踏（对空军无效）  "
+        android:textColor="#000" >
+    </TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:gravity="left"
+        android:text="        兽族：巫医 - 静止陷阱（对空军无效）  "
+        android:textColor="#000" >
+    </TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:gravity="left"
+        android:text="        兽族：暗影猎手 - 妖术  "
+        android:textColor="#000" >
+    </TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:gravity="left"
+        android:text="        暗夜精灵族：猛禽德鲁依 - 飓风（对空军无效）  "
+        android:textColor="#000" >
+    </TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:gravity="left"
+        android:text="        暗夜精灵族：丛林守护者 - 缠绕（对空军无效）  "
+        android:textColor="#000" >
+    </TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:gravity="left"
+        android:text="        不死族：地穴恶魔 - 蛛网（对地面部队无效）"
+        android:textColor="#000" >
+    </TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:gravity="left"
+        android:text="        不死族：恐惧魔王 - 睡眠  "
+        android:textColor="#000" >
+    </TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:gravity="left"
+        android:text="        不死族：恐惧魔王 - 地狱火（对空军无效）  "
+        android:textColor="#000" >
+    </TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:gravity="left"
+        android:text="        不死族：地穴领主 - 穿刺（对空军无效）  "
+        android:textColor="#000" >
+    </TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:gravity="left"
+        android:text="        中立：黑暗游侠 - 沉默  "
+        android:textColor="#000" >
+    </TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:gravity="left"
+        android:text="        中立：黑暗游侠 - 符咒（对英雄无效）"
+        android:textColor="#000" >
+    </TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:gravity="left"
+        android:text="        中立：地精修补匠 - 导弹轰炸（对空军无效）  "
+        android:textColor="#000" >
+    </TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:gravity="left"
+        android:text="        中立：深远领主 - 恶魔缠身（对英雄无效）  "
+        android:textColor="#000" >
+    </TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:gravity="left"
+        android:text="        中立：火焰领主 - 灵魂燃烧  "
+        android:textColor="#000" >
+    </TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:gravity="left"
+        android:text="        中立：火焰领主 - 火山（对空军无效）  "
+        android:textColor="#000" >
+    </TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:gravity="left"
+        android:text="        中立：毁灭守卫 - 战争践踏（对空军无效）  "
+        android:textColor="#000" >
+    </TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:gravity="left"
+        android:text="        物品：沉默权杖"
+        android:textColor="#000" >
+    </TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:text="        为了减少你的微操，当你在对一个小队下命令时，不会影响到正在引导技能的单位。  "
+        android:textColor="#000" >
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:text="        精灵龙 - 魔法闪耀 - 这个持续施放技能不会被敌人中断，除非杀了精灵龙。  "
+        android:textColor="#000" >
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:gravity="left"
+        android:text="有益魔法效果 - Buff  "
+        android:textColor="#0033CC" >
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:gravity="left"
+        android:text="        Buff是有益的魔法效果。例如牧师的心灵之火。  "
+        android:textColor="#000" >
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:gravity="left"
+        android:text="驱散及负面魔法效果 - Dispel or De-Buff  "
+        android:textColor="#0033CC" >
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:text="        你可以使用驱散技能来移除你的单位的De-Buff或者敌方单位的Buff：  "
+        android:textColor="#000" >
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:gravity="left"
+        android:text="        人族: 牧师 - 驱散, 魔法破坏者 - 盗法 "
+        android:textColor="#000" >
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:gravity="left"
+        android:text="         兽族: 萨满祭司 - 净化, 灵魂行者 - 消魔  "
+        android:textColor="#000" >
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:gravity="left"
+        android:text="         暗夜精灵族: 树妖 - 驱散魔法, 小精灵 - 自爆  "
+        android:textColor="#000" >
+
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:gravity="left"
+        android:text="         不死族: 女妖 - 反魔法盾, 毁灭者 - 吞噬魔法  "
+        android:textColor="#000" >
+
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:gravity="left"
+        android:text="        中立: 风暴 - 驱散 "
+        android:textColor="#000" >
+
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:text="        驱散并不能去除任何技能或者像暴风雪这样的范围魔法。一般来说驱散只能去除单位身上的有益魔法效果和负面魔法效果。 有些效果不能驱散，比如毒和净化导致的减速. "
+        android:textColor="#000" >
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:text="        大部分驱散技能可以对敌人的召唤单位，幻像和守卫造成伤害。驱散并不是立即驱散掉召唤单位。每个驱散技能都有具体的对召唤单位的伤害量。不同于其他驱散技能，反魔法盾不能对召唤单位造成伤害。具有魔法免疫的召唤单位不会因为驱散而受到伤害。  "
+        android:textColor="#000" >
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:text="        树妖的驱散魔法在自动施放时可以驱散掉敌人的有益魔法效果和友军的负面魔法效果，但在手动施放时，它会驱散掉所有的魔法效果。魔法破坏者的盗法可以从敌军身上将有益魔法效果转移到临近的我方单位身上，也可以将我军身上的负面魔法效果转移的临近的敌方单位身上。其他驱散会驱散目标的所有魔法效果。  "
+        android:textColor="#000" >
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:gravity="left"
+        android:text="自动施放技能 - Autocast Spells "
+        android:textColor="#0033CC" >
+
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:text="        所有的有益魔法施放单位更喜欢对靠自己近的友军单位施放。当周围没有友军时，他们会对自己使用，当然是在满足施放规则的情况下。例如，一个孤独的萨满祭祀不会对自己施放嗜血术，除非开始攻击。  "
+        android:textColor="#000" >
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:gravity="left"
+        android:text="        暴雪是如何决定哪些技能可以设置为自动施放的？"
+        android:textColor="#0033CC" >
+
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:gravity="left"
+        android:text="        1) 这个技能必须很简单，有简单的规则，那样我们方便的设置释放AI，玩家能知道什么时候它们会起作用。"
+        android:textColor="#000" >
+
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:gravity="left"
+        android:text="        2) 高魔法消耗的技能不会设为自动施放。"
+        android:textColor="#000" >
+
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:gravity="left"
+        android:text="        3) 枯燥地被施放的技能通常被设为自动施放。例如，在魔兽争霸2中，玩家手动施放的治疗的嗜血术。"
+        android:textColor="#000" >
+
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:gravity="left"
+        android:text="光环 - Auras "
+        android:textColor="#0033CC" >
+
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:gravity="left"
+        android:text="        当拥有光环的单位隐形时，光环无效。  "
+        android:textColor="#000" >
+
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:gravity="left"
+        android:text="直线伤害技能 - Line damage spells  "
+        android:textColor="#0033CC" >
+
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:gravity="left"
+        android:text="        直线伤害技能不会伤害友好的目标单位。 "
+        android:textColor="#000" >
+
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:gravity="left"
+        android:text="终极技能     "
+        android:textColor="#0033CC" >
+
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:text="        持续性终极技能会取消无敌。当在施放持续性终极技能时使用无敌，会中断持续性终极技能的施放。  "
+        android:textColor="#000" >
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:gravity="left"
+        android:text="虚无形态 - Ethereal  "
+        android:textColor="#0033CC" >
+
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:textColor="#000"
+        android:text="        虚无的定义是: Characterized by lightness and insubstantiality; intangible. 虚无状态的单位只会受到魔法攻击。虚无单位自身也无法进行物理攻击，但可以使用技能。但是，虚无单位也会受到来自魔法攻击的66%额外伤害。 " >
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:text="        虚无单位也能享受到66%的治疗加成。1级圣光可以治疗虚无单位333生命。只有技能可以这样，物品和光环治疗不行。  "
+        android:textColor="#000" >
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:gravity="left"
+        android:text="抗性皮肤 - Resistant Skin  "
+        android:textColor="#0033CC" >
+
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:text="        减少负面魔法效果持续时间，并给与单位对某些技能免疫。抗性皮肤意味着你不能对他使用魅惑，根须缠绕和诱捕。（Resistant Skin means you can&apos;t charm it and use abilities like Entangling Roots and Ensnare.）  "
+        android:textColor="#000" >
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:gravity="left"
+        android:text="中毒技能 - Poison Spells  "
+        android:textColor="#0033CC" >
+
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:gravity="left"
+        android:text="        中毒不会杀死单位，最多减到2点生命值。  "
+        android:textColor="#000" >
+
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:text="        中毒可以堆栈，但是要来自不同单位。例如，1个单位用每秒伤害为5的毒攻击目标，目标每秒受到5点伤害。多次攻击同个目标不能叠加。如果2个单位用同样的毒攻击一个目标，目标每秒会受到10点伤害。 "
+        android:textColor="#000" >
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:gravity="left"
+        android:text="范围魔法 - Area of Effect Spells (AOE)  "
+        android:textColor="#0033CC" >
+
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:text="        范围魔法对友军，敌人和中立单位的伤害是不同的。"
+        android:textColor="#000" >
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:gravity="left"
+        android:text="重生 - Reincarnation Ability "
+        android:textColor="#0033CC" >
+
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:text="        当你杀死一个拥有重生能力的单位时，你不能获得经验。"
+        android:textColor="#000" >
+    </TextView>
+</LinearLayout>
+
+</ScrollView>
+</LinearLayout>

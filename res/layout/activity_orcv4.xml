@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#eee"
+        android:orientation="vertical" >
+        
+        <LinearLayout 
+  			android:layout_width="fill_parent"
+  			android:layout_height="45dp"
+  			android:id="@+id/title" 
+  			android:background="@drawable/title_bar"
+  			android:gravity="center_horizontal|center_vertical"  >  
+      <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="返回" 
+        android:onClick="backv4"
+        />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="兽族VS不死族"
+        android:gravity="center|center_horizontal|center_vertical"
+        android:textColor="#ffffff"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="点我" 
+        android:onClick="clickv4"
+        />    
+			</LinearLayout>
+<ScrollView 
+
+    android:id="@+id/ScrollView01" 
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content"
+
+>
+
+<LinearLayout 
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    >
+     
+    <TextView  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"  
+            android:textStyle="bold"  
+            android:typeface="serif"  
+            android:textSize="18sp"  
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:text="部落之战（Orc V UD）"  
+            android:gravity="left"  
+            android:textColor="#000"></TextView>  
+
+
+        
+    <TextView  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"    
+            android:text="        现在这个版本，ORC对UD的优势已经不言而喻。所以，涌现出很多奥特曼一族。通常这些ORC，万年首发BM，技能只会运用E（狼骑网）W（BM W砍）X（SH变动物）的强杀英雄流。我可以负责地说一句，这种ORC并不算是真正的ORC。他们玩的这种游戏不是叫SOLO，而是叫3C。对，他们就是在玩3C（PS本人没黑的意思）"  
+            android:gravity="left"  
+            android:layout_marginBottom="5dp"
+            android:textColor="#000"></TextView>  
+
+
+        
+    <TextView  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"    
+            android:text="       真正的兽族，是从1.18坚持下来，经历过兽人部落兴衰的玩家。他们会合理搭配兵种，会使用其他冷门兵种，并不只是强杀英雄，而是部队交战是合理掌握攻击对象。当然如果对手英雄冲得太前的话，那不杀简直是对不住自己嘛。"  
+            android:gravity="left"  
+            android:textColor="#000"></TextView>  
+
+     
+    <TextView  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"  
+            android:textStyle="bold"  
+            android:typeface="serif"  
+            android:textSize="18sp"  
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:text="常规战术"  
+            android:gravity="left"  
+            android:textColor="#000"></TextView>  
+
+
+        
+    <TextView  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"    
+            android:text="        ORC打UD分成很多种战术。由于药膏，2本的强势时期，3本的城甲和迷你基地，所以ORC打UD的战术非常多。常见的是2本万金油，毒龙流，常规3本流，双骑流和其他大招等等。"  
+            android:gravity="left"  
+            android:layout_marginBottom="5dp"
+            android:textColor="#000"></TextView>  
+
+
+        
+    <TextView  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"    
+            android:text="        BM首发前期：练2骚扰是最好的选择，也有TR近点一来练了UD的141怪，EI上一来贴加速去UD家拆第2个BZ的非主流开局，这种我就暂时忽视了。BM练2讲求一个速度，就是BM拿了宝怪后，剩下的普通怪交给大G来清理。捉UD MF或者骚扰抢宝等也有讲究的。1，抢宝时，尽量和野怪重合（常见于大怪）UD就会比较难攻击到你。捉MF，最好是等UD MF的时候，ORC部队从后面杀到。这就需要隐身BM的侦察和自己的经验。拿TR点为例。通常捉了141后，ORC见到UD部队退回基地，就可以走出他视野，等10来秒，然后再向3322进发。UD不可能顶着ORC的骚扰强练。再次退回基地的时候，ZZ会被砍得非常伤，而DK则是非常损耗魔法（逃回基地的时候要C ZZ）。只要来回捉几次，前期UD就会非常难受，而ORC则可以捉住这个空隙趁机MF。但是，有些时候UD面对ORC的拼命3陪战术，由于大家的等级都不高，所以UD很可能选择2本TR，所以ORC就要小心了。也有些UD，是一来选择TR的，还有一种思路，就是BM速3。通常有的地图，BM的骚扰带来的效果不是太好，而且会浪费药膏，那么速3也是一个不错的选择。TR远点为例，TR的速3路线，用最快的速度拿最好的宝物。当然，UD也顺利速3了，而且，UD在你2本时会理所当然地来拆建筑，所以你3级满魔（由于MF不需要W）的BM，就一直追着DK来砍，砍到他红血，你SH一出来，他要就TP，要就挂，这波攻势就可以化解。如果他DK掉头跑的，你就砍他ZZ。捉MF时，大G最好和BM分头砍2个ZZ使他首尾不能兼顾，也是能对UD的部队造成更大的伤害。"  
+            android:gravity="left"  
+            android:layout_marginBottom="5dp"
+            android:textColor="#000"></TextView>  
+
+
+        
+    <TextView  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"    
+            android:text="        FS首发前期：练2，这个是必须的，除非ORC是速毒龙，FS一出来就去3陪，否则都是先练2。练2的好处是，2级FS的闪电链，可以抢怪，可以配合狼去UD基地杀农民。试想一下UD刚升2本，就被你杀死一个甚至是2个农民，对经济的打击是多么大啊。之后，可以选择练3，好处是抗UD 2本的ZZ流压制的时候有2级狼。也可以回基地贴个药膏，召唤2个狼配合3个大G双线，FS带单传和加速卷轴去UD基地继续杀农民。双线时用狼来抗，去到UD基地召唤新狼，用闪电链再杀多个农民，就很赚了。2本可以选择暴力狼骑（打正面强杀ZZ），用这个，只要捉到UD MF，UD很少不TP的。还有就是爆飞龙，利用那段时间ORC的优势，偷个矿，之后的优势就很明显了。FS骚扰小细节:放狼,可以选择FS贴着BZ来放，这样狼一召唤出来就直接进入到金矿里了。和对付封家的人族同理。不要贪心杀死1 2个就闪，DK回防的话交了TP就不划算了。"  
+            android:gravity="left"  
+            android:layout_marginBottom="5dp"
+            android:textColor="#000"></TextView>  
+
+
+        
+    <TextView  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"    
+            android:text="        中期：UD会选择TR，暴力ZZ压制或者直攀3本打后期。这时ORC就分成3种思路。防UD TR。很多时，UD的2本TR都是发生在小地图或者TR近点上。这个时候BM应该有3了，抗那波要注意几个地方：1要拖采木的苦工出来助战。2是BM和大G最好明确攻击对象，不是攻击农民，不是攻击塔，不是攻击DK，而是攻击ZZ。当然，他英雄的走位不好你也可以围杀了，但主要目标还是打ZZ。BM和其他部队分成2波，运用好加速卷轴冲上去，只要迅速消耗他ZZ的数量，这波还是比较容易抗下来的。"  
+            android:gravity="left"  
+            android:layout_marginBottom="5dp"
+            android:textColor="#000"></TextView>  
+
+
+        
+    <TextView  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"    
+            android:text="        双线。这个是ORC打UD的必修课。强大的双线，可以帮助ORC捉MF，抢宝，稍微限制下UD等级，自己的2发英雄练到更高级等。双线，通常要顾及几个东西。1是BM的魔法，2是侦察的路线，3是自己MF部队时的节奏和避免死单位。通常BM去3陪，都是抢大怪和宝物为主，物品栏要空1格。抢怪有3种方式，1是就站在怪旁边，等怪没血了再补刀。2是迭住野怪，等怪没血时补刀。3是先走开一段距离，躲过DK撒粉后再去补刀。第1 2种针对UD没粉，第2种更容易拿到宝物，撒了粉也不一定能攻击到，但是对操作的要求要高一些。第3种是针对BM血量不是太足，如果BM半血还用第1第2种很容易被击杀，从酒馆买出又要浪费一笔钱了。至于双线MF的TC或SH，面对大怪最好引出来打，至于其他怪，套个链，直接A上去就OK了。如果是BM发现了对手MF，重点把精力放到BM上。如果没发现，就重点放到双线的部队上。"  
+            android:gravity="left"  
+            android:layout_marginBottom="5dp"
+            android:textColor="#000"></TextView>  
+
+
+        
+    <TextView  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"    
+            android:text="        压制型。通常用于FS+TC或者其他走纯2本爆兵路线的，配合开矿来使用。2本打退UD的那一波，可以立刻MF矿点放下分矿，然后用暴力狼骑配合FS的召唤狼，或者出一些KD，迅速和UD换兵。即使UD攀到3本，部队不足对ORC的威胁也不是太大。然后就能用经济优势爆出更多的部队来取胜。"  
+            android:gravity="left"  
+            android:layout_marginBottom="5dp"
+            android:textColor="#000"></TextView>  
+
+        
+    <TextView  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"    
+            android:text="        大战细节：如何打毁灭和冰龙？打毁灭可以狼骑网下，然后猎头齐射配合BM的攻击来击杀。至于冰龙，有SH的情况下，如果他的毁灭被你杀掉或者没毁灭，那么你SH就可以施展变形术把冰龙X掉。至于TC，则是贴上加速顶着无敌走到UD部队中间踏地板。KD也借由加速的效果去吞ZZ。由于UD晕的3~5秒，会接受到ORC的1~2轮攻击，兵力死得很快，所以TC   T得越早，双方兵力的差距就拉得越大。至于杀掉UD空军后的攻击对象，当然是杀ZZ了。白牛不要太快拉链，前期先用魔法来驱散UD的冰甲，然后才是帮自己拉链，这样才能把魔法用得最合理。至于狼骑，不能当作肉盾，而是在前方的附近游走。白牛点棺材，BM和猎头大G等分头砍ZZ，亡灵的部队死得很快。"  
+            android:gravity="left"  
+            android:textColor="#000"></TextView>  
+
+     
+    <TextView  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"  
+            android:textStyle="bold"  
+            android:typeface="serif"  
+            android:textSize="18sp"  
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:text="其他战术"  
+            android:gravity="left"  
+            android:textColor="#000"></TextView>  
+
+
+        
+    <TextView  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"    
+            android:text="        3本毒龙流，新手的喜爱。操作简单，BM配合SH或配合TC，纯A就能达到取胜的效果。前期骚扰为主不能让DK顺利到3，然后2本开始出SH。刚出来的时候尽量X杀UD的ZZ，如果他在基地挂机，那么飞龙就配合SH练3，并开出分矿。之后就靠3级BM侦察，他不来打你分矿还可以，大家继续MF，英雄记得买无敌。如果他来你分矿，那你飞龙就去换家，UD稳亏的。拖到3本城甲+毒，不换家UD亏，换家UD更亏。重点是飞龙没养成一定数量不要和UD交战，那时是UD的优势期，ORC是打不过的。PD首发：通常用在TR图对抗UD的ZZ流，我非常喜欢的一招。中立开局（BB BO BA BO BV）前期双方练3（PD先到3）除非UD不练，但PD还是可以练3不过还没来得及恢复而已。到3的PD，对UD部队的杀伤已经不言而喻，1个PD就可以追得DK和ZZ败退。当然PD要有魔了。PD练3，抗1本TR也是比较轻松的，先不要打，给他2口火，那时2本大概好了，继续买蓝喷火，DK   C不及ZZ。如果他不来，那么PD可以带着大G去UD家骚扰。拆BZ，2口火可以带走UD 4个农民。UD经济受严重打击，必定在2本逗留很长的一段时间，那么PD要做的就是买隐身药水和单传继续骚扰，把UD限制在2本，那么ORC单PD很快到5，2本万金油就可以完胜UD了。"  
+            android:gravity="left"  
+            android:layout_marginBottom="5dp"
+            android:textColor="#000"></TextView>  
+
+        
+    <TextView  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"    
+            android:text="        还有TC+猎头攀3本狂列头+法师。打狗流毁灭效果非常好。流程是前期慢TC直接出猎头MF，练到3后找UD交战，这招在LT非常强，大家可以一试。"  
+            android:gravity="left"  
+            android:layout_marginBottom="5dp"
+            android:textColor="#000"></TextView>  
+
+        
+    <TextView  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"    
+            android:text="        跑狼骑，攀3本燃烧蝙蝠拆家等，考验的是意识和对手的毫无防备。如果UD变3+根红塔，那么ORC就放弃这招吧。"  
+            android:gravity="left"  
+            android:layout_marginBottom="5dp"
+            android:textColor="#000"></TextView>  
+
+
+        
+    <TextView  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"    
+            android:text="        还有什么坟墓流，飞龙蝙蝠，嗜血牛，2本大G+玛塔强攻等等。"  
+            android:gravity="left"  
+            android:textColor="#000"></TextView>  
+
+
+
+</LinearLayout>
+</ScrollView>
+</LinearLayout>

@@ -1,0 +1,81 @@
+<LinearLayout  
+   xmlns:android="http://schemas.android.com/apk/res/android"  
+   android:layout_height="fill_parent" 
+   android:layout_width="fill_parent" 
+   android:orientation="vertical"
+   
+   android:background="@drawable/mainimage"
+  
+   >
+
+	<LinearLayout
+	    android:layout_width="fill_parent"
+	    android:layout_height="match_parent"
+	    android:gravity="center|center_horizontal|center_vertical"
+	    android:orientation="vertical" >
+
+		<Button
+		    android:id="@+id/button1"
+		    android:layout_width="240dp"
+		    android:layout_height="wrap_content"
+		    android:textColor="#ffea17"
+		    android:textSize="20sp"
+	        android:background="@drawable/buttonbg"
+		    android:onClick="history1"
+	        android:layout_marginTop="120dp"
+		    android:text="第一章神话" 
+		    />
+<Button
+		    android:id="@+id/enter"
+		    android:layout_width="240dp"
+		    android:layout_height="wrap_content"
+		    android:onClick="history2"
+		    android:layout_marginTop="20dp"
+		    android:textColor="#ffea17"
+		    android:textSize="20sp"
+	        android:background="@drawable/buttonbg"
+	        
+		    android:text="第二章新世界" 
+		    >
+</Button>
+<Button
+		    android:id="@+id/enter"
+		    android:layout_width="240dp"
+		    android:layout_height="wrap_content"
+		    android:onClick="history3"
+		    android:layout_marginTop="20dp"
+		    android:textColor="#ffea17"
+		    android:textSize="20sp"
+	        android:background="@drawable/buttonbg"
+	       
+		    android:text="第三章君诺的毁灭" 
+		    >
+</Button>
+<Button
+		    android:id="@+id/enter"
+		    android:layout_width="240dp"
+		    android:layout_height="wrap_content"
+		    android:onClick="history4"
+		    android:textColor="#ffea17"
+		    android:textSize="20sp"
+	        android:background="@drawable/buttonbg"
+	        
+		    android:layout_marginTop="20dp"
+		    android:text="第四章联盟与兽族" 
+		    >
+</Button>
+<Button
+		    android:id="@+id/enter"
+		    android:layout_width="240dp"
+		    android:layout_height="wrap_content"
+		    android:onClick="history5"
+		    android:textColor="#ffea17"
+		    android:textSize="20sp"
+	        android:background="@drawable/buttonbg"
+	        
+		    android:layout_marginTop="20dp"
+		    android:text="第五章燃烧军团的归来" 
+		    >
+</Button>
+	</LinearLayout>  
+</LinearLayout> 

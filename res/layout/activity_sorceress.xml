@@ -1,0 +1,662 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#eee"
+        android:orientation="vertical" >
+        
+        <LinearLayout 
+  			android:layout_width="fill_parent"
+  			android:layout_height="45dp"
+  			android:id="@+id/title" 
+  			android:background="@drawable/title_bar"
+  			android:gravity="center_horizontal|center_vertical"  >  
+      		<TextView 
+        		android:layout_width="wrap_content" 
+        		android:layout_height="wrap_content" 
+        		android:text="女巫"
+        		android:textSize="20sp"		
+				android:textColor="#ffffff" />       
+			</LinearLayout>
+<ScrollView 
+
+    android:layout_width="fill_parent" 
+    android:layout_height="fill_parent"
+    android:background="#eee"
+>
+
+<LinearLayout
+            android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin" 
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+
+ <ImageView
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:layout_gravity="center"
+     android:layout_marginBottom="10dp"
+     android:layout_marginTop="10dp"
+     android:layout_span="1"
+     android:src="@drawable/sorceress" >
+
+</ImageView> 
+        <TextView  android:textColor="#000"  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"  
+            android:text="        这些由达拉然派遣来的女性的魔法师，一直在关注着变化无常的战场，无论在什么时候，只要人性受到威胁，她们就会使用自己神秘的力量去协助联盟武装。尽管她们的力量不是经常直接作用于战斗，但是女巫们能够带给联盟阵线的战士们大范围专用阵列咒术和魔法效果以协助他们战斗。"  
+            android:gravity="left" 
+		     android:layout_marginBottom="10dp" 
+            android:layout_span="5"></TextView>
+<TableLayout  
+    android:layout_width="match_parent"  
+    android:layout_height="match_parent"  
+    android:shrinkColumns="*"  
+    android:stretchColumns="*"> 
+<TableRow
+        android:layout_height="wrap_content"  
+        android:layout_width="match_parent">        
+      <TextView android:textColor="#000"
+
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="等级: 2"  
+            android:gravity="left" 
+            android:layout_span="1" 
+           ></TextView>
+      <TextView android:textColor="#000" 
+
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="费用：155/20/2"  
+            android:gravity="left"
+            android:layout_span="1"  
+            ></TextView>
+ 
+</TableRow>
+
+<TableRow
+        android:layout_height="wrap_content"  
+        android:layout_width="match_parent">        
+      <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="单位类型: 普通 "  
+            android:gravity="left" 
+            android:layout_span="1" 
+           ></TextView>
+      <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="攻击类型: 魔法 "  
+            android:gravity="left"
+            android:layout_span="1"  
+            ></TextView>
+ 
+</TableRow>
+<TableRow
+        android:layout_height="wrap_content"  
+        android:layout_width="match_parent">        
+      <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="武器类型: 远程 "  
+            android:gravity="left" 
+            android:layout_span="1" 
+           ></TextView>
+      <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="护甲类型: 无甲  "  
+            android:gravity="left"
+            android:layout_span="1"  
+            ></TextView>
+ 
+</TableRow>
+<TableRow
+        android:layout_height="wrap_content"  
+        android:layout_width="match_parent">        
+      <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="护甲: 0 "  
+            android:gravity="left" 
+            android:layout_span="1" 
+           ></TextView>
+      <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="对地攻击: 10-12 "  
+            android:gravity="left"
+            android:layout_span="1"  
+            ></TextView>
+ 
+</TableRow>
+<TableRow
+        android:layout_height="wrap_content"  
+        android:layout_width="match_parent">        
+      <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="对空攻击: 10-12 "  
+            android:gravity="left" 
+            android:layout_span="1" 
+           ></TextView>
+      <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="攻击间隔: 1.75  "  
+            android:gravity="left"
+            android:layout_span="1"  
+            ></TextView>
+ 
+</TableRow>
+<TableRow
+        android:layout_height="wrap_content"  
+        android:layout_width="match_parent">        
+      <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="生命值: 325(405)"  
+            android:gravity="left" 
+            android:layout_span="1" 
+           ></TextView>
+      <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="生命恢复: 总是 "  
+            android:gravity="left"
+            android:layout_span="1"  
+            ></TextView>
+ 
+</TableRow>
+<TableRow
+        android:layout_height="wrap_content"  
+        android:layout_width="match_parent">        
+      <TextView android:textColor="#000" 
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="魔法: 200(400) "  
+            android:gravity="left" 
+            android:layout_span="1" 
+           ></TextView>
+      <TextView android:textColor="#000" 
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="攻击范围: 60 "  
+            android:gravity="left"
+            android:layout_span="1"  
+            ></TextView>
+ 
+</TableRow>
+<TableRow
+        android:layout_height="wrap_content"  
+        android:layout_width="match_parent">        
+      <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="白天视野: 140  "  
+            android:gravity="left" 
+            android:layout_span="1" 
+           ></TextView>
+      <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="夜晚视野: 80  "  
+            android:gravity="left"
+            android:layout_span="1"  
+            ></TextView>
+ 
+</TableRow>
+<TableRow
+        android:layout_height="wrap_content"  
+        android:layout_width="match_parent">        
+      <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="移动速度: 中等(270)  "  
+            android:gravity="left" 
+            android:layout_span="1" 
+           ></TextView>
+      <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="训练时间: 30 "  
+            android:gravity="left"
+            android:layout_span="1"  
+            ></TextView>
+ 
+</TableRow>
+<TableRow
+        android:layout_height="wrap_content"  
+        android:layout_width="match_parent">        
+      <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="训练地点: 神秘圣地  "  
+            android:gravity="left" 
+            android:layout_span="1" 
+           ></TextView>
+       <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="运输占用空间: 1 "  
+            android:gravity="left" 
+            android:layout_span="1" 
+           ></TextView>
+ 
+</TableRow>
+<TableRow
+        android:layout_height="wrap_content"  
+        android:layout_width="match_parent">        
+      <TextView android:textColor="#000"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="训练热键: S   "  
+            android:gravity="left" 
+            android:layout_span="1" 
+           ></TextView>
+       <TextView android:textColor="#000" 
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="魔法恢复: 0.667(1.167) "  
+            android:gravity="left" 
+            android:layout_span="1" 
+           ></TextView>
+ 
+</TableRow>
+</TableLayout>
+
+
+ <TextView android:textColor="#000"  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"  
+            android:layout_marginTop="10dp"
+            android:text="        除了兽族的萨满祭司，女巫是最强大的魔法单位之一。被女巫施放减速的单位差不多没有什么战斗力了。400魔法的女巫可以给8个单位施放减速，几个女巫就可以将敌人全军都变成减速状态。变形术可以让某个单位完全丧失战斗力，不过最好作用在那些高等级单位上，例如说，牛头人，憎恶，熊，骑士等等。 记住研究专家级和大师级训练不只是为了额外的技能，还可以增加魔法上限和魔法恢复速度。 最好建造两个神秘圣地，这样你可以一边进行升级一边进行女巫的训练。 女巫是很脆弱的，所以你要尽量让她们避开战斗。如果你的女巫被攻击，用减速杀出一条血路吧。 如果你打算使用变形术，那么最好关掉减速的自动施放。否则在你需要的时候，可以就没有足够的魔法来施放变形术了。 在大法师的辉煌光环的配合下，女巫的魔法总是会很充足。 "
+            android:layout_span="6" 
+
+ />
+
+
+ 
+ <TextView  android:textColor="#000"  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"   
+            android:text="应对策略"  
+            android:layout_marginTop="10dp"
+            android:gravity="left"  
+            android:layout_span="6"></TextView>
+
+
+
+ <TextView android:textColor="#000"  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"  
+            android:text="        女巫很脆弱，最好在她们施放足够多的减速之前，利用进战单位或者远程火力的齐射可以很容易杀掉他们。 "
+            android:layout_span="6" 
+
+ />
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_marginTop="10dp"
+    android:layout_height="wrap_content" >
+
+ <ImageView
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:src="@drawable/slow" >
+
+</ImageView> 
+
+ <TextView
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:layout_gravity="center_vertical"
+     android:text="      减速 Slow(自动施放)"
+     android:textColor="#000" />
+
+</LinearLayout> 
+
+ <TextView
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"  
+            android:text="减慢一个敌方单位25%的攻击频率和60%的移动速度。"
+android:textColor="#000"  
+            android:layout_span="5" 
+
+ />
+
+
+
+ <TextView android:textColor="#000"  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"  
+            android:text="持续时间：60(10)；魔法消耗：50；距离：70"
+            android:layout_span="6" 
+
+ />
+
+
+
+ <TextView android:textColor="#000"  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"  
+            android:text="魔法消耗：75；距离：20"
+            android:layout_span="6" 
+
+ />
+
+ 
+  <TextView android:textColor="#000"  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"  
+            android:text="作用范围：20；使用目标：天空、地面、守卫"
+            android:layout_span="6" 
+
+ />
+
+ 
+  <TextView android:textColor="#000"  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"  
+            android:text="使用间隔：1；效果：减慢25%攻击频率 ，60%移动速度"
+            android:layout_span="6" 
+
+ />
+
+
+ 
+ <TextView  android:textColor="#000"  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"   
+            android:text="提示"  
+            android:gravity="left"  
+            android:layout_span="6"></TextView>
+
+
+
+ <TextView android:textColor="#000"  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"  
+            android:text="        减速是个非常有用的魔法，你会发现在战斗中你的全面优势仅仅来自于几个女巫的减速，同时，减速也可以非常有效的阻止敌人撤退。很多时候，敌人在撤退的时候，被减速的单位总是会落在最后面，而这个时候你就可以非常轻松的杀掉它们。"
+            android:layout_span="6" 
+
+ />
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_marginTop="10dp"
+    android:layout_height="wrap_content" >
+
+ <ImageView
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:src="@drawable/invisibility" >
+
+</ImageView> 
+
+ <TextView
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:layout_gravity="center_vertical"
+     android:text="      隐身术 Invisibility"
+     android:textColor="#000" />
+
+</LinearLayout> 
+
+ <TextView android:textColor="#000"  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"  
+            android:text="        将一个单位隐身一段时间，在这段时间内，如果这个单位攻击或施法的话，就会显形。"
+            android:layout_span="5" 
+
+ />
+
+
+
+ <TextView android:textColor="#000"  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"  
+            android:text="持续时间：120 ；魔法消耗：50；距离：30"
+            android:layout_span="6" 
+
+ />
+
+ 
+  <TextView android:textColor="#000"  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"  
+            android:text="作用范围：1个单位；使用目标：天空、地面、中立、友军"
+            android:layout_span="6" 
+
+ />
+
+    <TextView android:textColor="#000"  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"  
+            android:text="效果：将单位隐身"
+            android:layout_span="6" 
+
+ />
+ 
+  <TextView android:textColor="#000"  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"  
+            android:text="研究费用：100,50；研究地点：神秘圣地"
+             android:layout_span="6" 
+
+ />
+
+  <TextView android:textColor="#000"  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"  
+            android:text="需求：专家级女巫训练"
+             android:layout_span="6" 
+
+ />
+
+
+ 
+ <TextView  android:textColor="#000"  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"   
+            android:text="提示"  
+            android:gravity="left"  
+            android:layout_span="6"></TextView>
+
+
+
+ <TextView android:textColor="#000"  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"  
+            android:text="        隐身术可以用来侦察，因为它可以作用于地面或空中单位，然后用它去巡视整个地图，这样可以免受野外生物和敌人的攻击。隐身术的另一个用途就是拯救那些快要死亡的单位。利用下方的状态条来查看一组中的快要死亡的单位，用[TAB]来切换将这个单位隐形，然后就可以让它回到基地，或者撤远一点治疗，或者到恢复泉水旁边恢复生命。 将一个隐形的单位派到敌人基地进行侦察，这个方法也可以用来搞破坏。 也可以先派一个隐身的单位潜入敌人基地，然后用大法师的群体传送把大部队传送过去。 还可以利用隐身去商店购物，这样就不用和野外生物缠斗一番了。 "
+            android:layout_span="6" 
+
+ />
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_marginTop="10dp"
+    android:layout_height="wrap_content" >
+
+ <ImageView
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:src="@drawable/polymorph" >
+
+</ImageView> 
+
+ <TextView
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:layout_gravity="center_vertical"
+     android:text="      变形术 Polymorph"
+     android:textColor="#000" />
+
+</LinearLayout> 
+
+ <TextView android:textColor="#000"  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"  
+            android:text="        将一个敌方单位变成一只羊，或者一只飞羊。目标单位将保留其现有生命值和护甲类型，但是不能攻击或施放法术。不过这个法术不能对英雄 和召唤单位施放。"
+            android:layout_span="5" 
+
+ />
+
+
+
+ <TextView android:textColor="#000"  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"  
+            android:text="持续时间：60；魔法消耗：220；距离：50"
+            android:layout_span="6" 
+
+ />
+
+ 
+  <TextView android:textColor="#000"  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"  
+            android:text="作用范围：1个单位；使用目标：天空、地面、中立、敌人、非英雄"
+            android:layout_span="6" 
+
+ />
+
+    <TextView android:textColor="#000"  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"  
+            android:text="效果：将目标变成羊或飞羊"
+            android:layout_span="6" 
+
+ />
+   
+  <TextView android:textColor="#000"  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"  
+            android:text="研究费用：100,150；研究地点：神秘圣地"
+             android:layout_span="6" 
+
+ />
+
+  <TextView android:textColor="#000"  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"  
+            android:text="需求：大师级女巫训练"
+             android:layout_span="6" 
+
+ />
+
+
+ 
+ <TextView  android:textColor="#000"  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"   
+            android:text="提示"  
+            android:layout_marginTop="10dp"
+            android:gravity="left"  
+            android:layout_span="6"></TextView>
+
+
+
+ <TextView android:textColor="#000"  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"  
+            android:text="        变形术在游戏中往往可以决定胜负，特别是当对方没有驱散单位的时候。变形术可以瞬间将对方变成一无所有。在组队战斗中特别是3V3，4V4游戏中，可以大量使用女巫和变形术。变形术可以非常有效的对抗各个种族的高级单位，例如说骑士，憎恶，熊，牛头人，还有大型空军。如果你对一个已经被变形的单位施放变形术，那个这个单位的变形时间将会重新开始计算。 你无法对那些等级高于5的野外生物施放变形术。 变形术可以被驱散! 被施放了变形术的的单位，其护甲类型变为中甲。 变形术无法作用于英雄和召唤单位。 "
+            android:layout_span="6" 
+
+ />
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_marginTop="10dp"
+    android:layout_height="wrap_content" >
+
+ <ImageView
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:src="@drawable/sorceressadept" >
+
+</ImageView> 
+
+ <TextView
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:layout_gravity="center_vertical"
+     android:text="      专家级女巫训练 Sorceress Adept Training"
+     android:textColor="#000" />
+
+</LinearLayout> 
+
+ <TextView android:textColor="#000"  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"  
+            android:text="        增加女巫的魔法值100点，魔法恢复速度加快30%，生命值增加40点，并学会隐身术技能。"
+            android:layout_span="5" 
+
+ />
+
+  <TextView android:textColor="#000"  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"  
+            android:text="研究费用：100,50；研究地点：神秘圣地"
+             android:layout_span="6" 
+
+ />
+
+  <TextView android:textColor="#000"  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"  
+            android:text="研究时间：60"
+             android:layout_span="6" 
+
+ />
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_marginTop="10dp"
+    android:layout_height="wrap_content" >
+
+ <ImageView
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:src="@drawable/sorceressmaster" >
+
+</ImageView> 
+
+ <TextView
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:layout_gravity="center_vertical"
+     android:text="      大师级女巫训练 Sorceress Master Training"
+     android:textColor="#000" />
+
+</LinearLayout> 
+
+ <TextView android:textColor="#000"  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"  
+            android:text="        再增加女巫的魔法值100点，魔法恢复速度加快30%，生命值增加40点，并学会变形术技能。"
+            android:layout_span="5" 
+
+ />
+  
+  <TextView android:textColor="#000"  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"  
+            android:text="研究费用：100,150；研究地点：神秘圣地"
+             android:layout_span="6" 
+
+ />
+   
+  <TextView android:textColor="#000"  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"  
+            android:text="需求：专家级女巫训练、城堡；研究时间：75"
+             android:layout_span="6" 
+
+ />
+
+
+</LinearLayout>
+</ScrollView>
+</LinearLayout>

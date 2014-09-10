@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#eee"
+        android:orientation="vertical" >
+        
+        <LinearLayout 
+  			android:layout_width="fill_parent"
+  			android:layout_height="45dp"
+  			android:id="@+id/title" 
+  			android:background="@drawable/title_bar"
+  			android:gravity="center_horizontal|center_vertical"  >  
+      <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="返回" 
+        android:onClick="backv2"
+        />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="兽族VS兽族"
+        android:gravity="center|center_horizontal|center_vertical"
+        android:textColor="#ffffff"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="点我" 
+        android:onClick="clickv2"
+        />    
+			</LinearLayout>
+<ScrollView 
+
+    android:id="@+id/ScrollView01" 
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content"
+
+>
+
+<LinearLayout 
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    >
+     
+    <TextView  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"  
+            android:textStyle="bold"  
+            android:typeface="serif"  
+            android:textSize="18sp"  
+            android:text="兽人内战"  
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:gravity="left"  
+            android:textColor="#000"></TextView>  
+
+
+        
+    <TextView  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"    
+            android:text="        随着兽族的增多，ORC内战的次数越来越频繁。貌似昨晚WC3L就不少。。。所以学好ORC内战，也是兽族的一大重要环节。"  
+            android:gravity="left"  
+            android:layout_marginBottom="5dp"
+            android:textColor="#000"></TextView>  
+
+
+        
+    <TextView  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"    
+            android:text="       兽族内战分为N种。最常见的就是2本万金油的对拼。还有召唤流或其他2本TR，暴力狼骑，坟墓流等其他大招。"  
+            android:gravity="left"  
+            android:textColor="#000"></TextView>  
+
+    
+    <TextView  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"  
+            android:textStyle="bold"  
+            android:typeface="serif"  
+            android:textSize="18sp"  
+            android:text="万金油"  
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:gravity="left"  
+            android:textColor="#000"></TextView>  
+
+
+        
+    <TextView  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"    
+            android:text="        先说说万金油吧。万金油，顾名思意就是万金油的意思。。包含了兽族的大G狼骑KD白牛等部队。其中有几点是非常关键，能扭转局势的地方。"  
+            android:gravity="left"  
+            android:layout_marginBottom="5dp"
+            android:textColor="#000"></TextView>  
+
+
+        
+    <TextView  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"    
+            android:text="        补充下细节：MF，所追求的就是用最少的时间，耗最少的血量，练更多的点。所以都是先打远程输出的怪，剩下打近战怪就能贴药膏转移攻击了。而攻击野怪的顺序，是BM先打野怪，然后后退一下，这样就会形成远程怪攻击BM，近战怪攻击大G的情况，ORC部队受到的伤害就会大大降低。还有就是网怪，近身了那个怪再贴药膏。不然贴了再接近容易被甩网打断。撒粉发现对手的BM迭大怪，攻击不到怎么办？利用自己部队的移动使野怪移动，追着你打，然后在野怪移动的时候SH立刻X了他BM，迅速A死大怪就OK了。其他没想到的以后补充。"  
+            android:gravity="left"  
+            android:layout_marginBottom="5dp"
+            android:textColor="#000"></TextView>  
+
+        
+    <TextView  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"    
+            android:text="        追求等级的：以快为先，例如EI的333，131，去商店买粉，再练分矿到鱼人小点。根据对地图的认识，练哪几组怪，BM刚好到3，而不是2级半或3级半。当然，练大怪前撒粉是必要的。高手ORC对决，粉的消耗并不比药膏低。TR上推荐BM一来去商店卖TP买头环和粉，练了3322练141，然后到邻点分矿速3。至于TM，353成为了大家的必争之地，速3是讲求谁捉得对手更多MF和杀死对手更多大G。赶跑对手，可以选择练商店，偷一点的就练分矿。先打3J猎手再打5J怪。至于其他不合适速3的图，了解地图，合理掌握兽族可能的MF点，将是捉MF的关键。"  
+            android:gravity="left"  
+            android:layout_marginBottom="5dp"
+            android:textColor="#000"></TextView>  
+
+
+        
+    <TextView  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"    
+            android:text="        追求宝物的：以宝物优先，等级次之，以一个神装奥特曼为最终目的。例如EI图，练了333，BM去市场偷怪，BM去对手基地侦察他BM动向防止抢怪，而另一个大G则去商店那里。偷了蓝胖子后，吸魔和咆哮可以扔市场换爪或头环。又例如TR，一上手偷商店等。有几个关键点：1是BM只打掉宝的怪，越容易打越好，尽快凑够如下装备：鞋X1，头环X1~3，所有属性宝放3~4个空格，剩下1个放药膏，空1个物品栏或者不空，然后就可以去捉对手MF了。偷宝型的，BM在前期更能体现装备优势，因为对手是MF型，属性宝不够你多。专砍对手大G来削弱对手大G的数量。磨到自己没药膏就撤退，这时大概是2J半，再练一个小点就到3了。"  
+            android:gravity="left"  
+            android:layout_marginBottom="5dp"
+            android:textColor="#000"></TextView>  
+
+
+        
+    <TextView  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"    
+            android:text="        2本后，分2种思路。1是对练，2是捉练。2者依然是双韧剑，要根据具体事情具体分析。BM没侦察到的，1J SH直接去捉，去到时他都练到2了，这当然吃亏。但有时，他的BM也恰好去侦察或来你家中骚扰，那么这就是你捉他MF的大好时机。有一个小技巧是，当你看到他BM来你家骚扰的时候，大部队立刻捉他MF，能取得意想不到的效果。通常情况，都是各自MF。那么，我举几个例子。EI上SH出来还是晚上，可以偷练雇佣兵，技巧是先围住5J巫师，然后X 3级会放减速的怪。TM上可以练分矿或商店。也是先X重要怪，减少野怪的输出。BM没到3的可以蹭经验，在怪红血时撒粉，如果发现他BM，SH立刻把他X了，不解释。"  
+            android:gravity="left"  
+            android:layout_marginBottom="5dp"
+            android:textColor="#000"></TextView>  
+
+
+        
+    <TextView  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"    
+            android:text="        大战前夕：SH到3，爆到50人口1个KD，拖出5个苦工，就是时候大战了。50人口后很多ORC都会选择压50，补地洞，补充装备。群补，SH的蓝瓶和TP是必须要带的。大部队移动的时候BM先去侦察，最好是等对手MF的时候捉过去。大部队的目的是向着对手的基地，如果发现他基地没人，立刻拆地洞拆商店，根据很多ORC都不喜欢带TP的原理，他赶回基地回救，你就TP闪人。通常拆2个地洞他就卡人口了，然后你BB出大G，BS出白牛，BE出KD，瞬间爆到60人口再和他决战，就能占到很大的优势。大战操作：由于有灵魂链，群补，治疗波，所以兽族部队的伤害会摊得非常平均。1对1的PK是完全没前途的，削弱对手的部队数量才是关键。相信很多人都看过C胸那个搞笑sp，BM一直砍KD，砍了好几十刀都砍不死，到底是什么原因呢？其实就是兽族部队的特性所造成的。我也不说什么大G砍狼骑，白牛A大G这些个个都懂，但是操作上很多人都操不过来的东西了，我来补充下其他的。见面，网KD，网1个狼骑。狼骑呢，就注定要群殴KD的，这个不用说，而BM则有3个选择。1是砍KD，2是砍白牛，3是砍狼骑。因为KD实在是太重要了，光环，吞嚼，先杀死对方KD好处多多，不过他KD靠得较后，就不要杀了至于狼骑和白牛，没有狼骑的存在，自己就能拉走更多红血单位。白牛，防低，BM砍白牛能造成更多的伤害。其他方面，我喜欢苦工和KD遍3队，苦工顶上去A狼骑，SH就对着编队1里黄血的单位E。吃群补的时机就是苦工黄血的时候，太早吃，之后就会后悔莫及了。关于围杀英雄，不是很推荐，有时你花了9牛2虎之力围住他SH，他BM一交换无敌，你傻眼了。"  
+            android:gravity="left"  
+            android:layout_marginBottom="5dp"
+            android:textColor="#000"></TextView>  
+
+
+        
+    <TextView  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"    
+            android:text="        关于战后：如果大战时你BM没有怎么使用魔法的，可以立刻W去对手基地拣便宜。如果部队有优势的，SH回家贴个药膏，就可以立刻杀去对手基地了。这时，可以用苦工远程采金，也可以战场上撤下的红血苦工和采金的满血苦工换下位置，这样就可以再拖几个分摊伤害的满血苦工了。兽族和人族的单位好像是4秒自动回1滴血的。"  
+            android:gravity="left"  
+            android:textColor="#000"></TextView>  
+
+     
+    <TextView  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"  
+            android:textStyle="bold"  
+            android:typeface="serif"  
+            android:textSize="18sp"  
+            android:text="2本TR"  
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:gravity="left"  
+            android:textColor="#000"></TextView>  
+
+
+        
+    <TextView  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"    
+            android:text="        分成2种。一种是2本的召唤流TR，另外一种是常规开局，2本2发FL带苦工TR。"  
+            android:gravity="left"  
+            android:layout_marginBottom="5dp"
+            android:textColor="#000"></TextView>  
+
+
+        
+    <TextView  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"    
+            android:text="        前者，是曾经的主流战术。在比赛中，经常可以看到2个FS带着狼纠缠的身影。通常情况下开局都是先2本再兵营的。如果是大地图，FS刚走出祭坛就分狼探路，然后持续骚扰。注意不要送狼的经验给BM，BM不在时可以打打地洞影响他苦工的采木速度。要买双鞋，重点是刚买出2发FL那波。模仿AM+兽王，尽量拆他的地洞，方便自己的后续TR。他SH出来后果断TP（或者被BM砍到红血的时候）然后恢复一下双BE 狼骑KD带苦工TR，再转投石车。去TR那波提前召唤出召唤物，英雄身上要带血瓶和加速。如果前期骚扰得好对手这时大概只有4~5个大G，兵力上并不足以和你抗衡。关于箭塔的位置，前2根最好保守一点，之后的塔就最好能射到他的商店或兵营。他失去补给，问题就严重了。之后投石车对砸，TR一方地形开阔绝对占据优势，而且还能用召唤物来突击他的投车。"  
+            android:gravity="left"  
+            android:layout_marginBottom="5dp"
+            android:textColor="#000"></TextView>  
+
+
+        
+    <TextView  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"    
+            android:text="        反方，如何防守：发现他FS开局，基地就留2个大G，BM和剩余的大G偷宝。鞋是必须的，有条件的话2本时尽量练到3级，有条件的话也尽量把雇佣兵营地，这样防2本TR那波就会有充足的兵力。造BS，不要造BE，BE生产的单位对抗这波TR没有任何用处。BM买2个血瓶顶住，BM是输出主力必须要一直输出。SH学蛇仗或者治疗波技能。学变动物没前途，除非能在他之前来骚扰的那一波把他的英雄杀死。"  
+            android:gravity="left"  
+            android:layout_marginBottom="5dp"
+            android:textColor="#000"></TextView>  
+
+
+        
+    <TextView  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"    
+            android:text="        至于BM+FL的TR，来得更快，更凶狠，一发现英雄，兵营继续造大G，最好拖上苦工殴塔，英雄+大G买血瓶先杀他英雄，杀不死也要把他赶跑。然后打退他的塔，这时你的部队也应该没什么血量了，退下回复，然后等新出了2个兵，白牛拉一下链继续冲。SH就一直留魔法帮自己部队治疗。用硬拼的方法把这波TR推掉。"  
+            android:gravity="left"  
+            android:textColor="#000"></TextView>  
+
+      
+    <TextView  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"  
+            android:textStyle="bold"  
+            android:typeface="serif"  
+            android:textSize="18sp"
+
+            android:text="其他战术"  
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:gravity="left"  
+            android:textColor="#000"></TextView>  
+
+
+        
+    <TextView  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"    
+            android:text="        暴力狼骑，菲菲的最爱。前期无BB 2本，升1攻，双BE出狼骑，专门用来秒杀英雄。你没无敌是吗？那。。88了。通过无限网，任何英雄都要见面死。虽然自己一方也会死掉数个狼骑，但成功秒掉对手的2个英雄后，他就只能败退。此战术通常用于2本不久，部队还未成型，英雄等级不高的时候。如果等到他白牛，SH到3，BM有无敌的时候，黄花菜都凉了，你想杀死他的英雄就要付出更大的代价。坟墓流：T总发明的KD吞嚼流。吃了你单位TP，然后挂机，最悲剧的就是东西没消化之前人口不会减，太痛苦了。面对这招可以多出狼骑，一见面网网网网网，这样就不怕他的KD了。其实坟墓流最初是用来TR NE的。FS爆猎头偷塔TR。这招还不错，只要偷出塔，胜率非常高，重点是掌握夜晚视野的极限距离，在他视野外的临界点放塔。还有其他3本部队啊，英雄玩RPG啊，偷出飞龙偷他地洞使他没对空啊，纯白牛拆地洞流啊等等。"  
+            android:gravity="left"  
+            android:layout_marginBottom="5dp"
+            android:textColor="#000"></TextView>  
+
+
+        
+    <TextView  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"    
+            android:text="        其实兽族并不只有一成不变的万金油，欢迎大家用其他战术来玩，来娱乐，来战斗。"  
+            android:gravity="left"  
+            
+            android:textColor="#000"></TextView>  
+
+
+
+</LinearLayout>
+</ScrollView>
+</LinearLayout>
